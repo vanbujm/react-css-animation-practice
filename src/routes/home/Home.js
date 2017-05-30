@@ -23,7 +23,7 @@ class Home extends React.Component {
           <article className={s.content}>
             <h1>Jon and Patrick's Awesome Animation!</h1>
             <div className={s.animationContainer}>
-              <TWLogo width={104} height={74} />
+              <TWLogo width={104} height={74} className={s.animation} />
             </div>
           </article>
         </div>

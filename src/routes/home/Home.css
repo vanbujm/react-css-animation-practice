@@ -33,22 +33,22 @@
   flex: 1;
 }
 
-/*@keyframes mymove {*/
-  /*from {*/
-    /*transform: rotate(0deg) translate(10em) rotate(-720deg);*/
-  /*}*/
+@keyframes mymove {
+  from {
+    transform: rotate(0deg) translate(10em) rotate(-720deg);
+  }
 
-  /*to {*/
-    /*transform: rotate(360deg) translate(10em) rotate(-360deg);*/
-  /*}*/
-/*}*/
+  to {
+    transform: rotate(360deg) translate(10em) rotate(-360deg);
+  }
+}
 
-/*.animation {*/
-  /*left: 50%;*/
-  /*top: 50%;*/
-  /*position: relative;*/
-  /*animation-name: mymove;*/
-  /*animation-timing-function: linear;*/
-  /*animation-duration: 2s;*/
-  /*animation-iteration-count: infinite;*/
-/*}*/
+.animation {
+  left: 50%;
+  top: 50%;
+  position: relative;
+  animation-name: mymove;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}

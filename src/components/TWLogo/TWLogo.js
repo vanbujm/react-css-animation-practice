@@ -1,3 +1,4 @@
+/* eslint-disable react/forbid-prop-types */
 import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
@@ -7,12 +8,13 @@ class TWLogo extends React.Component {
   static propTypes = {
     width: PropTypes.number.isRequired,
     height: PropTypes.number.isRequired,
+    className: PropTypes.string,
   };
 
 
   render() {
     return (
-      <svg width={this.props.width} height={this.props.height}>
+      <svg width={this.props.width} height={this.props.height} className={this.props.className}>
         <defs>
           <linearGradient id="patricksGradient" x1="0%" y1="0%" x2="100%" y2="50%">
             <stop offset="0%" style={{ stopColor: 'hotpink', stopOpacity: 1 }} />
@@ -38,5 +40,9 @@ class TWLogo extends React.Component {
     );
   }
 }
+
+TWLogo.defaultProps = {
+  className: '',
+};
 
 export default withStyles(s)(TWLogo);
