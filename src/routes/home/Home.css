@@ -24,6 +24,7 @@
 }
 
 .animationContainer {
+  height: 30em;
   flex: 1;
 }
 
@@ -32,6 +33,27 @@
   flex-direction: column;
   flex: 1;
 }
+
+.exampleTwo {
+  padding: 1rem;
+  background-color: #28282e;
+}
+
+.innerText {
+  background-color: #3e4047;
+  color: white;
+  margin: 0.25rem;
+}
+
+.follow {
+  border: none;
+  border-radius: 20%/50%;
+  background-color: #3e4047;
+  color: white;
+}
+.share {}
+.buy {}
+.try {}
 
 @keyframes mymove {
   from {
@@ -44,9 +66,9 @@
 }
 
 .animation {
-  left: 50%;
-  top: 50%;
   position: relative;
+  left: 45%;
+  top: 40%;
   animation-name: mymove;
   animation-timing-function: linear;
   animation-duration: 2s;

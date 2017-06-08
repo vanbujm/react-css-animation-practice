@@ -1,0 +1,51 @@
+.root {
+  margin: 0 0.5rem;
+  border: none;
+  border-radius: 20%/50%;
+  background-color: #3e4047;
+  color: white;
+
+  &:hover {
+   background-color: initial;
+
+      .innerText {
+        .text {
+          display: none;
+        }
+
+        .transformIcon {
+          position: relative;
+          background-color: #3e4047;
+          border-radius: 50%;
+          opacity: 1;
+          width: 25px;
+          height: 25px;
+          transition:
+            border-radius 1.5s ease-in,
+        }
+      }
+   }
+}
+
+.innerText {
+  position: relative;
+  margin: 0.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.text {}
+
+.transformIcon {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.25rem;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  border-radius: 0;
+}

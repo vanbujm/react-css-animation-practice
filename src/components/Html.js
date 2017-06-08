@@ -50,9 +50,10 @@ class Html extends React.Component {
               dangerouslySetInnerHTML={{ __html: style.cssText }}
             />
           ))}
+          <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
         </head>
         <body>
-          <div id="app" style={ {display: 'flex', flexDirection: 'column', flex: 1} } dangerouslySetInnerHTML={{ __html: children }} />
+          <div id="app" style={{ display: 'flex', flexDirection: 'column', flex: 1 }} dangerouslySetInnerHTML={{ __html: children }} />
           <script dangerouslySetInnerHTML={{ __html: `window.App=${serialize(app)}` }} />
           {scripts.map(script => <script key={script} src={script} />)}
           {config.analytics.googleTrackingId &&
