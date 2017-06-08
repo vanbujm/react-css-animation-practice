@@ -1,10 +1,4 @@
 {
-  "admin": {
-    "js": "/assets/admin.chunk.js"
-  },
-  "privacy": {
-    "js": "/assets/privacy.chunk.js"
-  },
   "about": {
     "js": "/assets/about.chunk.js"
   },
