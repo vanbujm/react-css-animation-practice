@@ -1,4 +1,4 @@
-## React CSS Playground [![CircleCI](https://circleci.com/gh/vanbujm/react-css-animation-practice.svg?style=svg)](https://circleci.com/gh/vanbujm/react-css-animation-practice) [![Heroku](http://heroku-badge.herokuapp.com/?app=react-css-playground&style=flat&svg=1)]
+## React CSS Playground [![CircleCI](https://circleci.com/gh/vanbujm/react-css-animation-practice.svg?style=svg)](https://circleci.com/gh/vanbujm/react-css-animation-practice) [Heroku](http://heroku-badge.herokuapp.com/?app=react-css-playground&style=flat&svg=1)
 
 ### Setup
 
