@@ -5,5 +5,7 @@ machine:
 deployment:
   staging:
     branch: master
-    heroku:
-      appname: react-css-playground
+    commands:
+      - git add .
+      - git commit --allow-empty-message -m ''
+      - git push heroku master
