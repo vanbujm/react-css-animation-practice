@@ -1,51 +1,68 @@
 .root {
-  margin: 0 0.5rem;
+  display: inline-flex;
+  //margin: 0 0.5rem;
   border: none;
-  border-radius: 20%/50%;
-  background-color: #3e4047;
   color: white;
+  background-color: transparent;
+  position: relative;
 
   &:hover {
-   background-color: initial;
 
-      .innerText {
-        .text {
-          display: none;
-        }
+    .text {
+      opacity: 0;
+      transition: opacity 0.5s ease-out;
+    }
 
-        .transformIcon {
-          position: relative;
-          background-color: #3e4047;
-          border-radius: 50%;
-          opacity: 1;
-          width: 25px;
-          height: 25px;
-          transition:
-            border-radius 1.5s ease-in,
-        }
+    .transformIcon {
+
+      margin: 0 0.25rem;
+      border-radius: 50%;
+      transition: margin 1s 0.5s ease-in, border-radius 0.75s ease-in;
+
+      * {
+        opacity: 1;
+        transition: opacity 1.5s;
       }
-   }
+    }
+  }
 }
 
-.innerText {
-  position: relative;
-  margin: 0.25rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.text {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  text-align: center;
+  opacity: 1;
 }
-
-.text {}
 
 .transformIcon {
-  position: absolute;
+  position: relative;
+
+  height: 25px;
+  width: 25px;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 0.25rem;
-  opacity: 0;
-  width: 0;
-  height: 0;
-  overflow: hidden;
+
+  background-color: #3e4047;
+
   border-radius: 0;
+
+  margin: 0 0;
+
+  transition: border-radius 1.5s ease-out, margin 1s ease-out;
+
+  * {
+    opacity: 0;
+  }
+
+  //margin: 0 0.25rem;
+
+  //opacity: 0;
+  //width: 0;
+  //height: 0;
+  //overflow: hidden;
+  //border-radius: 0;
 }

@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import style from './MediaButton.css';
 
+const ICON_WIDTH = 25;
+
 class MediaButton extends Component {
   static propTypes = {
     text: PropTypes.string.isRequired,
@@ -10,19 +12,15 @@ class MediaButton extends Component {
   };
 
   render() {
-    const text = <div className={style.text}>{this.props.text}</div>;
-
     const icons = this.props.children.map(
-      (child, index) => <div key={index} className={style.transformIcon}>{child}</div>,
+      child => <div key={child.props.className} className={style.transformIcon}>{child}</div>,
     );
 
     return (
-      <button className={style.root}>
-        <div className={style.innerText}>
-          {text}
-          {icons}
-        </div>
-      </button>
+      <div className={style.root}>
+        <div className={style.text}>{this.props.text}</div>
+        {icons}
+      </div>
     );
   }
 }

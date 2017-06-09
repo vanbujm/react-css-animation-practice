@@ -65,7 +65,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "/assets/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 85);
+/******/ 	return __webpack_require__(__webpack_require__.s = 87);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -163,11 +163,11 @@ function toComment(sourceMap) {
 "use strict";
 
 
-var _stringify = __webpack_require__(69);
+var _stringify = __webpack_require__(70);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
-var _slicedToArray2 = __webpack_require__(70);
+var _slicedToArray2 = __webpack_require__(71);
 
 var _slicedToArray3 = _interopRequireDefault(_slicedToArray2);
 
@@ -583,33 +583,37 @@ module.exports = require("redux");
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path__ = __webpack_require__(79);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_path__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_express__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_express__ = __webpack_require__(74);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_express___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_express__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_cookie_parser__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_cookie_parser__ = __webpack_require__(73);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_cookie_parser___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_cookie_parser__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_body_parser__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_body_parser__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_body_parser___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_body_parser__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_express_jwt__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_express_jwt__ = __webpack_require__(76);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_express_jwt___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_express_jwt__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react_dom_server__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react_dom_server___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react_dom_server__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_pretty_error__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_pretty_error___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_pretty_error__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_App__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_Html__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__routes_error_ErrorPage__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__routes_error_ErrorPage_css__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__routes_error_ErrorPage_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11__routes_error_ErrorPage_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__createFetch__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__router__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__store_configureStore__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__actions_runtime__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__config__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__config___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16__config__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_express_graphql__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_express_graphql___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_express_graphql__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_dom_server__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_dom_server___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react_dom_server__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_pretty_error__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_pretty_error___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_pretty_error__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_App__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_Html__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__routes_error_ErrorPage__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__routes_error_ErrorPage_css__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__routes_error_ErrorPage_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__routes_error_ErrorPage_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__createFetch__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__router__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__assets_json__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__assets_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15__assets_json__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__store_configureStore__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__actions_runtime__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__config__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__config___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_18__config__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/server.js',
     _this = this;
 
@@ -641,6 +645,8 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 
 
 
+ // eslint-disable-line import/no-unresolved
+
 
 
 
@@ -665,7 +671,7 @@ app.use(__WEBPACK_IMPORTED_MODULE_3_body_parser___default.a.json());
 // Authentication
 // -----------------------------------------------------------------------------
 app.use(__WEBPACK_IMPORTED_MODULE_4_express_jwt___default()({
-  secret: __WEBPACK_IMPORTED_MODULE_16__config___default.a.auth.jwt.secret,
+  secret: __WEBPACK_IMPORTED_MODULE_18__config___default.a.auth.jwt.secret,
   credentialsRequired: false,
   getToken: req => req.cookies.id_token
 }));
@@ -683,6 +689,16 @@ app.use((err, req, res, next) => {
 if (true) {
   app.enable('trust proxy');
 }
+
+//
+// Register API middleware
+// -----------------------------------------------------------------------------
+app.use('/graphql', __WEBPACK_IMPORTED_MODULE_5_express_graphql___default()(req => ({
+  graphiql: true,
+  rootValue: { request: req },
+  pretty: true
+})));
+
 //
 // Register server-side rendering middleware
 // -----------------------------------------------------------------------------
@@ -691,8 +707,8 @@ app.get('*', (() => {
     try {
       const css = new Set();
 
-      const fetch = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_12__createFetch__["a" /* default */])({
-        baseUrl: __WEBPACK_IMPORTED_MODULE_16__config___default.a.api.serverUrl,
+      const fetch = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_13__createFetch__["a" /* default */])({
+        baseUrl: __WEBPACK_IMPORTED_MODULE_18__config___default.a.api.serverUrl,
         cookie: req.headers.cookie
       });
 
@@ -700,11 +716,11 @@ app.get('*', (() => {
         user: req.user || null
       };
 
-      const store = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_14__store_configureStore__["a" /* default */])(initialState, {
+      const store = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_16__store_configureStore__["a" /* default */])(initialState, {
         fetch
       });
 
-      store.dispatch(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_15__actions_runtime__["a" /* setRuntimeVariable */])({
+      store.dispatch(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_17__actions_runtime__["a" /* setRuntimeVariable */])({
         name: 'initialNow',
         value: Date.now()
       }));
@@ -726,7 +742,7 @@ app.get('*', (() => {
         storeSubscription: null
       };
 
-      const route = yield __WEBPACK_IMPORTED_MODULE_13__router__["a" /* default */].resolve(_extends({}, context, {
+      const route = yield __WEBPACK_IMPORTED_MODULE_14__router__["a" /* default */].resolve(_extends({}, context, {
         path: req.path,
         query: req.query
       }));
@@ -737,26 +753,30 @@ app.get('*', (() => {
       }
 
       const data = _extends({}, route);
-      data.children = __WEBPACK_IMPORTED_MODULE_6_react_dom_server___default.a.renderToString(__WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
-        __WEBPACK_IMPORTED_MODULE_8__components_App__["a" /* default */],
+      data.children = __WEBPACK_IMPORTED_MODULE_7_react_dom_server___default.a.renderToString(__WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_9__components_App__["a" /* default */],
         { context: context, store: store, __source: {
             fileName: _jsxFileName,
-            lineNumber: 121
+            lineNumber: 133
           },
           __self: _this
         },
         route.component
       ));
       data.styles = [{ id: 'css', cssText: [...css].join('') }];
+      data.scripts = [__WEBPACK_IMPORTED_MODULE_15__assets_json___default.a.vendor.js, __WEBPACK_IMPORTED_MODULE_15__assets_json___default.a.client.js];
+      if (__WEBPACK_IMPORTED_MODULE_15__assets_json___default.a[route.chunk]) {
+        data.scripts.push(__WEBPACK_IMPORTED_MODULE_15__assets_json___default.a[route.chunk].js);
+      }
       data.app = {
-        apiUrl: __WEBPACK_IMPORTED_MODULE_16__config___default.a.api.clientUrl,
+        apiUrl: __WEBPACK_IMPORTED_MODULE_18__config___default.a.api.clientUrl,
         state: context.store.getState()
       };
 
-      const html = __WEBPACK_IMPORTED_MODULE_6_react_dom_server___default.a.renderToStaticMarkup(__WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__components_Html__["a" /* default */], _extends({}, data, {
+      const html = __WEBPACK_IMPORTED_MODULE_7_react_dom_server___default.a.renderToStaticMarkup(__WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__components_Html__["a" /* default */], _extends({}, data, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 133
+          lineNumber: 152
         },
         __self: _this
       })));
@@ -775,28 +795,28 @@ app.get('*', (() => {
 //
 // Error handling
 // -----------------------------------------------------------------------------
-const pe = new __WEBPACK_IMPORTED_MODULE_7_pretty_error___default.a();
+const pe = new __WEBPACK_IMPORTED_MODULE_8_pretty_error___default.a();
 pe.skipNodeFiles();
 pe.skipPackage('express');
 
 app.use((err, req, res, next) => {
   // eslint-disable-line no-unused-vars
   console.error(pe.render(err));
-  const html = __WEBPACK_IMPORTED_MODULE_6_react_dom_server___default.a.renderToStaticMarkup(__WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
-    __WEBPACK_IMPORTED_MODULE_9__components_Html__["a" /* default */],
+  const html = __WEBPACK_IMPORTED_MODULE_7_react_dom_server___default.a.renderToStaticMarkup(__WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
+    __WEBPACK_IMPORTED_MODULE_10__components_Html__["a" /* default */],
     {
       title: 'Internal Server Error',
       description: err.message,
-      styles: [{ id: 'css', cssText: __WEBPACK_IMPORTED_MODULE_11__routes_error_ErrorPage_css___default.a._getCss() }] // eslint-disable-line no-underscore-dangle
+      styles: [{ id: 'css', cssText: __WEBPACK_IMPORTED_MODULE_12__routes_error_ErrorPage_css___default.a._getCss() }] // eslint-disable-line no-underscore-dangle
       , __source: {
         fileName: _jsxFileName,
-        lineNumber: 151
+        lineNumber: 170
       },
       __self: _this
     },
-    __WEBPACK_IMPORTED_MODULE_6_react_dom_server___default.a.renderToString(__WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__routes_error_ErrorPage__["a" /* ErrorPageWithoutStyle */], { error: err, __source: {
+    __WEBPACK_IMPORTED_MODULE_7_react_dom_server___default.a.renderToString(__WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_11__routes_error_ErrorPage__["a" /* ErrorPageWithoutStyle */], { error: err, __source: {
         fileName: _jsxFileName,
-        lineNumber: 156
+        lineNumber: 175
       },
       __self: _this
     }))
@@ -808,8 +828,8 @@ app.use((err, req, res, next) => {
 //
 // Launch the server
 // -----------------------------------------------------------------------------
-app.listen(__WEBPACK_IMPORTED_MODULE_16__config___default.a.port, () => {
-  console.info(`The server is running at http://localhost:${__WEBPACK_IMPORTED_MODULE_16__config___default.a.port}/`);
+app.listen(__WEBPACK_IMPORTED_MODULE_18__config___default.a.port, () => {
+  console.info(`The server is running at http://localhost:${__WEBPACK_IMPORTED_MODULE_18__config___default.a.port}/`);
 });
 
 /***/ }),
@@ -848,7 +868,7 @@ function setRuntimeVariable({ name, value }) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_redux__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_redux__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_redux___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_redux__);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -1264,7 +1284,7 @@ class Header extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_serialize_javascript__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_serialize_javascript__ = __webpack_require__(84);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_serialize_javascript___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_serialize_javascript__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__config__);
@@ -1446,23 +1466,14 @@ var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/compo
 
 
 
+const ICON_WIDTH = 25;
+
 class MediaButton extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
 
   render() {
-    const text = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    const icons = this.props.children.map(child => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'div',
-      { className: __WEBPACK_IMPORTED_MODULE_3__MediaButton_css___default.a.text, __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        },
-        __self: this
-      },
-      this.props.text
-    );
-
-    const icons = this.props.children.map((child, index) => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'div',
-      { key: index, className: __WEBPACK_IMPORTED_MODULE_3__MediaButton_css___default.a.transformIcon, __source: {
+      { key: child.props.className, className: __WEBPACK_IMPORTED_MODULE_3__MediaButton_css___default.a.transformIcon, __source: {
           fileName: _jsxFileName,
           lineNumber: 16
         },
@@ -1472,7 +1483,7 @@ class MediaButton extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
     ));
 
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'button',
+      'div',
       { className: __WEBPACK_IMPORTED_MODULE_3__MediaButton_css___default.a.root, __source: {
           fileName: _jsxFileName,
           lineNumber: 20
@@ -1481,15 +1492,15 @@ class MediaButton extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
       },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'div',
-        { className: __WEBPACK_IMPORTED_MODULE_3__MediaButton_css___default.a.innerText, __source: {
+        { className: __WEBPACK_IMPORTED_MODULE_3__MediaButton_css___default.a.text, __source: {
             fileName: _jsxFileName,
             lineNumber: 21
           },
           __self: this
         },
-        text,
-        icons
-      )
+        this.props.text
+      ),
+      icons
     );
   }
 }
@@ -1770,7 +1781,7 @@ TWLogo.defaultProps = {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_isomorphic_fetch__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_isomorphic_fetch__ = __webpack_require__(78);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_isomorphic_fetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_isomorphic_fetch__);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -1815,7 +1826,7 @@ function createFetch({ baseUrl, cookie }) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_createBrowserHistory__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_createBrowserHistory__ = __webpack_require__(77);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_createBrowserHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_history_createBrowserHistory__);
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
@@ -1890,7 +1901,7 @@ function user(state = {}, action) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_universal_router__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_universal_router__ = __webpack_require__(85);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_universal_router___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_universal_router__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__routes__ = __webpack_require__(35);
 /**
@@ -2654,7 +2665,7 @@ const title = 'Page Not Found';
 /* harmony export (immutable) */ __webpack_exports__["a"] = configureStore;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_redux__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux_thunk__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux_thunk__ = __webpack_require__(83);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux_thunk___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_redux_thunk__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__reducers__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__createHelpers__ = __webpack_require__(39);
@@ -2745,7 +2756,7 @@ function createHelpers({ fetch, history }) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = createLogger;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_util__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_util__ = __webpack_require__(86);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_util___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_util__);
 
 
@@ -2876,12 +2887,11 @@ exports = module.exports = __webpack_require__(1)(true);
 
 
 // module
-exports.push([module.i, ".MediaButton-root-16FEI {\n  margin: 0 8px;\n  margin: 0 0.5rem;\n  border: none;\n  border-radius: 20%/50%;\n  background-color: #3e4047;\n  color: white\n}\n\n.MediaButton-root-16FEI:hover {\n  background-color: initial;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-innerText-3a-0l .MediaButton-text-2cqDR {\n          display: none;\n        }\n\n.MediaButton-root-16FEI:hover .MediaButton-innerText-3a-0l .MediaButton-transformIcon-2ggyH {\n          position: relative;\n          background-color: #3e4047;\n          border-radius: 50%;\n          opacity: 1;\n          width: 25px;\n          height: 25px;\n          -webkit-transition:\n            border-radius 1.5s ease-in;\n          -o-transition:\n            border-radius 1.5s ease-in;\n          transition:\n            border-radius 1.5s ease-in\n        }\n\n.MediaButton-innerText-3a-0l {\n  position: relative;\n  margin: 4px;\n  margin: 0.25rem;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n.MediaButton-text-2cqDR {}\n\n.MediaButton-transformIcon-2ggyH {\n  position: absolute;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  margin: 0 4px;\n  margin: 0 0.25rem;\n  opacity: 0;\n  width: 0;\n  height: 0;\n  overflow: hidden;\n  border-radius: 0;\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/components/MediaButton/MediaButton.css"],"names":[],"mappings":"AAAA;EACE,cAAc;EACd,iBAAiB;EACjB,aAAa;EACb,uBAAuB;EACvB,0BAA0B;EAC1B,YAAY;CACb;;AAED;EACE,0BAA0B;CAC3B;;AAED;UACU,cAAc;SACf;;AAET;UACU,mBAAmB;UACnB,0BAA0B;UAC1B,mBAAmB;UACnB,WAAW;UACX,YAAY;UACZ,aAAa;UACb;uCAC6B;UAC7B;uCAC6B;UAC7B;sCAC4B;SAC7B;;AAET;EACE,mBAAmB;EACnB,YAAY;EACZ,gBAAgB;EAChB,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,+BAA+B;EAC/B,8BAA8B;MAC1B,wBAAwB;UACpB,oBAAoB;EAC5B,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;CACjC;;AAED,0BAAQ;;AAER;EACE,mBAAmB;EACnB,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;EAC5B,cAAc;EACd,kBAAkB;EAClB,WAAW;EACX,SAAS;EACT,UAAU;EACV,iBAAiB;EACjB,iBAAiB;CAClB","file":"MediaButton.css","sourcesContent":[".root {\n  margin: 0 8px;\n  margin: 0 0.5rem;\n  border: none;\n  border-radius: 20%/50%;\n  background-color: #3e4047;\n  color: white\n}\n\n.root:hover {\n  background-color: initial;\n}\n\n.root:hover .innerText .text {\n          display: none;\n        }\n\n.root:hover .innerText .transformIcon {\n          position: relative;\n          background-color: #3e4047;\n          border-radius: 50%;\n          opacity: 1;\n          width: 25px;\n          height: 25px;\n          -webkit-transition:\n            border-radius 1.5s ease-in;\n          -o-transition:\n            border-radius 1.5s ease-in;\n          transition:\n            border-radius 1.5s ease-in\n        }\n\n.innerText {\n  position: relative;\n  margin: 4px;\n  margin: 0.25rem;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n.text {}\n\n.transformIcon {\n  position: absolute;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  margin: 0 4px;\n  margin: 0 0.25rem;\n  opacity: 0;\n  width: 0;\n  height: 0;\n  overflow: hidden;\n  border-radius: 0;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, ".MediaButton-root-16FEI {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  //margin: 0 8px;\n  //margin: 0 0.5rem;\n  border: none;\n  color: white;\n  background-color: transparent;\n  position: relative\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-text-2cqDR {\n      opacity: 0;\n      -webkit-transition: opacity 0.5s ease-out;\n      -o-transition: opacity 0.5s ease-out;\n      transition: opacity 0.5s ease-out;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-transformIcon-2ggyH {\n\n      margin: 0 4px;\n      margin: 0 0.25rem;\n      border-radius: 50%;\n      -webkit-transition: margin 1s 0.5s ease-in, border-radius 0.75s ease-in;\n      -o-transition: margin 1s 0.5s ease-in, border-radius 0.75s ease-in;\n      transition: margin 1s 0.5s ease-in, border-radius 0.75s ease-in;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-transformIcon-2ggyH * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.MediaButton-text-2cqDR {\n  position: absolute;\n  z-index: 1;\n  left: 0;\n  right: 0;\n  text-align: center;\n  opacity: 1;\n}\n\n.MediaButton-transformIcon-2ggyH {\n  position: relative;\n\n  height: 25px;\n  width: 25px;\n\n  display: -webkit-box;\n\n  display: -ms-flexbox;\n\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n\n  background-color: #3e4047;\n\n  border-radius: 0;\n\n  margin: 0 0;\n\n  -webkit-transition: border-radius 1.5s ease-out, margin 1s ease-out;\n\n  -o-transition: border-radius 1.5s ease-out, margin 1s ease-out;\n\n  transition: border-radius 1.5s ease-out, margin 1s ease-out;\n\n  //margin: 0 4px;\n  //margin: 0 0.25rem;\n\n  //opacity: 0;\n  //width: 0;\n  //height: 0;\n  //overflow: hidden;\n  //border-radius: 0;\n}\n\n.MediaButton-transformIcon-2ggyH * {\n    opacity: 0;\n  }\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/components/MediaButton/MediaButton.css"],"names":[],"mappings":"AAAA;EACE,4BAA4B;EAC5B,4BAA4B;EAC5B,qBAAqB;EACrB,gBAAgB;EAChB,mBAAmB;EACnB,aAAa;EACb,aAAa;EACb,8BAA8B;EAC9B,kBAAkB;CACnB;;AAED;MACM,WAAW;MACX,0CAA0C;MAC1C,qCAAqC;MACrC,kCAAkC;CACvC;;AAED;;MAEM,cAAc;MACd,kBAAkB;MAClB,mBAAmB;MACnB,wEAAwE;MACxE,mEAAmE;MACnE,gEAAgE;CACrE;;AAED;QACQ,WAAW;QACX,iCAAiC;QACjC,4BAA4B;QAC5B,yBAAyB;OAC1B;;AAEP;EACE,mBAAmB;EACnB,WAAW;EACX,QAAQ;EACR,SAAS;EACT,mBAAmB;EACnB,WAAW;CACZ;;AAED;EACE,mBAAmB;;EAEnB,aAAa;EACb,YAAY;;EAEZ,qBAAqB;;EAErB,qBAAqB;;EAErB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;;EAE5B,0BAA0B;;EAE1B,iBAAiB;;EAEjB,YAAY;;EAEZ,oEAAoE;;EAEpE,+DAA+D;;EAE/D,4DAA4D;;EAE5D,gBAAgB;EAChB,oBAAoB;;EAEpB,aAAa;EACb,WAAW;EACX,YAAY;EACZ,mBAAmB;EACnB,mBAAmB;CACpB;;AAED;IACI,WAAW;GACZ","file":"MediaButton.css","sourcesContent":[".root {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  //margin: 0 8px;\n  //margin: 0 0.5rem;\n  border: none;\n  color: white;\n  background-color: transparent;\n  position: relative\n}\n\n.root:hover .text {\n      opacity: 0;\n      -webkit-transition: opacity 0.5s ease-out;\n      -o-transition: opacity 0.5s ease-out;\n      transition: opacity 0.5s ease-out;\n}\n\n.root:hover .transformIcon {\n\n      margin: 0 4px;\n      margin: 0 0.25rem;\n      border-radius: 50%;\n      -webkit-transition: margin 1s 0.5s ease-in, border-radius 0.75s ease-in;\n      -o-transition: margin 1s 0.5s ease-in, border-radius 0.75s ease-in;\n      transition: margin 1s 0.5s ease-in, border-radius 0.75s ease-in;\n}\n\n.root:hover .transformIcon * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.text {\n  position: absolute;\n  z-index: 1;\n  left: 0;\n  right: 0;\n  text-align: center;\n  opacity: 1;\n}\n\n.transformIcon {\n  position: relative;\n\n  height: 25px;\n  width: 25px;\n\n  display: -webkit-box;\n\n  display: -ms-flexbox;\n\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n\n  background-color: #3e4047;\n\n  border-radius: 0;\n\n  margin: 0 0;\n\n  -webkit-transition: border-radius 1.5s ease-out, margin 1s ease-out;\n\n  -o-transition: border-radius 1.5s ease-out, margin 1s ease-out;\n\n  transition: border-radius 1.5s ease-out, margin 1s ease-out;\n\n  //margin: 0 4px;\n  //margin: 0 0.25rem;\n\n  //opacity: 0;\n  //width: 0;\n  //height: 0;\n  //overflow: hidden;\n  //border-radius: 0;\n}\n\n.transformIcon * {\n    opacity: 0;\n  }\n"],"sourceRoot":""}]);
 
 // exports
 exports.locals = {
 	"root": "MediaButton-root-16FEI",
-	"innerText": "MediaButton-innerText-3a-0l",
 	"text": "MediaButton-text-2cqDR",
 	"transformIcon": "MediaButton-transformIcon-2ggyH"
 };
@@ -3467,100 +3477,112 @@ module.exports = {"title":"About Us","component":"ContentPage","html":"<p>Lorem 
 /* 69 */
 /***/ (function(module, exports) {
 
-module.exports = require("babel-runtime/core-js/json/stringify");
+module.exports = require("./assets.json");
 
 /***/ }),
 /* 70 */
 /***/ (function(module, exports) {
 
-module.exports = require("babel-runtime/helpers/slicedToArray");
+module.exports = require("babel-runtime/core-js/json/stringify");
 
 /***/ }),
 /* 71 */
 /***/ (function(module, exports) {
 
-module.exports = require("body-parser");
+module.exports = require("babel-runtime/helpers/slicedToArray");
 
 /***/ }),
 /* 72 */
 /***/ (function(module, exports) {
 
-module.exports = require("cookie-parser");
+module.exports = require("body-parser");
 
 /***/ }),
 /* 73 */
 /***/ (function(module, exports) {
 
-module.exports = require("express");
+module.exports = require("cookie-parser");
 
 /***/ }),
 /* 74 */
 /***/ (function(module, exports) {
 
-module.exports = require("express-jwt");
+module.exports = require("express");
 
 /***/ }),
 /* 75 */
 /***/ (function(module, exports) {
 
-module.exports = require("history/createBrowserHistory");
+module.exports = require("express-graphql");
 
 /***/ }),
 /* 76 */
 /***/ (function(module, exports) {
 
-module.exports = require("isomorphic-fetch");
+module.exports = require("express-jwt");
 
 /***/ }),
 /* 77 */
 /***/ (function(module, exports) {
 
-module.exports = require("path");
+module.exports = require("history/createBrowserHistory");
 
 /***/ }),
 /* 78 */
 /***/ (function(module, exports) {
 
-module.exports = require("pretty-error");
+module.exports = require("isomorphic-fetch");
 
 /***/ }),
 /* 79 */
 /***/ (function(module, exports) {
 
-module.exports = require("react-dom/server");
+module.exports = require("path");
 
 /***/ }),
 /* 80 */
 /***/ (function(module, exports) {
 
-module.exports = require("react-redux");
+module.exports = require("pretty-error");
 
 /***/ }),
 /* 81 */
 /***/ (function(module, exports) {
 
-module.exports = require("redux-thunk");
+module.exports = require("react-dom/server");
 
 /***/ }),
 /* 82 */
 /***/ (function(module, exports) {
 
-module.exports = require("serialize-javascript");
+module.exports = require("react-redux");
 
 /***/ }),
 /* 83 */
 /***/ (function(module, exports) {
 
-module.exports = require("universal-router");
+module.exports = require("redux-thunk");
 
 /***/ }),
 /* 84 */
 /***/ (function(module, exports) {
 
-module.exports = require("util");
+module.exports = require("serialize-javascript");
 
 /***/ }),
 /* 85 */
+/***/ (function(module, exports) {
+
+module.exports = require("universal-router");
+
+/***/ }),
+/* 86 */
+/***/ (function(module, exports) {
+
+module.exports = require("util");
+
+/***/ }),
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(12);

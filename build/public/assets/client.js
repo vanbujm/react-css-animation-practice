@@ -1013,6 +1013,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
+var ICON_WIDTH = 25;
+
 var MediaButton = function (_Component) {
   _inherits(MediaButton, _Component);
 
@@ -1027,21 +1029,10 @@ var MediaButton = function (_Component) {
     value: function render() {
       var _this2 = this;
 
-      var text = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'div',
-        { className: __WEBPACK_IMPORTED_MODULE_3__MediaButton_css___default.a.text, __source: {
-            fileName: _jsxFileName,
-            lineNumber: 13
-          },
-          __self: this
-        },
-        this.props.text
-      );
-
-      var icons = this.props.children.map(function (child, index) {
+      var icons = this.props.children.map(function (child) {
         return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'div',
-          { key: index, className: __WEBPACK_IMPORTED_MODULE_3__MediaButton_css___default.a.transformIcon, __source: {
+          { key: child.props.className, className: __WEBPACK_IMPORTED_MODULE_3__MediaButton_css___default.a.transformIcon, __source: {
               fileName: _jsxFileName,
               lineNumber: 16
             },
@@ -1052,7 +1043,7 @@ var MediaButton = function (_Component) {
       });
 
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'button',
+        'div',
         { className: __WEBPACK_IMPORTED_MODULE_3__MediaButton_css___default.a.root, __source: {
             fileName: _jsxFileName,
             lineNumber: 20
@@ -1061,15 +1052,15 @@ var MediaButton = function (_Component) {
         },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'div',
-          { className: __WEBPACK_IMPORTED_MODULE_3__MediaButton_css___default.a.innerText, __source: {
+          { className: __WEBPACK_IMPORTED_MODULE_3__MediaButton_css___default.a.text, __source: {
               fileName: _jsxFileName,
               lineNumber: 21
             },
             __self: this
           },
-          text,
-          icons
-        )
+          this.props.text
+        ),
+        icons
       );
     }
   }]);
@@ -2540,12 +2531,11 @@ exports = module.exports = __webpack_require__(28)(true);
 
 
 // module
-exports.push([module.i, ".MediaButton-root-16FEI {\n  margin: 0 8px;\n  margin: 0 0.5rem;\n  border: none;\n  border-radius: 20%/50%;\n  background-color: #3e4047;\n  color: white\n}\n\n.MediaButton-root-16FEI:hover {\n  background-color: initial;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-innerText-3a-0l .MediaButton-text-2cqDR {\n          display: none;\n        }\n\n.MediaButton-root-16FEI:hover .MediaButton-innerText-3a-0l .MediaButton-transformIcon-2ggyH {\n          position: relative;\n          background-color: #3e4047;\n          border-radius: 50%;\n          opacity: 1;\n          width: 25px;\n          height: 25px;\n          -webkit-transition:\n            border-radius 1.5s ease-in;\n          -o-transition:\n            border-radius 1.5s ease-in;\n          transition:\n            border-radius 1.5s ease-in\n        }\n\n.MediaButton-innerText-3a-0l {\n  position: relative;\n  margin: 4px;\n  margin: 0.25rem;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n.MediaButton-text-2cqDR {}\n\n.MediaButton-transformIcon-2ggyH {\n  position: absolute;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  margin: 0 4px;\n  margin: 0 0.25rem;\n  opacity: 0;\n  width: 0;\n  height: 0;\n  overflow: hidden;\n  border-radius: 0;\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/components/MediaButton/MediaButton.css"],"names":[],"mappings":"AAAA;EACE,cAAc;EACd,iBAAiB;EACjB,aAAa;EACb,uBAAuB;EACvB,0BAA0B;EAC1B,YAAY;CACb;;AAED;EACE,0BAA0B;CAC3B;;AAED;UACU,cAAc;SACf;;AAET;UACU,mBAAmB;UACnB,0BAA0B;UAC1B,mBAAmB;UACnB,WAAW;UACX,YAAY;UACZ,aAAa;UACb;uCAC6B;UAC7B;uCAC6B;UAC7B;sCAC4B;SAC7B;;AAET;EACE,mBAAmB;EACnB,YAAY;EACZ,gBAAgB;EAChB,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,+BAA+B;EAC/B,8BAA8B;MAC1B,wBAAwB;UACpB,oBAAoB;EAC5B,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;CACjC;;AAED,0BAAQ;;AAER;EACE,mBAAmB;EACnB,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;EAC5B,cAAc;EACd,kBAAkB;EAClB,WAAW;EACX,SAAS;EACT,UAAU;EACV,iBAAiB;EACjB,iBAAiB;CAClB","file":"MediaButton.css","sourcesContent":[".root {\n  margin: 0 8px;\n  margin: 0 0.5rem;\n  border: none;\n  border-radius: 20%/50%;\n  background-color: #3e4047;\n  color: white\n}\n\n.root:hover {\n  background-color: initial;\n}\n\n.root:hover .innerText .text {\n          display: none;\n        }\n\n.root:hover .innerText .transformIcon {\n          position: relative;\n          background-color: #3e4047;\n          border-radius: 50%;\n          opacity: 1;\n          width: 25px;\n          height: 25px;\n          -webkit-transition:\n            border-radius 1.5s ease-in;\n          -o-transition:\n            border-radius 1.5s ease-in;\n          transition:\n            border-radius 1.5s ease-in\n        }\n\n.innerText {\n  position: relative;\n  margin: 4px;\n  margin: 0.25rem;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n.text {}\n\n.transformIcon {\n  position: absolute;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  margin: 0 4px;\n  margin: 0 0.25rem;\n  opacity: 0;\n  width: 0;\n  height: 0;\n  overflow: hidden;\n  border-radius: 0;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, ".MediaButton-root-16FEI {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  //margin: 0 8px;\n  //margin: 0 0.5rem;\n  border: none;\n  color: white;\n  background-color: transparent;\n  position: relative\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-text-2cqDR {\n      opacity: 0;\n      -webkit-transition: opacity 0.5s ease-out;\n      -o-transition: opacity 0.5s ease-out;\n      transition: opacity 0.5s ease-out;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-transformIcon-2ggyH {\n\n      margin: 0 4px;\n      margin: 0 0.25rem;\n      border-radius: 50%;\n      -webkit-transition: margin 1s 0.5s ease-in, border-radius 0.75s ease-in;\n      -o-transition: margin 1s 0.5s ease-in, border-radius 0.75s ease-in;\n      transition: margin 1s 0.5s ease-in, border-radius 0.75s ease-in;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-transformIcon-2ggyH * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.MediaButton-text-2cqDR {\n  position: absolute;\n  z-index: 1;\n  left: 0;\n  right: 0;\n  text-align: center;\n  opacity: 1;\n}\n\n.MediaButton-transformIcon-2ggyH {\n  position: relative;\n\n  height: 25px;\n  width: 25px;\n\n  display: -webkit-box;\n\n  display: -ms-flexbox;\n\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n\n  background-color: #3e4047;\n\n  border-radius: 0;\n\n  margin: 0 0;\n\n  -webkit-transition: border-radius 1.5s ease-out, margin 1s ease-out;\n\n  -o-transition: border-radius 1.5s ease-out, margin 1s ease-out;\n\n  transition: border-radius 1.5s ease-out, margin 1s ease-out;\n\n  //margin: 0 4px;\n  //margin: 0 0.25rem;\n\n  //opacity: 0;\n  //width: 0;\n  //height: 0;\n  //overflow: hidden;\n  //border-radius: 0;\n}\n\n.MediaButton-transformIcon-2ggyH * {\n    opacity: 0;\n  }\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/components/MediaButton/MediaButton.css"],"names":[],"mappings":"AAAA;EACE,4BAA4B;EAC5B,4BAA4B;EAC5B,qBAAqB;EACrB,gBAAgB;EAChB,mBAAmB;EACnB,aAAa;EACb,aAAa;EACb,8BAA8B;EAC9B,kBAAkB;CACnB;;AAED;MACM,WAAW;MACX,0CAA0C;MAC1C,qCAAqC;MACrC,kCAAkC;CACvC;;AAED;;MAEM,cAAc;MACd,kBAAkB;MAClB,mBAAmB;MACnB,wEAAwE;MACxE,mEAAmE;MACnE,gEAAgE;CACrE;;AAED;QACQ,WAAW;QACX,iCAAiC;QACjC,4BAA4B;QAC5B,yBAAyB;OAC1B;;AAEP;EACE,mBAAmB;EACnB,WAAW;EACX,QAAQ;EACR,SAAS;EACT,mBAAmB;EACnB,WAAW;CACZ;;AAED;EACE,mBAAmB;;EAEnB,aAAa;EACb,YAAY;;EAEZ,qBAAqB;;EAErB,qBAAqB;;EAErB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;;EAE5B,0BAA0B;;EAE1B,iBAAiB;;EAEjB,YAAY;;EAEZ,oEAAoE;;EAEpE,+DAA+D;;EAE/D,4DAA4D;;EAE5D,gBAAgB;EAChB,oBAAoB;;EAEpB,aAAa;EACb,WAAW;EACX,YAAY;EACZ,mBAAmB;EACnB,mBAAmB;CACpB;;AAED;IACI,WAAW;GACZ","file":"MediaButton.css","sourcesContent":[".root {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  //margin: 0 8px;\n  //margin: 0 0.5rem;\n  border: none;\n  color: white;\n  background-color: transparent;\n  position: relative\n}\n\n.root:hover .text {\n      opacity: 0;\n      -webkit-transition: opacity 0.5s ease-out;\n      -o-transition: opacity 0.5s ease-out;\n      transition: opacity 0.5s ease-out;\n}\n\n.root:hover .transformIcon {\n\n      margin: 0 4px;\n      margin: 0 0.25rem;\n      border-radius: 50%;\n      -webkit-transition: margin 1s 0.5s ease-in, border-radius 0.75s ease-in;\n      -o-transition: margin 1s 0.5s ease-in, border-radius 0.75s ease-in;\n      transition: margin 1s 0.5s ease-in, border-radius 0.75s ease-in;\n}\n\n.root:hover .transformIcon * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.text {\n  position: absolute;\n  z-index: 1;\n  left: 0;\n  right: 0;\n  text-align: center;\n  opacity: 1;\n}\n\n.transformIcon {\n  position: relative;\n\n  height: 25px;\n  width: 25px;\n\n  display: -webkit-box;\n\n  display: -ms-flexbox;\n\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n\n  background-color: #3e4047;\n\n  border-radius: 0;\n\n  margin: 0 0;\n\n  -webkit-transition: border-radius 1.5s ease-out, margin 1s ease-out;\n\n  -o-transition: border-radius 1.5s ease-out, margin 1s ease-out;\n\n  transition: border-radius 1.5s ease-out, margin 1s ease-out;\n\n  //margin: 0 4px;\n  //margin: 0 0.25rem;\n\n  //opacity: 0;\n  //width: 0;\n  //height: 0;\n  //overflow: hidden;\n  //border-radius: 0;\n}\n\n.transformIcon * {\n    opacity: 0;\n  }\n"],"sourceRoot":""}]);
 
 // exports
 exports.locals = {
 	"root": "MediaButton-root-16FEI",
-	"innerText": "MediaButton-innerText-3a-0l",
 	"text": "MediaButton-text-2cqDR",
 	"transformIcon": "MediaButton-transformIcon-2ggyH"
 };
