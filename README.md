@@ -1,4 +1,6 @@
-## React CSS Playground [![CircleCI](https://circleci.com/gh/vanbujm/react-css-animation-practice.svg?style=svg)](https://circleci.com/gh/vanbujm/react-css-animation-practice) [![Heroku](http://heroku-badge.herokuapp.com/?app=react-css-playground&style=flat&svg=1)](https://react-css-playground.herokuapp.com/)
+## React CSS Playground [![CircleCI](https://circleci.com/gh/vanbujm/react-css-animation-practice.svg?style=svg)](https://circleci.com/gh/vanbujm/react-css-animation-practice) [![Heroku](http://heroku-badge.herokuapp.com/?app=react-css-playground&style=flat&svg=1)](https://react-css-playground.herokuapp.com/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+                                                                                                                                                                                                                                                                                                                       
+
 
 ### Setup
 
