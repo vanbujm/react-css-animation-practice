@@ -1,4 +1,5 @@
 .root {
+  margin: 0 0.25rem;
   display: inline-flex;
   //margin: 0 0.5rem;
   border: none;
@@ -10,22 +11,39 @@
 
     .text {
       opacity: 0;
-      transition: opacity 0.5s ease-out;
+      z-index: -1;
+    }
+
+    .squish {
+      width: 25px;
+      transition: width 5s ease-in;
     }
 
     .transformIcon {
 
       margin: 0 0.25rem;
       border-radius: 50%;
-      transition: margin 1s 0.5s ease-in, border-radius 0.75s ease-in;
+      transition: margin 0.5s ease-in, border-radius 0.5s ease-in;
 
       * {
         opacity: 1;
         transition: opacity 1.5s;
       }
+
+      &:hover {
+        background-color: darkgreen;
+      }
+    }
+
+    .hide {
+      width: 0;
+      overflow: hidden;
+      margin: 0;
     }
   }
 }
+
+.hide {}
 
 .text {
   position: absolute;
@@ -34,6 +52,9 @@
   right: 0;
   text-align: center;
   opacity: 1;
+  transition: opacity 0.5s ease-out;
+  display: flex;
+  justify-content: center;
 }
 
 .transformIcon {
@@ -52,17 +73,24 @@
 
   margin: 0 0;
 
-  transition: border-radius 1.5s ease-out, margin 1s ease-out;
+  transition: border-radius 0.25s ease-out, margin 0.25s ease-out;
 
   * {
     opacity: 0;
   }
 
-  //margin: 0 0.25rem;
+}
 
-  //opacity: 0;
-  //width: 0;
-  //height: 0;
-  //overflow: hidden;
-  //border-radius: 0;
+.squish {
+  width: 0;
+  overflow: hidden;
+  transition: width 0.5s ease-out;
+}
+
+.left {
+  border-radius: 50% 0 0 50%;
+}
+
+.right {
+  border-radius: 0 50% 50% 0;
 }

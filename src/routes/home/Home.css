@@ -39,25 +39,23 @@
   background-color: #28282e;
 }
 
+.textBox {
+  display: inline-block;
+}
+
 .innerText {
   background-color: #3e4047;
   color: white;
   margin: 0.25rem;
 }
 
-.follow {
-  border: none;
-  border-radius: 20%/50%;
-  background-color: #3e4047;
+a {
   color: white;
 }
-.share {}
-.buy {}
-.try {}
 
 @keyframes mymove {
   from {
-    transform: rotate(0deg) translate(10em) rotate(-720deg);
+    transform: rotate(0deg) translate(10em) rotate(0deg);
   }
 
   to {
@@ -72,5 +70,4 @@
   animation-name: mymove;
   animation-timing-function: linear;
   animation-duration: 2s;
-  animation-iteration-count: infinite;
 }
