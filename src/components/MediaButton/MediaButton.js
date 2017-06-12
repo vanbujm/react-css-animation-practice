@@ -1,4 +1,4 @@
-/* eslint-disable react/no-did-mount-set-state,react/no-array-index-key */
+/* eslint-disable react/no-did-mount-set-state,react/no-array-index-key,max-len */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
@@ -55,9 +55,13 @@ class MediaButton extends Component {
 
     iconArray.forEach(
       (child, index) => {
+        const optionalClass = child.props['data-parent-class'] ? child.props['data-parent-class'] : style.defaultHover;
         if (index === 0) {
           iconArrayElement.push(
-            <div key={index} className={cx(style.transformIcon, style.left)}>
+            <div
+              key={index}
+              className={cx(style.transformIcon, style.left, optionalClass)}
+            >
               {child}
             </div>,
           );
@@ -65,19 +69,28 @@ class MediaButton extends Component {
         if (MediaButton.isMiddleIndex(iconArray, index)) {
           if (maxNumberOfElements - currentNumberOfElements > 1) {
             iconArrayElement.push(
-              <div key={index} className={style.transformIcon}>
+              <div
+                key={index}
+                className={cx(style.transformIcon, optionalClass)}
+              >
                 {child}
               </div>);
           } else {
             iconArrayElement.push(
-              <div key={index} className={cx(style.transformIcon, style.squish)}>
+              <div
+                key={index}
+                className={cx(style.transformIcon, style.squish, optionalClass)}
+              >
                 {child}
               </div>);
           }
         }
         if (iconArray.length - 1 === index) {
           iconArrayElement.push(
-            <div key={index} className={cx(style.transformIcon, style.right)}>
+            <div
+              key={index}
+              className={cx(style.transformIcon, style.right, optionalClass)}
+            >
               {child}
             </div>);
         }

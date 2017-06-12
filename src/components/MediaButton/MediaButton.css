@@ -1,3 +1,5 @@
+@import '../variables.css';
+
 .root {
   margin: 0 0.25rem;
   display: inline-flex;
@@ -29,10 +31,6 @@
         opacity: 1;
         transition: opacity 1.5s;
       }
-
-      &:hover {
-        background-color: darkgreen;
-      }
     }
 
     .hide {
@@ -41,6 +39,10 @@
       margin: 0;
     }
   }
+}
+
+.defaultHover:hover {
+  background-color: darkgreen;
 }
 
 .hide {}
@@ -67,7 +69,7 @@
   justify-content: center;
   align-items: center;
 
-  background-color: #3e4047;
+  background-color: color(var(--color-secondary) tint(15%));
 
   border-radius: 0;
 
