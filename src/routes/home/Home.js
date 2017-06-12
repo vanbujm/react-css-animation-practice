@@ -30,11 +30,11 @@ class Home extends React.Component {
   }
 
   followChange(event) {
-    this.setState({followButton: event.target.value});
+    this.setState({ followButton: event.target.value });
   }
 
   toggleAnimation() {
-    this.setState({resetAnimation: !this.state.resetAnimation});
+    this.setState({ resetAnimation: !this.state.resetAnimation });
   }
 
   render() {
@@ -55,7 +55,7 @@ class Home extends React.Component {
                 </button>
               </div>
               <div className={animationContainer}>
-                <TWLogo width={104} height={74} className={animate}/>
+                <TWLogo width={104} height={74} className={animate} />
               </div>
             </section>
             <section>
@@ -78,20 +78,16 @@ class Home extends React.Component {
               </div>
               <div className={s.exampleTwo}>
                 <MediaButton text={this.state.followButton}>
-                  <a href="" alt="follow button" data-parent-class={s.twitter}><i className="fa fa-twitter" aria-hidden="true"/></a>
-                  <a href="" alt="follow button" data-parent-class={s.facebook}><i className="fa fa-facebook" aria-hidden="true"/></a>
-                  <a href="" alt="follow button"><i className="fa fa-dribbble" aria-hidden="true"/></a>
-                  <a href="" alt="follow button"><i className="fa fa-dribbble" aria-hidden="true"/></a>
-                  <a href="" alt="follow button"><i className="fa fa-dribbble" aria-hidden="true"/></a>
-                  <a href="" alt="follow button"><i className="fa fa-dribbble" aria-hidden="true"/></a>
-                  <a href="" alt="follow button"><i className="fa fa-dribbble" aria-hidden="true"/></a>
-                  <a href="" alt="follow button" data-parent-class={s.slack}><i className="fa fa-slack" aria-hidden="true"/></a>
+                  <a href="" alt="follow button" data-parent-class={s.twitter}><i className="fa fa-twitter" aria-hidden="true" /></a>
+                  <a href="" alt="follow button" data-parent-class={s.facebook}><i className="fa fa-facebook" aria-hidden="true" /></a>
+                  <a href="" alt="follow button" data-parent-class={s.dribble}><i className="fa fa-dribbble" aria-hidden="true" /></a>
+                  <a href="" alt="follow button" data-parent-class={s.slack}><i className="fa fa-slack" aria-hidden="true" /></a>
                 </MediaButton>
-                <MediaButton text="Share">
-                  <i className="fa fa-twitter" aria-hidden="true"/>
-                  <i className="fa fa-facebook" aria-hidden="true"/>
-                  <i className="fa fa-dribbble" aria-hidden="true"/>
-                  <i className="fa fa-slack" aria-hidden="true"/>
+                <MediaButton text={<span>Share<small> 102</small></span>}>
+                  <i className="fa fa-twitter" aria-hidden="true" data-parent-class={s.twitter} />
+                  <i className="fa fa-facebook" aria-hidden="true" data-parent-class={s.facebook} />
+                  <i className="fa fa-dribbble" aria-hidden="true" data-parent-class={s.dribble} />
+                  <i className="fa fa-slack" aria-hidden="true" data-parent-class={s.slack} />
                 </MediaButton>
               </div>
             </section>

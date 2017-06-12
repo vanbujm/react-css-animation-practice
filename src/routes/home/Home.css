@@ -44,14 +44,18 @@
 }
 
 .twitter {
-
   &:hover {
-    background-color: darkorchid;
+    background-color: #794BC4;
+  }
+}
+
+.dribble {
+  &:hover {
+    background-color: #DF3E7B;
   }
 }
 
 .facebook {
-
   &:hover {
     background-color: #3B5998;
   }

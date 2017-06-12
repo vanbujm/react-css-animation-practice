@@ -1,5 +1,5 @@
 /* eslint-disable react/no-did-mount-set-state,react/no-array-index-key,max-len */
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import cx from 'classnames';
@@ -9,7 +9,10 @@ const ICON_WIDTH = 25;
 
 class MediaButton extends Component {
   static propTypes = {
-    text: PropTypes.string.isRequired,
+    text: PropTypes.oneOfType([
+      PropTypes.string,
+      PropTypes.element,
+    ]).isRequired,
     children: PropTypes.node.isRequired,
   };
 
@@ -21,7 +24,7 @@ class MediaButton extends Component {
     super(props);
 
     this.state = {
-      maxWidth: 20,
+      maxWidth: 100,
     };
   }
 
@@ -41,7 +44,7 @@ class MediaButton extends Component {
     const paddingWidth = 2 * ICON_WIDTH;
     if (this.divElement !== null) {
       if (this.state.maxWidth !== this.divElement.clientWidth + paddingWidth) {
-        this.setState({ maxWidth: this.divElement.clientWidth + paddingWidth });
+        this.setState({maxWidth: this.divElement.clientWidth + paddingWidth});
       }
     }
   }
@@ -103,7 +106,7 @@ class MediaButton extends Component {
       iconArrayElement.splice(
         iconArrayElement.length - 1,
         0,
-        <div key={currentNumberOfElements} className={cx(style.transformIcon, style.hide)} />);
+        <div key={currentNumberOfElements} className={cx(style.transformIcon, style.hide)}/>);
     }
 
     return iconArrayElement;
@@ -114,12 +117,16 @@ class MediaButton extends Component {
 
     return (
       <div className={style.root}>
-        <div className={style.text}>
-          { this.props.text && <div ref={(divElement) => {
+        { this.props.text &&
+        <div
+          className={style.text}
+          ref={(divElement) => {
             this.divElement = divElement;
           }}
-          >{this.props.text}</div>}
+        >
+          {this.props.text}
         </div>
+        }
         {icons}
       </div>
     );

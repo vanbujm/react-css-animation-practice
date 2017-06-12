@@ -17,8 +17,8 @@ export default {
 
   async action({ context }) {
     return {
-      title: 'React Starter Kit',
-      component: <Layout><Home context={context}/></Layout>,
+      title: 'React CSS Playground',
+      component: <Layout><Home context={context} /></Layout>,
     };
   },
 

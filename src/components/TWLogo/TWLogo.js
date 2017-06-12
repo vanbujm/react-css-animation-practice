@@ -16,14 +16,11 @@ class TWLogo extends React.Component {
     return (
       <svg width={this.props.width} height={this.props.height} className={this.props.className}>
         <defs>
-          <linearGradient id="patricksGradient" x1="0%" y1="0%" x2="100%" y2="50%">
-            <stop offset="0%" style={{ stopColor: 'hotpink', stopOpacity: 1 }} />
-            <stop offset="100%" style={{ stopColor: 'teal', stopOpacity: 1 }} />
-          </linearGradient>
-          <linearGradient id="patricksGradientReverse" x1="0%" y1="0%" x2="100%" y2="50%">
-            <stop offset="0%" style={{ stopColor: 'teal', stopOpacity: 1 }} />
-            <stop offset="100%" style={{ stopColor: 'hotpink', stopOpacity: 1 }} />
-          </linearGradient>
+          <radialGradient id="patricksGradient" cx="50%" cy="50%" r="100%" fx="50%" fy="50%">
+            <stop offset="0%" style={{ stopColor: '#373277', stopOpacity: 1 }} />
+            <stop offset="20%" style={{ stopColor: '#373277', stopOpacity: 1 }} />
+            <stop offset="100%" style={{ stopColor: 'white', stopOpacity: 1 }} />
+          </radialGradient>
         </defs>
         <rect
           x="2"
@@ -35,7 +32,7 @@ class TWLogo extends React.Component {
           // fill:red;stroke:black;stroke-width:5;opacity:0.5"
           style={{ fill: 'url(#patricksGradient)', stroke: 'black', strokeWidth: 2 }}
         />
-        <text style={{ fill: 'url(#patricksGradientReverse)', stroke: 'black', strokeWidth: 2, fontSize: 45, fontFamily: 'Verdana' }} x="17" y="53">TW</text>
+        <text style={{ fill: '#373277', stroke: 'black', strokeWidth: 2, fontSize: 45, fontFamily: 'Verdana' }} x="17" y="53">TW</text>
       </svg>
     );
   }
