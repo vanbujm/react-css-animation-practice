@@ -30,6 +30,7 @@ class Sun extends React.Component {
         </defs>
         <ellipse style={{ fill: 'url(#gradient-1)', strokeWidth: 70 }} cx="247.7" cy="251.4" rx="239.3" ry="239.3" />
         <ellipse style={{ fill: 'url(#gradient-2)', strokeWidth: 70 }} cx="243" cy="247.4" rx="146.5" ry="146.5" />
+        { this.props.children }
       </svg>
     );
   }

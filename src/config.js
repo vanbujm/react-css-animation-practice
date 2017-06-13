@@ -33,7 +33,7 @@ module.exports = {
 
   // Authentication
   auth: {
-    jwt: { secret: process.env.JWT_SECRET || 'React Starter Kit' },
+    jwt: { secret: process.env.JWT_SECRET || 'some super secret secret' },
 
     // https://developers.facebook.com/
     facebook: {

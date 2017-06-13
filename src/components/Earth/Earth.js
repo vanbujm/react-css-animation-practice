@@ -1,8 +1,6 @@
 /* eslint-disable react/forbid-prop-types */
 import React from 'react';
 import PropTypes from 'prop-types';
-import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import s from './Earth.css';
 
 class Earth extends React.Component {
   static propTypes = {
@@ -11,7 +9,6 @@ class Earth extends React.Component {
     className: PropTypes.string,
   };
 
-  // className={this.props.className} width={this.props.width}
   render() {
     return (
       <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" className={this.props.className} width={this.props.width} height={this.props.height}>
@@ -47,4 +44,4 @@ Earth.defaultProps = {
   className: '',
 };
 
-export default withStyles(s)(Earth);
+export default Earth;
