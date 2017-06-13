@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-has-content */
+/* eslint-disable jsx-a11y/anchor-has-content,max-len */
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
  *
@@ -24,7 +24,7 @@ class Home extends React.Component {
 
     this.state = {
       resetAnimation: false,
-      followButton: 'follow',
+      followButton: 'Follow',
     };
 
     this.toggleAnimation = this.toggleAnimation.bind(this);
@@ -51,7 +51,6 @@ class Home extends React.Component {
               <h1>Jon and Patrick's Awesome Animation!</h1>
               <div className={s.row}>
                 <button
-                  className={s.button}
                   onClick={this.toggleAnimation}
                 >
                   Toggle Animation

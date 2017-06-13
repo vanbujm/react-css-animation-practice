@@ -1930,7 +1930,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-/* eslint-disable jsx-a11y/anchor-has-content */
+/* eslint-disable jsx-a11y/anchor-has-content,max-len */
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
  *
@@ -1958,7 +1958,7 @@ var Home = function (_React$Component) {
 
     _this.state = {
       resetAnimation: false,
-      followButton: 'follow'
+      followButton: 'Follow'
     };
 
     _this.toggleAnimation = _this.toggleAnimation.bind(_this);
@@ -2044,7 +2044,6 @@ var Home = function (_React$Component) {
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'button',
                   {
-                    className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.button,
                     onClick: this.toggleAnimation,
                     __source: {
                       fileName: _jsxFileName,
@@ -2059,13 +2058,13 @@ var Home = function (_React$Component) {
                 'div',
                 { className: animationContainer, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 60
+                    lineNumber: 59
                   },
                   __self: this
                 },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_Earth__["a" /* default */], { width: 104, height: 74, className: animate, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 61
+                    lineNumber: 60
                   },
                   __self: this
                 }),
@@ -2077,7 +2076,7 @@ var Home = function (_React$Component) {
               {
                 __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 65
+                  lineNumber: 64
                 },
                 __self: this
               },
@@ -2086,7 +2085,7 @@ var Home = function (_React$Component) {
                 {
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 66
+                    lineNumber: 65
                   },
                   __self: this
                 },
@@ -2098,7 +2097,7 @@ var Home = function (_React$Component) {
                     href: 'https://www.reddit.com/r/web_design/comments/6fdobk/how_would_you_code_the_share_and_follow_buttons/',
                     __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 66
+                      lineNumber: 65
                     },
                     __self: this
                   },
@@ -2109,7 +2108,7 @@ var Home = function (_React$Component) {
                 'div',
                 { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.row, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 71
+                    lineNumber: 70
                   },
                   __self: this
                 },
@@ -2117,7 +2116,7 @@ var Home = function (_React$Component) {
                   'label',
                   { htmlFor: 'button-text', __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 72
+                      lineNumber: 71
                     },
                     __self: this
                   },
@@ -2133,7 +2132,7 @@ var Home = function (_React$Component) {
                   },
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 73
+                    lineNumber: 72
                   },
                   __self: this
                 })
@@ -2142,7 +2141,7 @@ var Home = function (_React$Component) {
                 'div',
                 { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.exampleTwo, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 83
+                    lineNumber: 82
                   },
                   __self: this
                 },
@@ -2150,7 +2149,7 @@ var Home = function (_React$Component) {
                   __WEBPACK_IMPORTED_MODULE_6__components_MediaButton__["a" /* default */],
                   { text: this.state.followButton, __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 84
+                      lineNumber: 83
                     },
                     __self: this
                   },
@@ -2158,13 +2157,13 @@ var Home = function (_React$Component) {
                     'a',
                     { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.twitter, __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 85
+                        lineNumber: 84
                       },
                       __self: this
                     },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-twitter', 'aria-hidden': 'true', __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 85
+                        lineNumber: 84
                       },
                       __self: this
                     })
@@ -2173,13 +2172,13 @@ var Home = function (_React$Component) {
                     'a',
                     { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.facebook, __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 86
+                        lineNumber: 85
                       },
                       __self: this
                     },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-facebook', 'aria-hidden': 'true', __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 86
+                        lineNumber: 85
                       },
                       __self: this
                     })
@@ -2188,13 +2187,13 @@ var Home = function (_React$Component) {
                     'a',
                     { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.dribble, __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 87
+                        lineNumber: 86
                       },
                       __self: this
                     },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-dribbble', 'aria-hidden': 'true', __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 87
+                        lineNumber: 86
                       },
                       __self: this
                     })
@@ -2203,13 +2202,13 @@ var Home = function (_React$Component) {
                     'a',
                     { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.slack, __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 88
+                        lineNumber: 87
                       },
                       __self: this
                     },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-slack', 'aria-hidden': 'true', __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 88
+                        lineNumber: 87
                       },
                       __self: this
                     })
@@ -2222,7 +2221,7 @@ var Home = function (_React$Component) {
                       {
                         __source: {
                           fileName: _jsxFileName,
-                          lineNumber: 90
+                          lineNumber: 89
                         },
                         __self: this
                       },
@@ -2232,7 +2231,7 @@ var Home = function (_React$Component) {
                         {
                           __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 90
+                            lineNumber: 89
                           },
                           __self: this
                         },
@@ -2240,31 +2239,31 @@ var Home = function (_React$Component) {
                       )
                     ), __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 90
+                      lineNumber: 89
                     },
                     __self: this
                   },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-twitter', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.twitter, __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 91
+                      lineNumber: 90
                     },
                     __self: this
                   }),
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-facebook', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.facebook, __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 92
+                      lineNumber: 91
                     },
                     __self: this
                   }),
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-dribbble', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.dribble, __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 93
+                      lineNumber: 92
                     },
                     __self: this
                   }),
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-slack', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.slack, __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 94
+                      lineNumber: 93
                     },
                     __self: this
                   })
