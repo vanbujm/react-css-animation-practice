@@ -48,7 +48,8 @@ class Home extends React.Component {
         <div className={s.container}>
           <article className={s.content}>
             <section>
-              <h1>Jon and Patrick's Awesome Animation!</h1>
+              <h1>Earth Animation</h1>
+              <h4>Messing around with SVG graphics and animations</h4>
               <div className={s.row}>
                 <button
                   onClick={this.toggleAnimation}

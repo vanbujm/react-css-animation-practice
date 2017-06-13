@@ -1791,65 +1791,72 @@ class Sun extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
           __self: this
         },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'radialGradient',
-          {
-            id: 'a',
-            gradientUnits: 'userSpaceOnUse',
-            cx: '242',
-            cy: '238.6',
-            r: '194.4',
-            gradientTransform: 'matrix(.99521 -.00083 .00079 .94959 -8.013 12.809)',
-            __source: {
+          'pattern',
+          { id: 'pattern-0', x: '0', y: '0', width: '20', height: '20', patternUnits: 'userSpaceOnUse', viewBox: '0 0 100 100', __source: {
               fileName: _jsxFileName,
               lineNumber: 19
             },
             __self: this
           },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('stop', { offset: '0', stopColor: '#fff', __source: {
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('path', { d: 'M 0 0 L 50 0 L 50 100 L 0 100 Z', style: { fill: 'black' }, __source: {
               fileName: _jsxFileName,
-              lineNumber: 27
-            },
-            __self: this
-          }),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('stop', { offset: '1', stopColor: '#f80', __source: {
-              fileName: _jsxFileName,
-              lineNumber: 28
+              lineNumber: 20
             },
             __self: this
           })
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'radialGradient',
-          {
-            id: 'b',
-            gradientUnits: 'userSpaceOnUse',
-            cx: '253.3',
-            cy: '246.9',
-            r: '194.4',
-            gradientTransform: 'matrix(1.25101 -.01822 .01789 1.22836 -76.194 -50.587)',
-            __source: {
+          { id: 'gradient-2', gradientUnits: 'userSpaceOnUse', cx: '750.1', cy: '246.7', r: '194.4', gradientTransform: 'matrix(0.70129, -0.00058, 0.00056, 0.66914, -288.07928, 79.72377)', __source: {
               fileName: _jsxFileName,
-              lineNumber: 30
+              lineNumber: 22
             },
             __self: this
           },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('stop', { offset: '0', stopColor: '#ffae00', __source: {
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('stop', { offset: '0', style: { stopColor: 'rgb(255, 255, 255)' }, __source: {
               fileName: _jsxFileName,
-              lineNumber: 38
+              lineNumber: 23
             },
             __self: this
           }),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('stop', { offset: '1', stopColor: '#fffefc', __source: {
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('stop', { offset: '1', style: { stopColor: 'rgb(255, 136, 0)' }, __source: {
               fileName: _jsxFileName,
-              lineNumber: 39
+              lineNumber: 24
+            },
+            __self: this
+          })
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'radialGradient',
+          { id: 'gradient-1', gradientUnits: 'userSpaceOnUse', cx: '750.1', cy: '246.7', r: '194.4', gradientTransform: 'matrix(1.15882, -0.00483, 0.00463, 1.11173, -630.70203, -24.15555)', __source: {
+              fileName: _jsxFileName,
+              lineNumber: 26
+            },
+            __self: this
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('stop', { offset: '0', style: { stopColor: 'rgb(255, 136, 0)' }, __source: {
+              fileName: _jsxFileName,
+              lineNumber: 27
+            },
+            __self: this
+          }),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('stop', { offset: '1', style: { stopColor: 'rgba(255, 136, 0, 0)' }, __source: {
+              fileName: _jsxFileName,
+              lineNumber: 28
             },
             __self: this
           })
         )
       ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('ellipse', { cx: '243.9', cy: '245.8', rx: '207.8', ry: '207.8', fill: 'url(#a)', stroke: 'url(#b)', strokeWidth: '70', __source: {
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('ellipse', { style: { fill: 'url(#gradient-1)', strokeWidth: 70 }, cx: '247.7', cy: '251.4', rx: '239.3', ry: '239.3', __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 31
+        },
+        __self: this
+      }),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('ellipse', { style: { fill: 'url(#gradient-2)', strokeWidth: 70 }, cx: '243', cy: '247.4', rx: '146.5', ry: '146.5', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
         },
         __self: this
       })
@@ -2442,13 +2449,24 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                 },
                 __self: this
               },
-              'Jon and Patrick\'s Awesome Animation!'
+              'Earth Animation'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'h4',
+              {
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 52
+                },
+                __self: this
+              },
+              'Messing around with SVG graphics and animations'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'div',
               { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.row, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 52
+                  lineNumber: 53
                 },
                 __self: this
               },
@@ -2458,7 +2476,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   onClick: this.toggleAnimation,
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 53
+                    lineNumber: 54
                   },
                   __self: this
                 },
@@ -2469,13 +2487,13 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
               'div',
               { className: animationContainer, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 59
+                  lineNumber: 60
                 },
                 __self: this
               },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_Earth__["a" /* default */], { width: 104, height: 74, className: animate, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 60
+                  lineNumber: 61
                 },
                 __self: this
               }),
@@ -2487,7 +2505,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
             {
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 64
+                lineNumber: 65
               },
               __self: this
             },
@@ -2496,7 +2514,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
               {
                 __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 65
+                  lineNumber: 66
                 },
                 __self: this
               },
@@ -2508,7 +2526,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   href: 'https://www.reddit.com/r/web_design/comments/6fdobk/how_would_you_code_the_share_and_follow_buttons/',
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 65
+                    lineNumber: 66
                   },
                   __self: this
                 },
@@ -2519,7 +2537,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
               'div',
               { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.row, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 70
+                  lineNumber: 71
                 },
                 __self: this
               },
@@ -2527,7 +2545,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                 'label',
                 { htmlFor: 'button-text', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 71
+                    lineNumber: 72
                   },
                   __self: this
                 },
@@ -2543,7 +2561,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                 },
                 __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 72
+                  lineNumber: 73
                 },
                 __self: this
               })
@@ -2552,7 +2570,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
               'div',
               { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.exampleTwo, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 82
+                  lineNumber: 83
                 },
                 __self: this
               },
@@ -2560,7 +2578,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                 __WEBPACK_IMPORTED_MODULE_6__components_MediaButton__["a" /* default */],
                 { text: this.state.followButton, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 83
+                    lineNumber: 84
                   },
                   __self: this
                 },
@@ -2568,13 +2586,13 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   'a',
                   { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.twitter, __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 84
+                      lineNumber: 85
                     },
                     __self: this
                   },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-twitter', 'aria-hidden': 'true', __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 84
+                      lineNumber: 85
                     },
                     __self: this
                   })
@@ -2583,13 +2601,13 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   'a',
                   { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.facebook, __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 85
+                      lineNumber: 86
                     },
                     __self: this
                   },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-facebook', 'aria-hidden': 'true', __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 85
+                      lineNumber: 86
                     },
                     __self: this
                   })
@@ -2598,13 +2616,13 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   'a',
                   { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.dribble, __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 86
+                      lineNumber: 87
                     },
                     __self: this
                   },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-dribbble', 'aria-hidden': 'true', __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 86
+                      lineNumber: 87
                     },
                     __self: this
                   })
@@ -2613,13 +2631,13 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   'a',
                   { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.slack, __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 87
+                      lineNumber: 88
                     },
                     __self: this
                   },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-slack', 'aria-hidden': 'true', __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 87
+                      lineNumber: 88
                     },
                     __self: this
                   })
@@ -2632,7 +2650,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                     {
                       __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 89
+                        lineNumber: 90
                       },
                       __self: this
                     },
@@ -2642,7 +2660,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                       {
                         __source: {
                           fileName: _jsxFileName,
-                          lineNumber: 89
+                          lineNumber: 90
                         },
                         __self: this
                       },
@@ -2650,31 +2668,31 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                     )
                   ), __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 89
+                    lineNumber: 90
                   },
                   __self: this
                 },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-twitter', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.twitter, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 90
+                    lineNumber: 91
                   },
                   __self: this
                 }),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-facebook', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.facebook, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 91
+                    lineNumber: 92
                   },
                   __self: this
                 }),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-dribbble', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.dribble, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 92
+                    lineNumber: 93
                   },
                   __self: this
                 }),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-slack', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.slack, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 93
+                    lineNumber: 94
                   },
                   __self: this
                 })
@@ -3256,7 +3274,7 @@ exports = module.exports = __webpack_require__(1)(true);
 
 
 // module
-exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n.Home-root-1avl7 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  padding-left: 20px;\n  padding-right: 20px;\n}\n.Home-column-7h2Zk {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.Home-row-1MfJf {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  margin: 16px 0;\n  margin: 1rem 0;\n}\n.Home-container-3YPN- {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  margin: 0 auto;\n  max-width: 1000px;\n}\n.Home-animationContainer-2whAx {\n  margin: 16px 0;\n  margin: 1rem 0;\n  min-height: 20em;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  position: relative;\n}\n.Home-twitter-3j9ZP:hover {\n  background-color: #794BC4;\n}\n.Home-dribble-23a20:hover {\n  background-color: #DF3E7B;\n}\n.Home-facebook-BP3rk:hover {\n  background-color: #3B5998;\n}\n.Home-slack-vRQeT:hover {\n  background-color: white;\n}\n.Home-slack-vRQeT:hover i {\n      color: black;\n}\n.Home-content-1BGUJ {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.Home-exampleTwo-26mRB {\n  padding: 16px;\n  padding: 1rem;\n  background-color: #333333;\n}\n.Home-textBox-24n0A {\n  display: inline-block;\n}\na {\n  color: white;\n}\n.Home-link-Y_GIW {\n  color: #373277;\n}\n@-webkit-keyframes Home-mymove-bB2Z4 {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n@keyframes Home-mymove-bB2Z4 {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n.Home-animation-R_wCJ {\n  position: absolute;\n  -webkit-animation-name: Home-mymove-bB2Z4;\n          animation-name: Home-mymove-bB2Z4;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-duration: 10s;\n          animation-duration: 10s;\n  -webkit-animation-iteration-count: infinite;\n          animation-iteration-count: infinite\n}\n.Home-sun-14hMD {\n  position: absolute;\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/routes/home/Home.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;AACH;;;;;;;GAOG;AACH;EACE;;gFAE8E;;EAE9E;;gFAE8E;;EAE9E;;gFAE8E,EAAE,gCAAgC,EAAE,2BAA2B,EAAE,6BAA6B,CAAC,iCAAiC;;EAE9M;;gFAE8E;CAC/E;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,mBAAmB;EACnB,oBAAoB;CACrB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;CACtB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,eAAe;EACf,eAAe;CAChB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,eAAe;EACf,kBAAkB;CACnB;AACD;EACE,eAAe;EACf,eAAe;EACf,iBAAiB;EACjB,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;EAC5B,mBAAmB;CACpB;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,wBAAwB;CACzB;AACD;MACM,aAAa;CAClB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;CACtB;AACD;EACE,cAAc;EACd,cAAc;EACd,0BAA0B;CAC3B;AACD;EACE,sBAAsB;CACvB;AACD;EACE,aAAa;CACd;AACD;EACE,eAAe;CAChB;AACD;EACE;IACE,6DAA6D;YACrD,qDAAqD;GAC9D;;EAED;IACE,kEAAkE;YAC1D,0DAA0D;GACnE;CACF;AACD;EACE;IACE,6DAA6D;YACrD,qDAAqD;GAC9D;;EAED;IACE,kEAAkE;YAC1D,0DAA0D;GACnE;CACF;AACD;EACE,mBAAmB;EACnB,0CAA+B;UACvB,kCAAuB;EAC/B,0CAA0C;UAClC,kCAAkC;EAC1C,gCAAgC;UACxB,wBAAwB;EAChC,4CAA4C;UACpC,mCAAmC;CAC5C;AACD;EACE,mBAAmB;CACpB","file":"Home.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n.root {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  padding-left: 20px;\n  padding-right: 20px;\n}\n.column {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  margin: 16px 0;\n  margin: 1rem 0;\n}\n.container {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  margin: 0 auto;\n  max-width: 1000px;\n}\n.animationContainer {\n  margin: 16px 0;\n  margin: 1rem 0;\n  min-height: 20em;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  position: relative;\n}\n.twitter:hover {\n  background-color: #794BC4;\n}\n.dribble:hover {\n  background-color: #DF3E7B;\n}\n.facebook:hover {\n  background-color: #3B5998;\n}\n.slack:hover {\n  background-color: white;\n}\n.slack:hover i {\n      color: black;\n}\n.content {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.exampleTwo {\n  padding: 16px;\n  padding: 1rem;\n  background-color: #333333;\n}\n.textBox {\n  display: inline-block;\n}\na {\n  color: white;\n}\n.link {\n  color: #373277;\n}\n@-webkit-keyframes mymove {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n@keyframes mymove {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n.animation {\n  position: absolute;\n  -webkit-animation-name: mymove;\n          animation-name: mymove;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-duration: 10s;\n          animation-duration: 10s;\n  -webkit-animation-iteration-count: infinite;\n          animation-iteration-count: infinite\n}\n.sun {\n  position: absolute;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n.Home-root-1avl7 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  padding-left: 20px;\n  padding-right: 20px;\n}\n.Home-column-7h2Zk {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.Home-row-1MfJf {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  margin: 16px 0;\n  margin: 1rem 0;\n}\n.Home-container-3YPN- {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  margin: 0 auto;\n  max-width: 1000px;\n}\n.Home-animationContainer-2whAx {\n  margin: 16px 0;\n  margin: 1rem 0;\n  min-height: 30em;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  position: relative;\n  background-color: black;\n}\n.Home-twitter-3j9ZP:hover {\n  background-color: #794BC4;\n}\n.Home-dribble-23a20:hover {\n  background-color: #DF3E7B;\n}\n.Home-facebook-BP3rk:hover {\n  background-color: #3B5998;\n}\n.Home-slack-vRQeT:hover {\n  background-color: white;\n}\n.Home-slack-vRQeT:hover i {\n      color: black;\n}\n.Home-content-1BGUJ {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.Home-exampleTwo-26mRB {\n  padding: 16px;\n  padding: 1rem;\n  background-color: #333333;\n}\n.Home-textBox-24n0A {\n  display: inline-block;\n}\na {\n  color: white;\n}\n.Home-link-Y_GIW {\n  color: #373277;\n}\n@-webkit-keyframes Home-mymove-bB2Z4 {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n@keyframes Home-mymove-bB2Z4 {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n.Home-animation-R_wCJ {\n  position: absolute;\n  -webkit-animation-name: Home-mymove-bB2Z4;\n          animation-name: Home-mymove-bB2Z4;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-duration: 10s;\n          animation-duration: 10s;\n  -webkit-animation-iteration-count: infinite;\n          animation-iteration-count: infinite\n}\n.Home-sun-14hMD {\n  position: absolute;\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/routes/home/Home.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;AACH;;;;;;;GAOG;AACH;EACE;;gFAE8E;;EAE9E;;gFAE8E;;EAE9E;;gFAE8E,EAAE,gCAAgC,EAAE,2BAA2B,EAAE,6BAA6B,CAAC,iCAAiC;;EAE9M;;gFAE8E;CAC/E;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,mBAAmB;EACnB,oBAAoB;CACrB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;CACtB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,eAAe;EACf,eAAe;CAChB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,eAAe;EACf,kBAAkB;CACnB;AACD;EACE,eAAe;EACf,eAAe;EACf,iBAAiB;EACjB,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;EAC5B,mBAAmB;EACnB,wBAAwB;CACzB;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,wBAAwB;CACzB;AACD;MACM,aAAa;CAClB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;CACtB;AACD;EACE,cAAc;EACd,cAAc;EACd,0BAA0B;CAC3B;AACD;EACE,sBAAsB;CACvB;AACD;EACE,aAAa;CACd;AACD;EACE,eAAe;CAChB;AACD;EACE;IACE,6DAA6D;YACrD,qDAAqD;GAC9D;;EAED;IACE,kEAAkE;YAC1D,0DAA0D;GACnE;CACF;AACD;EACE;IACE,6DAA6D;YACrD,qDAAqD;GAC9D;;EAED;IACE,kEAAkE;YAC1D,0DAA0D;GACnE;CACF;AACD;EACE,mBAAmB;EACnB,0CAA+B;UACvB,kCAAuB;EAC/B,0CAA0C;UAClC,kCAAkC;EAC1C,gCAAgC;UACxB,wBAAwB;EAChC,4CAA4C;UACpC,mCAAmC;CAC5C;AACD;EACE,mBAAmB;CACpB","file":"Home.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n.root {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  padding-left: 20px;\n  padding-right: 20px;\n}\n.column {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  margin: 16px 0;\n  margin: 1rem 0;\n}\n.container {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  margin: 0 auto;\n  max-width: 1000px;\n}\n.animationContainer {\n  margin: 16px 0;\n  margin: 1rem 0;\n  min-height: 30em;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  position: relative;\n  background-color: black;\n}\n.twitter:hover {\n  background-color: #794BC4;\n}\n.dribble:hover {\n  background-color: #DF3E7B;\n}\n.facebook:hover {\n  background-color: #3B5998;\n}\n.slack:hover {\n  background-color: white;\n}\n.slack:hover i {\n      color: black;\n}\n.content {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.exampleTwo {\n  padding: 16px;\n  padding: 1rem;\n  background-color: #333333;\n}\n.textBox {\n  display: inline-block;\n}\na {\n  color: white;\n}\n.link {\n  color: #373277;\n}\n@-webkit-keyframes mymove {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n@keyframes mymove {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n.animation {\n  position: absolute;\n  -webkit-animation-name: mymove;\n          animation-name: mymove;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-duration: 10s;\n          animation-duration: 10s;\n  -webkit-animation-iteration-count: infinite;\n          animation-iteration-count: infinite\n}\n.sun {\n  position: absolute;\n}\n"],"sourceRoot":""}]);
 
 // exports
 exports.locals = {
