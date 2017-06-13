@@ -12,7 +12,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Home.css';
-import TWLogo from '../../components/TWLogo';
+import Earth from '../../components/Earth';
+import Sun from '../../components/Sun';
 import MediaButton from '../../components/MediaButton';
 
 class Home extends React.Component {
@@ -40,6 +41,8 @@ class Home extends React.Component {
   render() {
     const animate = !this.state.resetAnimation ? s.animation : '';
     const animationContainer = !this.state.resetAnimation ? s.animationContainer : '';
+    const sun = !this.state.resetAnimation ? <Sun width={208} height={148} className={s.sun} /> : null;
+
     return (
       <div className={s.root}>
         <div className={s.container}>
@@ -55,7 +58,8 @@ class Home extends React.Component {
                 </button>
               </div>
               <div className={animationContainer}>
-                <TWLogo width={104} height={74} className={animate} />
+                <Earth width={104} height={74} className={animate} />
+                { sun }
               </div>
             </section>
             <section>

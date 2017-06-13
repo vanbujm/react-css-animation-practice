@@ -65,7 +65,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "/assets/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 85);
+/******/ 	return __webpack_require__(__webpack_require__.s = 88);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -163,11 +163,11 @@ function toComment(sourceMap) {
 "use strict";
 
 
-var _stringify = __webpack_require__(67);
+var _stringify = __webpack_require__(70);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
-var _slicedToArray2 = __webpack_require__(68);
+var _slicedToArray2 = __webpack_require__(71);
 
 var _slicedToArray3 = _interopRequireDefault(_slicedToArray2);
 
@@ -309,12 +309,12 @@ module.exports = require("prop-types");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_normalize_css__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_normalize_css__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_normalize_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_normalize_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Layout_css__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Layout_css__ = __webpack_require__(59);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Layout_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__Layout_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Header__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Footer__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Header__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Footer__ = __webpack_require__(16);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Layout/Layout.js';
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
@@ -388,7 +388,7 @@ Layout.propTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__history__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__history__ = __webpack_require__(24);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Link/Link.js';
@@ -541,7 +541,7 @@ const SET_RUNTIME_VARIABLE = 'SET_RUNTIME_VARIABLE';
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(48);
+    var content = __webpack_require__(50);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -583,34 +583,34 @@ module.exports = require("redux");
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_path__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_express__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_express__ = __webpack_require__(75);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_express___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_express__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_cookie_parser__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_cookie_parser__ = __webpack_require__(74);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_cookie_parser___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_cookie_parser__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_body_parser__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_body_parser__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_body_parser___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_body_parser__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_express_jwt__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_express_jwt__ = __webpack_require__(77);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_express_jwt___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_express_jwt__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_express_graphql__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_express_graphql__ = __webpack_require__(76);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_express_graphql___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_express_graphql__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_dom_server__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_dom_server__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_dom_server___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react_dom_server__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_pretty_error__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_pretty_error__ = __webpack_require__(81);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_pretty_error___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_pretty_error__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_App__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_Html__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__routes_error_ErrorPage__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_Html__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__routes_error_ErrorPage__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__routes_error_ErrorPage_css__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__routes_error_ErrorPage_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__routes_error_ErrorPage_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__createFetch__ = __webpack_require__(22);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__router__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__assets_json__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__createFetch__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__router__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__assets_json__ = __webpack_require__(69);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__assets_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15__assets_json__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__store_configureStore__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__store_configureStore__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__actions_runtime__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__config__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__config___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_18__config__);
@@ -868,7 +868,7 @@ function setRuntimeVariable({ name, value }) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_redux__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_redux__ = __webpack_require__(83);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_redux___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_redux__);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -943,9 +943,111 @@ App.childContextTypes = ContextType;
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Earth_css__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Earth_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__Earth_css__);
+var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Earth/Earth.js';
+/* eslint-disable react/forbid-prop-types */
+
+
+
+
+
+class Earth extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
+
+  // className={this.props.className} width={this.props.width}
+  render() {
+    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'svg',
+      { viewBox: '0 0 500 500', xmlns: 'http://www.w3.org/2000/svg', className: this.props.className, width: this.props.width, height: this.props.height, __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('ellipse', { cx: '249.5', cy: '250', rx: '248', ry: '248', stroke: '#000', fill: '#2965e6', strokeWidth: '4', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('path', {
+        d: 'M162.9 477.5l34.5-12.9 10.5 5.6 18.6-.8s21.8 8.1 24.2 7.3c1.6-.8 21 0 21 0s24.3 8.1 24.3 6.4c0-1.6 25.8-4 25.8-4s-53.1 39.6-158.9-1.6z',
+        stroke: '#fff',
+        fill: '#fff',
+        strokeWidth: '2',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'g',
+        { stroke: '#000', fill: '#4ed226', strokeWidth: '3.475', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 25
+          },
+          __self: this
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('path', {
+          d: 'M183.529 361.253l-6.31-4.417s3.786-51.747-1.894-54.902c-5.68-3.155 6.941-15.776 12.621-13.252 5.68 2.525 37.864-18.302 35.34-25.243-2.525-6.942 12.62 6.31 13.882 4.417 1.263-1.893.632-16.407 24.613-12.62 23.98 3.787 15.776 3.155 15.776 3.155l-5.68 11.359 23.35 10.097 6.942-12.622 3.155-11.99s34.708 59.32 32.815 68.155c-1.894 8.835-16.407 47.96-25.874 42.912-9.465-5.049-29.028 0-25.874-6.941 3.156-6.941-22.717-34.078-33.445-26.506-10.728 7.573-50.485 18.302-44.175 20.826 6.31 2.524-29.029 3.155-25.242 7.572z',
+          strokeWidth: '3.999586',
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 26
+          },
+          __self: this
+        }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('path', {
+          d: 'M289.397 368.439s28.786 9.159 28.786 0c0-9.16-13.085 20.936-13.085 20.936l-15.701-20.936z',
+          strokeWidth: '3.999586',
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 30
+          },
+          __self: this
+        })
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('path', {
+        d: 'M390.1 352.6l-34 21 8.1 4 25.9-25zM409.4 318.7s0 25.8-8.8 23.4c-8.9-2.4-4.1 12.9-4.1 12.9l19.4-17.8s-10.5 4.9-6.5 0c4.1-5.6 0-20.2 0-18.5zM245.5 201.5l12.1 13s23.4 13.7 18.6 16.9c-4.9 3.2 19.3 7.3 19.3 7.3s3.3-10.5 16.2-.8c12.1 10.5 13.7 8.1 13.7 8.1l-14.5-21.9-33.1-18.5-10.5 8-6.5-9.6-5.6-1.7-9.7-.8zM189.7 178.9l-7.3 7.3-13.7 13.7-7.3-.8 4.1 16.2 18.6.8s7.2-21 12.9-20.2c4.8.8-7.3-7.3-1.6-10.5 4.8-3.3-5.7-7.3-5.7-6.5zM120.2 196.7s21 30.7 23.5 32.3c2.4 1.6 6.4-9.7 6.4-9.7l-8-6.5.8-5.6-22.7-10.5zM152.6 230.6l11.3 4.9 16.9 1.6 45.3-3.3-49.3-.8-10.5-3.2-13.7.8zM204.3 212.8l-3.3 10.5s-4.8-9.7-4.8-10.5c0-.8 7.3-16.9 7.3-16.9l18.5-1.6s-17.7 9.7-17.7 10.5c0 .8 11.3-2.5 11.3-2.5l-5.7 7.3 4.1 12.1-9.7-8.9zM23.9 147.2L15 195.7s48.5-97.8 53.4-88.9c5.6 9.7 2.4 21 2.4 21l10.5-6.4-4.9 29 10.5 31.5 14.6 15.4-4.1-29.1-12.9-15.3 7.3-18.6 12.1 4v6.5s42-17.8 25-32.3c-16.9-14.6 13-26.7 13-26.7s74.3-28.3 67-41.2c-8.1-13.7-7.3-13.7-7.3-13.7l16.2-7.3 18.6-1.6 8.9 8.9 11.3-7.3-17-5.6s56.6-8.1 54.1-10.5c-2.4-2.5-176.9-34-269.8 139.7zM292.3 40v8.9l-45.2 13.7h31.5l21-13.7 12.9-3.3-20.2-5.6z',
+        stroke: '#000',
+        fill: '#4ed226',
+        strokeWidth: '4',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      })
+    );
+  }
+}
+
+Earth.propTypes = {
+  width: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.number.isRequired,
+  height: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.number.isRequired,
+  className: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.string
+};
+Earth.defaultProps = {
+  className: ''
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_3__Earth_css___default.a)(Earth));
+
+/***/ }),
+/* 16 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Footer_css__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Footer_css__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Footer_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__Footer_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Link__ = __webpack_require__(6);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Footer/Footer.js';
@@ -1039,7 +1141,7 @@ class Footer extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_2__Footer_css___default.a)(Footer));
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1047,13 +1149,13 @@ class Footer extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Header_css__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Header_css__ = __webpack_require__(58);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Header_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__Header_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Link__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Navigation__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__logo_small_png__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Navigation__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__logo_small_png__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__logo_small_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__logo_small_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__logo_small_2x_png__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__logo_small_2x_png__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__logo_small_2x_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__logo_small_2x_png__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Header/Header.js';
 /**
@@ -1150,7 +1252,7 @@ class Header extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_2__Header_css___default.a)(Header));
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1158,7 +1260,7 @@ class Header extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_serialize_javascript__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_serialize_javascript__ = __webpack_require__(85);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_serialize_javascript___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_serialize_javascript__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__config__);
@@ -1322,7 +1424,7 @@ Html.defaultProps = {
 /* harmony default export */ __webpack_exports__["a"] = (Html);
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1332,9 +1434,9 @@ Html.defaultProps = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames__ = __webpack_require__(73);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_classnames__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__MediaButton_css__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__MediaButton_css__ = __webpack_require__(60);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__MediaButton_css__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/MediaButton/MediaButton.js';
 /* eslint-disable react/no-did-mount-set-state,react/no-array-index-key,max-len */
@@ -1506,7 +1608,7 @@ MediaButton.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a)(MediaButton));
 
 /***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1514,7 +1616,7 @@ MediaButton.propTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Navigation_css__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Navigation_css__ = __webpack_require__(61);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Navigation_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__Navigation_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Link__ = __webpack_require__(6);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Navigation/Navigation.js';
@@ -1569,7 +1671,7 @@ class Navigation extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_2__Navigation_css___default.a)(Navigation));
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1579,7 +1681,7 @@ class Navigation extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Page_css__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Page_css__ = __webpack_require__(62);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Page_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__Page_css__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Page/Page.js';
 /**
@@ -1648,7 +1750,7 @@ Page.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_3__Page_css___default.a)(Page));
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1658,21 +1760,22 @@ Page.propTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__TWLogo_css__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__TWLogo_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__TWLogo_css__);
-var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/TWLogo/TWLogo.js';
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Sun_css__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Sun_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__Sun_css__);
+var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Sun/Sun.js';
 /* eslint-disable react/forbid-prop-types */
 
 
 
 
 
-class TWLogo extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
+class Sun extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 
+  // className={this.props.className} width={this.props.width} height={this.props.height}
   render() {
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'svg',
-      { width: this.props.width, height: this.props.height, className: this.props.className, __source: {
+      { viewBox: '0 0 500 500', xmlns: 'http://www.w3.org/2000/svg', className: this.props.className, width: this.props.width, height: this.props.height, __source: {
           fileName: _jsxFileName,
           lineNumber: 17
         },
@@ -1689,78 +1792,88 @@ class TWLogo extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
         },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'radialGradient',
-          { id: 'patricksGradient', cx: '50%', cy: '50%', r: '100%', fx: '50%', fy: '50%', __source: {
+          {
+            id: 'a',
+            gradientUnits: 'userSpaceOnUse',
+            cx: '242',
+            cy: '238.6',
+            r: '194.4',
+            gradientTransform: 'matrix(.99521 -.00083 .00079 .94959 -8.013 12.809)',
+            __source: {
               fileName: _jsxFileName,
               lineNumber: 19
             },
             __self: this
           },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('stop', { offset: '0%', style: { stopColor: '#373277', stopOpacity: 1 }, __source: {
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('stop', { offset: '0', stopColor: '#fff', __source: {
               fileName: _jsxFileName,
-              lineNumber: 20
+              lineNumber: 27
             },
             __self: this
           }),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('stop', { offset: '20%', style: { stopColor: '#373277', stopOpacity: 1 }, __source: {
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('stop', { offset: '1', stopColor: '#f80', __source: {
               fileName: _jsxFileName,
-              lineNumber: 21
+              lineNumber: 28
+            },
+            __self: this
+          })
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'radialGradient',
+          {
+            id: 'b',
+            gradientUnits: 'userSpaceOnUse',
+            cx: '253.3',
+            cy: '246.9',
+            r: '194.4',
+            gradientTransform: 'matrix(1.25101 -.01822 .01789 1.22836 -76.194 -50.587)',
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 30
+            },
+            __self: this
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('stop', { offset: '0', stopColor: '#ffae00', __source: {
+              fileName: _jsxFileName,
+              lineNumber: 38
             },
             __self: this
           }),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('stop', { offset: '100%', style: { stopColor: 'white', stopOpacity: 1 }, __source: {
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('stop', { offset: '1', stopColor: '#fffefc', __source: {
               fileName: _jsxFileName,
-              lineNumber: 22
+              lineNumber: 39
             },
             __self: this
           })
         )
       ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('rect', {
-        x: '2',
-        y: '2',
-        rx: '20',
-        ry: '20',
-        width: '100',
-        height: '70'
-        // fill:red;stroke:black;stroke-width:5;opacity:0.5"
-        , style: { fill: 'url(#patricksGradient)', stroke: 'black', strokeWidth: 2 },
-        __source: {
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('ellipse', { cx: '243.9', cy: '245.8', rx: '207.8', ry: '207.8', fill: 'url(#a)', stroke: 'url(#b)', strokeWidth: '70', __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 42
         },
         __self: this
-      }),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'text',
-        { style: { fill: '#373277', stroke: 'black', strokeWidth: 2, fontSize: 45, fontFamily: 'Verdana' }, x: '17', y: '53', __source: {
-            fileName: _jsxFileName,
-            lineNumber: 35
-          },
-          __self: this
-        },
-        'TW'
-      )
+      })
     );
   }
 }
 
-TWLogo.propTypes = {
+Sun.propTypes = {
   width: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.number.isRequired,
   height: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.number.isRequired,
   className: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.string
 };
-TWLogo.defaultProps = {
+Sun.defaultProps = {
   className: ''
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_3__TWLogo_css___default.a)(TWLogo));
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_3__Sun_css___default.a)(Sun));
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_isomorphic_fetch__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_isomorphic_fetch__ = __webpack_require__(79);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_isomorphic_fetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_isomorphic_fetch__);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -1801,11 +1914,11 @@ function createFetch({ baseUrl, cookie }) {
 /* harmony default export */ __webpack_exports__["a"] = (createFetch);
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_createBrowserHistory__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_createBrowserHistory__ = __webpack_require__(78);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_createBrowserHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_history_createBrowserHistory__);
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
@@ -1823,14 +1936,14 @@ function createFetch({ baseUrl, cookie }) {
 /* harmony default export */ __webpack_exports__["a"] = (false && __WEBPACK_IMPORTED_MODULE_0_history_createBrowserHistory___default()());
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_redux__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__user__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__runtime__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__user__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__runtime__ = __webpack_require__(26);
 
 
 
@@ -1841,7 +1954,7 @@ function createFetch({ baseUrl, cookie }) {
 }));
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1863,7 +1976,7 @@ function runtime(state = {}, action) {
 }
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1876,13 +1989,13 @@ function user(state = {}, action) {
 }
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_universal_router__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_universal_router__ = __webpack_require__(86);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_universal_router___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_universal_router__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__routes__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__routes__ = __webpack_require__(35);
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
  *
@@ -1898,7 +2011,7 @@ function user(state = {}, action) {
 /* harmony default export */ __webpack_exports__["a"] = (new __WEBPACK_IMPORTED_MODULE_0_universal_router___default.a(__WEBPACK_IMPORTED_MODULE_1__routes__["a" /* default */]));
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1906,7 +2019,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Layout__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Page__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Page__ = __webpack_require__(21);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/about/index.js';
@@ -1935,7 +2048,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 
     return _asyncToGenerator(function* () {
       const data = yield new Promise(function(resolve) { resolve(); }).then((function (require) {
-        return __webpack_require__(65);
+        return __webpack_require__(68);
       }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 
       return {
@@ -1965,7 +2078,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 });
 
 /***/ }),
-/* 29 */
+/* 30 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1975,7 +2088,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Contact_css__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Contact_css__ = __webpack_require__(64);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Contact_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__Contact_css__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/contact/Contact.js';
 /**
@@ -2044,7 +2157,7 @@ Contact.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_3__Contact_css___default.a)(Contact));
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2052,7 +2165,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Layout__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Contact__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Contact__ = __webpack_require__(30);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/contact/index.js';
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
@@ -2098,7 +2211,7 @@ const title = 'Contact Us';
 });
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2222,7 +2335,7 @@ ErrorPage.propTypes = {
 /* unused harmony default export */ var _unused_webpack_default_export = (__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_3__ErrorPage_css___default.a)(ErrorPage));
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2232,10 +2345,11 @@ ErrorPage.propTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Home_css__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Home_css__ = __webpack_require__(65);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Home_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__Home_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_TWLogo__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_MediaButton__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_Earth__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_Sun__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_MediaButton__ = __webpack_require__(19);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/home/Home.js';
 /* eslint-disable jsx-a11y/anchor-has-content */
 /**
@@ -2246,6 +2360,7 @@ var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/route
  * This source code is licensed under the MIT license found in the
  * LICENSE.txt file in the root directory of this source tree.
  */
+
 
 
 
@@ -2278,11 +2393,18 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
   render() {
     const animate = !this.state.resetAnimation ? __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.animation : '';
     const animationContainer = !this.state.resetAnimation ? __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.animationContainer : '';
+    const sun = !this.state.resetAnimation ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_Sun__["a" /* default */], { width: 208, height: 148, className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.sun, __source: {
+        fileName: _jsxFileName,
+        lineNumber: 44
+      },
+      __self: this
+    }) : null;
+
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'div',
       { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.root, __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 47
         },
         __self: this
       },
@@ -2290,7 +2412,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
         'div',
         { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.container, __source: {
             fileName: _jsxFileName,
-            lineNumber: 45
+            lineNumber: 48
           },
           __self: this
         },
@@ -2298,7 +2420,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
           'article',
           { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.content, __source: {
               fileName: _jsxFileName,
-              lineNumber: 46
+              lineNumber: 49
             },
             __self: this
           },
@@ -2307,7 +2429,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
             {
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 47
+                lineNumber: 50
               },
               __self: this
             },
@@ -2316,7 +2438,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
               {
                 __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 48
+                  lineNumber: 51
                 },
                 __self: this
               },
@@ -2326,7 +2448,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
               'div',
               { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.row, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 49
+                  lineNumber: 52
                 },
                 __self: this
               },
@@ -2337,7 +2459,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   onClick: this.toggleAnimation,
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 50
+                    lineNumber: 53
                   },
                   __self: this
                 },
@@ -2348,16 +2470,17 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
               'div',
               { className: animationContainer, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 57
+                  lineNumber: 60
                 },
                 __self: this
               },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_TWLogo__["a" /* default */], { width: 104, height: 74, className: animate, __source: {
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_Earth__["a" /* default */], { width: 104, height: 74, className: animate, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 58
+                  lineNumber: 61
                 },
                 __self: this
-              })
+              }),
+              sun
             )
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -2365,7 +2488,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
             {
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 61
+                lineNumber: 65
               },
               __self: this
             },
@@ -2374,7 +2497,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
               {
                 __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 62
+                  lineNumber: 66
                 },
                 __self: this
               },
@@ -2386,7 +2509,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   href: 'https://www.reddit.com/r/web_design/comments/6fdobk/how_would_you_code_the_share_and_follow_buttons/',
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 62
+                    lineNumber: 66
                   },
                   __self: this
                 },
@@ -2397,7 +2520,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
               'div',
               { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.row, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 67
+                  lineNumber: 71
                 },
                 __self: this
               },
@@ -2405,7 +2528,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                 'label',
                 { htmlFor: 'button-text', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 68
+                    lineNumber: 72
                   },
                   __self: this
                 },
@@ -2421,7 +2544,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                 },
                 __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 69
+                  lineNumber: 73
                 },
                 __self: this
               })
@@ -2430,15 +2553,15 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
               'div',
               { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.exampleTwo, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 79
+                  lineNumber: 83
                 },
                 __self: this
               },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                __WEBPACK_IMPORTED_MODULE_5__components_MediaButton__["a" /* default */],
+                __WEBPACK_IMPORTED_MODULE_6__components_MediaButton__["a" /* default */],
                 { text: this.state.followButton, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 80
+                    lineNumber: 84
                   },
                   __self: this
                 },
@@ -2446,13 +2569,13 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   'a',
                   { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.twitter, __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 81
+                      lineNumber: 85
                     },
                     __self: this
                   },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-twitter', 'aria-hidden': 'true', __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 81
+                      lineNumber: 85
                     },
                     __self: this
                   })
@@ -2461,13 +2584,13 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   'a',
                   { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.facebook, __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 82
+                      lineNumber: 86
                     },
                     __self: this
                   },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-facebook', 'aria-hidden': 'true', __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 82
+                      lineNumber: 86
                     },
                     __self: this
                   })
@@ -2476,13 +2599,13 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   'a',
                   { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.dribble, __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 83
+                      lineNumber: 87
                     },
                     __self: this
                   },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-dribbble', 'aria-hidden': 'true', __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 83
+                      lineNumber: 87
                     },
                     __self: this
                   })
@@ -2491,26 +2614,26 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   'a',
                   { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.slack, __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 84
+                      lineNumber: 88
                     },
                     __self: this
                   },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-slack', 'aria-hidden': 'true', __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 84
+                      lineNumber: 88
                     },
                     __self: this
                   })
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                __WEBPACK_IMPORTED_MODULE_5__components_MediaButton__["a" /* default */],
+                __WEBPACK_IMPORTED_MODULE_6__components_MediaButton__["a" /* default */],
                 { text: __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'span',
                     {
                       __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 86
+                        lineNumber: 90
                       },
                       __self: this
                     },
@@ -2520,7 +2643,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                       {
                         __source: {
                           fileName: _jsxFileName,
-                          lineNumber: 86
+                          lineNumber: 90
                         },
                         __self: this
                       },
@@ -2528,31 +2651,31 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                     )
                   ), __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 86
+                    lineNumber: 90
                   },
                   __self: this
                 },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-twitter', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.twitter, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 87
+                    lineNumber: 91
                   },
                   __self: this
                 }),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-facebook', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.facebook, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 88
+                    lineNumber: 92
                   },
                   __self: this
                 }),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-dribbble', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.dribble, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 89
+                    lineNumber: 93
                   },
                   __self: this
                 }),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-slack', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.slack, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 90
+                    lineNumber: 94
                   },
                   __self: this
                 })
@@ -2569,14 +2692,14 @@ Home.propTypes = {};
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_3__Home_css___default.a)(Home));
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Home__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Home__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Layout__ = __webpack_require__(5);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/home/index.js';
 
@@ -2628,7 +2751,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 });
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2651,10 +2774,10 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
   path: '/',
 
   // Keep in mind, routes are evaluated in order
-  children: [__webpack_require__(33).default, __webpack_require__(30).default, __webpack_require__(28).default,
+  children: [__webpack_require__(34).default, __webpack_require__(31).default, __webpack_require__(29).default,
 
   // Wildcard routes, e.g. { path: '*', ... } (must go last)
-  __webpack_require__(36).default],
+  __webpack_require__(37).default],
 
   action({ next }) {
     return _asyncToGenerator(function* () {
@@ -2672,7 +2795,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 });
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2682,7 +2805,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__NotFound_css__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__NotFound_css__ = __webpack_require__(66);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__NotFound_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__NotFound_css__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/notFound/NotFound.js';
 /**
@@ -2751,7 +2874,7 @@ NotFound.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_3__NotFound_css___default.a)(NotFound));
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2759,7 +2882,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Layout__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__NotFound__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__NotFound__ = __webpack_require__(36);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/notFound/index.js';
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
@@ -2806,18 +2929,18 @@ const title = 'Page Not Found';
 });
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = configureStore;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_redux__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux_thunk__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux_thunk__ = __webpack_require__(84);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux_thunk___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_redux_thunk__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__reducers__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__createHelpers__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__logger__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__reducers__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__createHelpers__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__logger__ = __webpack_require__(40);
 
 
 
@@ -2858,7 +2981,7 @@ function configureStore(initialState, helpersConfig) {
 }
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2899,12 +3022,12 @@ function createHelpers({ fetch, history }) {
 }
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = createLogger;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_util__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_util__ = __webpack_require__(87);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_util___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_util__);
 
 
@@ -2949,7 +3072,21 @@ function createLogger() {
 }
 
 /***/ }),
-/* 40 */
+/* 41 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(1)(true);
+// imports
+
+
+// module
+exports.push([module.i, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"Earth.css","sourceRoot":""}]);
+
+// exports
+
+
+/***/ }),
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -2969,7 +3106,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 41 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -2991,7 +3128,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 42 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3008,7 +3145,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 43 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3031,7 +3168,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 44 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3050,7 +3187,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 45 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3067,7 +3204,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 46 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3075,13 +3212,13 @@ exports = module.exports = __webpack_require__(1)(true);
 
 
 // module
-exports.push([module.i, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"TWLogo.css","sourceRoot":""}]);
+exports.push([module.i, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"Sun.css","sourceRoot":""}]);
 
 // exports
 
 
 /***/ }),
-/* 47 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3098,7 +3235,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 48 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3112,7 +3249,7 @@ exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.
 
 
 /***/ }),
-/* 49 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3120,7 +3257,7 @@ exports = module.exports = __webpack_require__(1)(true);
 
 
 // module
-exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n.Home-root-1avl7 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  padding-left: 20px;\n  padding-right: 20px;\n}\n.Home-column-7h2Zk {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.Home-row-1MfJf {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  margin: 16px 0;\n  margin: 1rem 0;\n}\n.Home-container-3YPN- {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  margin: 0 auto;\n  max-width: 1000px;\n}\n.Home-animationContainer-2whAx {\n  margin: 16px 0;\n  margin: 1rem 0;\n  min-height: 20em;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n.Home-twitter-3j9ZP:hover {\n  background-color: #794BC4;\n}\n.Home-dribble-23a20:hover {\n  background-color: #DF3E7B;\n}\n.Home-facebook-BP3rk:hover {\n  background-color: #3B5998;\n}\n.Home-slack-vRQeT:hover {\n  background-color: white;\n}\n.Home-slack-vRQeT:hover i {\n      color: black;\n}\n.Home-content-1BGUJ {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.Home-exampleTwo-26mRB {\n  padding: 16px;\n  padding: 1rem;\n  background-color: #333333;\n}\n.Home-textBox-24n0A {\n  display: inline-block;\n}\na {\n  color: white;\n}\n.Home-link-Y_GIW {\n  color: #373277;\n}\n@-webkit-keyframes Home-mymove-bB2Z4 {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n@keyframes Home-mymove-bB2Z4 {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n.Home-animation-R_wCJ {\n  -webkit-animation-name: Home-mymove-bB2Z4;\n          animation-name: Home-mymove-bB2Z4;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-duration: 2s;\n          animation-duration: 2s;\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/routes/home/Home.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;AACH;;;;;;;GAOG;AACH;EACE;;gFAE8E;;EAE9E;;gFAE8E;;EAE9E;;gFAE8E,EAAE,gCAAgC,EAAE,2BAA2B,EAAE,6BAA6B,CAAC,iCAAiC;;EAE9M;;gFAE8E;CAC/E;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,mBAAmB;EACnB,oBAAoB;CACrB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;CACtB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,eAAe;EACf,eAAe;CAChB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,eAAe;EACf,kBAAkB;CACnB;AACD;EACE,eAAe;EACf,eAAe;EACf,iBAAiB;EACjB,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;CAC7B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,wBAAwB;CACzB;AACD;MACM,aAAa;CAClB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;CACtB;AACD;EACE,cAAc;EACd,cAAc;EACd,0BAA0B;CAC3B;AACD;EACE,sBAAsB;CACvB;AACD;EACE,aAAa;CACd;AACD;EACE,eAAe;CAChB;AACD;EACE;IACE,6DAA6D;YACrD,qDAAqD;GAC9D;;EAED;IACE,kEAAkE;YAC1D,0DAA0D;GACnE;CACF;AACD;EACE;IACE,6DAA6D;YACrD,qDAAqD;GAC9D;;EAED;IACE,kEAAkE;YAC1D,0DAA0D;GACnE;CACF;AACD;EACE,0CAA+B;UACvB,kCAAuB;EAC/B,0CAA0C;UAClC,kCAAkC;EAC1C,+BAA+B;UACvB,uBAAuB;CAChC","file":"Home.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n.root {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  padding-left: 20px;\n  padding-right: 20px;\n}\n.column {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  margin: 16px 0;\n  margin: 1rem 0;\n}\n.container {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  margin: 0 auto;\n  max-width: 1000px;\n}\n.animationContainer {\n  margin: 16px 0;\n  margin: 1rem 0;\n  min-height: 20em;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n.twitter:hover {\n  background-color: #794BC4;\n}\n.dribble:hover {\n  background-color: #DF3E7B;\n}\n.facebook:hover {\n  background-color: #3B5998;\n}\n.slack:hover {\n  background-color: white;\n}\n.slack:hover i {\n      color: black;\n}\n.content {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.exampleTwo {\n  padding: 16px;\n  padding: 1rem;\n  background-color: #333333;\n}\n.textBox {\n  display: inline-block;\n}\na {\n  color: white;\n}\n.link {\n  color: #373277;\n}\n@-webkit-keyframes mymove {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n@keyframes mymove {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n.animation {\n  -webkit-animation-name: mymove;\n          animation-name: mymove;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-duration: 2s;\n          animation-duration: 2s;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n.Home-root-1avl7 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  padding-left: 20px;\n  padding-right: 20px;\n}\n.Home-column-7h2Zk {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.Home-row-1MfJf {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  margin: 16px 0;\n  margin: 1rem 0;\n}\n.Home-container-3YPN- {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  margin: 0 auto;\n  max-width: 1000px;\n}\n.Home-animationContainer-2whAx {\n  margin: 16px 0;\n  margin: 1rem 0;\n  min-height: 20em;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  position: relative;\n}\n.Home-twitter-3j9ZP:hover {\n  background-color: #794BC4;\n}\n.Home-dribble-23a20:hover {\n  background-color: #DF3E7B;\n}\n.Home-facebook-BP3rk:hover {\n  background-color: #3B5998;\n}\n.Home-slack-vRQeT:hover {\n  background-color: white;\n}\n.Home-slack-vRQeT:hover i {\n      color: black;\n}\n.Home-content-1BGUJ {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.Home-exampleTwo-26mRB {\n  padding: 16px;\n  padding: 1rem;\n  background-color: #333333;\n}\n.Home-textBox-24n0A {\n  display: inline-block;\n}\na {\n  color: white;\n}\n.Home-link-Y_GIW {\n  color: #373277;\n}\n@-webkit-keyframes Home-mymove-bB2Z4 {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n@keyframes Home-mymove-bB2Z4 {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n.Home-animation-R_wCJ {\n  position: absolute;\n  -webkit-animation-name: Home-mymove-bB2Z4;\n          animation-name: Home-mymove-bB2Z4;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-duration: 10s;\n          animation-duration: 10s;\n}\n.Home-sun-14hMD {\n  position: absolute;\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/routes/home/Home.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;AACH;;;;;;;GAOG;AACH;EACE;;gFAE8E;;EAE9E;;gFAE8E;;EAE9E;;gFAE8E,EAAE,gCAAgC,EAAE,2BAA2B,EAAE,6BAA6B,CAAC,iCAAiC;;EAE9M;;gFAE8E;CAC/E;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,mBAAmB;EACnB,oBAAoB;CACrB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;CACtB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,eAAe;EACf,eAAe;CAChB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,eAAe;EACf,kBAAkB;CACnB;AACD;EACE,eAAe;EACf,eAAe;EACf,iBAAiB;EACjB,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;EAC5B,mBAAmB;CACpB;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,wBAAwB;CACzB;AACD;MACM,aAAa;CAClB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;CACtB;AACD;EACE,cAAc;EACd,cAAc;EACd,0BAA0B;CAC3B;AACD;EACE,sBAAsB;CACvB;AACD;EACE,aAAa;CACd;AACD;EACE,eAAe;CAChB;AACD;EACE;IACE,6DAA6D;YACrD,qDAAqD;GAC9D;;EAED;IACE,kEAAkE;YAC1D,0DAA0D;GACnE;CACF;AACD;EACE;IACE,6DAA6D;YACrD,qDAAqD;GAC9D;;EAED;IACE,kEAAkE;YAC1D,0DAA0D;GACnE;CACF;AACD;EACE,mBAAmB;EACnB,0CAA+B;UACvB,kCAAuB;EAC/B,0CAA0C;UAClC,kCAAkC;EAC1C,gCAAgC;UACxB,wBAAwB;CACjC;AACD;EACE,mBAAmB;CACpB","file":"Home.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n.root {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  padding-left: 20px;\n  padding-right: 20px;\n}\n.column {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  margin: 16px 0;\n  margin: 1rem 0;\n}\n.container {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  margin: 0 auto;\n  max-width: 1000px;\n}\n.animationContainer {\n  margin: 16px 0;\n  margin: 1rem 0;\n  min-height: 20em;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  position: relative;\n}\n.twitter:hover {\n  background-color: #794BC4;\n}\n.dribble:hover {\n  background-color: #DF3E7B;\n}\n.facebook:hover {\n  background-color: #3B5998;\n}\n.slack:hover {\n  background-color: white;\n}\n.slack:hover i {\n      color: black;\n}\n.content {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.exampleTwo {\n  padding: 16px;\n  padding: 1rem;\n  background-color: #333333;\n}\n.textBox {\n  display: inline-block;\n}\na {\n  color: white;\n}\n.link {\n  color: #373277;\n}\n@-webkit-keyframes mymove {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n@keyframes mymove {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n.animation {\n  position: absolute;\n  -webkit-animation-name: mymove;\n          animation-name: mymove;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-duration: 10s;\n          animation-duration: 10s;\n}\n.sun {\n  position: absolute;\n}\n"],"sourceRoot":""}]);
 
 // exports
 exports.locals = {
@@ -3138,11 +3275,12 @@ exports.locals = {
 	"textBox": "Home-textBox-24n0A",
 	"link": "Home-link-Y_GIW",
 	"animation": "Home-animation-R_wCJ",
-	"mymove": "Home-mymove-bB2Z4"
+	"mymove": "Home-mymove-bB2Z4",
+	"sun": "Home-sun-14hMD"
 };
 
 /***/ }),
-/* 50 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3159,7 +3297,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 51 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3173,23 +3311,58 @@ exports.push([module.i, "/*! normalize.css v7.0.0 | MIT License | github.com/nec
 
 
 /***/ }),
-/* 52 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "src/components/Header/logo-small.png?2f751285";
 
 /***/ }),
-/* 53 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.png?8844262b";
 
 /***/ }),
-/* 54 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(40);
+    var content = __webpack_require__(41);
+    var insertCss = __webpack_require__(2);
+
+    if (typeof content === 'string') {
+      content = [[module.i, content, '']];
+    }
+
+    module.exports = content.locals || {};
+    module.exports._getContent = function() { return content; };
+    module.exports._getCss = function() { return content.toString(); };
+    module.exports._insertCss = function(options) { return insertCss(content, options) };
+    
+    // Hot Module Replacement
+    // https://webpack.github.io/docs/hot-module-replacement
+    // Only activated in browser context
+    if (false) {
+      var removeCss = function() {};
+      module.hot.accept("!!../../../node_modules/css-loader/index.js??ref--1-1!../../../node_modules/postcss-loader/lib/index.js??ref--1-2!./Earth.css", function() {
+        content = require("!!../../../node_modules/css-loader/index.js??ref--1-1!../../../node_modules/postcss-loader/lib/index.js??ref--1-2!./Earth.css");
+
+        if (typeof content === 'string') {
+          content = [[module.id, content, '']];
+        }
+
+        removeCss = insertCss(content, { replace: true });
+      });
+      module.hot.dispose(function() { removeCss(); });
+    }
+  
+
+/***/ }),
+/* 57 */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+    var content = __webpack_require__(42);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3220,11 +3393,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 55 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(41);
+    var content = __webpack_require__(43);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3255,11 +3428,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 56 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(42);
+    var content = __webpack_require__(44);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3290,11 +3463,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 57 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(43);
+    var content = __webpack_require__(45);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3325,11 +3498,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 58 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(44);
+    var content = __webpack_require__(46);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3360,11 +3533,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 59 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(45);
+    var content = __webpack_require__(47);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3395,11 +3568,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 60 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(46);
+    var content = __webpack_require__(48);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3416,8 +3589,8 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
     // Only activated in browser context
     if (false) {
       var removeCss = function() {};
-      module.hot.accept("!!../../../node_modules/css-loader/index.js??ref--1-1!../../../node_modules/postcss-loader/lib/index.js??ref--1-2!./TWLogo.css", function() {
-        content = require("!!../../../node_modules/css-loader/index.js??ref--1-1!../../../node_modules/postcss-loader/lib/index.js??ref--1-2!./TWLogo.css");
+      module.hot.accept("!!../../../node_modules/css-loader/index.js??ref--1-1!../../../node_modules/postcss-loader/lib/index.js??ref--1-2!./Sun.css", function() {
+        content = require("!!../../../node_modules/css-loader/index.js??ref--1-1!../../../node_modules/postcss-loader/lib/index.js??ref--1-2!./Sun.css");
 
         if (typeof content === 'string') {
           content = [[module.id, content, '']];
@@ -3430,11 +3603,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 61 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(47);
+    var content = __webpack_require__(49);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3465,11 +3638,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 62 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(49);
+    var content = __webpack_require__(51);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3500,11 +3673,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 63 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(50);
+    var content = __webpack_require__(52);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3535,11 +3708,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 64 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(51);
+    var content = __webpack_require__(53);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3570,127 +3743,127 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 65 */
+/* 68 */
 /***/ (function(module, exports) {
 
 module.exports = {"title":"About Us","component":"ContentPage","html":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat\ntortor fermentum mi fermentum dignissim. Nullam vel ipsum ut ligula elementum\nlobortis. Maecenas aliquam, massa laoreet lacinia pretium, nisi urna venenatis\ntortor, nec imperdiet tellus libero efficitur metus. Fusce semper posuere\nligula, et facilisis metus bibendum interdum. Mauris at mauris sit amet sem\npharetra commodo a eu leo. Nam at est non risus cursus maximus. Nam feugiat\naugue libero, id consectetur tortor bibendum non. Quisque nec fringilla lorem.\nNullam efficitur vulputate mauris, nec maximus leo dignissim id.</p>\n<p>In hac habitasse platea dictumst. Duis sagittis dui ac ex suscipit maximus.\nMorbi pellentesque venenatis felis sed convallis. Nulla varius, nibh vitae\nplacerat tempus, mauris sem elementum ipsum, eget sollicitudin nisl est vel\npurus. Fusce malesuada odio velit, non cursus leo fermentum id. Cras pharetra\nsodales fringilla. Etiam quis est a dolor egestas pellentesque. Maecenas non\nscelerisque purus, congue cursus arcu. Donec vel dapibus mi. Mauris maximus\nposuere placerat. Sed et libero eu nibh tristique mollis a eget lectus. Donec\ninterdum augue sollicitudin vehicula hendrerit. Vivamus justo orci, molestie\nac sollicitudin ac, lobortis at tellus. Etiam rhoncus ullamcorper risus eu\ntempor. Sed porttitor, neque ac efficitur gravida, arcu lacus pharetra dui, in\nconsequat elit tellus auctor nulla. Donec placerat elementum diam, vitae\nimperdiet lectus luctus at.</p>\n<p>Nullam eu feugiat mi. Quisque nec tristique nisl, dignissim dictum leo. Nam\nnon quam nisi. Donec rutrum turpis ac diam blandit, id pulvinar mauris\nsuscipit. Pellentesque tincidunt libero ultricies risus iaculis, sit amet\nconsequat velit blandit. Fusce quis varius nulla. Nullam nisi nisi, suscipit\nut magna quis, feugiat porta nibh. Sed id enim lectus. Suspendisse elementum\njusto sapien, sit amet consequat orci accumsan et. Aliquam ornare ullamcorper\nsem sed finibus. Nullam ac lacus pulvinar, egestas felis ut, accumsan est.</p>\n<p>Pellentesque sagittis vehicula sem quis luctus. Proin sodales magna in lorem\nhendrerit aliquam. Integer eu varius orci. Vestibulum ante ipsum primis in\nfaucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ante ipsum\nprimis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut at mauris\nnibh. Suspendisse maximus ac eros at vestibulum.</p>\n<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque egestas\ntortor et dui consequat faucibus. Nunc vitae odio ornare, venenatis ligula a,\nvulputate nisl. Aenean congue varius ex, sit amet bibendum odio posuere at.\nNulla facilisi. In finibus, nulla vitae tincidunt ornare, sapien nulla\nfermentum mauris, sed consectetur tortor arcu eget arcu. Vestibulum vel quam\nenim.</p>\n"};
 
 /***/ }),
-/* 66 */
+/* 69 */
 /***/ (function(module, exports) {
 
 module.exports = require("./assets.json");
 
 /***/ }),
-/* 67 */
+/* 70 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-runtime/core-js/json/stringify");
 
 /***/ }),
-/* 68 */
+/* 71 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-runtime/helpers/slicedToArray");
 
 /***/ }),
-/* 69 */
+/* 72 */
 /***/ (function(module, exports) {
 
 module.exports = require("body-parser");
 
 /***/ }),
-/* 70 */
+/* 73 */
 /***/ (function(module, exports) {
 
 module.exports = require("classnames");
 
 /***/ }),
-/* 71 */
+/* 74 */
 /***/ (function(module, exports) {
 
 module.exports = require("cookie-parser");
 
 /***/ }),
-/* 72 */
+/* 75 */
 /***/ (function(module, exports) {
 
 module.exports = require("express");
 
 /***/ }),
-/* 73 */
+/* 76 */
 /***/ (function(module, exports) {
 
 module.exports = require("express-graphql");
 
 /***/ }),
-/* 74 */
+/* 77 */
 /***/ (function(module, exports) {
 
 module.exports = require("express-jwt");
 
 /***/ }),
-/* 75 */
+/* 78 */
 /***/ (function(module, exports) {
 
 module.exports = require("history/createBrowserHistory");
 
 /***/ }),
-/* 76 */
+/* 79 */
 /***/ (function(module, exports) {
 
 module.exports = require("isomorphic-fetch");
 
 /***/ }),
-/* 77 */
+/* 80 */
 /***/ (function(module, exports) {
 
 module.exports = require("path");
 
 /***/ }),
-/* 78 */
+/* 81 */
 /***/ (function(module, exports) {
 
 module.exports = require("pretty-error");
 
 /***/ }),
-/* 79 */
+/* 82 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom/server");
 
 /***/ }),
-/* 80 */
+/* 83 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-redux");
 
 /***/ }),
-/* 81 */
+/* 84 */
 /***/ (function(module, exports) {
 
 module.exports = require("redux-thunk");
 
 /***/ }),
-/* 82 */
+/* 85 */
 /***/ (function(module, exports) {
 
 module.exports = require("serialize-javascript");
 
 /***/ }),
-/* 83 */
+/* 86 */
 /***/ (function(module, exports) {
 
 module.exports = require("universal-router");
 
 /***/ }),
-/* 84 */
+/* 87 */
 /***/ (function(module, exports) {
 
 module.exports = require("util");
 
 /***/ }),
-/* 85 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(12);

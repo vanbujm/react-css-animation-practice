@@ -1,6 +1,6 @@
 {
-  "name": "TWLogo",
+  "name": "Earth",
   "version": "0.0.0",
   "private": true,
-  "main": "./TWLogo.js"
+  "main": "./Earth.js"
 }

@@ -4,9 +4,9 @@ webpackJsonp([1],{
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__history__ = __webpack_require__(178);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -118,7 +118,7 @@ Link.defaultProps = {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_createBrowserHistory__ = __webpack_require__(556);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_createBrowserHistory__ = __webpack_require__(558);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_createBrowserHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_history_createBrowserHistory__);
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
@@ -142,23 +142,23 @@ Link.defaultProps = {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(229);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_redbox_react__ = __webpack_require__(676);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_redbox_react__ = __webpack_require__(679);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_redbox_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_redbox_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_deep_force_update__ = __webpack_require__(582);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_deep_force_update__ = __webpack_require__(585);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_deep_force_update___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react_deep_force_update__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_fastclick__ = __webpack_require__(537);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_fastclick__ = __webpack_require__(539);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_fastclick___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_fastclick__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_query_string__ = __webpack_require__(581);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_query_string__ = __webpack_require__(584);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_query_string___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_query_string__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_history_PathUtils__ = __webpack_require__(157);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_history_PathUtils___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_history_PathUtils__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_App__ = __webpack_require__(266);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__createFetch__ = __webpack_require__(274);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__store_configureStore__ = __webpack_require__(287);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__createFetch__ = __webpack_require__(275);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__store_configureStore__ = __webpack_require__(288);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__history__ = __webpack_require__(178);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__DOMUtils__ = __webpack_require__(265);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/client.js',
@@ -385,7 +385,7 @@ __WEBPACK_IMPORTED_MODULE_4_fastclick___default.a.attach(document.body);
 var container = document.getElementById('app');
 var appInstance = void 0;
 var currentLocation = __WEBPACK_IMPORTED_MODULE_10__history__["a" /* default */].location;
-var router = __webpack_require__(278).default;__WEBPACK_IMPORTED_MODULE_10__history__["a" /* default */].listen(onLocationChange);
+var router = __webpack_require__(279).default;__WEBPACK_IMPORTED_MODULE_10__history__["a" /* default */].listen(onLocationChange);
 onLocationChange(currentLocation);
 
 // Handle errors that might happen after rendering
@@ -482,11 +482,11 @@ function updateLink(rel, href) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_redux__ = __webpack_require__(660);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_redux__ = __webpack_require__(663);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -582,11 +582,139 @@ App.childContextTypes = ContextType;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Earth_css__ = __webpack_require__(562);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Earth_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__Earth_css__);
+var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Earth/Earth.js';
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+/* eslint-disable react/forbid-prop-types */
+
+
+
+
+
+var Earth = function (_React$Component) {
+  _inherits(Earth, _React$Component);
+
+  function Earth() {
+    _classCallCheck(this, Earth);
+
+    return _possibleConstructorReturn(this, (Earth.__proto__ || Object.getPrototypeOf(Earth)).apply(this, arguments));
+  }
+
+  _createClass(Earth, [{
+    key: 'render',
+
+
+    // className={this.props.className} width={this.props.width}
+    value: function render() {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'svg',
+        { viewBox: '0 0 500 500', xmlns: 'http://www.w3.org/2000/svg', className: this.props.className, width: this.props.width, height: this.props.height, __source: {
+            fileName: _jsxFileName,
+            lineNumber: 17
+          },
+          __self: this
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('ellipse', { cx: '249.5', cy: '250', rx: '248', ry: '248', stroke: '#000', fill: '#2965e6', strokeWidth: '4', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 18
+          },
+          __self: this
+        }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('path', {
+          d: 'M162.9 477.5l34.5-12.9 10.5 5.6 18.6-.8s21.8 8.1 24.2 7.3c1.6-.8 21 0 21 0s24.3 8.1 24.3 6.4c0-1.6 25.8-4 25.8-4s-53.1 39.6-158.9-1.6z',
+          stroke: '#fff',
+          fill: '#fff',
+          strokeWidth: '2',
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 19
+          },
+          __self: this
+        }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'g',
+          { stroke: '#000', fill: '#4ed226', strokeWidth: '3.475', __source: {
+              fileName: _jsxFileName,
+              lineNumber: 25
+            },
+            __self: this
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('path', {
+            d: 'M183.529 361.253l-6.31-4.417s3.786-51.747-1.894-54.902c-5.68-3.155 6.941-15.776 12.621-13.252 5.68 2.525 37.864-18.302 35.34-25.243-2.525-6.942 12.62 6.31 13.882 4.417 1.263-1.893.632-16.407 24.613-12.62 23.98 3.787 15.776 3.155 15.776 3.155l-5.68 11.359 23.35 10.097 6.942-12.622 3.155-11.99s34.708 59.32 32.815 68.155c-1.894 8.835-16.407 47.96-25.874 42.912-9.465-5.049-29.028 0-25.874-6.941 3.156-6.941-22.717-34.078-33.445-26.506-10.728 7.573-50.485 18.302-44.175 20.826 6.31 2.524-29.029 3.155-25.242 7.572z',
+            strokeWidth: '3.999586',
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 26
+            },
+            __self: this
+          }),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('path', {
+            d: 'M289.397 368.439s28.786 9.159 28.786 0c0-9.16-13.085 20.936-13.085 20.936l-15.701-20.936z',
+            strokeWidth: '3.999586',
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 30
+            },
+            __self: this
+          })
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('path', {
+          d: 'M390.1 352.6l-34 21 8.1 4 25.9-25zM409.4 318.7s0 25.8-8.8 23.4c-8.9-2.4-4.1 12.9-4.1 12.9l19.4-17.8s-10.5 4.9-6.5 0c4.1-5.6 0-20.2 0-18.5zM245.5 201.5l12.1 13s23.4 13.7 18.6 16.9c-4.9 3.2 19.3 7.3 19.3 7.3s3.3-10.5 16.2-.8c12.1 10.5 13.7 8.1 13.7 8.1l-14.5-21.9-33.1-18.5-10.5 8-6.5-9.6-5.6-1.7-9.7-.8zM189.7 178.9l-7.3 7.3-13.7 13.7-7.3-.8 4.1 16.2 18.6.8s7.2-21 12.9-20.2c4.8.8-7.3-7.3-1.6-10.5 4.8-3.3-5.7-7.3-5.7-6.5zM120.2 196.7s21 30.7 23.5 32.3c2.4 1.6 6.4-9.7 6.4-9.7l-8-6.5.8-5.6-22.7-10.5zM152.6 230.6l11.3 4.9 16.9 1.6 45.3-3.3-49.3-.8-10.5-3.2-13.7.8zM204.3 212.8l-3.3 10.5s-4.8-9.7-4.8-10.5c0-.8 7.3-16.9 7.3-16.9l18.5-1.6s-17.7 9.7-17.7 10.5c0 .8 11.3-2.5 11.3-2.5l-5.7 7.3 4.1 12.1-9.7-8.9zM23.9 147.2L15 195.7s48.5-97.8 53.4-88.9c5.6 9.7 2.4 21 2.4 21l10.5-6.4-4.9 29 10.5 31.5 14.6 15.4-4.1-29.1-12.9-15.3 7.3-18.6 12.1 4v6.5s42-17.8 25-32.3c-16.9-14.6 13-26.7 13-26.7s74.3-28.3 67-41.2c-8.1-13.7-7.3-13.7-7.3-13.7l16.2-7.3 18.6-1.6 8.9 8.9 11.3-7.3-17-5.6s56.6-8.1 54.1-10.5c-2.4-2.5-176.9-34-269.8 139.7zM292.3 40v8.9l-45.2 13.7h31.5l21-13.7 12.9-3.3-20.2-5.6z',
+          stroke: '#000',
+          fill: '#4ed226',
+          strokeWidth: '4',
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 35
+          },
+          __self: this
+        })
+      );
+    }
+  }]);
+
+  return Earth;
+}(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Component);
+
+Earth.propTypes = {
+  width: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.number.isRequired,
+  height: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.number.isRequired,
+  className: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.string
+};
+
+
+Earth.defaultProps = {
+  className: ''
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_3__Earth_css___default.a)(Earth));
+
+/***/ }),
+
+/***/ 268:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Footer_css__ = __webpack_require__(560);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Footer_css__ = __webpack_require__(563);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Footer_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__Footer_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Link__ = __webpack_require__(114);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Footer/Footer.js';
@@ -703,21 +831,21 @@ var Footer = function (_React$Component) {
 
 /***/ }),
 
-/***/ 268:
+/***/ 269:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Header_css__ = __webpack_require__(561);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Header_css__ = __webpack_require__(564);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Header_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__Header_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Link__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Navigation__ = __webpack_require__(270);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__logo_small_png__ = __webpack_require__(552);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Navigation__ = __webpack_require__(271);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__logo_small_png__ = __webpack_require__(554);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__logo_small_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__logo_small_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__logo_small_2x_png__ = __webpack_require__(553);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__logo_small_2x_png__ = __webpack_require__(555);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__logo_small_2x_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__logo_small_2x_png__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Header/Header.js';
 
@@ -837,19 +965,19 @@ var Header = function (_React$Component) {
 
 /***/ }),
 
-/***/ 269:
+/***/ 270:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames__ = __webpack_require__(304);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames__ = __webpack_require__(305);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_classnames__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__MediaButton_css__ = __webpack_require__(563);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__MediaButton_css__ = __webpack_require__(566);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__MediaButton_css__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/MediaButton/MediaButton.js';
 
@@ -1054,15 +1182,15 @@ MediaButton.propTypes = {
 
 /***/ }),
 
-/***/ 270:
+/***/ 271:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Navigation_css__ = __webpack_require__(564);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Navigation_css__ = __webpack_require__(567);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Navigation_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__Navigation_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Link__ = __webpack_require__(114);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Navigation/Navigation.js';
@@ -1140,17 +1268,17 @@ var Navigation = function (_React$Component) {
 
 /***/ }),
 
-/***/ 271:
+/***/ 272:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Page_css__ = __webpack_require__(565);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Page_css__ = __webpack_require__(568);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Page_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__Page_css__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Page/Page.js';
 
@@ -1246,19 +1374,19 @@ Page.propTypes = {
 
 /***/ }),
 
-/***/ 272:
+/***/ 273:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__TWLogo_css__ = __webpack_require__(566);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__TWLogo_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__TWLogo_css__);
-var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/TWLogo/TWLogo.js';
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Sun_css__ = __webpack_require__(569);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Sun_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__Sun_css__);
+var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Sun/Sun.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -1274,21 +1402,24 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
-var TWLogo = function (_React$Component) {
-  _inherits(TWLogo, _React$Component);
+var Sun = function (_React$Component) {
+  _inherits(Sun, _React$Component);
 
-  function TWLogo() {
-    _classCallCheck(this, TWLogo);
+  function Sun() {
+    _classCallCheck(this, Sun);
 
-    return _possibleConstructorReturn(this, (TWLogo.__proto__ || Object.getPrototypeOf(TWLogo)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (Sun.__proto__ || Object.getPrototypeOf(Sun)).apply(this, arguments));
   }
 
-  _createClass(TWLogo, [{
+  _createClass(Sun, [{
     key: 'render',
+
+
+    // className={this.props.className} width={this.props.width} height={this.props.height}
     value: function render() {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'svg',
-        { width: this.props.width, height: this.props.height, className: this.props.className, __source: {
+        { viewBox: '0 0 500 500', xmlns: 'http://www.w3.org/2000/svg', className: this.props.className, width: this.props.width, height: this.props.height, __source: {
             fileName: _jsxFileName,
             lineNumber: 17
           },
@@ -1305,80 +1436,90 @@ var TWLogo = function (_React$Component) {
           },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'radialGradient',
-            { id: 'patricksGradient', cx: '50%', cy: '50%', r: '100%', fx: '50%', fy: '50%', __source: {
+            {
+              id: 'a',
+              gradientUnits: 'userSpaceOnUse',
+              cx: '242',
+              cy: '238.6',
+              r: '194.4',
+              gradientTransform: 'matrix(.99521 -.00083 .00079 .94959 -8.013 12.809)',
+              __source: {
                 fileName: _jsxFileName,
                 lineNumber: 19
               },
               __self: this
             },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('stop', { offset: '0%', style: { stopColor: '#373277', stopOpacity: 1 }, __source: {
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('stop', { offset: '0', stopColor: '#fff', __source: {
                 fileName: _jsxFileName,
-                lineNumber: 20
+                lineNumber: 27
               },
               __self: this
             }),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('stop', { offset: '20%', style: { stopColor: '#373277', stopOpacity: 1 }, __source: {
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('stop', { offset: '1', stopColor: '#f80', __source: {
                 fileName: _jsxFileName,
-                lineNumber: 21
+                lineNumber: 28
+              },
+              __self: this
+            })
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'radialGradient',
+            {
+              id: 'b',
+              gradientUnits: 'userSpaceOnUse',
+              cx: '253.3',
+              cy: '246.9',
+              r: '194.4',
+              gradientTransform: 'matrix(1.25101 -.01822 .01789 1.22836 -76.194 -50.587)',
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 30
+              },
+              __self: this
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('stop', { offset: '0', stopColor: '#ffae00', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 38
               },
               __self: this
             }),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('stop', { offset: '100%', style: { stopColor: 'white', stopOpacity: 1 }, __source: {
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('stop', { offset: '1', stopColor: '#fffefc', __source: {
                 fileName: _jsxFileName,
-                lineNumber: 22
+                lineNumber: 39
               },
               __self: this
             })
           )
         ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('rect', {
-          x: '2',
-          y: '2',
-          rx: '20',
-          ry: '20',
-          width: '100',
-          height: '70'
-          // fill:red;stroke:black;stroke-width:5;opacity:0.5"
-          , style: { fill: 'url(#patricksGradient)', stroke: 'black', strokeWidth: 2 },
-          __source: {
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('ellipse', { cx: '243.9', cy: '245.8', rx: '207.8', ry: '207.8', fill: 'url(#a)', stroke: 'url(#b)', strokeWidth: '70', __source: {
             fileName: _jsxFileName,
-            lineNumber: 25
+            lineNumber: 42
           },
           __self: this
-        }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'text',
-          { style: { fill: '#373277', stroke: 'black', strokeWidth: 2, fontSize: 45, fontFamily: 'Verdana' }, x: '17', y: '53', __source: {
-              fileName: _jsxFileName,
-              lineNumber: 35
-            },
-            __self: this
-          },
-          'TW'
-        )
+        })
       );
     }
   }]);
 
-  return TWLogo;
+  return Sun;
 }(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Component);
 
-TWLogo.propTypes = {
+Sun.propTypes = {
   width: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.number.isRequired,
   height: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.number.isRequired,
   className: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.string
 };
 
 
-TWLogo.defaultProps = {
+Sun.defaultProps = {
   className: ''
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_3__TWLogo_css___default.a)(TWLogo));
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_3__Sun_css___default.a)(Sun));
 
 /***/ }),
 
-/***/ 273:
+/***/ 274:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1389,11 +1530,11 @@ var SET_RUNTIME_VARIABLE = 'SET_RUNTIME_VARIABLE';
 
 /***/ }),
 
-/***/ 274:
+/***/ 275:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_isomorphic_fetch__ = __webpack_require__(559);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_isomorphic_fetch__ = __webpack_require__(561);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_isomorphic_fetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_isomorphic_fetch__);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -1440,13 +1581,13 @@ function createFetch(_ref) {
 
 /***/ }),
 
-/***/ 275:
+/***/ 276:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux__ = __webpack_require__(177);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__user__ = __webpack_require__(277);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__runtime__ = __webpack_require__(276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__user__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__runtime__ = __webpack_require__(277);
 
 
 
@@ -1458,12 +1599,12 @@ function createFetch(_ref) {
 
 /***/ }),
 
-/***/ 276:
+/***/ 277:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = runtime;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(274);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -1484,7 +1625,7 @@ function runtime() {
 
 /***/ }),
 
-/***/ 277:
+/***/ 278:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1501,14 +1642,14 @@ function user() {
 
 /***/ }),
 
-/***/ 278:
+/***/ 279:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_universal_router__ = __webpack_require__(691);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_universal_router__ = __webpack_require__(694);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_universal_router___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_universal_router__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__routes__ = __webpack_require__(284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__routes__ = __webpack_require__(285);
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
  *
@@ -1525,15 +1666,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 279:
+/***/ 280:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Layout__ = __webpack_require__(91);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Page__ = __webpack_require__(271);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Page__ = __webpack_require__(272);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/about/index.js';
@@ -1568,7 +1709,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
             case 0:
               _context.next = 2;
               return __webpack_require__.e/* require.ensure */(0).then((function (require) {
-                return __webpack_require__(696);
+                return __webpack_require__(699);
               }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 
             case 2:
@@ -1607,17 +1748,17 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 
 /***/ }),
 
-/***/ 280:
+/***/ 281:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Contact_css__ = __webpack_require__(567);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Contact_css__ = __webpack_require__(570);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Contact_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__Contact_css__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/contact/Contact.js';
 
@@ -1710,15 +1851,15 @@ Contact.propTypes = {
 
 /***/ }),
 
-/***/ 281:
+/***/ 282:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Layout__ = __webpack_require__(91);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Contact__ = __webpack_require__(280);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Contact__ = __webpack_require__(281);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/contact/index.js';
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
@@ -1764,20 +1905,21 @@ var title = 'Contact Us';
 
 /***/ }),
 
-/***/ 282:
+/***/ 283:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Home_css__ = __webpack_require__(568);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Home_css__ = __webpack_require__(571);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Home_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__Home_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_TWLogo__ = __webpack_require__(272);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_MediaButton__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_Earth__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_Sun__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_MediaButton__ = __webpack_require__(270);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/home/Home.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -1797,6 +1939,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
  * This source code is licensed under the MIT license found in the
  * LICENSE.txt file in the root directory of this source tree.
  */
+
 
 
 
@@ -1839,11 +1982,18 @@ var Home = function (_React$Component) {
 
       var animate = !this.state.resetAnimation ? __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.animation : '';
       var animationContainer = !this.state.resetAnimation ? __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.animationContainer : '';
+      var sun = !this.state.resetAnimation ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_Sun__["a" /* default */], { width: 208, height: 148, className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.sun, __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44
+        },
+        __self: this
+      }) : null;
+
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'div',
         { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.root, __source: {
             fileName: _jsxFileName,
-            lineNumber: 44
+            lineNumber: 47
           },
           __self: this
         },
@@ -1851,7 +2001,7 @@ var Home = function (_React$Component) {
           'div',
           { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.container, __source: {
               fileName: _jsxFileName,
-              lineNumber: 45
+              lineNumber: 48
             },
             __self: this
           },
@@ -1859,7 +2009,7 @@ var Home = function (_React$Component) {
             'article',
             { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.content, __source: {
                 fileName: _jsxFileName,
-                lineNumber: 46
+                lineNumber: 49
               },
               __self: this
             },
@@ -1868,7 +2018,7 @@ var Home = function (_React$Component) {
               {
                 __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 47
+                  lineNumber: 50
                 },
                 __self: this
               },
@@ -1877,7 +2027,7 @@ var Home = function (_React$Component) {
                 {
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 48
+                    lineNumber: 51
                   },
                   __self: this
                 },
@@ -1887,7 +2037,7 @@ var Home = function (_React$Component) {
                 'div',
                 { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.row, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 49
+                    lineNumber: 52
                   },
                   __self: this
                 },
@@ -1898,7 +2048,7 @@ var Home = function (_React$Component) {
                     onClick: this.toggleAnimation,
                     __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 50
+                      lineNumber: 53
                     },
                     __self: this
                   },
@@ -1909,16 +2059,17 @@ var Home = function (_React$Component) {
                 'div',
                 { className: animationContainer, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 57
+                    lineNumber: 60
                   },
                   __self: this
                 },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_TWLogo__["a" /* default */], { width: 104, height: 74, className: animate, __source: {
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_Earth__["a" /* default */], { width: 104, height: 74, className: animate, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 58
+                    lineNumber: 61
                   },
                   __self: this
-                })
+                }),
+                sun
               )
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -1926,7 +2077,7 @@ var Home = function (_React$Component) {
               {
                 __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 61
+                  lineNumber: 65
                 },
                 __self: this
               },
@@ -1935,7 +2086,7 @@ var Home = function (_React$Component) {
                 {
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 62
+                    lineNumber: 66
                   },
                   __self: this
                 },
@@ -1947,7 +2098,7 @@ var Home = function (_React$Component) {
                     href: 'https://www.reddit.com/r/web_design/comments/6fdobk/how_would_you_code_the_share_and_follow_buttons/',
                     __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 62
+                      lineNumber: 66
                     },
                     __self: this
                   },
@@ -1958,7 +2109,7 @@ var Home = function (_React$Component) {
                 'div',
                 { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.row, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 67
+                    lineNumber: 71
                   },
                   __self: this
                 },
@@ -1966,7 +2117,7 @@ var Home = function (_React$Component) {
                   'label',
                   { htmlFor: 'button-text', __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 68
+                      lineNumber: 72
                     },
                     __self: this
                   },
@@ -1982,7 +2133,7 @@ var Home = function (_React$Component) {
                   },
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 69
+                    lineNumber: 73
                   },
                   __self: this
                 })
@@ -1991,15 +2142,15 @@ var Home = function (_React$Component) {
                 'div',
                 { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.exampleTwo, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 79
+                    lineNumber: 83
                   },
                   __self: this
                 },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  __WEBPACK_IMPORTED_MODULE_5__components_MediaButton__["a" /* default */],
+                  __WEBPACK_IMPORTED_MODULE_6__components_MediaButton__["a" /* default */],
                   { text: this.state.followButton, __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 80
+                      lineNumber: 84
                     },
                     __self: this
                   },
@@ -2007,13 +2158,13 @@ var Home = function (_React$Component) {
                     'a',
                     { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.twitter, __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 81
+                        lineNumber: 85
                       },
                       __self: this
                     },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-twitter', 'aria-hidden': 'true', __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 81
+                        lineNumber: 85
                       },
                       __self: this
                     })
@@ -2022,13 +2173,13 @@ var Home = function (_React$Component) {
                     'a',
                     { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.facebook, __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 82
+                        lineNumber: 86
                       },
                       __self: this
                     },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-facebook', 'aria-hidden': 'true', __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 82
+                        lineNumber: 86
                       },
                       __self: this
                     })
@@ -2037,13 +2188,13 @@ var Home = function (_React$Component) {
                     'a',
                     { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.dribble, __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 83
+                        lineNumber: 87
                       },
                       __self: this
                     },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-dribbble', 'aria-hidden': 'true', __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 83
+                        lineNumber: 87
                       },
                       __self: this
                     })
@@ -2052,26 +2203,26 @@ var Home = function (_React$Component) {
                     'a',
                     { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.slack, __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 84
+                        lineNumber: 88
                       },
                       __self: this
                     },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-slack', 'aria-hidden': 'true', __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 84
+                        lineNumber: 88
                       },
                       __self: this
                     })
                   )
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  __WEBPACK_IMPORTED_MODULE_5__components_MediaButton__["a" /* default */],
+                  __WEBPACK_IMPORTED_MODULE_6__components_MediaButton__["a" /* default */],
                   { text: __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                       'span',
                       {
                         __source: {
                           fileName: _jsxFileName,
-                          lineNumber: 86
+                          lineNumber: 90
                         },
                         __self: this
                       },
@@ -2081,7 +2232,7 @@ var Home = function (_React$Component) {
                         {
                           __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 86
+                            lineNumber: 90
                           },
                           __self: this
                         },
@@ -2089,31 +2240,31 @@ var Home = function (_React$Component) {
                       )
                     ), __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 86
+                      lineNumber: 90
                     },
                     __self: this
                   },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-twitter', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.twitter, __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 87
+                      lineNumber: 91
                     },
                     __self: this
                   }),
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-facebook', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.facebook, __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 88
+                      lineNumber: 92
                     },
                     __self: this
                   }),
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-dribbble', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.dribble, __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 89
+                      lineNumber: 93
                     },
                     __self: this
                   }),
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-slack', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.slack, __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 90
+                      lineNumber: 94
                     },
                     __self: this
                   })
@@ -2136,14 +2287,14 @@ Home.propTypes = {};
 
 /***/ }),
 
-/***/ 283:
+/***/ 284:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Home__ = __webpack_require__(282);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Home__ = __webpack_require__(283);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Layout__ = __webpack_require__(91);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/home/index.js';
 
@@ -2207,7 +2358,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 
 /***/ }),
 
-/***/ 284:
+/***/ 285:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2230,10 +2381,10 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
   path: '/',
 
   // Keep in mind, routes are evaluated in order
-  children: [__webpack_require__(283).default, __webpack_require__(281).default, __webpack_require__(279).default,
+  children: [__webpack_require__(284).default, __webpack_require__(282).default, __webpack_require__(280).default,
 
   // Wildcard routes, e.g. { path: '*', ... } (must go last)
-  __webpack_require__(286).default],
+  __webpack_require__(287).default],
 
   action: function action(_ref) {
     var _this = this;
@@ -2270,17 +2421,17 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 
 /***/ }),
 
-/***/ 285:
+/***/ 286:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__NotFound_css__ = __webpack_require__(569);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__NotFound_css__ = __webpack_require__(572);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__NotFound_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__NotFound_css__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/notFound/NotFound.js';
 
@@ -2373,15 +2524,15 @@ NotFound.propTypes = {
 
 /***/ }),
 
-/***/ 286:
+/***/ 287:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Layout__ = __webpack_require__(91);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__NotFound__ = __webpack_require__(285);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__NotFound__ = __webpack_require__(286);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/notFound/index.js';
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
@@ -2428,17 +2579,17 @@ var title = 'Page Not Found';
 
 /***/ }),
 
-/***/ 287:
+/***/ 288:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = configureStore;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux__ = __webpack_require__(177);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux_thunk__ = __webpack_require__(680);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux_thunk__ = __webpack_require__(683);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux_thunk___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_redux_thunk__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__reducers__ = __webpack_require__(275);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__createHelpers__ = __webpack_require__(288);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__logger__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__reducers__ = __webpack_require__(276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__createHelpers__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__logger__ = __webpack_require__(290);
 
 
 
@@ -2485,7 +2636,7 @@ function configureStore(initialState, helpersConfig) {
 
 /***/ }),
 
-/***/ 288:
+/***/ 289:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2554,12 +2705,12 @@ function createHelpers(_ref2) {
 
 /***/ }),
 
-/***/ 289:
+/***/ 290:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = createLogger;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux_logger__ = __webpack_require__(679);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux_logger__ = __webpack_require__(682);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux_logger___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_redux_logger__);
 
 
@@ -2571,10 +2722,25 @@ function createLogger() {
 
 /***/ }),
 
-/***/ 525:
+/***/ 526:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(32)(true);
+exports = module.exports = __webpack_require__(28)(true);
+// imports
+
+
+// module
+exports.push([module.i, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"Earth.css","sourceRoot":""}]);
+
+// exports
+
+
+/***/ }),
+
+/***/ 527:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(28)(true);
 // imports
 
 
@@ -2592,10 +2758,10 @@ exports.locals = {
 
 /***/ }),
 
-/***/ 526:
+/***/ 528:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(32)(true);
+exports = module.exports = __webpack_require__(28)(true);
 // imports
 
 
@@ -2615,10 +2781,10 @@ exports.locals = {
 
 /***/ }),
 
-/***/ 527:
+/***/ 529:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(32)(true);
+exports = module.exports = __webpack_require__(28)(true);
 // imports
 
 
@@ -2633,10 +2799,10 @@ exports.locals = {
 
 /***/ }),
 
-/***/ 528:
+/***/ 530:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(32)(true);
+exports = module.exports = __webpack_require__(28)(true);
 // imports
 
 
@@ -2657,10 +2823,10 @@ exports.locals = {
 
 /***/ }),
 
-/***/ 529:
+/***/ 531:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(32)(true);
+exports = module.exports = __webpack_require__(28)(true);
 // imports
 
 
@@ -2677,10 +2843,10 @@ exports.locals = {
 
 /***/ }),
 
-/***/ 530:
+/***/ 532:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(32)(true);
+exports = module.exports = __webpack_require__(28)(true);
 // imports
 
 
@@ -2695,25 +2861,25 @@ exports.locals = {
 
 /***/ }),
 
-/***/ 531:
+/***/ 533:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(32)(true);
+exports = module.exports = __webpack_require__(28)(true);
 // imports
 
 
 // module
-exports.push([module.i, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"TWLogo.css","sourceRoot":""}]);
+exports.push([module.i, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"Sun.css","sourceRoot":""}]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 532:
+/***/ 534:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(32)(true);
+exports = module.exports = __webpack_require__(28)(true);
 // imports
 
 
@@ -2728,15 +2894,15 @@ exports.locals = {
 
 /***/ }),
 
-/***/ 533:
+/***/ 535:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(32)(true);
+exports = module.exports = __webpack_require__(28)(true);
 // imports
 
 
 // module
-exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n.Home-root-1avl7 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  padding-left: 20px;\n  padding-right: 20px;\n}\n.Home-column-7h2Zk {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.Home-row-1MfJf {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  margin: 16px 0;\n  margin: 1rem 0;\n}\n.Home-container-3YPN- {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  margin: 0 auto;\n  max-width: 1000px;\n}\n.Home-animationContainer-2whAx {\n  margin: 16px 0;\n  margin: 1rem 0;\n  min-height: 20em;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n.Home-twitter-3j9ZP:hover {\n  background-color: #794BC4;\n}\n.Home-dribble-23a20:hover {\n  background-color: #DF3E7B;\n}\n.Home-facebook-BP3rk:hover {\n  background-color: #3B5998;\n}\n.Home-slack-vRQeT:hover {\n  background-color: white;\n}\n.Home-slack-vRQeT:hover i {\n      color: black;\n}\n.Home-content-1BGUJ {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.Home-exampleTwo-26mRB {\n  padding: 16px;\n  padding: 1rem;\n  background-color: #333333;\n}\n.Home-textBox-24n0A {\n  display: inline-block;\n}\na {\n  color: white;\n}\n.Home-link-Y_GIW {\n  color: #373277;\n}\n@-webkit-keyframes Home-mymove-bB2Z4 {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n@keyframes Home-mymove-bB2Z4 {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n.Home-animation-R_wCJ {\n  -webkit-animation-name: Home-mymove-bB2Z4;\n          animation-name: Home-mymove-bB2Z4;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-duration: 2s;\n          animation-duration: 2s;\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/routes/home/Home.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;AACH;;;;;;;GAOG;AACH;EACE;;gFAE8E;;EAE9E;;gFAE8E;;EAE9E;;gFAE8E,EAAE,gCAAgC,EAAE,2BAA2B,EAAE,6BAA6B,CAAC,iCAAiC;;EAE9M;;gFAE8E;CAC/E;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,mBAAmB;EACnB,oBAAoB;CACrB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;CACtB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,eAAe;EACf,eAAe;CAChB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,eAAe;EACf,kBAAkB;CACnB;AACD;EACE,eAAe;EACf,eAAe;EACf,iBAAiB;EACjB,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;CAC7B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,wBAAwB;CACzB;AACD;MACM,aAAa;CAClB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;CACtB;AACD;EACE,cAAc;EACd,cAAc;EACd,0BAA0B;CAC3B;AACD;EACE,sBAAsB;CACvB;AACD;EACE,aAAa;CACd;AACD;EACE,eAAe;CAChB;AACD;EACE;IACE,6DAA6D;YACrD,qDAAqD;GAC9D;;EAED;IACE,kEAAkE;YAC1D,0DAA0D;GACnE;CACF;AACD;EACE;IACE,6DAA6D;YACrD,qDAAqD;GAC9D;;EAED;IACE,kEAAkE;YAC1D,0DAA0D;GACnE;CACF;AACD;EACE,0CAA+B;UACvB,kCAAuB;EAC/B,0CAA0C;UAClC,kCAAkC;EAC1C,+BAA+B;UACvB,uBAAuB;CAChC","file":"Home.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n.root {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  padding-left: 20px;\n  padding-right: 20px;\n}\n.column {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  margin: 16px 0;\n  margin: 1rem 0;\n}\n.container {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  margin: 0 auto;\n  max-width: 1000px;\n}\n.animationContainer {\n  margin: 16px 0;\n  margin: 1rem 0;\n  min-height: 20em;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n.twitter:hover {\n  background-color: #794BC4;\n}\n.dribble:hover {\n  background-color: #DF3E7B;\n}\n.facebook:hover {\n  background-color: #3B5998;\n}\n.slack:hover {\n  background-color: white;\n}\n.slack:hover i {\n      color: black;\n}\n.content {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.exampleTwo {\n  padding: 16px;\n  padding: 1rem;\n  background-color: #333333;\n}\n.textBox {\n  display: inline-block;\n}\na {\n  color: white;\n}\n.link {\n  color: #373277;\n}\n@-webkit-keyframes mymove {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n@keyframes mymove {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n.animation {\n  -webkit-animation-name: mymove;\n          animation-name: mymove;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-duration: 2s;\n          animation-duration: 2s;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n.Home-root-1avl7 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  padding-left: 20px;\n  padding-right: 20px;\n}\n.Home-column-7h2Zk {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.Home-row-1MfJf {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  margin: 16px 0;\n  margin: 1rem 0;\n}\n.Home-container-3YPN- {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  margin: 0 auto;\n  max-width: 1000px;\n}\n.Home-animationContainer-2whAx {\n  margin: 16px 0;\n  margin: 1rem 0;\n  min-height: 20em;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  position: relative;\n}\n.Home-twitter-3j9ZP:hover {\n  background-color: #794BC4;\n}\n.Home-dribble-23a20:hover {\n  background-color: #DF3E7B;\n}\n.Home-facebook-BP3rk:hover {\n  background-color: #3B5998;\n}\n.Home-slack-vRQeT:hover {\n  background-color: white;\n}\n.Home-slack-vRQeT:hover i {\n      color: black;\n}\n.Home-content-1BGUJ {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.Home-exampleTwo-26mRB {\n  padding: 16px;\n  padding: 1rem;\n  background-color: #333333;\n}\n.Home-textBox-24n0A {\n  display: inline-block;\n}\na {\n  color: white;\n}\n.Home-link-Y_GIW {\n  color: #373277;\n}\n@-webkit-keyframes Home-mymove-bB2Z4 {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n@keyframes Home-mymove-bB2Z4 {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n.Home-animation-R_wCJ {\n  position: absolute;\n  -webkit-animation-name: Home-mymove-bB2Z4;\n          animation-name: Home-mymove-bB2Z4;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-duration: 10s;\n          animation-duration: 10s;\n}\n.Home-sun-14hMD {\n  position: absolute;\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/routes/home/Home.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;AACH;;;;;;;GAOG;AACH;EACE;;gFAE8E;;EAE9E;;gFAE8E;;EAE9E;;gFAE8E,EAAE,gCAAgC,EAAE,2BAA2B,EAAE,6BAA6B,CAAC,iCAAiC;;EAE9M;;gFAE8E;CAC/E;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,mBAAmB;EACnB,oBAAoB;CACrB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;CACtB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,eAAe;EACf,eAAe;CAChB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,eAAe;EACf,kBAAkB;CACnB;AACD;EACE,eAAe;EACf,eAAe;EACf,iBAAiB;EACjB,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;EAC5B,mBAAmB;CACpB;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,wBAAwB;CACzB;AACD;MACM,aAAa;CAClB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;CACtB;AACD;EACE,cAAc;EACd,cAAc;EACd,0BAA0B;CAC3B;AACD;EACE,sBAAsB;CACvB;AACD;EACE,aAAa;CACd;AACD;EACE,eAAe;CAChB;AACD;EACE;IACE,6DAA6D;YACrD,qDAAqD;GAC9D;;EAED;IACE,kEAAkE;YAC1D,0DAA0D;GACnE;CACF;AACD;EACE;IACE,6DAA6D;YACrD,qDAAqD;GAC9D;;EAED;IACE,kEAAkE;YAC1D,0DAA0D;GACnE;CACF;AACD;EACE,mBAAmB;EACnB,0CAA+B;UACvB,kCAAuB;EAC/B,0CAA0C;UAClC,kCAAkC;EAC1C,gCAAgC;UACxB,wBAAwB;CACjC;AACD;EACE,mBAAmB;CACpB","file":"Home.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n.root {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  padding-left: 20px;\n  padding-right: 20px;\n}\n.column {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  margin: 16px 0;\n  margin: 1rem 0;\n}\n.container {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  margin: 0 auto;\n  max-width: 1000px;\n}\n.animationContainer {\n  margin: 16px 0;\n  margin: 1rem 0;\n  min-height: 20em;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  position: relative;\n}\n.twitter:hover {\n  background-color: #794BC4;\n}\n.dribble:hover {\n  background-color: #DF3E7B;\n}\n.facebook:hover {\n  background-color: #3B5998;\n}\n.slack:hover {\n  background-color: white;\n}\n.slack:hover i {\n      color: black;\n}\n.content {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.exampleTwo {\n  padding: 16px;\n  padding: 1rem;\n  background-color: #333333;\n}\n.textBox {\n  display: inline-block;\n}\na {\n  color: white;\n}\n.link {\n  color: #373277;\n}\n@-webkit-keyframes mymove {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n@keyframes mymove {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n.animation {\n  position: absolute;\n  -webkit-animation-name: mymove;\n          animation-name: mymove;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-duration: 10s;\n          animation-duration: 10s;\n}\n.sun {\n  position: absolute;\n}\n"],"sourceRoot":""}]);
 
 // exports
 exports.locals = {
@@ -2754,15 +2920,16 @@ exports.locals = {
 	"textBox": "Home-textBox-24n0A",
 	"link": "Home-link-Y_GIW",
 	"animation": "Home-animation-R_wCJ",
-	"mymove": "Home-mymove-bB2Z4"
+	"mymove": "Home-mymove-bB2Z4",
+	"sun": "Home-sun-14hMD"
 };
 
 /***/ }),
 
-/***/ 534:
+/***/ 536:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(32)(true);
+exports = module.exports = __webpack_require__(28)(true);
 // imports
 
 
@@ -2777,26 +2944,62 @@ exports.locals = {
 
 /***/ }),
 
-/***/ 552:
+/***/ 554:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "src/components/Header/logo-small.png?2f751285";
 
 /***/ }),
 
-/***/ 553:
+/***/ 555:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.png?8844262b";
 
 /***/ }),
 
-/***/ 560:
+/***/ 562:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(525);
-    var insertCss = __webpack_require__(34);
+    var content = __webpack_require__(526);
+    var insertCss = __webpack_require__(29);
+
+    if (typeof content === 'string') {
+      content = [[module.i, content, '']];
+    }
+
+    module.exports = content.locals || {};
+    module.exports._getContent = function() { return content; };
+    module.exports._getCss = function() { return content.toString(); };
+    module.exports._insertCss = function(options) { return insertCss(content, options) };
+    
+    // Hot Module Replacement
+    // https://webpack.github.io/docs/hot-module-replacement
+    // Only activated in browser context
+    if (false) {
+      var removeCss = function() {};
+      module.hot.accept("!!../../../node_modules/css-loader/index.js??ref--1-1!../../../node_modules/postcss-loader/lib/index.js??ref--1-2!./Earth.css", function() {
+        content = require("!!../../../node_modules/css-loader/index.js??ref--1-1!../../../node_modules/postcss-loader/lib/index.js??ref--1-2!./Earth.css");
+
+        if (typeof content === 'string') {
+          content = [[module.id, content, '']];
+        }
+
+        removeCss = insertCss(content, { replace: true });
+      });
+      module.hot.dispose(function() { removeCss(); });
+    }
+  
+
+/***/ }),
+
+/***/ 563:
+/***/ (function(module, exports, __webpack_require__) {
+
+
+    var content = __webpack_require__(527);
+    var insertCss = __webpack_require__(29);
 
     if (typeof content === 'string') {
       content = [[module.i, content, '']];
@@ -2827,12 +3030,12 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
 
 /***/ }),
 
-/***/ 561:
+/***/ 564:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(526);
-    var insertCss = __webpack_require__(34);
+    var content = __webpack_require__(528);
+    var insertCss = __webpack_require__(29);
 
     if (typeof content === 'string') {
       content = [[module.i, content, '']];
@@ -2863,12 +3066,12 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
 
 /***/ }),
 
-/***/ 562:
+/***/ 565:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(527);
-    var insertCss = __webpack_require__(34);
+    var content = __webpack_require__(529);
+    var insertCss = __webpack_require__(29);
 
     if (typeof content === 'string') {
       content = [[module.i, content, '']];
@@ -2899,12 +3102,12 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
 
 /***/ }),
 
-/***/ 563:
+/***/ 566:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(528);
-    var insertCss = __webpack_require__(34);
+    var content = __webpack_require__(530);
+    var insertCss = __webpack_require__(29);
 
     if (typeof content === 'string') {
       content = [[module.i, content, '']];
@@ -2935,12 +3138,12 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
 
 /***/ }),
 
-/***/ 564:
+/***/ 567:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(529);
-    var insertCss = __webpack_require__(34);
+    var content = __webpack_require__(531);
+    var insertCss = __webpack_require__(29);
 
     if (typeof content === 'string') {
       content = [[module.i, content, '']];
@@ -2971,12 +3174,12 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
 
 /***/ }),
 
-/***/ 565:
+/***/ 568:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(530);
-    var insertCss = __webpack_require__(34);
+    var content = __webpack_require__(532);
+    var insertCss = __webpack_require__(29);
 
     if (typeof content === 'string') {
       content = [[module.i, content, '']];
@@ -3007,12 +3210,12 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
 
 /***/ }),
 
-/***/ 566:
+/***/ 569:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(531);
-    var insertCss = __webpack_require__(34);
+    var content = __webpack_require__(533);
+    var insertCss = __webpack_require__(29);
 
     if (typeof content === 'string') {
       content = [[module.i, content, '']];
@@ -3028,8 +3231,8 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
     // Only activated in browser context
     if (false) {
       var removeCss = function() {};
-      module.hot.accept("!!../../../node_modules/css-loader/index.js??ref--1-1!../../../node_modules/postcss-loader/lib/index.js??ref--1-2!./TWLogo.css", function() {
-        content = require("!!../../../node_modules/css-loader/index.js??ref--1-1!../../../node_modules/postcss-loader/lib/index.js??ref--1-2!./TWLogo.css");
+      module.hot.accept("!!../../../node_modules/css-loader/index.js??ref--1-1!../../../node_modules/postcss-loader/lib/index.js??ref--1-2!./Sun.css", function() {
+        content = require("!!../../../node_modules/css-loader/index.js??ref--1-1!../../../node_modules/postcss-loader/lib/index.js??ref--1-2!./Sun.css");
 
         if (typeof content === 'string') {
           content = [[module.id, content, '']];
@@ -3043,12 +3246,12 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
 
 /***/ }),
 
-/***/ 567:
+/***/ 570:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(532);
-    var insertCss = __webpack_require__(34);
+    var content = __webpack_require__(534);
+    var insertCss = __webpack_require__(29);
 
     if (typeof content === 'string') {
       content = [[module.i, content, '']];
@@ -3079,12 +3282,12 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
 
 /***/ }),
 
-/***/ 568:
+/***/ 571:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(533);
-    var insertCss = __webpack_require__(34);
+    var content = __webpack_require__(535);
+    var insertCss = __webpack_require__(29);
 
     if (typeof content === 'string') {
       content = [[module.i, content, '']];
@@ -3115,12 +3318,12 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
 
 /***/ }),
 
-/***/ 569:
+/***/ 572:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(534);
-    var insertCss = __webpack_require__(34);
+    var content = __webpack_require__(536);
+    var insertCss = __webpack_require__(29);
 
     if (typeof content === 'string') {
       content = [[module.i, content, '']];
@@ -3151,7 +3354,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
 
 /***/ }),
 
-/***/ 695:
+/***/ 698:
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(264);
@@ -3164,18 +3367,18 @@ module.exports = __webpack_require__(263);
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_normalize_css__ = __webpack_require__(570);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_normalize_css__ = __webpack_require__(573);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_normalize_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_normalize_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Layout_css__ = __webpack_require__(562);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Layout_css__ = __webpack_require__(565);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Layout_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__Layout_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Header__ = __webpack_require__(268);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Footer__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Header__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Footer__ = __webpack_require__(268);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Layout/Layout.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -3265,5 +3468,5 @@ Layout.propTypes = {
 
 /***/ })
 
-},[695]);
+},[698]);
 //# sourceMappingURL=client.js.map
