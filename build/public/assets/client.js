@@ -1044,99 +1044,83 @@ var MediaButton = function (_Component) {
 
       var currentNumberOfElements = 0;
 
-      var maxNumberOfElements = this.state.maxWidth / ICON_WIDTH;
+      var maxNumberOfElements = Math.ceil(this.state.maxWidth / ICON_WIDTH);
 
-      iconArray.forEach(function (child, index) {
-        var optionalClass = child.props['data-parent-class'] ? child.props['data-parent-class'] : __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.defaultHover;
-        if (index === 0) {
-          iconArrayElement.push(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            {
-              key: index,
-              className: __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.transformIcon, __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.left, optionalClass),
-              __source: {
-                fileName: _jsxFileName,
-                lineNumber: 64
-              },
-              __self: _this2
-            },
-            child
-          ));
-        }
-        if (MediaButton.isMiddleIndex(iconArray, index)) {
-          if (maxNumberOfElements - currentNumberOfElements > 1) {
-            iconArrayElement.push(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'div',
-              {
-                key: index,
-                className: __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.transformIcon, optionalClass),
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 75
-                },
-                __self: _this2
-              },
-              child
-            ));
-          } else {
-            iconArrayElement.push(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'div',
-              {
-                key: index,
-                className: __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.transformIcon, __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.squish, optionalClass),
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 83
-                },
-                __self: _this2
-              },
-              child
-            ));
-          }
-        }
-        if (iconArray.length - 1 === index) {
-          iconArrayElement.push(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            {
-              key: index,
-              className: __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.transformIcon, __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.right, optionalClass),
-              __source: {
-                fileName: _jsxFileName,
-                lineNumber: 93
-              },
-              __self: _this2
-            },
-            child
-          ));
-        }
-
+      iconArray.forEach(function (child) {
         currentNumberOfElements += 1;
+        iconArrayElement.push([child, child.props['data-parent-class'] ? child.props['data-parent-class'] : __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.defaultHover]);
       });
 
-      while (currentNumberOfElements * ICON_WIDTH < this.state.maxWidth) {
-        currentNumberOfElements += 1;
-        iconArrayElement.splice(iconArrayElement.length - 1, 0, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { key: currentNumberOfElements, className: __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.transformIcon, __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.hide), __source: {
-            fileName: _jsxFileName,
-            lineNumber: 109
-          },
-          __self: this
-        }));
+      var iconWidth = 'perfect';
+
+      if (currentNumberOfElements * ICON_WIDTH < this.state.maxWidth) iconWidth = 'too small';
+      if (currentNumberOfElements > maxNumberOfElements) iconWidth = 'too big';
+
+      if (iconWidth === 'too small') {
+        iconArrayElement = iconArrayElement.map(function (element) {
+          return [element[0], __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.squish, element[1])];
+        });
+        while (currentNumberOfElements < maxNumberOfElements) {
+          currentNumberOfElements += 1;
+          iconArrayElement.splice(iconArrayElement.length - 1, 0, [__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'a',
+            { className: __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.box, __source: {
+                fileName: _jsxFileName,
+                lineNumber: 81
+              },
+              __self: this
+            },
+            '\xA0'
+          ), __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.transformIcon, __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.squishMe)]);
+        }
       }
+      if (iconWidth === 'too big') {
+        iconArrayElement = iconArrayElement.map(function (element, index, arr) {
+          if (MediaButton.isMiddleIndex(arr, index)) {
+            return [element[0], __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.hideMe, element[1])];
+          }
+          return [element[0], __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.hide, element[1])];
+        });
+      }
+
+      iconArrayElement = iconArrayElement.map(function (element, index) {
+        if (index === 0) {
+          return [element[0], __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.transformIcon, __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.left, element[1])];
+        }
+        if (iconArrayElement.length - 1 === index) {
+          return [element[0], __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.transformIcon, __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.right, element[1])];
+        }
+        return [element[0], __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.transformIcon, element[1])];
+      });
+
+      iconArrayElement = iconArrayElement.map(function (element, index) {
+        return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { key: index, className: element[1], __source: {
+              fileName: _jsxFileName,
+              lineNumber: 108
+            },
+            __self: _this2
+          },
+          element[0]
+        );
+      });
 
       return iconArrayElement;
     }
+    // style={{ minWidth: this.state.maxWidth, maxWidth: this.state.maxWidth }}
+
   }, {
     key: 'render',
     value: function render() {
       var _this3 = this;
 
       var icons = this.createButtonList(this.props.children);
-
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'div',
-        { className: __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.root, __source: {
+        { className: __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.root, style: { minWidth: this.state.maxWidth, maxWidth: this.state.maxWidth }, __source: {
             fileName: _jsxFileName,
-            lineNumber: 119
+            lineNumber: 117
           },
           __self: this
         },
@@ -1149,7 +1133,7 @@ var MediaButton = function (_Component) {
             },
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 121
+              lineNumber: 119
             },
             __self: this
           },
@@ -1985,15 +1969,33 @@ var Home = function (_React$Component) {
     value: function render() {
       var _this2 = this;
 
-      // const animate = !this.state.resetAnimation ? s.animation : '';
-      var animationContainer = !this.state.resetAnimation ? __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.animationContainer : '';
-      // const sun = !this.state.resetAnimation ? <Sun width={208} height={148} className={s.sun} ><Earth width={104} height={74} className={animate} /></Sun> : null;
+      var animation = !this.state.resetAnimation ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.animationContainer, __source: {
+            fileName: _jsxFileName,
+            lineNumber: 44
+          },
+          __self: this
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__components_Sun__["a" /* default */], { width: 208, height: 148, className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.sun, __source: {
+            fileName: _jsxFileName,
+            lineNumber: 45
+          },
+          __self: this
+        }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__components_Earth__["a" /* default */], { width: 104, height: 74, className: __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.animation, __WEBPACK_IMPORTED_MODULE_5__components_Orbit_css___default.a.orbit), __source: {
+            fileName: _jsxFileName,
+            lineNumber: 46
+          },
+          __self: this
+        })
+      ) : null;
 
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'article',
         { className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.content, __source: {
             fileName: _jsxFileName,
-            lineNumber: 49
+            lineNumber: 50
           },
           __self: this
         },
@@ -2002,7 +2004,7 @@ var Home = function (_React$Component) {
           {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 50
+              lineNumber: 51
             },
             __self: this
           },
@@ -2011,7 +2013,7 @@ var Home = function (_React$Component) {
             {
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 51
+                lineNumber: 52
               },
               __self: this
             },
@@ -2022,7 +2024,7 @@ var Home = function (_React$Component) {
             {
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 52
+                lineNumber: 53
               },
               __self: this
             },
@@ -2032,7 +2034,7 @@ var Home = function (_React$Component) {
             'div',
             { className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.row, __source: {
                 fileName: _jsxFileName,
-                lineNumber: 53
+                lineNumber: 54
               },
               __self: this
             },
@@ -2042,41 +2044,21 @@ var Home = function (_React$Component) {
                 onClick: this.toggleAnimation,
                 __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 54
+                  lineNumber: 55
                 },
                 __self: this
               },
               'Toggle Animation'
             )
           ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            { className: animationContainer, __source: {
-                fileName: _jsxFileName,
-                lineNumber: 60
-              },
-              __self: this
-            },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__components_Sun__["a" /* default */], { width: 208, height: 148, className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.sun, __source: {
-                fileName: _jsxFileName,
-                lineNumber: 61
-              },
-              __self: this
-            }),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__components_Earth__["a" /* default */], { width: 104, height: 74, className: __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.animation, __WEBPACK_IMPORTED_MODULE_5__components_Orbit_css___default.a.orbit), __source: {
-                fileName: _jsxFileName,
-                lineNumber: 62
-              },
-              __self: this
-            })
-          )
+          animation
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'section',
           {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 65
+              lineNumber: 63
             },
             __self: this
           },
@@ -2085,7 +2067,7 @@ var Home = function (_React$Component) {
             {
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 66
+                lineNumber: 64
               },
               __self: this
             },
@@ -2097,7 +2079,7 @@ var Home = function (_React$Component) {
                 href: 'https://www.reddit.com/r/web_design/comments/6fdobk/how_would_you_code_the_share_and_follow_buttons/',
                 __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 66
+                  lineNumber: 64
                 },
                 __self: this
               },
@@ -2108,7 +2090,7 @@ var Home = function (_React$Component) {
             'div',
             { className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.row, __source: {
                 fileName: _jsxFileName,
-                lineNumber: 71
+                lineNumber: 69
               },
               __self: this
             },
@@ -2116,7 +2098,7 @@ var Home = function (_React$Component) {
               'label',
               { htmlFor: 'button-text', __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 72
+                  lineNumber: 70
                 },
                 __self: this
               },
@@ -2132,7 +2114,7 @@ var Home = function (_React$Component) {
               },
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 73
+                lineNumber: 71
               },
               __self: this
             })
@@ -2141,7 +2123,7 @@ var Home = function (_React$Component) {
             'div',
             { className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.exampleTwo, __source: {
                 fileName: _jsxFileName,
-                lineNumber: 83
+                lineNumber: 81
               },
               __self: this
             },
@@ -2149,7 +2131,7 @@ var Home = function (_React$Component) {
               __WEBPACK_IMPORTED_MODULE_8__components_MediaButton__["a" /* default */],
               { text: this.state.followButton, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 84
+                  lineNumber: 82
                 },
                 __self: this
               },
@@ -2157,14 +2139,16 @@ var Home = function (_React$Component) {
                 'a',
                 { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.twitter, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 85
+                    lineNumber: 83
                   },
                   __self: this
                 },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-twitter',
-                  'aria-hidden': 'true', __source: {
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', {
+                  className: 'fa fa-twitter',
+                  'aria-hidden': 'true',
+                  __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 85
+                    lineNumber: 83
                   },
                   __self: this
                 })
@@ -2177,8 +2161,10 @@ var Home = function (_React$Component) {
                   },
                   __self: this
                 },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-facebook',
-                  'aria-hidden': 'true', __source: {
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', {
+                  className: 'fa fa-facebook',
+                  'aria-hidden': 'true',
+                  __source: {
                     fileName: _jsxFileName,
                     lineNumber: 87
                   },
@@ -2189,14 +2175,16 @@ var Home = function (_React$Component) {
                 'a',
                 { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.dribble, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 89
+                    lineNumber: 91
                   },
                   __self: this
                 },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-dribbble',
-                  'aria-hidden': 'true', __source: {
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', {
+                  className: 'fa fa-dribbble',
+                  'aria-hidden': 'true',
+                  __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 89
+                    lineNumber: 91
                   },
                   __self: this
                 })
@@ -2205,13 +2193,13 @@ var Home = function (_React$Component) {
                 'a',
                 { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.slack, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 91
+                    lineNumber: 95
                   },
                   __self: this
                 },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-slack', 'aria-hidden': 'true', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 91
+                    lineNumber: 95
                   },
                   __self: this
                 })
@@ -2224,7 +2212,7 @@ var Home = function (_React$Component) {
                   {
                     __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 93
+                      lineNumber: 97
                     },
                     __self: this
                   },
@@ -2234,7 +2222,7 @@ var Home = function (_React$Component) {
                     {
                       __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 93
+                        lineNumber: 97
                       },
                       __self: this
                     },
@@ -2242,31 +2230,31 @@ var Home = function (_React$Component) {
                   )
                 ), __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 93
+                  lineNumber: 97
                 },
                 __self: this
               },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-twitter', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.twitter, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 94
+                  lineNumber: 98
                 },
                 __self: this
               }),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-facebook', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.facebook, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 95
+                  lineNumber: 99
                 },
                 __self: this
               }),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-dribbble', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.dribble, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 96
+                  lineNumber: 100
                 },
                 __self: this
               }),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-slack', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.slack, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 97
+                  lineNumber: 101
                 },
                 __self: this
               })
@@ -2792,7 +2780,7 @@ exports = module.exports = __webpack_require__(28)(true);
 
 
 // module
-exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n\n.MediaButton-root-16FEI {\n  margin: 0 4px;\n  margin: 0 0.25rem;\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  //margin: 0 8px;\n  //margin: 0 0.5rem;\n  border: none;\n  color: white;\n  background-color: transparent;\n  position: relative\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-text-2cqDR {\n      opacity: 0;\n      z-index: -1;\n      //transition: opacity 0.25s ease-out, z-index 0s 0.25s ease-out;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-transformIcon-2ggyH {\n\n      margin: 0 2px;\n      border-radius: 50%;\n      -webkit-transition: margin 0.5s ease-out, border-radius 0.5s ease-out;\n      -o-transition: margin 0.5s ease-out, border-radius 0.5s ease-out;\n      transition: margin 0.5s ease-out, border-radius 0.5s ease-out;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-transformIcon-2ggyH * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.MediaButton-root-16FEI:hover .MediaButton-squish-hY-HG {\n      width: 25px;\n      -webkit-transition: margin 0.5s 0.25s ease-out, border-radius 0.5s ease-out, width 0.25s ease-out;\n      -o-transition: margin 0.5s 0.25s ease-out, border-radius 0.5s ease-out, width 0.25s ease-out;\n      transition: margin 0.5s 0.25s ease-out, border-radius 0.5s ease-out, width 0.25s ease-out;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-hide-LoymV {\n      width: 0;\n      overflow: hidden;\n      margin: 0;\n}\n\n.MediaButton-defaultHover-1ujKb:hover {\n  background-color: darkgreen;\n}\n\n.MediaButton-hide-LoymV {}\n\n.MediaButton-text-2cqDR {\n  position: absolute;\n  z-index: 1;\n  text-align: center;\n  opacity: 1;\n  -webkit-transition: opacity 0.5s ease-in;\n  -o-transition: opacity 0.5s ease-in;\n  transition: opacity 0.5s ease-in;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n.MediaButton-transformIcon-2ggyH {\n  position: relative;\n\n  height: 25px;\n  width: 25px;\n\n  display: -webkit-box;\n\n  display: -ms-flexbox;\n\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n\n  background-color: rgb(82, 82, 82);\n\n  border-radius: 0;\n\n  margin: 0 0;\n\n  -webkit-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n  -o-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n  transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n}\n\n.MediaButton-transformIcon-2ggyH * {\n    opacity: 0;\n  }\n\n.MediaButton-squish-hY-HG {\n  width: 1px;\n  overflow: hidden;\n  -webkit-transition: border-radius 0.25s ease-in, margin 0.25s ease-in, width 0.5s ease-in;\n  -o-transition: border-radius 0.25s ease-in, margin 0.25s ease-in, width 0.5s ease-in;\n  transition: border-radius 0.25s ease-in, margin 0.25s ease-in, width 0.5s ease-in;\n}\n\n.MediaButton-left-3Y_KF {\n  border-radius: 50% 0 0 50%;\n}\n\n.MediaButton-right-3zJ-E {\n  border-radius: 0 50% 50% 0;\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/components/MediaButton/MediaButton.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;AAEH;EACE;;gFAE8E;;EAE9E;;gFAE8E;;EAE9E;;gFAE8E,EAAE,gCAAgC,EAAE,2BAA2B,EAAE,6BAA6B,CAAC,iCAAiC;;EAE9M;;gFAE8E;CAC/E;;AAED;EACE,cAAc;EACd,kBAAkB;EAClB,4BAA4B;EAC5B,4BAA4B;EAC5B,qBAAqB;EACrB,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;EAC5B,gBAAgB;EAChB,mBAAmB;EACnB,aAAa;EACb,aAAa;EACb,8BAA8B;EAC9B,kBAAkB;CACnB;;AAED;MACM,WAAW;MACX,YAAY;MACZ,gEAAgE;CACrE;;AAED;;MAEM,cAAc;MACd,mBAAmB;MACnB,sEAAsE;MACtE,iEAAiE;MACjE,8DAA8D;CACnE;;AAED;QACQ,WAAW;QACX,iCAAiC;QACjC,4BAA4B;QAC5B,yBAAyB;OAC1B;;AAEP;MACM,YAAY;MACZ,kGAAkG;MAClG,6FAA6F;MAC7F,0FAA0F;CAC/F;;AAED;MACM,SAAS;MACT,iBAAiB;MACjB,UAAU;CACf;;AAED;EACE,4BAA4B;CAC7B;;AAED,0BAAQ;;AAER;EACE,mBAAmB;EACnB,WAAW;EACX,mBAAmB;EACnB,WAAW;EACX,yCAAyC;EACzC,oCAAoC;EACpC,iCAAiC;EACjC,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;CACjC;;AAED;EACE,mBAAmB;;EAEnB,aAAa;EACb,YAAY;;EAEZ,qBAAqB;;EAErB,qBAAqB;;EAErB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;;EAE5B,kCAAkC;;EAElC,iBAAiB;;EAEjB,YAAY;;EAEZ,sEAAsE;;EAEtE,iEAAiE;;EAEjE,8DAA8D;;CAE/D;;AAED;IACI,WAAW;GACZ;;AAEH;EACE,WAAW;EACX,iBAAiB;EACjB,0FAA0F;EAC1F,qFAAqF;EACrF,kFAAkF;CACnF;;AAED;EACE,2BAA2B;CAC5B;;AAED;EACE,2BAA2B;CAC5B","file":"MediaButton.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n\n.root {\n  margin: 0 4px;\n  margin: 0 0.25rem;\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  //margin: 0 8px;\n  //margin: 0 0.5rem;\n  border: none;\n  color: white;\n  background-color: transparent;\n  position: relative\n}\n\n.root:hover .text {\n      opacity: 0;\n      z-index: -1;\n      //transition: opacity 0.25s ease-out, z-index 0s 0.25s ease-out;\n}\n\n.root:hover .transformIcon {\n\n      margin: 0 2px;\n      border-radius: 50%;\n      -webkit-transition: margin 0.5s ease-out, border-radius 0.5s ease-out;\n      -o-transition: margin 0.5s ease-out, border-radius 0.5s ease-out;\n      transition: margin 0.5s ease-out, border-radius 0.5s ease-out;\n}\n\n.root:hover .transformIcon * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.root:hover .squish {\n      width: 25px;\n      -webkit-transition: margin 0.5s 0.25s ease-out, border-radius 0.5s ease-out, width 0.25s ease-out;\n      -o-transition: margin 0.5s 0.25s ease-out, border-radius 0.5s ease-out, width 0.25s ease-out;\n      transition: margin 0.5s 0.25s ease-out, border-radius 0.5s ease-out, width 0.25s ease-out;\n}\n\n.root:hover .hide {\n      width: 0;\n      overflow: hidden;\n      margin: 0;\n}\n\n.defaultHover:hover {\n  background-color: darkgreen;\n}\n\n.hide {}\n\n.text {\n  position: absolute;\n  z-index: 1;\n  text-align: center;\n  opacity: 1;\n  -webkit-transition: opacity 0.5s ease-in;\n  -o-transition: opacity 0.5s ease-in;\n  transition: opacity 0.5s ease-in;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n.transformIcon {\n  position: relative;\n\n  height: 25px;\n  width: 25px;\n\n  display: -webkit-box;\n\n  display: -ms-flexbox;\n\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n\n  background-color: rgb(82, 82, 82);\n\n  border-radius: 0;\n\n  margin: 0 0;\n\n  -webkit-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n  -o-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n  transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n}\n\n.transformIcon * {\n    opacity: 0;\n  }\n\n.squish {\n  width: 1px;\n  overflow: hidden;\n  -webkit-transition: border-radius 0.25s ease-in, margin 0.25s ease-in, width 0.5s ease-in;\n  -o-transition: border-radius 0.25s ease-in, margin 0.25s ease-in, width 0.5s ease-in;\n  transition: border-radius 0.25s ease-in, margin 0.25s ease-in, width 0.5s ease-in;\n}\n\n.left {\n  border-radius: 50% 0 0 50%;\n}\n\n.right {\n  border-radius: 0 50% 50% 0;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n\n.MediaButton-root-16FEI {\n  margin: 0 16px;\n  margin: 0 1rem;\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  color: white;\n  background-color: transparent;\n  position: relative\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-text-2cqDR {\n      opacity: 0;\n      z-index: -1;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-transformIcon-2ggyH {\n\n      margin: 0 4px;\n      border-radius: 50%;\n      -webkit-transition: margin 0.5s ease-out, border-radius 0.5s ease-out;\n      -o-transition: margin 0.5s ease-out, border-radius 0.5s ease-out;\n      transition: margin 0.5s ease-out, border-radius 0.5s ease-out;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-transformIcon-2ggyH * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.MediaButton-root-16FEI:hover .MediaButton-transformIcon-2ggyH.MediaButton-squish-hY-HG {\n      margin: 0 4px;\n      border-radius: 50%;\n      -webkit-transition: margin 0.5s 0.25s ease-out, border-radius 0.5s 0.25s ease-out;\n      -o-transition: margin 0.5s 0.25s ease-out, border-radius 0.5s 0.25s ease-out;\n      transition: margin 0.5s 0.25s ease-out, border-radius 0.5s 0.25s ease-out;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-transformIcon-2ggyH.MediaButton-squish-hY-HG * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.MediaButton-root-16FEI:hover .MediaButton-transformIcon-2ggyH.MediaButton-squishMe-mAYH2 {\n      margin: 0;\n      border-radius: 50%;\n      width: 0;\n      min-width: 0;\n      padding: 0;\n      -webkit-transition: margin 0.5s 0.25s ease-out, border-radius 0.5s 0.25s ease-out, width 0.25s ease-out;\n      -o-transition: margin 0.5s 0.25s ease-out, border-radius 0.5s 0.25s ease-out, width 0.25s ease-out;\n      transition: margin 0.5s 0.25s ease-out, border-radius 0.5s 0.25s ease-out, width 0.25s ease-out;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-transformIcon-2ggyH.MediaButton-squishMe-mAYH2 * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.MediaButton-defaultHover-1ujKb:hover {\n  background-color: darkgreen;\n}\n\n.MediaButton-text-2cqDR {\n  position: absolute;\n  z-index: 1;\n  text-align: center;\n  opacity: 1;\n  -webkit-transition: opacity 0.5s ease-in;\n  -o-transition: opacity 0.5s ease-in;\n  transition: opacity 0.5s ease-in;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n.MediaButton-transformIcon-2ggyH {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n\n  -webkit-box-align: center;\n\n      -ms-flex-align: center;\n\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  min-width: 1em;\n  vertical-align: middle;\n\n  position: relative;\n\n  padding: 4px;\n  padding: 0.25rem;\n\n\n  background-color: rgb(82, 82, 82);\n\n  border-radius: 0;\n\n  margin: 0 0;\n\n  -webkit-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n  -o-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n  transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n}\n\n.MediaButton-transformIcon-2ggyH * {\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    text-decoration: none;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    min-width: 1em;\n    vertical-align: middle;\n    opacity: 0;\n  }\n\n.MediaButton-box-1V3fy {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  min-width: 1em;\n  vertical-align: middle;\n  height: 1em;\n}\n\n.MediaButton-box-1V3fy * {\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    min-width: 1em;\n    vertical-align: middle;\n    height: 1em;\n  }\n\n.MediaButton-hide-LoymV {\n\n}\n\n.MediaButton-hideMe-AVM1D {\n\n}\n\n.MediaButton-squish-hY-HG {\n  -webkit-transition: border-radius 0.25s 0.25s ease-in, margin 0.25s 0.25s ease-in;\n  -o-transition: border-radius 0.25s 0.25s ease-in, margin 0.25s 0.25s ease-in;\n  transition: border-radius 0.25s 0.25s ease-in, margin 0.25s 0.25s ease-in;\n}\n\n.MediaButton-squishMe-mAYH2 {\n  -webkit-transition: border-radius 0.25s 0.25s ease-in, margin 0.25s 0.25s ease-in, width 0.25s ease-out;\n  -o-transition: border-radius 0.25s 0.25s ease-in, margin 0.25s 0.25s ease-in, width 0.25s ease-out;\n  transition: border-radius 0.25s 0.25s ease-in, margin 0.25s 0.25s ease-in, width 0.25s ease-out;\n}\n\n.MediaButton-left-3Y_KF {\n  border-radius: 50% 0 0 50%;\n}\n\n.MediaButton-right-3zJ-E {\n  border-radius: 0 50% 50% 0;\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/components/MediaButton/MediaButton.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;AAEH;EACE;;gFAE8E;;EAE9E;;gFAE8E;;EAE9E;;gFAE8E,EAAE,gCAAgC,EAAE,2BAA2B,EAAE,6BAA6B,CAAC,iCAAiC;;EAE9M;;gFAE8E;CAC/E;;AAED;EACE,eAAe;EACf,eAAe;EACf,4BAA4B;EAC5B,4BAA4B;EAC5B,qBAAqB;EACrB,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;EAC5B,aAAa;EACb,8BAA8B;EAC9B,kBAAkB;CACnB;;AAED;MACM,WAAW;MACX,YAAY;CACjB;;AAED;;MAEM,cAAc;MACd,mBAAmB;MACnB,sEAAsE;MACtE,iEAAiE;MACjE,8DAA8D;CACnE;;AAED;QACQ,WAAW;QACX,iCAAiC;QACjC,4BAA4B;QAC5B,yBAAyB;OAC1B;;AAEP;MACM,cAAc;MACd,mBAAmB;MACnB,kFAAkF;MAClF,6EAA6E;MAC7E,0EAA0E;CAC/E;;AAED;QACQ,WAAW;QACX,iCAAiC;QACjC,4BAA4B;QAC5B,yBAAyB;OAC1B;;AAEP;MACM,UAAU;MACV,mBAAmB;MACnB,SAAS;MACT,aAAa;MACb,WAAW;MACX,wGAAwG;MACxG,mGAAmG;MACnG,gGAAgG;CACrG;;AAED;QACQ,WAAW;QACX,iCAAiC;QACjC,4BAA4B;QAC5B,yBAAyB;OAC1B;;AAEP;EACE,4BAA4B;CAC7B;;AAED;EACE,mBAAmB;EACnB,WAAW;EACX,mBAAmB;EACnB,WAAW;EACX,yCAAyC;EACzC,oCAAoC;EACpC,iCAAiC;EACjC,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;CACjC;;AAED;EACE,4BAA4B;EAC5B,4BAA4B;EAC5B,qBAAqB;;EAErB,0BAA0B;;MAEtB,uBAAuB;;UAEnB,oBAAoB;EAC5B,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,eAAe;EACf,uBAAuB;;EAEvB,mBAAmB;;EAEnB,aAAa;EACb,iBAAiB;;;EAGjB,kCAAkC;;EAElC,iBAAiB;;EAEjB,YAAY;;EAEZ,sEAAsE;;EAEtE,iEAAiE;;EAEjE,8DAA8D;;CAE/D;;AAED;IACI,4BAA4B;IAC5B,4BAA4B;IAC5B,qBAAqB;IACrB,sBAAsB;IACtB,0BAA0B;QACtB,uBAAuB;YACnB,oBAAoB;IAC5B,yBAAyB;QACrB,sBAAsB;YAClB,wBAAwB;IAChC,eAAe;IACf,uBAAuB;IACvB,WAAW;GACZ;;AAEH;EACE,4BAA4B;EAC5B,4BAA4B;EAC5B,qBAAqB;EACrB,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;EAC5B,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,eAAe;EACf,uBAAuB;EACvB,YAAY;CACb;;AAED;IACI,4BAA4B;IAC5B,4BAA4B;IAC5B,qBAAqB;IACrB,0BAA0B;QACtB,uBAAuB;YACnB,oBAAoB;IAC5B,yBAAyB;QACrB,sBAAsB;YAClB,wBAAwB;IAChC,eAAe;IACf,uBAAuB;IACvB,YAAY;GACb;;AAEH;;CAEC;;AAED;;CAEC;;AAED;EACE,kFAAkF;EAClF,6EAA6E;EAC7E,0EAA0E;CAC3E;;AAED;EACE,wGAAwG;EACxG,mGAAmG;EACnG,gGAAgG;CACjG;;AAED;EACE,2BAA2B;CAC5B;;AAED;EACE,2BAA2B;CAC5B","file":"MediaButton.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n\n.root {\n  margin: 0 16px;\n  margin: 0 1rem;\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  color: white;\n  background-color: transparent;\n  position: relative\n}\n\n.root:hover .text {\n      opacity: 0;\n      z-index: -1;\n}\n\n.root:hover .transformIcon {\n\n      margin: 0 4px;\n      border-radius: 50%;\n      -webkit-transition: margin 0.5s ease-out, border-radius 0.5s ease-out;\n      -o-transition: margin 0.5s ease-out, border-radius 0.5s ease-out;\n      transition: margin 0.5s ease-out, border-radius 0.5s ease-out;\n}\n\n.root:hover .transformIcon * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.root:hover .transformIcon.squish {\n      margin: 0 4px;\n      border-radius: 50%;\n      -webkit-transition: margin 0.5s 0.25s ease-out, border-radius 0.5s 0.25s ease-out;\n      -o-transition: margin 0.5s 0.25s ease-out, border-radius 0.5s 0.25s ease-out;\n      transition: margin 0.5s 0.25s ease-out, border-radius 0.5s 0.25s ease-out;\n}\n\n.root:hover .transformIcon.squish * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.root:hover .transformIcon.squishMe {\n      margin: 0;\n      border-radius: 50%;\n      width: 0;\n      min-width: 0;\n      padding: 0;\n      -webkit-transition: margin 0.5s 0.25s ease-out, border-radius 0.5s 0.25s ease-out, width 0.25s ease-out;\n      -o-transition: margin 0.5s 0.25s ease-out, border-radius 0.5s 0.25s ease-out, width 0.25s ease-out;\n      transition: margin 0.5s 0.25s ease-out, border-radius 0.5s 0.25s ease-out, width 0.25s ease-out;\n}\n\n.root:hover .transformIcon.squishMe * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.defaultHover:hover {\n  background-color: darkgreen;\n}\n\n.text {\n  position: absolute;\n  z-index: 1;\n  text-align: center;\n  opacity: 1;\n  -webkit-transition: opacity 0.5s ease-in;\n  -o-transition: opacity 0.5s ease-in;\n  transition: opacity 0.5s ease-in;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n.transformIcon {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n\n  -webkit-box-align: center;\n\n      -ms-flex-align: center;\n\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  min-width: 1em;\n  vertical-align: middle;\n\n  position: relative;\n\n  padding: 4px;\n  padding: 0.25rem;\n\n\n  background-color: rgb(82, 82, 82);\n\n  border-radius: 0;\n\n  margin: 0 0;\n\n  -webkit-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n  -o-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n  transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n}\n\n.transformIcon * {\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    text-decoration: none;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    min-width: 1em;\n    vertical-align: middle;\n    opacity: 0;\n  }\n\n.box {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  min-width: 1em;\n  vertical-align: middle;\n  height: 1em;\n}\n\n.box * {\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    min-width: 1em;\n    vertical-align: middle;\n    height: 1em;\n  }\n\n.hide {\n\n}\n\n.hideMe {\n\n}\n\n.squish {\n  -webkit-transition: border-radius 0.25s 0.25s ease-in, margin 0.25s 0.25s ease-in;\n  -o-transition: border-radius 0.25s 0.25s ease-in, margin 0.25s 0.25s ease-in;\n  transition: border-radius 0.25s 0.25s ease-in, margin 0.25s 0.25s ease-in;\n}\n\n.squishMe {\n  -webkit-transition: border-radius 0.25s 0.25s ease-in, margin 0.25s 0.25s ease-in, width 0.25s ease-out;\n  -o-transition: border-radius 0.25s 0.25s ease-in, margin 0.25s 0.25s ease-in, width 0.25s ease-out;\n  transition: border-radius 0.25s 0.25s ease-in, margin 0.25s 0.25s ease-in, width 0.25s ease-out;\n}\n\n.left {\n  border-radius: 50% 0 0 50%;\n}\n\n.right {\n  border-radius: 0 50% 50% 0;\n}\n"],"sourceRoot":""}]);
 
 // exports
 exports.locals = {
@@ -2800,8 +2788,11 @@ exports.locals = {
 	"text": "MediaButton-text-2cqDR",
 	"transformIcon": "MediaButton-transformIcon-2ggyH",
 	"squish": "MediaButton-squish-hY-HG",
-	"hide": "MediaButton-hide-LoymV",
+	"squishMe": "MediaButton-squishMe-mAYH2",
 	"defaultHover": "MediaButton-defaultHover-1ujKb",
+	"box": "MediaButton-box-1V3fy",
+	"hide": "MediaButton-hide-LoymV",
+	"hideMe": "MediaButton-hideMe-AVM1D",
 	"left": "MediaButton-left-3Y_KF",
 	"right": "MediaButton-right-3zJ-E"
 };

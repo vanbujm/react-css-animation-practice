@@ -1,12 +1,10 @@
 @import '../variables.css';
 
 .root {
-  margin: 0 0.25rem;
+  margin: 0 1rem;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  //margin: 0 0.5rem;
-  border: none;
   color: white;
   background-color: transparent;
   position: relative;
@@ -16,12 +14,11 @@
     .text {
       opacity: 0;
       z-index: -1;
-      //transition: opacity 0.25s ease-out, z-index 0s 0.25s ease-out;
     }
 
     .transformIcon {
 
-      margin: 0 2px;
+      margin: 0 4px;
       border-radius: 50%;
       transition: margin 0.5s ease-out, border-radius 0.5s ease-out;
 
@@ -31,24 +28,37 @@
       }
     }
 
-    .squish {
-      width: 25px;
-      transition: margin 0.5s 0.25s ease-out, border-radius 0.5s ease-out, width 0.25s ease-out;
+    .transformIcon.squish {
+      margin: 0 4px;
+      border-radius: 50%;
+      transition: margin 0.5s 0.25s ease-out, border-radius 0.5s 0.25s ease-out;
+
+      * {
+        opacity: 1;
+        transition: opacity 1.5s;
+      }
     }
 
-    .hide {
-      width: 0;
-      overflow: hidden;
+    .transformIcon.squishMe {
       margin: 0;
+      border-radius: 50%;
+      width: 0;
+      min-width: 0;
+      padding: 0;
+      transition: margin 0.5s 0.25s ease-out, border-radius 0.5s 0.25s ease-out, width 0.25s ease-out;
+
+      * {
+        opacity: 1;
+        transition: opacity 1.5s;
+      }
     }
+
   }
 }
 
 .defaultHover:hover {
   background-color: darkgreen;
 }
-
-.hide {}
 
 .text {
   position: absolute;
@@ -61,14 +71,17 @@
 }
 
 .transformIcon {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+  min-width: 1em;
+  vertical-align: middle;
+
   position: relative;
 
-  height: 25px;
-  width: 25px;
+  padding: 0.25rem;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
   background-color: color(var(--color-secondary) tint(15%));
 
@@ -79,15 +92,49 @@
   transition: border-radius 0.25s ease-in, margin 0.25s ease-in;
 
   * {
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    min-width: 1em;
+    vertical-align: middle;
     opacity: 0;
   }
 
 }
 
+.box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1em;
+  vertical-align: middle;
+  height: 1em;
+
+  * {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1em;
+    vertical-align: middle;
+    height: 1em;
+  }
+}
+
+.hide {
+
+}
+
+.hideMe {
+
+}
+
 .squish {
-  width: 1px;
-  overflow: hidden;
-  transition: border-radius 0.25s ease-in, margin 0.25s ease-in, width 0.5s ease-in;
+  transition: border-radius 0.25s 0.25s ease-in, margin 0.25s 0.25s ease-in;
+}
+
+.squishMe {
+  transition: border-radius 0.25s 0.25s ease-in, margin 0.25s 0.25s ease-in, width 0.25s ease-out;
 }
 
 .left {

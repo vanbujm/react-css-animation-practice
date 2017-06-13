@@ -50,73 +50,71 @@ class MediaButton extends Component {
   }
 
   createButtonList(iconArray) {
-    const iconArrayElement = [];
+    let iconArrayElement = [];
 
     let currentNumberOfElements = 0;
 
-    const maxNumberOfElements = this.state.maxWidth / ICON_WIDTH;
+    const maxNumberOfElements = Math.ceil(this.state.maxWidth / ICON_WIDTH);
 
     iconArray.forEach(
-      (child, index) => {
-        const optionalClass = child.props['data-parent-class'] ? child.props['data-parent-class'] : style.defaultHover;
-        if (index === 0) {
-          iconArrayElement.push(
-            <div
-              key={index}
-              className={cx(style.transformIcon, style.left, optionalClass)}
-            >
-              {child}
-            </div>,
-          );
-        }
-        if (MediaButton.isMiddleIndex(iconArray, index)) {
-          if (maxNumberOfElements - currentNumberOfElements > 1) {
-            iconArrayElement.push(
-              <div
-                key={index}
-                className={cx(style.transformIcon, optionalClass)}
-              >
-                {child}
-              </div>);
-          } else {
-            iconArrayElement.push(
-              <div
-                key={index}
-                className={cx(style.transformIcon, style.squish, optionalClass)}
-              >
-                {child}
-              </div>);
-          }
-        }
-        if (iconArray.length - 1 === index) {
-          iconArrayElement.push(
-            <div
-              key={index}
-              className={cx(style.transformIcon, style.right, optionalClass)}
-            >
-              {child}
-            </div>);
-        }
-
+      (child) => {
         currentNumberOfElements += 1;
+        iconArrayElement.push(
+          [
+            child,
+            child.props['data-parent-class'] ? child.props['data-parent-class'] : style.defaultHover,
+          ],
+        );
       });
 
-    while (currentNumberOfElements * ICON_WIDTH < this.state.maxWidth) {
-      currentNumberOfElements += 1;
-      iconArrayElement.splice(
-        iconArrayElement.length - 1,
-        0,
-        <div key={currentNumberOfElements} className={cx(style.transformIcon, style.hide)} />);
+    let iconWidth = 'perfect';
+
+    if (currentNumberOfElements * ICON_WIDTH < this.state.maxWidth) iconWidth = 'too small';
+    if (currentNumberOfElements > maxNumberOfElements) iconWidth = 'too big';
+
+    if (iconWidth === 'too small') {
+      iconArrayElement = iconArrayElement.map(
+        element => [element[0], cx(style.squish, element[1])],
+      );
+      while (currentNumberOfElements < maxNumberOfElements) {
+        currentNumberOfElements += 1;
+        iconArrayElement.splice(iconArrayElement.length - 1, 0, [<a className={style.box}>&nbsp;</a>, cx(style.transformIcon, style.squishMe)]);
+      }
     }
+    if (iconWidth === 'too big') {
+      iconArrayElement = iconArrayElement.map(
+        (element, index, arr) => {
+          if (MediaButton.isMiddleIndex(arr, index)) {
+            return [element[0], cx(style.hideMe, element[1])];
+          }
+          return [element[0], cx(style.hide, element[1])];
+        },
+      );
+    }
+
+    iconArrayElement = iconArrayElement.map(
+      (element, index) => {
+        if (index === 0) {
+          return [element[0], cx(style.transformIcon, style.left, element[1])];
+        }
+        if (iconArrayElement.length - 1 === index) {
+          return [element[0], cx(style.transformIcon, style.right, element[1])];
+        }
+        return [element[0], cx(style.transformIcon, element[1])];
+      },
+    );
+
+    iconArrayElement = iconArrayElement.map(
+      (element, index) => <div key={index} className={element[1]}>{element[0]}</div>,
+    );
 
     return iconArrayElement;
   }
-
+  // style={{ minWidth: this.state.maxWidth, maxWidth: this.state.maxWidth }}
   render() {
     const icons = this.createButtonList(this.props.children);
-
     return (
-      <div className={style.root}>
+      <div className={style.root} style={{ minWidth: this.state.maxWidth, maxWidth: this.state.maxWidth }}>
         { this.props.text &&
         <div
           className={style.text}
