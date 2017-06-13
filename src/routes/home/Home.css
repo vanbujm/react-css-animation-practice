@@ -109,6 +109,7 @@ a {
   animation-name: mymove;
   animation-timing-function: linear;
   animation-duration: 10s;
+  animation-iteration-count: infinite
 }
 
 .sun {
