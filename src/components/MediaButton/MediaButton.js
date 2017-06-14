@@ -1,5 +1,5 @@
 /* eslint-disable react/no-did-mount-set-state,react/no-array-index-key,max-len */
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import cx from 'classnames';
@@ -48,7 +48,7 @@ class MediaButton extends Component {
 
     if (this.divElement !== null) {
       if (this.state.maxWidth !== maxWidth) {
-        this.setState({maxWidth});
+        this.setState({ maxWidth });
       }
     }
   }
@@ -83,7 +83,8 @@ class MediaButton extends Component {
       while (currentNumberOfElements < maxNumberOfElements) {
         currentNumberOfElements += 1;
         iconArrayElement.splice(iconArrayElement.length - 1, 0, [<a
-          className={style.box}>&nbsp;</a>, cx(style.transformIcon, style.squishMe)]);
+          className={style.box}
+        >&nbsp;</a>, cx(style.transformIcon, style.squishMe)]);
       }
     }
     if (buttonSize === 'too big') {
@@ -120,8 +121,8 @@ class MediaButton extends Component {
   render() {
     const icons = this.createButtonList(this.props.children);
     return (
-        <div className={style.root}>
-          { this.props.text &&
+      <div className={style.root}>
+        { this.props.text &&
           <div
             className={style.text}
             ref={(divElement) => {
@@ -131,8 +132,8 @@ class MediaButton extends Component {
             {this.props.text}
           </div>
           }
-          {icons}
-        </div>
+        {icons}
+      </div>
     );
   }
 }
