@@ -55,11 +55,11 @@ class Home extends React.Component {
 
     const orbit = keyframes`
     from {
-      transform: rotate(0deg) translate(300px) rotate(0deg);
+      transform: rotate(0deg) translate(${orbitDistance}px) rotate(0deg);
     }
   
     to {
-      transform: rotate(360deg) translate(300px) rotate(-360deg);
+      transform: rotate(360deg) translate(${orbitDistance}px) rotate(-360deg);
     }
   `;
 

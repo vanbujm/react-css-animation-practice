@@ -1912,7 +1912,7 @@ var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/route
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _templateObject = _taggedTemplateLiteral(['\n    from {\n      transform: rotate(0deg) translate(300px) rotate(0deg);\n    }\n  \n    to {\n      transform: rotate(360deg) translate(300px) rotate(-360deg);\n    }\n  '], ['\n    from {\n      transform: rotate(0deg) translate(300px) rotate(0deg);\n    }\n  \n    to {\n      transform: rotate(360deg) translate(300px) rotate(-360deg);\n    }\n  ']),
+var _templateObject = _taggedTemplateLiteral(['\n    from {\n      transform: rotate(0deg) translate(', 'px) rotate(0deg);\n    }\n  \n    to {\n      transform: rotate(360deg) translate(', 'px) rotate(-360deg);\n    }\n  '], ['\n    from {\n      transform: rotate(0deg) translate(', 'px) rotate(0deg);\n    }\n  \n    to {\n      transform: rotate(360deg) translate(', 'px) rotate(-360deg);\n    }\n  ']),
     _templateObject2 = _taggedTemplateLiteral(['\n      z-index: 1;\n      position: relative;\n      animation-name: ', ';\n      animation-timing-function: linear;\n      animation-duration: 10s;\n      animation-iteration-count: infinite\n    '], ['\n      z-index: 1;\n      position: relative;\n      animation-name: ', ';\n      animation-timing-function: linear;\n      animation-duration: 10s;\n      animation-iteration-count: infinite\n    ']);
 
 function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
@@ -1997,7 +1997,7 @@ var Home = function (_React$Component) {
         });
       };
 
-      var orbit = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_styled_components__["a" /* keyframes */])(_templateObject);
+      var orbit = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_styled_components__["a" /* keyframes */])(_templateObject, orbitDistance, orbitDistance);
 
       var StyledEarth = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_styled_components__["b" /* default */])(EarthMaker)(_templateObject2, orbit);
       var animation = !this.state.resetAnimation ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(

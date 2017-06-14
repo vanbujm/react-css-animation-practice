@@ -2397,11 +2397,11 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 
     const orbit = __WEBPACK_IMPORTED_MODULE_2_styled_components__["keyframes"]`
     from {
-      transform: rotate(0deg) translate(300px) rotate(0deg);
+      transform: rotate(0deg) translate(${orbitDistance}px) rotate(0deg);
     }
   
     to {
-      transform: rotate(360deg) translate(300px) rotate(-360deg);
+      transform: rotate(360deg) translate(${orbitDistance}px) rotate(-360deg);
     }
   `;
 
