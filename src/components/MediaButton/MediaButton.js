@@ -67,12 +67,12 @@ class MediaButton extends Component {
         );
       });
 
-    let iconWidth = 'perfect';
+    let buttonSize = 'perfect';
 
-    if (currentNumberOfElements * ICON_WIDTH < this.state.maxWidth) iconWidth = 'too small';
-    if (currentNumberOfElements > maxNumberOfElements) iconWidth = 'too big';
+    if (currentNumberOfElements * ICON_WIDTH < this.state.maxWidth) buttonSize = 'too small';
+    if (currentNumberOfElements > maxNumberOfElements) buttonSize = 'too big';
 
-    if (iconWidth === 'too small') {
+    if (buttonSize === 'too small') {
       iconArrayElement = iconArrayElement.map(
         element => [element[0], cx(style.squish, element[1])],
       );
@@ -81,7 +81,7 @@ class MediaButton extends Component {
         iconArrayElement.splice(iconArrayElement.length - 1, 0, [<a className={style.box}>&nbsp;</a>, cx(style.transformIcon, style.squishMe)]);
       }
     }
-    if (iconWidth === 'too big') {
+    if (buttonSize === 'too big') {
       iconArrayElement = iconArrayElement.map(
         (element, index, arr) => {
           if (MediaButton.isMiddleIndex(arr, index)) {
@@ -110,7 +110,7 @@ class MediaButton extends Component {
 
     return iconArrayElement;
   }
-  // style={{ minWidth: this.state.maxWidth, maxWidth: this.state.maxWidth }}
+
   render() {
     const icons = this.createButtonList(this.props.children);
     return (

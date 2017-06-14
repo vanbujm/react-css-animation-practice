@@ -20,7 +20,7 @@
 
       margin: 0 4px;
       border-radius: 50%;
-      transition: margin 0.5s ease-out, border-radius 0.5s ease-out;
+      transition: margin 0.5s ease-in, border-radius 0.5s ease-in;
 
       * {
         opacity: 1;
@@ -28,10 +28,10 @@
       }
     }
 
-    .transformIcon.squish {
+    .squish {
       margin: 0 4px;
       border-radius: 50%;
-      transition: margin 0.5s 0.25s ease-out, border-radius 0.5s 0.25s ease-out;
+      transition: margin 0.5s 0.25s ease-in, border-radius 0.5s 0.25s ease-in;
 
       * {
         opacity: 1;
@@ -39,18 +39,18 @@
       }
     }
 
-    .transformIcon.squishMe {
-      margin: 0;
+    .squishMe {
       border-radius: 50%;
-      width: 0;
-      min-width: 0;
       padding: 0;
-      transition: margin 0.5s 0.25s ease-out, border-radius 0.5s 0.25s ease-out, width 0.25s ease-out;
+      margin: 0;
+      transition:
+        margin 0s 0.25s ease-in,
+        border-radius 0.5s 0.25s ease-in,
+        padding-left 0.25s ease-in,
+        padding-right 0.25s ease-in,
+        padding-top 0s 0.25s ease-in,
+        padding-bottom 0s 0.25s ease-in;
 
-      * {
-        opacity: 1;
-        transition: opacity 1.5s;
-      }
     }
 
   }
@@ -65,7 +65,7 @@
   z-index: 1;
   text-align: center;
   opacity: 1;
-  transition: opacity 0.5s ease-in;
+  transition: opacity 0.5s 0.25s ease-in;
   display: flex;
   justify-content: center;
 }
@@ -79,6 +79,7 @@
   vertical-align: middle;
 
   position: relative;
+  width: auto;
 
   padding: 0.25rem;
 
@@ -130,11 +131,16 @@
 }
 
 .squish {
-  transition: border-radius 0.25s 0.25s ease-in, margin 0.25s 0.25s ease-in;
+  transition: border-radius 0.25s ease-in, margin 0.25s ease-in;
 }
 
 .squishMe {
-  transition: border-radius 0.25s 0.25s ease-in, margin 0.25s 0.25s ease-in, width 0.25s ease-out;
+  border-radius: 0;
+  min-width: 0;
+  width: 0;
+  padding: 0.25rem 0.75rem;
+  margin: 0;
+  transition: padding-left 0.1s 0.25s ease-in, padding-right 0.1s 0.25s ease-in;
 }
 
 .left {
