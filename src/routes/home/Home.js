@@ -12,8 +12,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import cx from 'classnames';
+import styled, { keyframes } from 'styled-components';
 import s from './Home.css';
-import orbitStyle from '../../components/Orbit.css';
 import Earth from '../../components/Earth';
 import Sun from '../../components/Sun';
 import MediaButton from '../../components/MediaButton';
@@ -27,6 +27,7 @@ class Home extends React.Component {
     this.state = {
       resetAnimation: false,
       followButton: 'Follow',
+      orbitRadius: 300,
     };
 
     this.toggleAnimation = this.toggleAnimation.bind(this);
@@ -36,14 +37,40 @@ class Home extends React.Component {
     this.setState({ followButton: event.target.value });
   }
 
+  orbitChange(event) {
+    this.setState({ orbitRadius: event.target.value });
+  }
+
   toggleAnimation() {
     this.setState({ resetAnimation: !this.state.resetAnimation });
   }
 
   render() {
+    const orbitDistance = this.state.orbitRadius;
+
+    const EarthMaker = ({ className }) => <Earth width={104} height={74} className={className} />;
+
+    const orbit = keyframes`
+    from {
+      transform: rotate(0deg) translate(${orbitDistance}px) rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg) translate(${orbitDistance}px) rotate(-360deg);
+    }
+  `;
+
+    const StyledEarth = styled(EarthMaker)`
+      z-index: 1;
+      position: relative;
+      animation-name: ${orbit};
+      animation-timing-function: linear;
+      animation-duration: 10s;
+      animation-iteration-count: infinite
+    `;
     const animation = !this.state.resetAnimation ? (<div className={s.animationContainer}>
-      <Sun width={208} height={148} className={s.sun} />
-      <Earth width={104} height={74} className={cx(s.animation, orbitStyle.orbit)} />
+      <Sun width={300} height={300} className={s.sun} />
+      <StyledEarth />
     </div>) : null;
 
     return (
@@ -57,8 +84,22 @@ class Home extends React.Component {
             >
               Toggle Animation
             </button>
+            <div style={{ padding: '0 1rem' }}>
+              <label htmlFor="orbitRadius">Orbit Radius: </label>
+              <input
+                id="orbitRadius"
+                type="range"
+                min={0}
+                max={450}
+                value={this.state.orbitRadius}
+                onChange={(event) => {
+                  this.orbitChange(event);
+                }}
+              />
+            </div>
+            <span>{this.state.orbitRadius}</span>
           </div>
-          { animation }
+          <div className={s.row}>{ animation }</div>
         </section>
         <section>
           <h1>A (somewhat improved) attempt at <a
@@ -79,27 +120,34 @@ class Home extends React.Component {
             />
           </div>
           <div className={s.exampleTwo}>
-            <MediaButton text={this.state.followButton}>
-              <a href="" alt="follow button" data-parent-class={s.twitter}><i
-                className="fa fa-twitter"
-                aria-hidden="true"
-              /></a>
-              <a href="" alt="follow button" data-parent-class={s.facebook}><i
-                className="fa fa-facebook"
-                aria-hidden="true"
-              /></a>
-              <a href="" alt="follow button" data-parent-class={s.dribble}><i
-                className="fa fa-dribbble"
-                aria-hidden="true"
-              /></a>
-              <a href="" alt="follow button" data-parent-class={s.slack}><i className="fa fa-slack" aria-hidden="true" /></a>
-            </MediaButton>
-            <MediaButton text={<span>Share<small> 102</small></span>}>
-              <i className="fa fa-twitter" aria-hidden="true" data-parent-class={s.twitter} />
-              <i className="fa fa-facebook" aria-hidden="true" data-parent-class={s.facebook} />
-              <i className="fa fa-dribbble" aria-hidden="true" data-parent-class={s.dribble} />
-              <i className="fa fa-slack" aria-hidden="true" data-parent-class={s.slack} />
-            </MediaButton>
+            <div className={s.buttonContainer}>
+              <MediaButton text={this.state.followButton}>
+                <a href="" alt="follow button" data-parent-class={s.twitter}><i
+                  className="fa fa-twitter"
+                  aria-hidden="true"
+                /></a>
+                <a href="" alt="follow button" data-parent-class={s.facebook}><i
+                  className="fa fa-facebook"
+                  aria-hidden="true"
+                /></a>
+                <a href="" alt="follow button" data-parent-class={s.dribble}><i
+                  className="fa fa-dribbble"
+                  aria-hidden="true"
+                /></a>
+                <a href="" alt="follow button" data-parent-class={s.slack}><i
+                  className="fa fa-slack"
+                  aria-hidden="true"
+                /></a>
+              </MediaButton>
+            </div>
+            <div className={s.buttonContainer}>
+              <MediaButton text={<span>Share<small> 102</small></span>}>
+                <i className="fa fa-twitter" aria-hidden="true" data-parent-class={s.twitter} />
+                <i className="fa fa-facebook" aria-hidden="true" data-parent-class={s.facebook} />
+                <i className="fa fa-dribbble" aria-hidden="true" data-parent-class={s.dribble} />
+                <i className="fa fa-slack" aria-hidden="true" data-parent-class={s.slack} />
+              </MediaButton>
+            </div>
           </div>
         </section>
       </article>
@@ -107,4 +155,4 @@ class Home extends React.Component {
   }
 }
 
-export default withStyles(s, orbitStyle)(Home);
+export default withStyles(s)(Home);

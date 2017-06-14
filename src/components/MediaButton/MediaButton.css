@@ -1,7 +1,6 @@
 @import '../variables.css';
 
 .root {
-  margin: 0 1rem;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +19,7 @@
 
       margin: 0 4px;
       border-radius: 50%;
-      transition: margin 0.5s ease-in, border-radius 0.5s ease-in;
+      transition: margin 0.5s linear, border-radius 0.5s linear;
 
       * {
         opacity: 1;
@@ -31,7 +30,7 @@
     .squish {
       margin: 0 4px;
       border-radius: 50%;
-      transition: margin 0.5s 0.25s ease-in, border-radius 0.5s 0.25s ease-in;
+      transition: margin 0.5s 0.25s linear, border-radius 0.5s 0.25s linear;
 
       * {
         opacity: 1;
@@ -43,14 +42,37 @@
       border-radius: 50%;
       padding: 0;
       margin: 0;
-      transition:
-        margin 0s 0.25s ease-in,
-        border-radius 0.5s 0.25s ease-in,
-        padding-left 0.25s ease-in,
-        padding-right 0.25s ease-in,
-        padding-top 0s 0.25s ease-in,
-        padding-bottom 0s 0.25s ease-in;
+      transition: margin 0s 0.25s linear,
+      border-radius 0.5s 0.25s linear,
+      padding-left 0.1s linear,
+      padding-right 0.1s linear,
+      padding-top 0s 0.25s linear,
+      padding-bottom 0s 0.25s linear;
+    }
 
+    .hide {
+      margin: 0 4px;
+      border-radius: 50%;
+      transition: margin 0.5s 0.25s linear, border-radius 0.5s 0.25s linear;
+
+      * {
+        opacity: 1;
+        transition: opacity 1.5s;
+      }
+    }
+
+    .hideMe {
+      border-radius: 50%;
+      min-width: 1rem;
+      width: auto;
+      padding: 0.25rem;
+      margin: 0 4px;
+      transition: padding-left 0.25s linear,
+      padding-right 0.25s linear,
+      width 0.25s linear,
+      min-width 0.25s linear,
+      margin 0.5s 0.25s linear,
+      border-radius 0.5s 0.25s linear;
     }
 
   }
@@ -82,7 +104,6 @@
   width: auto;
 
   padding: 0.25rem;
-
 
   background-color: color(var(--color-secondary) tint(15%));
 
@@ -127,7 +148,11 @@
 }
 
 .hideMe {
-
+  border-radius: 0;
+  min-width: 0;
+  width: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .squish {

@@ -65,7 +65,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "/assets/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 88);
+/******/ 	return __webpack_require__(__webpack_require__.s = 87);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -163,11 +163,11 @@ function toComment(sourceMap) {
 "use strict";
 
 
-var _stringify = __webpack_require__(71);
+var _stringify = __webpack_require__(69);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
-var _slicedToArray2 = __webpack_require__(72);
+var _slicedToArray2 = __webpack_require__(70);
 
 var _slicedToArray3 = _interopRequireDefault(_slicedToArray2);
 
@@ -309,9 +309,9 @@ module.exports = require("isomorphic-style-loader/lib/withStyles");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_normalize_css__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_normalize_css__ = __webpack_require__(66);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_normalize_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_normalize_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Layout_css__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Layout_css__ = __webpack_require__(58);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Layout_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__Layout_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Header__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Footer__ = __webpack_require__(17);
@@ -541,7 +541,7 @@ const SET_RUNTIME_VARIABLE = 'SET_RUNTIME_VARIABLE';
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(51);
+    var content = __webpack_require__(50);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -589,23 +589,23 @@ module.exports = require("redux");
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path__ = __webpack_require__(78);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_path__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_express__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_express__ = __webpack_require__(73);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_express___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_express__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_cookie_parser__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_cookie_parser__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_cookie_parser___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_cookie_parser__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_body_parser__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_body_parser__ = __webpack_require__(71);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_body_parser___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_body_parser__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_express_jwt__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_express_jwt__ = __webpack_require__(75);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_express_jwt___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_express_jwt__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_express_graphql__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_express_graphql__ = __webpack_require__(74);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_express_graphql___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_express_graphql__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_dom_server__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_dom_server__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_dom_server___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react_dom_server__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_pretty_error__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_pretty_error__ = __webpack_require__(79);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_pretty_error___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_pretty_error__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_App__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_Html__ = __webpack_require__(19);
@@ -614,7 +614,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__routes_error_ErrorPage_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__routes_error_ErrorPage_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__createFetch__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__router__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__assets_json__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__assets_json__ = __webpack_require__(68);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__assets_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15__assets_json__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__store_configureStore__ = __webpack_require__(39);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__actions_runtime__ = __webpack_require__(14);
@@ -874,7 +874,7 @@ function setRuntimeVariable({ name, value }) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_redux__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_redux__ = __webpack_require__(81);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_redux___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_redux__);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -1046,7 +1046,7 @@ Earth.defaultProps = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Footer_css__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Footer_css__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Footer_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__Footer_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Link__ = __webpack_require__(6);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Footer/Footer.js';
@@ -1148,13 +1148,13 @@ class Footer extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Header_css__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Header_css__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Header_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__Header_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Link__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Navigation__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__logo_small_png__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__logo_small_png__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__logo_small_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__logo_small_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__logo_small_2x_png__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__logo_small_2x_png__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__logo_small_2x_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__logo_small_2x_png__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Header/Header.js';
 /**
@@ -1259,7 +1259,7 @@ class Header extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_serialize_javascript__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_serialize_javascript__ = __webpack_require__(83);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_serialize_javascript___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_serialize_javascript__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__config__);
@@ -1435,7 +1435,7 @@ Html.defaultProps = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_classnames__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__MediaButton_css__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__MediaButton_css__ = __webpack_require__(59);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__MediaButton_css__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/MediaButton/MediaButton.js';
 /* eslint-disable react/no-did-mount-set-state,react/no-array-index-key,max-len */
@@ -1475,9 +1475,13 @@ class MediaButton extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
 
   setMaxWidth() {
     const paddingWidth = 2 * ICON_WIDTH;
+
+    let maxWidth = this.divElement.clientWidth + paddingWidth;
+    if (ICON_WIDTH * this.props.children.length > maxWidth) maxWidth = ICON_WIDTH * this.props.children.length;
+
     if (this.divElement !== null) {
-      if (this.state.maxWidth !== this.divElement.clientWidth + paddingWidth) {
-        this.setState({ maxWidth: this.divElement.clientWidth + paddingWidth });
+      if (this.state.maxWidth !== maxWidth) {
+        this.setState({ maxWidth });
       }
     }
   }
@@ -1505,9 +1509,10 @@ class MediaButton extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
         currentNumberOfElements += 1;
         iconArrayElement.splice(iconArrayElement.length - 1, 0, [__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'a',
-          { className: __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.box, __source: {
+          {
+            className: __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.box, __source: {
               fileName: _jsxFileName,
-              lineNumber: 81
+              lineNumber: 85
             },
             __self: this
           },
@@ -1538,7 +1543,7 @@ class MediaButton extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
       'div',
       { key: index, className: element[1], __source: {
           fileName: _jsxFileName,
-          lineNumber: 108
+          lineNumber: 113
         },
         __self: this
       },
@@ -1548,13 +1553,14 @@ class MediaButton extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
     return iconArrayElement;
   }
 
+  // style={{ minWidth: this.state.maxWidth, maxWidth: this.state.maxWidth }}
   render() {
     const icons = this.createButtonList(this.props.children);
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'div',
-      { className: __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.root, style: { minWidth: this.state.maxWidth, maxWidth: this.state.maxWidth }, __source: {
+      { className: __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.root, __source: {
           fileName: _jsxFileName,
-          lineNumber: 117
+          lineNumber: 123
         },
         __self: this
       },
@@ -1567,7 +1573,7 @@ class MediaButton extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 119
+            lineNumber: 125
           },
           __self: this
         },
@@ -1593,7 +1599,7 @@ MediaButton.propTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Navigation_css__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Navigation_css__ = __webpack_require__(60);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Navigation_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__Navigation_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Link__ = __webpack_require__(6);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Navigation/Navigation.js';
@@ -1658,7 +1664,7 @@ class Navigation extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Page_css__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Page_css__ = __webpack_require__(61);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Page_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__Page_css__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Page/Page.js';
 /**
@@ -1737,7 +1743,7 @@ Page.propTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Sun_css__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Sun_css__ = __webpack_require__(62);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Sun_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__Sun_css__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Sun/Sun.js';
 /* eslint-disable react/forbid-prop-types */
@@ -1858,7 +1864,7 @@ Sun.defaultProps = {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_isomorphic_fetch__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_isomorphic_fetch__ = __webpack_require__(77);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_isomorphic_fetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_isomorphic_fetch__);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -1903,7 +1909,7 @@ function createFetch({ baseUrl, cookie }) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_createBrowserHistory__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_createBrowserHistory__ = __webpack_require__(76);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_createBrowserHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_history_createBrowserHistory__);
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
@@ -1978,7 +1984,7 @@ function user(state = {}, action) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_universal_router__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_universal_router__ = __webpack_require__(85);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_universal_router___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_universal_router__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__routes__ = __webpack_require__(36);
 /**
@@ -2033,7 +2039,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 
     return _asyncToGenerator(function* () {
       const data = yield new Promise(function(resolve) { resolve(); }).then((function (require) {
-        return __webpack_require__(69);
+        return __webpack_require__(67);
       }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 
       return {
@@ -2073,7 +2079,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Contact_css__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Contact_css__ = __webpack_require__(63);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Contact_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__Contact_css__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/contact/Contact.js';
 /**
@@ -2332,10 +2338,10 @@ ErrorPage.propTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_classnames__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Home_css__ = __webpack_require__(66);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Home_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__Home_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_Orbit_css__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_Orbit_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__components_Orbit_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_styled_components__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_styled_components___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_styled_components__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Home_css__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Home_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__Home_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_Earth__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_Sun__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_MediaButton__ = __webpack_require__(20);
@@ -2367,7 +2373,8 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 
     this.state = {
       resetAnimation: false,
-      followButton: 'Follow'
+      followButton: 'Follow',
+      orbitRadius: 300
     };
 
     this.toggleAnimation = this.toggleAnimation.bind(this);
@@ -2377,28 +2384,60 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
     this.setState({ followButton: event.target.value });
   }
 
+  orbitChange(event) {
+    this.setState({ orbitRadius: event.target.value });
+  }
+
   toggleAnimation() {
     this.setState({ resetAnimation: !this.state.resetAnimation });
   }
 
   render() {
+    const orbitDistance = this.state.orbitRadius;
+
+    const EarthMaker = ({ className }) => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__components_Earth__["a" /* default */], { width: 104, height: 74, className: className, __source: {
+        fileName: _jsxFileName,
+        lineNumber: 51
+      },
+      __self: this
+    });
+
+    const orbit = __WEBPACK_IMPORTED_MODULE_4_styled_components__["keyframes"]`
+    from {
+      transform: rotate(0deg) translate(${orbitDistance}px) rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg) translate(${orbitDistance}px) rotate(-360deg);
+    }
+  `;
+
+    const StyledEarth = __WEBPACK_IMPORTED_MODULE_4_styled_components___default()(EarthMaker)`
+      z-index: 1;
+      position: relative;
+      animation-name: ${orbit};
+      animation-timing-function: linear;
+      animation-duration: 10s;
+      animation-iteration-count: infinite
+    `;
     const animation = !this.state.resetAnimation ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'div',
-      { className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.animationContainer, __source: {
+      { className: __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.animationContainer, __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 71
         },
         __self: this
       },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__components_Sun__["a" /* default */], { width: 208, height: 148, className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.sun, __source: {
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__components_Sun__["a" /* default */], { width: 300, height: 300, className: __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.sun, __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 72
         },
         __self: this
       }),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__components_Earth__["a" /* default */], { width: 104, height: 74, className: __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.animation, __WEBPACK_IMPORTED_MODULE_5__components_Orbit_css___default.a.orbit), __source: {
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(StyledEarth, {
+        __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 73
         },
         __self: this
       })
@@ -2406,9 +2445,9 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'article',
-      { className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.content, __source: {
+      { className: __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.content, __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 77
         },
         __self: this
       },
@@ -2417,7 +2456,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
         {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 51
+            lineNumber: 78
           },
           __self: this
         },
@@ -2426,7 +2465,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
           {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 52
+              lineNumber: 79
             },
             __self: this
           },
@@ -2437,7 +2476,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
           {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 53
+              lineNumber: 80
             },
             __self: this
           },
@@ -2445,9 +2484,9 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'div',
-          { className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.row, __source: {
+          { className: __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.row, __source: {
               fileName: _jsxFileName,
-              lineNumber: 54
+              lineNumber: 81
             },
             __self: this
           },
@@ -2457,21 +2496,75 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
               onClick: this.toggleAnimation,
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 55
+                lineNumber: 82
               },
               __self: this
             },
             'Toggle Animation'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { style: { padding: '0 1rem' }, __source: {
+                fileName: _jsxFileName,
+                lineNumber: 87
+              },
+              __self: this
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'label',
+              { htmlFor: 'orbitRadius', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 88
+                },
+                __self: this
+              },
+              'Orbit Radius: '
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', {
+              id: 'orbitRadius',
+              type: 'range',
+              min: 0,
+              max: 450,
+              value: this.state.orbitRadius,
+              onChange: event => {
+                this.orbitChange(event);
+              },
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 89
+              },
+              __self: this
+            })
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'span',
+            {
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 100
+              },
+              __self: this
+            },
+            this.state.orbitRadius
           )
         ),
-        animation
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.row, __source: {
+              fileName: _jsxFileName,
+              lineNumber: 102
+            },
+            __self: this
+          },
+          animation
+        )
       ),
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'section',
         {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 63
+            lineNumber: 104
           },
           __self: this
         },
@@ -2480,7 +2573,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
           {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 64
+              lineNumber: 105
             },
             __self: this
           },
@@ -2488,11 +2581,11 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'a',
             {
-              className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.link,
+              className: __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.link,
               href: 'https://www.reddit.com/r/web_design/comments/6fdobk/how_would_you_code_the_share_and_follow_buttons/',
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 64
+                lineNumber: 105
               },
               __self: this
             },
@@ -2501,9 +2594,9 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'div',
-          { className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.row, __source: {
+          { className: __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.row, __source: {
               fileName: _jsxFileName,
-              lineNumber: 69
+              lineNumber: 110
             },
             __self: this
           },
@@ -2511,7 +2604,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
             'label',
             { htmlFor: 'button-text', __source: {
                 fileName: _jsxFileName,
-                lineNumber: 70
+                lineNumber: 111
               },
               __self: this
             },
@@ -2520,157 +2613,178 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', {
             id: 'button-text',
             type: 'text',
-            className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.textBox,
+            className: __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.textBox,
             value: this.state.followButton,
             onChange: event => {
               this.followChange(event);
             },
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 71
+              lineNumber: 112
             },
             __self: this
           })
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'div',
-          { className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.exampleTwo, __source: {
+          { className: __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.exampleTwo, __source: {
               fileName: _jsxFileName,
-              lineNumber: 81
+              lineNumber: 122
             },
             __self: this
           },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_8__components_MediaButton__["a" /* default */],
-            { text: this.state.followButton, __source: {
+            'div',
+            { className: __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.buttonContainer, __source: {
                 fileName: _jsxFileName,
-                lineNumber: 82
+                lineNumber: 123
               },
               __self: this
             },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'a',
-              { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.twitter, __source: {
+              __WEBPACK_IMPORTED_MODULE_8__components_MediaButton__["a" /* default */],
+              { text: this.state.followButton, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 83
+                  lineNumber: 124
                 },
                 __self: this
               },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', {
-                className: 'fa fa-twitter',
-                'aria-hidden': 'true',
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 83
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'a',
+                { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.twitter, __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 125
+                  },
+                  __self: this
                 },
-                __self: this
-              })
-            ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', {
+                  className: 'fa fa-twitter',
+                  'aria-hidden': 'true',
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 125
+                  },
+                  __self: this
+                })
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'a',
+                { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.facebook, __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 129
+                  },
+                  __self: this
+                },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', {
+                  className: 'fa fa-facebook',
+                  'aria-hidden': 'true',
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 129
+                  },
+                  __self: this
+                })
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'a',
+                { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.dribble, __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 133
+                  },
+                  __self: this
+                },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', {
+                  className: 'fa fa-dribbble',
+                  'aria-hidden': 'true',
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 133
+                  },
+                  __self: this
+                })
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'a',
+                { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.slack, __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 137
+                  },
+                  __self: this
+                },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', {
+                  className: 'fa fa-slack',
+                  'aria-hidden': 'true',
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 137
+                  },
+                  __self: this
+                })
+              )
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.buttonContainer, __source: {
+                fileName: _jsxFileName,
+                lineNumber: 143
+              },
+              __self: this
+            },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'a',
-              { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.facebook, __source: {
+              __WEBPACK_IMPORTED_MODULE_8__components_MediaButton__["a" /* default */],
+              { text: __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'span',
+                  {
+                    __source: {
+                      fileName: _jsxFileName,
+                      lineNumber: 144
+                    },
+                    __self: this
+                  },
+                  'Share',
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'small',
+                    {
+                      __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 144
+                      },
+                      __self: this
+                    },
+                    ' 102'
+                  )
+                ), __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 87
+                  lineNumber: 144
                 },
                 __self: this
               },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', {
-                className: 'fa fa-facebook',
-                'aria-hidden': 'true',
-                __source: {
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-twitter', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.twitter, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 87
+                  lineNumber: 145
                 },
                 __self: this
-              })
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'a',
-              { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.dribble, __source: {
+              }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-facebook', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.facebook, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 91
+                  lineNumber: 146
                 },
                 __self: this
-              },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', {
-                className: 'fa fa-dribbble',
-                'aria-hidden': 'true',
-                __source: {
+              }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-dribbble', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.dribble, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 91
+                  lineNumber: 147
                 },
                 __self: this
-              })
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'a',
-              { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.slack, __source: {
+              }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-slack', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.slack, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 95
-                },
-                __self: this
-              },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-slack', 'aria-hidden': 'true', __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 95
+                  lineNumber: 148
                 },
                 __self: this
               })
             )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_8__components_MediaButton__["a" /* default */],
-            { text: __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                {
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 97
-                  },
-                  __self: this
-                },
-                'Share',
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'small',
-                  {
-                    __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 97
-                    },
-                    __self: this
-                  },
-                  ' 102'
-                )
-              ), __source: {
-                fileName: _jsxFileName,
-                lineNumber: 97
-              },
-              __self: this
-            },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-twitter', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.twitter, __source: {
-                fileName: _jsxFileName,
-                lineNumber: 98
-              },
-              __self: this
-            }),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-facebook', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.facebook, __source: {
-                fileName: _jsxFileName,
-                lineNumber: 99
-              },
-              __self: this
-            }),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-dribbble', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.dribble, __source: {
-                fileName: _jsxFileName,
-                lineNumber: 100
-              },
-              __self: this
-            }),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-slack', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.slack, __source: {
-                fileName: _jsxFileName,
-                lineNumber: 101
-              },
-              __self: this
-            })
           )
         )
       )
@@ -2679,7 +2793,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 }
 
 Home.propTypes = {};
-/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_4__Home_css___default.a, __WEBPACK_IMPORTED_MODULE_5__components_Orbit_css___default.a)(Home));
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_5__Home_css___default.a)(Home));
 
 /***/ }),
 /* 35 */
@@ -2795,7 +2909,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__NotFound_css__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__NotFound_css__ = __webpack_require__(65);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__NotFound_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__NotFound_css__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/notFound/NotFound.js';
 /**
@@ -2926,7 +3040,7 @@ const title = 'Page Not Found';
 /* harmony export (immutable) */ __webpack_exports__["a"] = configureStore;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_redux__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux_thunk__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux_thunk__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux_thunk___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_redux_thunk__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__reducers__ = __webpack_require__(26);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__createHelpers__ = __webpack_require__(40);
@@ -3017,7 +3131,7 @@ function createHelpers({ fetch, history }) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = createLogger;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_util__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_util__ = __webpack_require__(86);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_util___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_util__);
 
 
@@ -3112,7 +3226,7 @@ exports = module.exports = __webpack_require__(1)(true);
 
 
 // module
-exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n\n/*\n * normalize.css is imported in JS file.\n * If you import external CSS file from your internal CSS\n * then it will be inlined and processed with CSS modules.\n */\n\n/*\n * Base styles\n * ========================================================================== */\n\nhtml {\n  color: #222;\n  font-weight: 100;\n  font-size: 1em; /* ~16px; */\n  font-family: sans-serif;\n  line-height: 1.375; /* ~22px */\n  height: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n}\n\nbody {\n  margin: 0;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  overflow-y: scroll;\n}\n\na {\n  color: #0074c2;\n}\n\n.Layout-root-1DyeL {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n\n.Layout-mainContainer-2Kdun {\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: block;\n}\n\n/*\n * Remove text-shadow in selection highlight:\n * https://twitter.com/miketaylr/status/12228805301\n *\n * These selection rule sets have to be separate.\n * Customize the background color to match your design.\n */\n\n::-moz-selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\n\n::selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\n\nbutton {\n  outline: none;\n  border: none;\n  border-radius: 10px;\n  background-color: rgb(85, 81, 139);\n  color: white;\n  height: 100%\n}\n\nbutton:hover {\n  background-color: #373277;\n  cursor: pointer;\n}\n\nlabel {\n  margin-right: 16px;\n  margin-right: 1rem;\n}\n\ninput[type=\"text\"] {\n  outline: none;\n  border: 1px solid lightgray;\n  border-radius: 10px;\n  padding-left: 16px;\n  padding-left: 1rem;\n  color: #333333;\n}\n\n/*\n * A better looking default horizontal rule\n */\n\nhr {\n  display: block;\n  height: 1px;\n  border: 0;\n  border-top: 1px solid #ccc;\n  margin: 1em 0;\n  padding: 0;\n}\n\n/*\n * Remove the gap between audio, canvas, iframes,\n * images, videos and the bottom of their containers:\n * https://github.com/h5bp/html5-boilerplate/issues/440\n */\n\naudio,\ncanvas,\niframe,\nimg,\nsvg,\nvideo {\n  vertical-align: middle;\n}\n\n/*\n * Remove default fieldset styles.\n */\n\nfieldset {\n  border: 0;\n  margin: 0;\n  padding: 0;\n}\n\n/*\n * Allow only vertical resizing of textareas.\n */\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n * Browser upgrade prompt\n * ========================================================================== */\n\n.browserupgrade {\n  margin: 0.2em 0;\n  background: #ccc;\n  color: #000;\n  padding: 0.2em 0;\n}\n\n/*\n * Print styles\n * Inlined to avoid the additional HTTP request:\n * http://www.phpied.com/delay-loading-your-print-css/\n * ========================================================================== */\n\n@media print {\n  *,\n  *::before,\n  *::after {\n    background: transparent !important;\n    color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */\n    -webkit-box-shadow: none !important;\n            box-shadow: none !important;\n    text-shadow: none !important;\n  }\n\n  a,\n  a:visited {\n    text-decoration: underline;\n  }\n\n  a[href]::after {\n    content: ' (' attr(href) ')';\n  }\n\n  abbr[title]::after {\n    content: ' (' attr(title) ')';\n  }\n\n  /*\n   * Don't show links that are fragment identifiers,\n   * or use the `javascript:` pseudo protocol\n   */\n\n  a[href^='#']::after,\n  a[href^='javascript:']::after {\n    content: '';\n  }\n\n  pre,\n  blockquote {\n    border: 1px solid #999;\n    page-break-inside: avoid;\n  }\n\n  /*\n   * Printing Tables:\n   * http://css-discuss.incutio.com/wiki/Printing_Tables\n   */\n\n  thead {\n    display: table-header-group;\n  }\n\n  tr,\n  img {\n    page-break-inside: avoid;\n  }\n\n  img {\n    max-width: 100% !important;\n  }\n\n  p,\n  h2,\n  h3 {\n    orphans: 3;\n    widows: 3;\n  }\n\n  h2,\n  h3 {\n    page-break-after: avoid;\n  }\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/components/Layout/Layout.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;AAEH;;;;;;;GAOG;;AAEH;EACE;;gFAE8E;;EAE9E;;gFAE8E;;EAE9E;;gFAE8E,EAAE,gCAAgC,EAAE,2BAA2B,EAAE,6BAA6B,CAAC,iCAAiC;;EAE9M;;gFAE8E;CAC/E;;AAED;;;;GAIG;;AAEH;;gFAEgF;;AAEhF;EACE,YAAY;EACZ,iBAAiB;EACjB,eAAe,CAAC,YAAY;EAC5B,wBAAwB;EACxB,mBAAmB,CAAC,WAAW;EAC/B,aAAa;EACb,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;CAChC;;AAED;EACE,UAAU;EACV,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,mBAAmB;CACpB;;AAED;EACE,eAAe;CAChB;;AAED;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;CACtB;;AAED;EACE,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,eAAe;CAChB;;AAED;;;;;;GAMG;;AAEH;EACE,oBAAoB;EACpB,kBAAkB;CACnB;;AAED;EACE,oBAAoB;EACpB,kBAAkB;CACnB;;AAED;EACE,cAAc;EACd,aAAa;EACb,oBAAoB;EACpB,mCAAmC;EACnC,aAAa;EACb,YAAY;CACb;;AAED;EACE,0BAA0B;EAC1B,gBAAgB;CACjB;;AAED;EACE,mBAAmB;EACnB,mBAAmB;CACpB;;AAED;EACE,cAAc;EACd,4BAA4B;EAC5B,oBAAoB;EACpB,mBAAmB;EACnB,mBAAmB;EACnB,eAAe;CAChB;;AAED;;GAEG;;AAEH;EACE,eAAe;EACf,YAAY;EACZ,UAAU;EACV,2BAA2B;EAC3B,cAAc;EACd,WAAW;CACZ;;AAED;;;;GAIG;;AAEH;;;;;;EAME,uBAAuB;CACxB;;AAED;;GAEG;;AAEH;EACE,UAAU;EACV,UAAU;EACV,WAAW;CACZ;;AAED;;GAEG;;AAEH;EACE,iBAAiB;CAClB;;AAED;;gFAEgF;;AAEhF;EACE,gBAAgB;EAChB,iBAAiB;EACjB,YAAY;EACZ,iBAAiB;CAClB;;AAED;;;;gFAIgF;;AAEhF;EACE;;;IAGE,mCAAmC;IACnC,uBAAuB,CAAC,+DAA+D;IACvF,oCAAoC;YAC5B,4BAA4B;IACpC,6BAA6B;GAC9B;;EAED;;IAEE,2BAA2B;GAC5B;;EAED;IACE,6BAA6B;GAC9B;;EAED;IACE,8BAA8B;GAC/B;;EAED;;;KAGG;;EAEH;;IAEE,YAAY;GACb;;EAED;;IAEE,uBAAuB;IACvB,yBAAyB;GAC1B;;EAED;;;KAGG;;EAEH;IACE,4BAA4B;GAC7B;;EAED;;IAEE,yBAAyB;GAC1B;;EAED;IACE,2BAA2B;GAC5B;;EAED;;;IAGE,WAAW;IACX,UAAU;GACX;;EAED;;IAEE,wBAAwB;GACzB;CACF","file":"Layout.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n\n/*\n * normalize.css is imported in JS file.\n * If you import external CSS file from your internal CSS\n * then it will be inlined and processed with CSS modules.\n */\n\n/*\n * Base styles\n * ========================================================================== */\n\nhtml {\n  color: #222;\n  font-weight: 100;\n  font-size: 1em; /* ~16px; */\n  font-family: sans-serif;\n  line-height: 1.375; /* ~22px */\n  height: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n}\n\nbody {\n  margin: 0;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  overflow-y: scroll;\n}\n\na {\n  color: #0074c2;\n}\n\n.root {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n\n.mainContainer {\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: block;\n}\n\n/*\n * Remove text-shadow in selection highlight:\n * https://twitter.com/miketaylr/status/12228805301\n *\n * These selection rule sets have to be separate.\n * Customize the background color to match your design.\n */\n\n::-moz-selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\n\n::selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\n\nbutton {\n  outline: none;\n  border: none;\n  border-radius: 10px;\n  background-color: rgb(85, 81, 139);\n  color: white;\n  height: 100%\n}\n\nbutton:hover {\n  background-color: #373277;\n  cursor: pointer;\n}\n\nlabel {\n  margin-right: 16px;\n  margin-right: 1rem;\n}\n\ninput[type=\"text\"] {\n  outline: none;\n  border: 1px solid lightgray;\n  border-radius: 10px;\n  padding-left: 16px;\n  padding-left: 1rem;\n  color: #333333;\n}\n\n/*\n * A better looking default horizontal rule\n */\n\nhr {\n  display: block;\n  height: 1px;\n  border: 0;\n  border-top: 1px solid #ccc;\n  margin: 1em 0;\n  padding: 0;\n}\n\n/*\n * Remove the gap between audio, canvas, iframes,\n * images, videos and the bottom of their containers:\n * https://github.com/h5bp/html5-boilerplate/issues/440\n */\n\naudio,\ncanvas,\niframe,\nimg,\nsvg,\nvideo {\n  vertical-align: middle;\n}\n\n/*\n * Remove default fieldset styles.\n */\n\nfieldset {\n  border: 0;\n  margin: 0;\n  padding: 0;\n}\n\n/*\n * Allow only vertical resizing of textareas.\n */\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n * Browser upgrade prompt\n * ========================================================================== */\n\n:global(.browserupgrade) {\n  margin: 0.2em 0;\n  background: #ccc;\n  color: #000;\n  padding: 0.2em 0;\n}\n\n/*\n * Print styles\n * Inlined to avoid the additional HTTP request:\n * http://www.phpied.com/delay-loading-your-print-css/\n * ========================================================================== */\n\n@media print {\n  *,\n  *::before,\n  *::after {\n    background: transparent !important;\n    color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */\n    -webkit-box-shadow: none !important;\n            box-shadow: none !important;\n    text-shadow: none !important;\n  }\n\n  a,\n  a:visited {\n    text-decoration: underline;\n  }\n\n  a[href]::after {\n    content: ' (' attr(href) ')';\n  }\n\n  abbr[title]::after {\n    content: ' (' attr(title) ')';\n  }\n\n  /*\n   * Don't show links that are fragment identifiers,\n   * or use the `javascript:` pseudo protocol\n   */\n\n  a[href^='#']::after,\n  a[href^='javascript:']::after {\n    content: '';\n  }\n\n  pre,\n  blockquote {\n    border: 1px solid #999;\n    page-break-inside: avoid;\n  }\n\n  /*\n   * Printing Tables:\n   * http://css-discuss.incutio.com/wiki/Printing_Tables\n   */\n\n  thead {\n    display: table-header-group;\n  }\n\n  tr,\n  img {\n    page-break-inside: avoid;\n  }\n\n  img {\n    max-width: 100% !important;\n  }\n\n  p,\n  h2,\n  h3 {\n    orphans: 3;\n    widows: 3;\n  }\n\n  h2,\n  h3 {\n    page-break-after: avoid;\n  }\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n/*\n * normalize.css is imported in JS file.\n * If you import external CSS file from your internal CSS\n * then it will be inlined and processed with CSS modules.\n */\n/*\n * Base styles\n * ========================================================================== */\nhtml {\n  color: #222;\n  font-weight: 100;\n  font-size: 1em; /* ~16px; */\n  font-family: sans-serif;\n  line-height: 1.375; /* ~22px */\n  height: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n}\nbody {\n  margin: 0;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  overflow-y: scroll;\n}\na {\n  color: #0074c2;\n}\n.Layout-root-1DyeL {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.Layout-mainContainer-2Kdun {\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: block;\n}\n/*\n * Remove text-shadow in selection highlight:\n * https://twitter.com/miketaylr/status/12228805301\n *\n * These selection rule sets have to be separate.\n * Customize the background color to match your design.\n */\n::-moz-selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\n::selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\nbutton {\n  outline: none;\n  border: none;\n  border-radius: 10px;\n  background-color: rgb(85, 81, 139);\n  color: white;\n  height: 100%\n}\nbutton:hover {\n  background-color: #373277;\n  cursor: pointer;\n}\nlabel {\n  margin-right: 16px;\n  margin-right: 1rem;\n  font-weight: bold;\n}\ninput[type=\"text\"] {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n\n  -webkit-box-align: center;\n\n      -ms-flex-align: center;\n\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  vertical-align: middle;\n  outline: none;\n  border: 1px solid lightgray;\n  border-radius: 10px;\n  padding-left: 16px;\n  padding-left: 1rem;\n  color: #333333;\n}\ninput[type=\"range\"] {\n  -webkit-appearance: none\n}\ninput[type=\"range\"]::-webkit-slider-runnable-track {\n  -webkit-appearance: none;\n  width: 100%;\n  height: 50%;\n  background: #333333;\n  border: none;\n  border-radius: 2px;\n}\ninput[type=\"range\"]::-webkit-slider-thumb {\n  -webkit-appearance: none;\n  position: relative;\n  bottom: 50%;\n  border: solid #373277;\n  height: 20px;\n  width: 20px;\n  border-radius: 50%;\n  background: rgb(85, 81, 139);\n  //margin-top: -10px;\n}\ninput[type=\"range\"]:focus {\n  outline: none;\n}\ninput[type=\"range\"]:focus::-webkit-slider-runnable-track {\n  background: rgb(82, 82, 82);\n}\ninput[type=\"range\"]:focus::-webkit-slider-thumb {\n  background: -webkit-gradient(linear,\n      left top, left bottom,\n      color-stop(10%, rgba(0,0,0,0)),\n      color-stop(50%, rgb(0, 0, 0)),\n      color-stop(90%, rgba(0,0,0,0))\n      );\n  background: -webkit-linear-gradient(top,\n      rgba(0,0,0,0) 10%,\n      rgb(0, 0, 0) 50%,\n      rgba(0,0,0,0) 90%\n      );\n  background: linear-gradient(180deg,\n      rgba(0,0,0,0) 10%,\n      rgb(0, 0, 0) 50%,\n      rgba(0,0,0,0) 90%\n      );\n}\n/*\n * A better looking default horizontal rule\n */\nhr {\n  display: block;\n  height: 1px;\n  border: 0;\n  border-top: 1px solid #ccc;\n  margin: 1em 0;\n  padding: 0;\n}\n/*\n * Remove the gap between audio, canvas, iframes,\n * images, videos and the bottom of their containers:\n * https://github.com/h5bp/html5-boilerplate/issues/440\n */\naudio,\ncanvas,\niframe,\nimg,\nsvg,\nvideo {\n  vertical-align: middle;\n}\n/*\n * Remove default fieldset styles.\n */\nfieldset {\n  border: 0;\n  margin: 0;\n  padding: 0;\n}\n/*\n * Allow only vertical resizing of textareas.\n */\ntextarea {\n  resize: vertical;\n}\n/*\n * Browser upgrade prompt\n * ========================================================================== */\n.browserupgrade {\n  margin: 0.2em 0;\n  background: #ccc;\n  color: #000;\n  padding: 0.2em 0;\n}\n/*\n * Print styles\n * Inlined to avoid the additional HTTP request:\n * http://www.phpied.com/delay-loading-your-print-css/\n * ========================================================================== */\n@media print {\n  *,\n  *::before,\n  *::after {\n    background: transparent !important;\n    color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */\n    -webkit-box-shadow: none !important;\n            box-shadow: none !important;\n    text-shadow: none !important;\n  }\n\n  a,\n  a:visited {\n    text-decoration: underline;\n  }\n\n  a[href]::after {\n    content: ' (' attr(href) ')';\n  }\n\n  abbr[title]::after {\n    content: ' (' attr(title) ')';\n  }\n\n  /*\n   * Don't show links that are fragment identifiers,\n   * or use the `javascript:` pseudo protocol\n   */\n  a[href^='#']::after,\n  a[href^='javascript:']::after {\n    content: '';\n  }\n\n  pre,\n  blockquote {\n    border: 1px solid #999;\n    page-break-inside: avoid;\n  }\n\n  /*\n   * Printing Tables:\n   * http://css-discuss.incutio.com/wiki/Printing_Tables\n   */\n  thead {\n    display: table-header-group;\n  }\n\n  tr,\n  img {\n    page-break-inside: avoid;\n  }\n\n  img {\n    max-width: 100% !important;\n  }\n\n  p,\n  h2,\n  h3 {\n    orphans: 3;\n    widows: 3;\n  }\n\n  h2,\n  h3 {\n    page-break-after: avoid;\n  }\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/components/Layout/Layout.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;AACH;;;;;;;GAOG;AACH;EACE;;gFAE8E;;EAE9E;;gFAE8E;;EAE9E;;gFAE8E,EAAE,gCAAgC,EAAE,2BAA2B,EAAE,6BAA6B,CAAC,iCAAiC;;EAE9M;;gFAE8E;CAC/E;AACD;;;;GAIG;AACH;;gFAEgF;AAChF;EACE,YAAY;EACZ,iBAAiB;EACjB,eAAe,CAAC,YAAY;EAC5B,wBAAwB;EACxB,mBAAmB,CAAC,WAAW;EAC/B,aAAa;EACb,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;CAChC;AACD;EACE,UAAU;EACV,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,mBAAmB;CACpB;AACD;EACE,eAAe;CAChB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;CACtB;AACD;EACE,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,eAAe;CAChB;AACD;;;;;;GAMG;AACH;EACE,oBAAoB;EACpB,kBAAkB;CACnB;AACD;EACE,oBAAoB;EACpB,kBAAkB;CACnB;AACD;EACE,cAAc;EACd,aAAa;EACb,oBAAoB;EACpB,mCAAmC;EACnC,aAAa;EACb,YAAY;CACb;AACD;EACE,0BAA0B;EAC1B,gBAAgB;CACjB;AACD;EACE,mBAAmB;EACnB,mBAAmB;EACnB,kBAAkB;CACnB;AACD;EACE,4BAA4B;EAC5B,4BAA4B;EAC5B,qBAAqB;;EAErB,0BAA0B;;MAEtB,uBAAuB;;UAEnB,oBAAoB;EAC5B,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,uBAAuB;EACvB,cAAc;EACd,4BAA4B;EAC5B,oBAAoB;EACpB,mBAAmB;EACnB,mBAAmB;EACnB,eAAe;CAChB;AACD;EACE,wBAAwB;CACzB;AACD;EACE,yBAAyB;EACzB,YAAY;EACZ,YAAY;EACZ,oBAAoB;EACpB,aAAa;EACb,mBAAmB;CACpB;AACD;EACE,yBAAyB;EACzB,mBAAmB;EACnB,YAAY;EACZ,sBAAsB;EACtB,aAAa;EACb,YAAY;EACZ,mBAAmB;EACnB,6BAA6B;EAC7B,oBAAoB;CACrB;AACD;EACE,cAAc;CACf;AACD;EACE,4BAA4B;CAC7B;AACD;EACE;;;;;QAKM;EACN;;;;QAIM;EACN;;;;QAIM;CACP;AACD;;GAEG;AACH;EACE,eAAe;EACf,YAAY;EACZ,UAAU;EACV,2BAA2B;EAC3B,cAAc;EACd,WAAW;CACZ;AACD;;;;GAIG;AACH;;;;;;EAME,uBAAuB;CACxB;AACD;;GAEG;AACH;EACE,UAAU;EACV,UAAU;EACV,WAAW;CACZ;AACD;;GAEG;AACH;EACE,iBAAiB;CAClB;AACD;;gFAEgF;AAChF;EACE,gBAAgB;EAChB,iBAAiB;EACjB,YAAY;EACZ,iBAAiB;CAClB;AACD;;;;gFAIgF;AAChF;EACE;;;IAGE,mCAAmC;IACnC,uBAAuB,CAAC,+DAA+D;IACvF,oCAAoC;YAC5B,4BAA4B;IACpC,6BAA6B;GAC9B;;EAED;;IAEE,2BAA2B;GAC5B;;EAED;IACE,6BAA6B;GAC9B;;EAED;IACE,8BAA8B;GAC/B;;EAED;;;KAGG;EACH;;IAEE,YAAY;GACb;;EAED;;IAEE,uBAAuB;IACvB,yBAAyB;GAC1B;;EAED;;;KAGG;EACH;IACE,4BAA4B;GAC7B;;EAED;;IAEE,yBAAyB;GAC1B;;EAED;IACE,2BAA2B;GAC5B;;EAED;;;IAGE,WAAW;IACX,UAAU;GACX;;EAED;;IAEE,wBAAwB;GACzB;CACF","file":"Layout.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n/*\n * normalize.css is imported in JS file.\n * If you import external CSS file from your internal CSS\n * then it will be inlined and processed with CSS modules.\n */\n/*\n * Base styles\n * ========================================================================== */\nhtml {\n  color: #222;\n  font-weight: 100;\n  font-size: 1em; /* ~16px; */\n  font-family: sans-serif;\n  line-height: 1.375; /* ~22px */\n  height: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n}\nbody {\n  margin: 0;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  overflow-y: scroll;\n}\na {\n  color: #0074c2;\n}\n.root {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.mainContainer {\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: block;\n}\n/*\n * Remove text-shadow in selection highlight:\n * https://twitter.com/miketaylr/status/12228805301\n *\n * These selection rule sets have to be separate.\n * Customize the background color to match your design.\n */\n::-moz-selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\n::selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\nbutton {\n  outline: none;\n  border: none;\n  border-radius: 10px;\n  background-color: rgb(85, 81, 139);\n  color: white;\n  height: 100%\n}\nbutton:hover {\n  background-color: #373277;\n  cursor: pointer;\n}\nlabel {\n  margin-right: 16px;\n  margin-right: 1rem;\n  font-weight: bold;\n}\ninput[type=\"text\"] {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n\n  -webkit-box-align: center;\n\n      -ms-flex-align: center;\n\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  vertical-align: middle;\n  outline: none;\n  border: 1px solid lightgray;\n  border-radius: 10px;\n  padding-left: 16px;\n  padding-left: 1rem;\n  color: #333333;\n}\ninput[type=\"range\"] {\n  -webkit-appearance: none\n}\ninput[type=\"range\"]::-webkit-slider-runnable-track {\n  -webkit-appearance: none;\n  width: 100%;\n  height: 50%;\n  background: #333333;\n  border: none;\n  border-radius: 2px;\n}\ninput[type=\"range\"]::-webkit-slider-thumb {\n  -webkit-appearance: none;\n  position: relative;\n  bottom: 50%;\n  border: solid #373277;\n  height: 20px;\n  width: 20px;\n  border-radius: 50%;\n  background: rgb(85, 81, 139);\n  //margin-top: -10px;\n}\ninput[type=\"range\"]:focus {\n  outline: none;\n}\ninput[type=\"range\"]:focus::-webkit-slider-runnable-track {\n  background: rgb(82, 82, 82);\n}\ninput[type=\"range\"]:focus::-webkit-slider-thumb {\n  background: -webkit-gradient(linear,\n      left top, left bottom,\n      color-stop(10%, rgba(0,0,0,0)),\n      color-stop(50%, rgb(0, 0, 0)),\n      color-stop(90%, rgba(0,0,0,0))\n      );\n  background: -webkit-linear-gradient(top,\n      rgba(0,0,0,0) 10%,\n      rgb(0, 0, 0) 50%,\n      rgba(0,0,0,0) 90%\n      );\n  background: linear-gradient(180deg,\n      rgba(0,0,0,0) 10%,\n      rgb(0, 0, 0) 50%,\n      rgba(0,0,0,0) 90%\n      );\n}\n/*\n * A better looking default horizontal rule\n */\nhr {\n  display: block;\n  height: 1px;\n  border: 0;\n  border-top: 1px solid #ccc;\n  margin: 1em 0;\n  padding: 0;\n}\n/*\n * Remove the gap between audio, canvas, iframes,\n * images, videos and the bottom of their containers:\n * https://github.com/h5bp/html5-boilerplate/issues/440\n */\naudio,\ncanvas,\niframe,\nimg,\nsvg,\nvideo {\n  vertical-align: middle;\n}\n/*\n * Remove default fieldset styles.\n */\nfieldset {\n  border: 0;\n  margin: 0;\n  padding: 0;\n}\n/*\n * Allow only vertical resizing of textareas.\n */\ntextarea {\n  resize: vertical;\n}\n/*\n * Browser upgrade prompt\n * ========================================================================== */\n:global(.browserupgrade) {\n  margin: 0.2em 0;\n  background: #ccc;\n  color: #000;\n  padding: 0.2em 0;\n}\n/*\n * Print styles\n * Inlined to avoid the additional HTTP request:\n * http://www.phpied.com/delay-loading-your-print-css/\n * ========================================================================== */\n@media print {\n  *,\n  *::before,\n  *::after {\n    background: transparent !important;\n    color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */\n    -webkit-box-shadow: none !important;\n            box-shadow: none !important;\n    text-shadow: none !important;\n  }\n\n  a,\n  a:visited {\n    text-decoration: underline;\n  }\n\n  a[href]::after {\n    content: ' (' attr(href) ')';\n  }\n\n  abbr[title]::after {\n    content: ' (' attr(title) ')';\n  }\n\n  /*\n   * Don't show links that are fragment identifiers,\n   * or use the `javascript:` pseudo protocol\n   */\n  a[href^='#']::after,\n  a[href^='javascript:']::after {\n    content: '';\n  }\n\n  pre,\n  blockquote {\n    border: 1px solid #999;\n    page-break-inside: avoid;\n  }\n\n  /*\n   * Printing Tables:\n   * http://css-discuss.incutio.com/wiki/Printing_Tables\n   */\n  thead {\n    display: table-header-group;\n  }\n\n  tr,\n  img {\n    page-break-inside: avoid;\n  }\n\n  img {\n    max-width: 100% !important;\n  }\n\n  p,\n  h2,\n  h3 {\n    orphans: 3;\n    widows: 3;\n  }\n\n  h2,\n  h3 {\n    page-break-after: avoid;\n  }\n}\n"],"sourceRoot":""}]);
 
 // exports
 exports.locals = {
@@ -3129,7 +3243,7 @@ exports = module.exports = __webpack_require__(1)(true);
 
 
 // module
-exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n\n.MediaButton-root-16FEI {\n  margin: 0 16px;\n  margin: 0 1rem;\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  color: white;\n  background-color: transparent;\n  position: relative\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-text-2cqDR {\n      opacity: 0;\n      z-index: -1;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-transformIcon-2ggyH {\n\n      margin: 0 4px;\n      border-radius: 50%;\n      -webkit-transition: margin 0.5s ease-in, border-radius 0.5s ease-in;\n      -o-transition: margin 0.5s ease-in, border-radius 0.5s ease-in;\n      transition: margin 0.5s ease-in, border-radius 0.5s ease-in;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-transformIcon-2ggyH * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.MediaButton-root-16FEI:hover .MediaButton-squish-hY-HG {\n      margin: 0 4px;\n      border-radius: 50%;\n      -webkit-transition: margin 0.5s 0.25s ease-in, border-radius 0.5s 0.25s ease-in;\n      -o-transition: margin 0.5s 0.25s ease-in, border-radius 0.5s 0.25s ease-in;\n      transition: margin 0.5s 0.25s ease-in, border-radius 0.5s 0.25s ease-in;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-squish-hY-HG * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.MediaButton-root-16FEI:hover .MediaButton-squishMe-mAYH2 {\n      border-radius: 50%;\n      padding: 0;\n      margin: 0;\n      -webkit-transition:\n        margin 0s 0.25s ease-in,\n        border-radius 0.5s 0.25s ease-in,\n        padding-left 0.25s ease-in,\n        padding-right 0.25s ease-in,\n        padding-top 0s 0.25s ease-in,\n        padding-bottom 0s 0.25s ease-in;\n      -o-transition:\n        margin 0s 0.25s ease-in,\n        border-radius 0.5s 0.25s ease-in,\n        padding-left 0.25s ease-in,\n        padding-right 0.25s ease-in,\n        padding-top 0s 0.25s ease-in,\n        padding-bottom 0s 0.25s ease-in;\n      transition:\n        margin 0s 0.25s ease-in,\n        border-radius 0.5s 0.25s ease-in,\n        padding-left 0.25s ease-in,\n        padding-right 0.25s ease-in,\n        padding-top 0s 0.25s ease-in,\n        padding-bottom 0s 0.25s ease-in;\n}\n\n.MediaButton-defaultHover-1ujKb:hover {\n  background-color: darkgreen;\n}\n\n.MediaButton-text-2cqDR {\n  position: absolute;\n  z-index: 1;\n  text-align: center;\n  opacity: 1;\n  -webkit-transition: opacity 0.5s 0.25s ease-in;\n  -o-transition: opacity 0.5s 0.25s ease-in;\n  transition: opacity 0.5s 0.25s ease-in;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n.MediaButton-transformIcon-2ggyH {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n\n  -webkit-box-align: center;\n\n      -ms-flex-align: center;\n\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  min-width: 1em;\n  vertical-align: middle;\n\n  position: relative;\n  width: auto;\n\n  padding: 4px;\n  padding: 0.25rem;\n\n\n  background-color: rgb(82, 82, 82);\n\n  border-radius: 0;\n\n  margin: 0 0;\n\n  -webkit-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n  -o-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n  transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n}\n\n.MediaButton-transformIcon-2ggyH * {\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    text-decoration: none;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    min-width: 1em;\n    vertical-align: middle;\n    opacity: 0;\n  }\n\n.MediaButton-box-1V3fy {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  min-width: 1em;\n  vertical-align: middle;\n  height: 1em;\n}\n\n.MediaButton-box-1V3fy * {\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    min-width: 1em;\n    vertical-align: middle;\n    height: 1em;\n  }\n\n.MediaButton-hide-LoymV {\n\n}\n\n.MediaButton-hideMe-AVM1D {\n\n}\n\n.MediaButton-squish-hY-HG {\n  -webkit-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n  -o-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n  transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n}\n\n.MediaButton-squishMe-mAYH2 {\n  border-radius: 0;\n  min-width: 0;\n  width: 0;\n  padding: 4px 12px;\n  padding: 0.25rem 0.75rem;\n  margin: 0;\n  -webkit-transition: padding-left 0.1s 0.25s ease-in, padding-right 0.1s 0.25s ease-in;\n  -o-transition: padding-left 0.1s 0.25s ease-in, padding-right 0.1s 0.25s ease-in;\n  transition: padding-left 0.1s 0.25s ease-in, padding-right 0.1s 0.25s ease-in;\n}\n\n.MediaButton-left-3Y_KF {\n  border-radius: 50% 0 0 50%;\n}\n\n.MediaButton-right-3zJ-E {\n  border-radius: 0 50% 50% 0;\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/components/MediaButton/MediaButton.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;AAEH;EACE;;gFAE8E;;EAE9E;;gFAE8E;;EAE9E;;gFAE8E,EAAE,gCAAgC,EAAE,2BAA2B,EAAE,6BAA6B,CAAC,iCAAiC;;EAE9M;;gFAE8E;CAC/E;;AAED;EACE,eAAe;EACf,eAAe;EACf,4BAA4B;EAC5B,4BAA4B;EAC5B,qBAAqB;EACrB,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;EAC5B,aAAa;EACb,8BAA8B;EAC9B,kBAAkB;CACnB;;AAED;MACM,WAAW;MACX,YAAY;CACjB;;AAED;;MAEM,cAAc;MACd,mBAAmB;MACnB,oEAAoE;MACpE,+DAA+D;MAC/D,4DAA4D;CACjE;;AAED;QACQ,WAAW;QACX,iCAAiC;QACjC,4BAA4B;QAC5B,yBAAyB;OAC1B;;AAEP;MACM,cAAc;MACd,mBAAmB;MACnB,gFAAgF;MAChF,2EAA2E;MAC3E,wEAAwE;CAC7E;;AAED;QACQ,WAAW;QACX,iCAAiC;QACjC,4BAA4B;QAC5B,yBAAyB;OAC1B;;AAEP;MACM,mBAAmB;MACnB,WAAW;MACX,UAAU;MACV;;;;;;wCAMkC;MAClC;;;;;;wCAMkC;MAClC;;;;;;wCAMkC;CACvC;;AAED;EACE,4BAA4B;CAC7B;;AAED;EACE,mBAAmB;EACnB,WAAW;EACX,mBAAmB;EACnB,WAAW;EACX,+CAA+C;EAC/C,0CAA0C;EAC1C,uCAAuC;EACvC,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;CACjC;;AAED;EACE,4BAA4B;EAC5B,4BAA4B;EAC5B,qBAAqB;;EAErB,0BAA0B;;MAEtB,uBAAuB;;UAEnB,oBAAoB;EAC5B,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,eAAe;EACf,uBAAuB;;EAEvB,mBAAmB;EACnB,YAAY;;EAEZ,aAAa;EACb,iBAAiB;;;EAGjB,kCAAkC;;EAElC,iBAAiB;;EAEjB,YAAY;;EAEZ,sEAAsE;;EAEtE,iEAAiE;;EAEjE,8DAA8D;;CAE/D;;AAED;IACI,4BAA4B;IAC5B,4BAA4B;IAC5B,qBAAqB;IACrB,sBAAsB;IACtB,0BAA0B;QACtB,uBAAuB;YACnB,oBAAoB;IAC5B,yBAAyB;QACrB,sBAAsB;YAClB,wBAAwB;IAChC,eAAe;IACf,uBAAuB;IACvB,WAAW;GACZ;;AAEH;EACE,4BAA4B;EAC5B,4BAA4B;EAC5B,qBAAqB;EACrB,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;EAC5B,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,eAAe;EACf,uBAAuB;EACvB,YAAY;CACb;;AAED;IACI,4BAA4B;IAC5B,4BAA4B;IAC5B,qBAAqB;IACrB,0BAA0B;QACtB,uBAAuB;YACnB,oBAAoB;IAC5B,yBAAyB;QACrB,sBAAsB;YAClB,wBAAwB;IAChC,eAAe;IACf,uBAAuB;IACvB,YAAY;GACb;;AAEH;;CAEC;;AAED;;CAEC;;AAED;EACE,sEAAsE;EACtE,iEAAiE;EACjE,8DAA8D;CAC/D;;AAED;EACE,iBAAiB;EACjB,aAAa;EACb,SAAS;EACT,kBAAkB;EAClB,yBAAyB;EACzB,UAAU;EACV,sFAAsF;EACtF,iFAAiF;EACjF,8EAA8E;CAC/E;;AAED;EACE,2BAA2B;CAC5B;;AAED;EACE,2BAA2B;CAC5B","file":"MediaButton.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n\n.root {\n  margin: 0 16px;\n  margin: 0 1rem;\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  color: white;\n  background-color: transparent;\n  position: relative\n}\n\n.root:hover .text {\n      opacity: 0;\n      z-index: -1;\n}\n\n.root:hover .transformIcon {\n\n      margin: 0 4px;\n      border-radius: 50%;\n      -webkit-transition: margin 0.5s ease-in, border-radius 0.5s ease-in;\n      -o-transition: margin 0.5s ease-in, border-radius 0.5s ease-in;\n      transition: margin 0.5s ease-in, border-radius 0.5s ease-in;\n}\n\n.root:hover .transformIcon * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.root:hover .squish {\n      margin: 0 4px;\n      border-radius: 50%;\n      -webkit-transition: margin 0.5s 0.25s ease-in, border-radius 0.5s 0.25s ease-in;\n      -o-transition: margin 0.5s 0.25s ease-in, border-radius 0.5s 0.25s ease-in;\n      transition: margin 0.5s 0.25s ease-in, border-radius 0.5s 0.25s ease-in;\n}\n\n.root:hover .squish * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.root:hover .squishMe {\n      border-radius: 50%;\n      padding: 0;\n      margin: 0;\n      -webkit-transition:\n        margin 0s 0.25s ease-in,\n        border-radius 0.5s 0.25s ease-in,\n        padding-left 0.25s ease-in,\n        padding-right 0.25s ease-in,\n        padding-top 0s 0.25s ease-in,\n        padding-bottom 0s 0.25s ease-in;\n      -o-transition:\n        margin 0s 0.25s ease-in,\n        border-radius 0.5s 0.25s ease-in,\n        padding-left 0.25s ease-in,\n        padding-right 0.25s ease-in,\n        padding-top 0s 0.25s ease-in,\n        padding-bottom 0s 0.25s ease-in;\n      transition:\n        margin 0s 0.25s ease-in,\n        border-radius 0.5s 0.25s ease-in,\n        padding-left 0.25s ease-in,\n        padding-right 0.25s ease-in,\n        padding-top 0s 0.25s ease-in,\n        padding-bottom 0s 0.25s ease-in;\n}\n\n.defaultHover:hover {\n  background-color: darkgreen;\n}\n\n.text {\n  position: absolute;\n  z-index: 1;\n  text-align: center;\n  opacity: 1;\n  -webkit-transition: opacity 0.5s 0.25s ease-in;\n  -o-transition: opacity 0.5s 0.25s ease-in;\n  transition: opacity 0.5s 0.25s ease-in;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n.transformIcon {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n\n  -webkit-box-align: center;\n\n      -ms-flex-align: center;\n\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  min-width: 1em;\n  vertical-align: middle;\n\n  position: relative;\n  width: auto;\n\n  padding: 4px;\n  padding: 0.25rem;\n\n\n  background-color: rgb(82, 82, 82);\n\n  border-radius: 0;\n\n  margin: 0 0;\n\n  -webkit-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n  -o-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n  transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n}\n\n.transformIcon * {\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    text-decoration: none;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    min-width: 1em;\n    vertical-align: middle;\n    opacity: 0;\n  }\n\n.box {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  min-width: 1em;\n  vertical-align: middle;\n  height: 1em;\n}\n\n.box * {\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    min-width: 1em;\n    vertical-align: middle;\n    height: 1em;\n  }\n\n.hide {\n\n}\n\n.hideMe {\n\n}\n\n.squish {\n  -webkit-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n  -o-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n  transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n}\n\n.squishMe {\n  border-radius: 0;\n  min-width: 0;\n  width: 0;\n  padding: 4px 12px;\n  padding: 0.25rem 0.75rem;\n  margin: 0;\n  -webkit-transition: padding-left 0.1s 0.25s ease-in, padding-right 0.1s 0.25s ease-in;\n  -o-transition: padding-left 0.1s 0.25s ease-in, padding-right 0.1s 0.25s ease-in;\n  transition: padding-left 0.1s 0.25s ease-in, padding-right 0.1s 0.25s ease-in;\n}\n\n.left {\n  border-radius: 50% 0 0 50%;\n}\n\n.right {\n  border-radius: 0 50% 50% 0;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n\n.MediaButton-root-16FEI {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  color: white;\n  background-color: transparent;\n  position: relative\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-text-2cqDR {\n      opacity: 0;\n      z-index: -1;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-transformIcon-2ggyH {\n\n      margin: 0 4px;\n      border-radius: 50%;\n      -webkit-transition: margin 0.5s linear, border-radius 0.5s linear;\n      -o-transition: margin 0.5s linear, border-radius 0.5s linear;\n      transition: margin 0.5s linear, border-radius 0.5s linear;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-transformIcon-2ggyH * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.MediaButton-root-16FEI:hover .MediaButton-squish-hY-HG {\n      margin: 0 4px;\n      border-radius: 50%;\n      -webkit-transition: margin 0.5s 0.25s linear, border-radius 0.5s 0.25s linear;\n      -o-transition: margin 0.5s 0.25s linear, border-radius 0.5s 0.25s linear;\n      transition: margin 0.5s 0.25s linear, border-radius 0.5s 0.25s linear;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-squish-hY-HG * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.MediaButton-root-16FEI:hover .MediaButton-squishMe-mAYH2 {\n      border-radius: 50%;\n      padding: 0;\n      margin: 0;\n      -webkit-transition: margin 0s 0.25s linear,\n      border-radius 0.5s 0.25s linear,\n      padding-left 0.1s linear,\n      padding-right 0.1s linear,\n      padding-top 0s 0.25s linear,\n      padding-bottom 0s 0.25s linear;\n      -o-transition: margin 0s 0.25s linear,\n      border-radius 0.5s 0.25s linear,\n      padding-left 0.1s linear,\n      padding-right 0.1s linear,\n      padding-top 0s 0.25s linear,\n      padding-bottom 0s 0.25s linear;\n      transition: margin 0s 0.25s linear,\n      border-radius 0.5s 0.25s linear,\n      padding-left 0.1s linear,\n      padding-right 0.1s linear,\n      padding-top 0s 0.25s linear,\n      padding-bottom 0s 0.25s linear;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-hide-LoymV {\n      margin: 0 4px;\n      border-radius: 50%;\n      -webkit-transition: margin 0.5s 0.25s linear, border-radius 0.5s 0.25s linear;\n      -o-transition: margin 0.5s 0.25s linear, border-radius 0.5s 0.25s linear;\n      transition: margin 0.5s 0.25s linear, border-radius 0.5s 0.25s linear;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-hide-LoymV * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.MediaButton-root-16FEI:hover .MediaButton-hideMe-AVM1D {\n      border-radius: 50%;\n      min-width: 16px;\n      min-width: 1rem;\n      width: auto;\n      padding: 4px;\n      padding: 0.25rem;\n      margin: 0 4px;\n      -webkit-transition: padding-left 0.25s linear,\n      padding-right 0.25s linear,\n      width 0.25s linear,\n      min-width 0.25s linear,\n      margin 0.5s 0.25s linear,\n      border-radius 0.5s 0.25s linear;\n      -o-transition: padding-left 0.25s linear,\n      padding-right 0.25s linear,\n      width 0.25s linear,\n      min-width 0.25s linear,\n      margin 0.5s 0.25s linear,\n      border-radius 0.5s 0.25s linear;\n      transition: padding-left 0.25s linear,\n      padding-right 0.25s linear,\n      width 0.25s linear,\n      min-width 0.25s linear,\n      margin 0.5s 0.25s linear,\n      border-radius 0.5s 0.25s linear;\n}\n\n.MediaButton-defaultHover-1ujKb:hover {\n  background-color: darkgreen;\n}\n\n.MediaButton-text-2cqDR {\n  position: absolute;\n  z-index: 1;\n  text-align: center;\n  opacity: 1;\n  -webkit-transition: opacity 0.5s 0.25s ease-in;\n  -o-transition: opacity 0.5s 0.25s ease-in;\n  transition: opacity 0.5s 0.25s ease-in;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n.MediaButton-transformIcon-2ggyH {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n\n  -webkit-box-align: center;\n\n      -ms-flex-align: center;\n\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  min-width: 1em;\n  vertical-align: middle;\n\n  position: relative;\n  width: auto;\n\n  padding: 4px;\n  padding: 0.25rem;\n\n  background-color: rgb(82, 82, 82);\n\n  border-radius: 0;\n\n  margin: 0 0;\n\n  -webkit-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n  -o-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n  transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n}\n\n.MediaButton-transformIcon-2ggyH * {\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    text-decoration: none;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    min-width: 1em;\n    vertical-align: middle;\n    opacity: 0;\n  }\n\n.MediaButton-box-1V3fy {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  min-width: 1em;\n  vertical-align: middle;\n  height: 1em;\n}\n\n.MediaButton-box-1V3fy * {\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    min-width: 1em;\n    vertical-align: middle;\n    height: 1em;\n  }\n\n.MediaButton-hide-LoymV {\n\n}\n\n.MediaButton-hideMe-AVM1D {\n  border-radius: 0;\n  min-width: 0;\n  width: 0;\n  padding: 0;\n  margin: 0;\n}\n\n.MediaButton-squish-hY-HG {\n  -webkit-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n  -o-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n  transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n}\n\n.MediaButton-squishMe-mAYH2 {\n  border-radius: 0;\n  min-width: 0;\n  width: 0;\n  padding: 4px 12px;\n  padding: 0.25rem 0.75rem;\n  margin: 0;\n  -webkit-transition: padding-left 0.1s 0.25s ease-in, padding-right 0.1s 0.25s ease-in;\n  -o-transition: padding-left 0.1s 0.25s ease-in, padding-right 0.1s 0.25s ease-in;\n  transition: padding-left 0.1s 0.25s ease-in, padding-right 0.1s 0.25s ease-in;\n}\n\n.MediaButton-left-3Y_KF {\n  border-radius: 50% 0 0 50%;\n}\n\n.MediaButton-right-3zJ-E {\n  border-radius: 0 50% 50% 0;\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/components/MediaButton/MediaButton.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;AAEH;EACE;;gFAE8E;;EAE9E;;gFAE8E;;EAE9E;;gFAE8E,EAAE,gCAAgC,EAAE,2BAA2B,EAAE,6BAA6B,CAAC,iCAAiC;;EAE9M;;gFAE8E;CAC/E;;AAED;EACE,4BAA4B;EAC5B,4BAA4B;EAC5B,qBAAqB;EACrB,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;EAC5B,aAAa;EACb,8BAA8B;EAC9B,kBAAkB;CACnB;;AAED;MACM,WAAW;MACX,YAAY;CACjB;;AAED;;MAEM,cAAc;MACd,mBAAmB;MACnB,kEAAkE;MAClE,6DAA6D;MAC7D,0DAA0D;CAC/D;;AAED;QACQ,WAAW;QACX,iCAAiC;QACjC,4BAA4B;QAC5B,yBAAyB;OAC1B;;AAEP;MACM,cAAc;MACd,mBAAmB;MACnB,8EAA8E;MAC9E,yEAAyE;MACzE,sEAAsE;CAC3E;;AAED;QACQ,WAAW;QACX,iCAAiC;QACjC,4BAA4B;QAC5B,yBAAyB;OAC1B;;AAEP;MACM,mBAAmB;MACnB,WAAW;MACX,UAAU;MACV;;;;;qCAK+B;MAC/B;;;;;qCAK+B;MAC/B;;;;;qCAK+B;CACpC;;AAED;MACM,cAAc;MACd,mBAAmB;MACnB,8EAA8E;MAC9E,yEAAyE;MACzE,sEAAsE;CAC3E;;AAED;QACQ,WAAW;QACX,iCAAiC;QACjC,4BAA4B;QAC5B,yBAAyB;OAC1B;;AAEP;MACM,mBAAmB;MACnB,gBAAgB;MAChB,gBAAgB;MAChB,YAAY;MACZ,aAAa;MACb,iBAAiB;MACjB,cAAc;MACd;;;;;sCAKgC;MAChC;;;;;sCAKgC;MAChC;;;;;sCAKgC;CACrC;;AAED;EACE,4BAA4B;CAC7B;;AAED;EACE,mBAAmB;EACnB,WAAW;EACX,mBAAmB;EACnB,WAAW;EACX,+CAA+C;EAC/C,0CAA0C;EAC1C,uCAAuC;EACvC,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;CACjC;;AAED;EACE,4BAA4B;EAC5B,4BAA4B;EAC5B,qBAAqB;;EAErB,0BAA0B;;MAEtB,uBAAuB;;UAEnB,oBAAoB;EAC5B,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,eAAe;EACf,uBAAuB;;EAEvB,mBAAmB;EACnB,YAAY;;EAEZ,aAAa;EACb,iBAAiB;;EAEjB,kCAAkC;;EAElC,iBAAiB;;EAEjB,YAAY;;EAEZ,sEAAsE;;EAEtE,iEAAiE;;EAEjE,8DAA8D;;CAE/D;;AAED;IACI,4BAA4B;IAC5B,4BAA4B;IAC5B,qBAAqB;IACrB,sBAAsB;IACtB,0BAA0B;QACtB,uBAAuB;YACnB,oBAAoB;IAC5B,yBAAyB;QACrB,sBAAsB;YAClB,wBAAwB;IAChC,eAAe;IACf,uBAAuB;IACvB,WAAW;GACZ;;AAEH;EACE,4BAA4B;EAC5B,4BAA4B;EAC5B,qBAAqB;EACrB,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;EAC5B,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,eAAe;EACf,uBAAuB;EACvB,YAAY;CACb;;AAED;IACI,4BAA4B;IAC5B,4BAA4B;IAC5B,qBAAqB;IACrB,0BAA0B;QACtB,uBAAuB;YACnB,oBAAoB;IAC5B,yBAAyB;QACrB,sBAAsB;YAClB,wBAAwB;IAChC,eAAe;IACf,uBAAuB;IACvB,YAAY;GACb;;AAEH;;CAEC;;AAED;EACE,iBAAiB;EACjB,aAAa;EACb,SAAS;EACT,WAAW;EACX,UAAU;CACX;;AAED;EACE,sEAAsE;EACtE,iEAAiE;EACjE,8DAA8D;CAC/D;;AAED;EACE,iBAAiB;EACjB,aAAa;EACb,SAAS;EACT,kBAAkB;EAClB,yBAAyB;EACzB,UAAU;EACV,sFAAsF;EACtF,iFAAiF;EACjF,8EAA8E;CAC/E;;AAED;EACE,2BAA2B;CAC5B;;AAED;EACE,2BAA2B;CAC5B","file":"MediaButton.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n\n.root {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  color: white;\n  background-color: transparent;\n  position: relative\n}\n\n.root:hover .text {\n      opacity: 0;\n      z-index: -1;\n}\n\n.root:hover .transformIcon {\n\n      margin: 0 4px;\n      border-radius: 50%;\n      -webkit-transition: margin 0.5s linear, border-radius 0.5s linear;\n      -o-transition: margin 0.5s linear, border-radius 0.5s linear;\n      transition: margin 0.5s linear, border-radius 0.5s linear;\n}\n\n.root:hover .transformIcon * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.root:hover .squish {\n      margin: 0 4px;\n      border-radius: 50%;\n      -webkit-transition: margin 0.5s 0.25s linear, border-radius 0.5s 0.25s linear;\n      -o-transition: margin 0.5s 0.25s linear, border-radius 0.5s 0.25s linear;\n      transition: margin 0.5s 0.25s linear, border-radius 0.5s 0.25s linear;\n}\n\n.root:hover .squish * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.root:hover .squishMe {\n      border-radius: 50%;\n      padding: 0;\n      margin: 0;\n      -webkit-transition: margin 0s 0.25s linear,\n      border-radius 0.5s 0.25s linear,\n      padding-left 0.1s linear,\n      padding-right 0.1s linear,\n      padding-top 0s 0.25s linear,\n      padding-bottom 0s 0.25s linear;\n      -o-transition: margin 0s 0.25s linear,\n      border-radius 0.5s 0.25s linear,\n      padding-left 0.1s linear,\n      padding-right 0.1s linear,\n      padding-top 0s 0.25s linear,\n      padding-bottom 0s 0.25s linear;\n      transition: margin 0s 0.25s linear,\n      border-radius 0.5s 0.25s linear,\n      padding-left 0.1s linear,\n      padding-right 0.1s linear,\n      padding-top 0s 0.25s linear,\n      padding-bottom 0s 0.25s linear;\n}\n\n.root:hover .hide {\n      margin: 0 4px;\n      border-radius: 50%;\n      -webkit-transition: margin 0.5s 0.25s linear, border-radius 0.5s 0.25s linear;\n      -o-transition: margin 0.5s 0.25s linear, border-radius 0.5s 0.25s linear;\n      transition: margin 0.5s 0.25s linear, border-radius 0.5s 0.25s linear;\n}\n\n.root:hover .hide * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.root:hover .hideMe {\n      border-radius: 50%;\n      min-width: 16px;\n      min-width: 1rem;\n      width: auto;\n      padding: 4px;\n      padding: 0.25rem;\n      margin: 0 4px;\n      -webkit-transition: padding-left 0.25s linear,\n      padding-right 0.25s linear,\n      width 0.25s linear,\n      min-width 0.25s linear,\n      margin 0.5s 0.25s linear,\n      border-radius 0.5s 0.25s linear;\n      -o-transition: padding-left 0.25s linear,\n      padding-right 0.25s linear,\n      width 0.25s linear,\n      min-width 0.25s linear,\n      margin 0.5s 0.25s linear,\n      border-radius 0.5s 0.25s linear;\n      transition: padding-left 0.25s linear,\n      padding-right 0.25s linear,\n      width 0.25s linear,\n      min-width 0.25s linear,\n      margin 0.5s 0.25s linear,\n      border-radius 0.5s 0.25s linear;\n}\n\n.defaultHover:hover {\n  background-color: darkgreen;\n}\n\n.text {\n  position: absolute;\n  z-index: 1;\n  text-align: center;\n  opacity: 1;\n  -webkit-transition: opacity 0.5s 0.25s ease-in;\n  -o-transition: opacity 0.5s 0.25s ease-in;\n  transition: opacity 0.5s 0.25s ease-in;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n.transformIcon {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n\n  -webkit-box-align: center;\n\n      -ms-flex-align: center;\n\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  min-width: 1em;\n  vertical-align: middle;\n\n  position: relative;\n  width: auto;\n\n  padding: 4px;\n  padding: 0.25rem;\n\n  background-color: rgb(82, 82, 82);\n\n  border-radius: 0;\n\n  margin: 0 0;\n\n  -webkit-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n  -o-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n  transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n\n}\n\n.transformIcon * {\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    text-decoration: none;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    min-width: 1em;\n    vertical-align: middle;\n    opacity: 0;\n  }\n\n.box {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  min-width: 1em;\n  vertical-align: middle;\n  height: 1em;\n}\n\n.box * {\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    min-width: 1em;\n    vertical-align: middle;\n    height: 1em;\n  }\n\n.hide {\n\n}\n\n.hideMe {\n  border-radius: 0;\n  min-width: 0;\n  width: 0;\n  padding: 0;\n  margin: 0;\n}\n\n.squish {\n  -webkit-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n  -o-transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n  transition: border-radius 0.25s ease-in, margin 0.25s ease-in;\n}\n\n.squishMe {\n  border-radius: 0;\n  min-width: 0;\n  width: 0;\n  padding: 4px 12px;\n  padding: 0.25rem 0.75rem;\n  margin: 0;\n  -webkit-transition: padding-left 0.1s 0.25s ease-in, padding-right 0.1s 0.25s ease-in;\n  -o-transition: padding-left 0.1s 0.25s ease-in, padding-right 0.1s 0.25s ease-in;\n  transition: padding-left 0.1s 0.25s ease-in, padding-right 0.1s 0.25s ease-in;\n}\n\n.left {\n  border-radius: 50% 0 0 50%;\n}\n\n.right {\n  border-radius: 0 50% 50% 0;\n}\n"],"sourceRoot":""}]);
 
 // exports
 exports.locals = {
@@ -3138,10 +3252,10 @@ exports.locals = {
 	"transformIcon": "MediaButton-transformIcon-2ggyH",
 	"squish": "MediaButton-squish-hY-HG",
 	"squishMe": "MediaButton-squishMe-mAYH2",
-	"defaultHover": "MediaButton-defaultHover-1ujKb",
-	"box": "MediaButton-box-1V3fy",
 	"hide": "MediaButton-hide-LoymV",
 	"hideMe": "MediaButton-hideMe-AVM1D",
+	"defaultHover": "MediaButton-defaultHover-1ujKb",
+	"box": "MediaButton-box-1V3fy",
 	"left": "MediaButton-left-3Y_KF",
 	"right": "MediaButton-right-3zJ-E"
 };
@@ -3174,23 +3288,6 @@ exports = module.exports = __webpack_require__(1)(true);
 
 
 // module
-exports.push([module.i, "@-webkit-keyframes Orbit-orbitAnimation-222qx {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n\n@keyframes Orbit-orbitAnimation-222qx {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n\n.Orbit-orbit-2tKV6 {\n  -webkit-animation-name: Orbit-orbitAnimation-222qx;\n          animation-name: Orbit-orbitAnimation-222qx;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-duration: 10s;\n          animation-duration: 10s;\n  -webkit-animation-iteration-count: infinite;\n          animation-iteration-count: infinite\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/components/Orbit.css"],"names":[],"mappings":"AAAA;EACE;IACE,6DAA6D;YACrD,qDAAqD;GAC9D;;EAED;IACE,kEAAkE;YAC1D,0DAA0D;GACnE;CACF;;AAED;EACE;IACE,6DAA6D;YACrD,qDAAqD;GAC9D;;EAED;IACE,kEAAkE;YAC1D,0DAA0D;GACnE;CACF;;AAED;EACE,mDAAuC;UAC/B,2CAA+B;EACvC,0CAA0C;UAClC,kCAAkC;EAC1C,gCAAgC;UACxB,wBAAwB;EAChC,4CAA4C;UACpC,mCAAmC;CAC5C","file":"Orbit.css","sourcesContent":["@-webkit-keyframes orbitAnimation {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n\n@keyframes orbitAnimation {\n  from {\n    -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);\n            transform: rotate(0deg) translate(10em) rotate(0deg);\n  }\n\n  to {\n    -webkit-transform: rotate(360deg) translate(10em) rotate(-360deg);\n            transform: rotate(360deg) translate(10em) rotate(-360deg);\n  }\n}\n\n.orbit {\n  -webkit-animation-name: orbitAnimation;\n          animation-name: orbitAnimation;\n  -webkit-animation-timing-function: linear;\n          animation-timing-function: linear;\n  -webkit-animation-duration: 10s;\n          animation-duration: 10s;\n  -webkit-animation-iteration-count: infinite;\n          animation-iteration-count: infinite\n}\n"],"sourceRoot":""}]);
-
-// exports
-exports.locals = {
-	"orbit": "Orbit-orbit-2tKV6",
-	"orbitAnimation": "Orbit-orbitAnimation-222qx"
-};
-
-/***/ }),
-/* 48 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(1)(true);
-// imports
-
-
-// module
 exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n\n.Page-root-2VuHt {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.Page-container-QOUG7 {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 1000px;\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/components/Page/Page.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;AAEH;;;;;;;GAOG;;AAEH;EACE;;gFAE8E;;EAE9E;;gFAE8E;;EAE9E;;gFAE8E,EAAE,gCAAgC,EAAE,2BAA2B,EAAE,6BAA6B,CAAC,iCAAiC;;EAE9M;;gFAE8E;CAC/E;;AAED;EACE,mBAAmB;EACnB,oBAAoB;CACrB;;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,kBAAkB;CACnB","file":"Page.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n\n.root {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.container {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 1000px;\n}\n"],"sourceRoot":""}]);
 
 // exports
@@ -3200,7 +3297,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 49 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3214,7 +3311,7 @@ exports.push([module.i, "", "", {"version":3,"sources":[],"names":[],"mappings":
 
 
 /***/ }),
-/* 50 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3231,7 +3328,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 51 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3245,7 +3342,7 @@ exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.
 
 
 /***/ }),
-/* 52 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3253,7 +3350,7 @@ exports = module.exports = __webpack_require__(1)(true);
 
 
 // module
-exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n.Home-content-1BGUJ {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  padding: 0 0 16px 0;\n  padding: 0 0 1rem 0;\n  margin: 0 auto;\n  max-width: 1000px;\n}\n.Home-column-7h2Zk {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.Home-row-1MfJf {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  margin: 16px 0;\n  margin: 1rem 0;\n}\n.Home-animationContainer-2whAx {\n  margin: 16px 0;\n  margin: 1rem 0;\n  min-height: 30em;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  position: relative;\n  background-color: black;\n}\n.Home-twitter-3j9ZP:hover {\n  background-color: #794BC4;\n}\n.Home-dribble-23a20:hover {\n  background-color: #DF3E7B;\n}\n.Home-facebook-BP3rk:hover {\n  background-color: #3B5998;\n}\n.Home-slack-vRQeT:hover {\n  background-color: white;\n}\n.Home-slack-vRQeT:hover i {\n      color: black;\n}\n.Home-exampleTwo-26mRB {\n  padding: 16px;\n  padding: 1rem;\n  background-color: #333333;\n}\n.Home-textBox-24n0A {\n  display: inline-block;\n}\na {\n  color: white;\n}\n.Home-link-Y_GIW {\n  color: #373277;\n}\n.Home-animation-R_wCJ {\n  z-index: 1;\n  position: relative;\n}\n.Home-sun-14hMD {\n  position: absolute;\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/routes/home/Home.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;AACH;;;;;;;GAOG;AACH;EACE;;gFAE8E;;EAE9E;;gFAE8E;;EAE9E;;gFAE8E,EAAE,gCAAgC,EAAE,2BAA2B,EAAE,6BAA6B,CAAC,iCAAiC;;EAE9M;;gFAE8E;CAC/E;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,oBAAoB;EACpB,oBAAoB;EACpB,eAAe;EACf,kBAAkB;CACnB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;CACtB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,eAAe;EACf,eAAe;CAChB;AACD;EACE,eAAe;EACf,eAAe;EACf,iBAAiB;EACjB,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;EAC5B,mBAAmB;EACnB,wBAAwB;CACzB;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,wBAAwB;CACzB;AACD;MACM,aAAa;CAClB;AACD;EACE,cAAc;EACd,cAAc;EACd,0BAA0B;CAC3B;AACD;EACE,sBAAsB;CACvB;AACD;EACE,aAAa;CACd;AACD;EACE,eAAe;CAChB;AACD;EACE,WAAW;EACX,mBAAmB;CACpB;AACD;EACE,mBAAmB;CACpB","file":"Home.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n.content {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  padding: 0 0 16px 0;\n  padding: 0 0 1rem 0;\n  margin: 0 auto;\n  max-width: 1000px;\n}\n.column {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  margin: 16px 0;\n  margin: 1rem 0;\n}\n.animationContainer {\n  margin: 16px 0;\n  margin: 1rem 0;\n  min-height: 30em;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  position: relative;\n  background-color: black;\n}\n.twitter:hover {\n  background-color: #794BC4;\n}\n.dribble:hover {\n  background-color: #DF3E7B;\n}\n.facebook:hover {\n  background-color: #3B5998;\n}\n.slack:hover {\n  background-color: white;\n}\n.slack:hover i {\n      color: black;\n}\n.exampleTwo {\n  padding: 16px;\n  padding: 1rem;\n  background-color: #333333;\n}\n.textBox {\n  display: inline-block;\n}\na {\n  color: white;\n}\n.link {\n  color: #373277;\n}\n.animation {\n  z-index: 1;\n  position: relative;\n}\n.sun {\n  position: absolute;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n.Home-content-1BGUJ {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  padding: 0 0 16px 0;\n  padding: 0 0 1rem 0;\n  margin: 0 auto;\n  max-width: 1000px;\n}\n.Home-column-7h2Zk {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.Home-row-1MfJf {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  margin: 16px 0;\n  margin: 1rem 0;\n}\n.Home-animationContainer-2whAx {\n  height: 0;\n  width: 100%;\n  padding-bottom: 50%;\n  padding-top: 50%;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  position: relative;\n  background-color: black;\n}\n.Home-buttonContainer-rrXGX {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  padding: 0 16px;\n  padding: 0 1rem;\n}\n.Home-twitter-3j9ZP:hover {\n  background-color: #794BC4;\n}\n.Home-dribble-23a20:hover {\n  background-color: #DF3E7B;\n}\n.Home-facebook-BP3rk:hover {\n  background-color: #3B5998;\n}\n.Home-slack-vRQeT:hover {\n  background-color: white;\n}\n.Home-slack-vRQeT:hover i {\n      color: black;\n}\n.Home-exampleTwo-26mRB {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  padding: 16px;\n  padding: 1rem;\n  background-color: #333333;\n}\n.Home-textBox-24n0A {\n  display: inline-block;\n}\na {\n  color: white;\n}\n.Home-link-Y_GIW {\n  color: #373277;\n}\n.Home-animation-R_wCJ {\n  z-index: 1;\n  position: relative;\n}\n.Home-sun-14hMD {\n  position: absolute;\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/routes/home/Home.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;AACH;;;;;;;GAOG;AACH;EACE;;gFAE8E;;EAE9E;;gFAE8E;;EAE9E;;gFAE8E,EAAE,gCAAgC,EAAE,2BAA2B,EAAE,6BAA6B,CAAC,iCAAiC;;EAE9M;;gFAE8E;CAC/E;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,oBAAoB;EACpB,oBAAoB;EACpB,eAAe;EACf,kBAAkB;CACnB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;CACtB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,eAAe;EACf,eAAe;CAChB;AACD;EACE,UAAU;EACV,YAAY;EACZ,oBAAoB;EACpB,iBAAiB;EACjB,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;EAC5B,mBAAmB;EACnB,wBAAwB;CACzB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,gBAAgB;EAChB,gBAAgB;CACjB;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,wBAAwB;CACzB;AACD;MACM,aAAa;CAClB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,cAAc;EACd,cAAc;EACd,0BAA0B;CAC3B;AACD;EACE,sBAAsB;CACvB;AACD;EACE,aAAa;CACd;AACD;EACE,eAAe;CAChB;AACD;EACE,WAAW;EACX,mBAAmB;CACpB;AACD;EACE,mBAAmB;CACpB","file":"Home.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n.content {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  padding: 0 0 16px 0;\n  padding: 0 0 1rem 0;\n  margin: 0 auto;\n  max-width: 1000px;\n}\n.column {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  margin: 16px 0;\n  margin: 1rem 0;\n}\n.animationContainer {\n  height: 0;\n  width: 100%;\n  padding-bottom: 50%;\n  padding-top: 50%;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  position: relative;\n  background-color: black;\n}\n.buttonContainer {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  padding: 0 16px;\n  padding: 0 1rem;\n}\n.twitter:hover {\n  background-color: #794BC4;\n}\n.dribble:hover {\n  background-color: #DF3E7B;\n}\n.facebook:hover {\n  background-color: #3B5998;\n}\n.slack:hover {\n  background-color: white;\n}\n.slack:hover i {\n      color: black;\n}\n.exampleTwo {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  padding: 16px;\n  padding: 1rem;\n  background-color: #333333;\n}\n.textBox {\n  display: inline-block;\n}\na {\n  color: white;\n}\n.link {\n  color: #373277;\n}\n.animation {\n  z-index: 1;\n  position: relative;\n}\n.sun {\n  position: absolute;\n}\n"],"sourceRoot":""}]);
 
 // exports
 exports.locals = {
@@ -3261,6 +3358,7 @@ exports.locals = {
 	"column": "Home-column-7h2Zk",
 	"row": "Home-row-1MfJf",
 	"animationContainer": "Home-animationContainer-2whAx",
+	"buttonContainer": "Home-buttonContainer-rrXGX",
 	"twitter": "Home-twitter-3j9ZP",
 	"dribble": "Home-dribble-23a20",
 	"facebook": "Home-facebook-BP3rk",
@@ -3273,7 +3371,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 53 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3290,7 +3388,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 54 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3304,19 +3402,19 @@ exports.push([module.i, "/*! normalize.css v7.0.0 | MIT License | github.com/nec
 
 
 /***/ }),
-/* 55 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "src/components/Header/logo-small.png?2f751285";
 
 /***/ }),
-/* 56 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.png?8844262b";
 
 /***/ }),
-/* 57 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
@@ -3351,7 +3449,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 58 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
@@ -3386,7 +3484,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 59 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
@@ -3421,7 +3519,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 60 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
@@ -3456,7 +3554,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 61 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
@@ -3491,46 +3589,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 62 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
     var content = __webpack_require__(47);
-    var insertCss = __webpack_require__(2);
-
-    if (typeof content === 'string') {
-      content = [[module.i, content, '']];
-    }
-
-    module.exports = content.locals || {};
-    module.exports._getContent = function() { return content; };
-    module.exports._getCss = function() { return content.toString(); };
-    module.exports._insertCss = function(options) { return insertCss(content, options) };
-    
-    // Hot Module Replacement
-    // https://webpack.github.io/docs/hot-module-replacement
-    // Only activated in browser context
-    if (false) {
-      var removeCss = function() {};
-      module.hot.accept("!!../../node_modules/css-loader/index.js??ref--1-1!../../node_modules/postcss-loader/lib/index.js??ref--1-2!./Orbit.css", function() {
-        content = require("!!../../node_modules/css-loader/index.js??ref--1-1!../../node_modules/postcss-loader/lib/index.js??ref--1-2!./Orbit.css");
-
-        if (typeof content === 'string') {
-          content = [[module.id, content, '']];
-        }
-
-        removeCss = insertCss(content, { replace: true });
-      });
-      module.hot.dispose(function() { removeCss(); });
-    }
-  
-
-/***/ }),
-/* 63 */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-    var content = __webpack_require__(48);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3561,11 +3624,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 64 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(49);
+    var content = __webpack_require__(48);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3596,11 +3659,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 65 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(50);
+    var content = __webpack_require__(49);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3631,11 +3694,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 66 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(52);
+    var content = __webpack_require__(51);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3666,11 +3729,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 67 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(53);
+    var content = __webpack_require__(52);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3701,11 +3764,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 68 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(54);
+    var content = __webpack_require__(53);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3736,121 +3799,127 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 69 */
+/* 67 */
 /***/ (function(module, exports) {
 
 module.exports = {"title":"About Us","component":"ContentPage","html":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat\ntortor fermentum mi fermentum dignissim. Nullam vel ipsum ut ligula elementum\nlobortis. Maecenas aliquam, massa laoreet lacinia pretium, nisi urna venenatis\ntortor, nec imperdiet tellus libero efficitur metus. Fusce semper posuere\nligula, et facilisis metus bibendum interdum. Mauris at mauris sit amet sem\npharetra commodo a eu leo. Nam at est non risus cursus maximus. Nam feugiat\naugue libero, id consectetur tortor bibendum non. Quisque nec fringilla lorem.\nNullam efficitur vulputate mauris, nec maximus leo dignissim id.</p>\n<p>In hac habitasse platea dictumst. Duis sagittis dui ac ex suscipit maximus.\nMorbi pellentesque venenatis felis sed convallis. Nulla varius, nibh vitae\nplacerat tempus, mauris sem elementum ipsum, eget sollicitudin nisl est vel\npurus. Fusce malesuada odio velit, non cursus leo fermentum id. Cras pharetra\nsodales fringilla. Etiam quis est a dolor egestas pellentesque. Maecenas non\nscelerisque purus, congue cursus arcu. Donec vel dapibus mi. Mauris maximus\nposuere placerat. Sed et libero eu nibh tristique mollis a eget lectus. Donec\ninterdum augue sollicitudin vehicula hendrerit. Vivamus justo orci, molestie\nac sollicitudin ac, lobortis at tellus. Etiam rhoncus ullamcorper risus eu\ntempor. Sed porttitor, neque ac efficitur gravida, arcu lacus pharetra dui, in\nconsequat elit tellus auctor nulla. Donec placerat elementum diam, vitae\nimperdiet lectus luctus at.</p>\n<p>Nullam eu feugiat mi. Quisque nec tristique nisl, dignissim dictum leo. Nam\nnon quam nisi. Donec rutrum turpis ac diam blandit, id pulvinar mauris\nsuscipit. Pellentesque tincidunt libero ultricies risus iaculis, sit amet\nconsequat velit blandit. Fusce quis varius nulla. Nullam nisi nisi, suscipit\nut magna quis, feugiat porta nibh. Sed id enim lectus. Suspendisse elementum\njusto sapien, sit amet consequat orci accumsan et. Aliquam ornare ullamcorper\nsem sed finibus. Nullam ac lacus pulvinar, egestas felis ut, accumsan est.</p>\n<p>Pellentesque sagittis vehicula sem quis luctus. Proin sodales magna in lorem\nhendrerit aliquam. Integer eu varius orci. Vestibulum ante ipsum primis in\nfaucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ante ipsum\nprimis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut at mauris\nnibh. Suspendisse maximus ac eros at vestibulum.</p>\n<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque egestas\ntortor et dui consequat faucibus. Nunc vitae odio ornare, venenatis ligula a,\nvulputate nisl. Aenean congue varius ex, sit amet bibendum odio posuere at.\nNulla facilisi. In finibus, nulla vitae tincidunt ornare, sapien nulla\nfermentum mauris, sed consectetur tortor arcu eget arcu. Vestibulum vel quam\nenim.</p>\n"};
 
 /***/ }),
-/* 70 */
+/* 68 */
 /***/ (function(module, exports) {
 
 module.exports = require("./assets.json");
 
 /***/ }),
-/* 71 */
+/* 69 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-runtime/core-js/json/stringify");
 
 /***/ }),
-/* 72 */
+/* 70 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-runtime/helpers/slicedToArray");
 
 /***/ }),
-/* 73 */
+/* 71 */
 /***/ (function(module, exports) {
 
 module.exports = require("body-parser");
 
 /***/ }),
-/* 74 */
+/* 72 */
 /***/ (function(module, exports) {
 
 module.exports = require("cookie-parser");
 
 /***/ }),
-/* 75 */
+/* 73 */
 /***/ (function(module, exports) {
 
 module.exports = require("express");
 
 /***/ }),
-/* 76 */
+/* 74 */
 /***/ (function(module, exports) {
 
 module.exports = require("express-graphql");
 
 /***/ }),
-/* 77 */
+/* 75 */
 /***/ (function(module, exports) {
 
 module.exports = require("express-jwt");
 
 /***/ }),
-/* 78 */
+/* 76 */
 /***/ (function(module, exports) {
 
 module.exports = require("history/createBrowserHistory");
 
 /***/ }),
-/* 79 */
+/* 77 */
 /***/ (function(module, exports) {
 
 module.exports = require("isomorphic-fetch");
 
 /***/ }),
-/* 80 */
+/* 78 */
 /***/ (function(module, exports) {
 
 module.exports = require("path");
 
 /***/ }),
-/* 81 */
+/* 79 */
 /***/ (function(module, exports) {
 
 module.exports = require("pretty-error");
 
 /***/ }),
-/* 82 */
+/* 80 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom/server");
 
 /***/ }),
-/* 83 */
+/* 81 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-redux");
 
 /***/ }),
-/* 84 */
+/* 82 */
 /***/ (function(module, exports) {
 
 module.exports = require("redux-thunk");
 
 /***/ }),
-/* 85 */
+/* 83 */
 /***/ (function(module, exports) {
 
 module.exports = require("serialize-javascript");
 
 /***/ }),
-/* 86 */
+/* 84 */
+/***/ (function(module, exports) {
+
+module.exports = require("styled-components");
+
+/***/ }),
+/* 85 */
 /***/ (function(module, exports) {
 
 module.exports = require("universal-router");
 
 /***/ }),
-/* 87 */
+/* 86 */
 /***/ (function(module, exports) {
 
 module.exports = require("util");
 
 /***/ }),
-/* 88 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(13);
