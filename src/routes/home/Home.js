@@ -9,9 +9,7 @@
  */
 
 import React from 'react';
-import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import cx from 'classnames';
 import styled, { keyframes } from 'styled-components';
 import s from './Home.css';
 import Earth from '../../components/Earth';
@@ -25,12 +23,17 @@ class Home extends React.Component {
     super(props);
 
     this.state = {
+      firstRender: true,
       resetAnimation: false,
       followButton: 'Follow',
       orbitRadius: 300,
     };
 
     this.toggleAnimation = this.toggleAnimation.bind(this);
+  }
+
+  componentDidMount() {
+    this.setState({ firstRender: false });
   }
 
   followChange(event) {
@@ -52,11 +55,11 @@ class Home extends React.Component {
 
     const orbit = keyframes`
     from {
-      transform: rotate(0deg) translate(${orbitDistance}px) rotate(0deg);
+      transform: rotate(0deg) translate(300px) rotate(0deg);
     }
   
     to {
-      transform: rotate(360deg) translate(${orbitDistance}px) rotate(-360deg);
+      transform: rotate(360deg) translate(300px) rotate(-360deg);
     }
   `;
 
@@ -68,10 +71,12 @@ class Home extends React.Component {
       animation-duration: 10s;
       animation-iteration-count: infinite
     `;
-    const animation = !this.state.resetAnimation ? (<div className={s.animationContainer}>
-      <Sun width={300} height={300} className={s.sun} />
-      <StyledEarth />
-    </div>) : null;
+    const animation = !this.state.resetAnimation ? (
+      <div className={s.animationContainer}>
+        <Sun width={300} height={300} className={s.sun} />
+        {!this.state.firstRender && <StyledEarth />}
+      </div>
+    ) : null;
 
     return (
       <article className={s.content}>
@@ -89,7 +94,7 @@ class Home extends React.Component {
               <input
                 id="orbitRadius"
                 type="range"
-                min={0}
+                min={150}
                 max={450}
                 value={this.state.orbitRadius}
                 onChange={(event) => {

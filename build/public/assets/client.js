@@ -6,7 +6,7 @@ webpackJsonp([1],{
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__history__ = __webpack_require__(178);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -137,14 +137,14 @@ Link.defaultProps = {
 
 /***/ }),
 
-/***/ 264:
+/***/ 263:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(230);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(229);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_redbox_react__ = __webpack_require__(677);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_redbox_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_redbox_react__);
@@ -156,11 +156,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_query_string___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_query_string__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_history_PathUtils__ = __webpack_require__(157);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_history_PathUtils___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_history_PathUtils__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_App__ = __webpack_require__(267);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__createFetch__ = __webpack_require__(276);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__store_configureStore__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_App__ = __webpack_require__(266);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__createFetch__ = __webpack_require__(275);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__store_configureStore__ = __webpack_require__(288);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__history__ = __webpack_require__(178);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__DOMUtils__ = __webpack_require__(266);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__DOMUtils__ = __webpack_require__(265);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/client.js',
     _this = this;
 
@@ -385,7 +385,7 @@ __WEBPACK_IMPORTED_MODULE_4_fastclick___default.a.attach(document.body);
 var container = document.getElementById('app');
 var appInstance = void 0;
 var currentLocation = __WEBPACK_IMPORTED_MODULE_10__history__["a" /* default */].location;
-var router = __webpack_require__(280).default;__WEBPACK_IMPORTED_MODULE_10__history__["a" /* default */].listen(onLocationChange);
+var router = __webpack_require__(279).default;__WEBPACK_IMPORTED_MODULE_10__history__["a" /* default */].listen(onLocationChange);
 onLocationChange(currentLocation);
 
 // Handle errors that might happen after rendering
@@ -431,7 +431,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 266:
+/***/ 265:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -478,13 +478,13 @@ function updateLink(rel, href) {
 
 /***/ }),
 
-/***/ 267:
+/***/ 266:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_redux__ = __webpack_require__(661);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -578,13 +578,13 @@ App.childContextTypes = ContextType;
 
 /***/ }),
 
-/***/ 268:
+/***/ 267:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Earth/Earth.js';
 
@@ -697,7 +697,7 @@ Earth.defaultProps = {
 
 /***/ }),
 
-/***/ 269:
+/***/ 268:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -822,7 +822,7 @@ var Footer = function (_React$Component) {
 
 /***/ }),
 
-/***/ 270:
+/***/ 269:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -833,7 +833,7 @@ var Footer = function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Header_css__ = __webpack_require__(562);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Header_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__Header_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Link__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Navigation__ = __webpack_require__(272);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Navigation__ = __webpack_require__(271);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__logo_small_png__ = __webpack_require__(553);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__logo_small_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__logo_small_png__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__logo_small_2x_png__ = __webpack_require__(554);
@@ -956,17 +956,17 @@ var Header = function (_React$Component) {
 
 /***/ }),
 
-/***/ 271:
+/***/ 270:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames__ = __webpack_require__(180);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames__ = __webpack_require__(305);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__MediaButton_css__ = __webpack_require__(564);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__MediaButton_css__);
@@ -1163,7 +1163,7 @@ MediaButton.propTypes = {
 
 /***/ }),
 
-/***/ 272:
+/***/ 271:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1249,13 +1249,13 @@ var Navigation = function (_React$Component) {
 
 /***/ }),
 
-/***/ 273:
+/***/ 272:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
@@ -1355,13 +1355,13 @@ Page.propTypes = {
 
 /***/ }),
 
-/***/ 274:
+/***/ 273:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
@@ -1508,7 +1508,7 @@ Sun.defaultProps = {
 
 /***/ }),
 
-/***/ 275:
+/***/ 274:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1519,7 +1519,7 @@ var SET_RUNTIME_VARIABLE = 'SET_RUNTIME_VARIABLE';
 
 /***/ }),
 
-/***/ 276:
+/***/ 275:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1570,13 +1570,13 @@ function createFetch(_ref) {
 
 /***/ }),
 
-/***/ 277:
+/***/ 276:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux__ = __webpack_require__(177);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__user__ = __webpack_require__(279);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__runtime__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__user__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__runtime__ = __webpack_require__(277);
 
 
 
@@ -1588,12 +1588,12 @@ function createFetch(_ref) {
 
 /***/ }),
 
-/***/ 278:
+/***/ 277:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = runtime;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(275);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(274);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -1614,7 +1614,7 @@ function runtime() {
 
 /***/ }),
 
-/***/ 279:
+/***/ 278:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1631,14 +1631,14 @@ function user() {
 
 /***/ }),
 
-/***/ 280:
+/***/ 279:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_universal_router__ = __webpack_require__(694);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_universal_router___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_universal_router__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__routes__ = __webpack_require__(286);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__routes__ = __webpack_require__(285);
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
  *
@@ -1655,7 +1655,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 281:
+/***/ 280:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1663,7 +1663,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Layout__ = __webpack_require__(92);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Page__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Page__ = __webpack_require__(272);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/about/index.js';
@@ -1737,13 +1737,13 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 
 /***/ }),
 
-/***/ 282:
+/***/ 281:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
@@ -1840,7 +1840,7 @@ Contact.propTypes = {
 
 /***/ }),
 
-/***/ 283:
+/***/ 282:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1848,7 +1848,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Layout__ = __webpack_require__(92);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Contact__ = __webpack_require__(282);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Contact__ = __webpack_require__(281);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/contact/index.js';
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
@@ -1894,29 +1894,25 @@ var title = 'Contact Us';
 
 /***/ }),
 
-/***/ 284:
+/***/ 283:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames__ = __webpack_require__(180);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_classnames__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_styled_components__ = __webpack_require__(689);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Home_css__ = __webpack_require__(569);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Home_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__Home_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_Earth__ = __webpack_require__(268);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_Sun__ = __webpack_require__(274);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_MediaButton__ = __webpack_require__(271);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_styled_components__ = __webpack_require__(689);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Home_css__ = __webpack_require__(569);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Home_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__Home_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_Earth__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_Sun__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_MediaButton__ = __webpack_require__(270);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/home/Home.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _templateObject = _taggedTemplateLiteral(['\n    from {\n      transform: rotate(0deg) translate(', 'px) rotate(0deg);\n    }\n  \n    to {\n      transform: rotate(360deg) translate(', 'px) rotate(-360deg);\n    }\n  '], ['\n    from {\n      transform: rotate(0deg) translate(', 'px) rotate(0deg);\n    }\n  \n    to {\n      transform: rotate(360deg) translate(', 'px) rotate(-360deg);\n    }\n  ']),
+var _templateObject = _taggedTemplateLiteral(['\n    from {\n      transform: rotate(0deg) translate(300px) rotate(0deg);\n    }\n  \n    to {\n      transform: rotate(360deg) translate(300px) rotate(-360deg);\n    }\n  '], ['\n    from {\n      transform: rotate(0deg) translate(300px) rotate(0deg);\n    }\n  \n    to {\n      transform: rotate(360deg) translate(300px) rotate(-360deg);\n    }\n  ']),
     _templateObject2 = _taggedTemplateLiteral(['\n      z-index: 1;\n      position: relative;\n      animation-name: ', ';\n      animation-timing-function: linear;\n      animation-duration: 10s;\n      animation-iteration-count: infinite\n    '], ['\n      z-index: 1;\n      position: relative;\n      animation-name: ', ';\n      animation-timing-function: linear;\n      animation-duration: 10s;\n      animation-iteration-count: infinite\n    ']);
 
 function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
@@ -1945,8 +1941,6 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
-
-
 var Home = function (_React$Component) {
   _inherits(Home, _React$Component);
 
@@ -1956,6 +1950,7 @@ var Home = function (_React$Component) {
     var _this = _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).call(this, props));
 
     _this.state = {
+      firstRender: true,
       resetAnimation: false,
       followButton: 'Follow',
       orbitRadius: 300
@@ -1966,6 +1961,11 @@ var Home = function (_React$Component) {
   }
 
   _createClass(Home, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      this.setState({ firstRender: false });
+    }
+  }, {
     key: 'followChange',
     value: function followChange(event) {
       this.setState({ followButton: event.target.value });
@@ -1989,35 +1989,35 @@ var Home = function (_React$Component) {
 
       var EarthMaker = function EarthMaker(_ref) {
         var className = _ref.className;
-        return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__components_Earth__["a" /* default */], { width: 104, height: 74, className: className, __source: {
+        return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_Earth__["a" /* default */], { width: 104, height: 74, className: className, __source: {
             fileName: _jsxFileName,
-            lineNumber: 51
+            lineNumber: 54
           },
           __self: _this2
         });
       };
 
-      var orbit = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4_styled_components__["a" /* keyframes */])(_templateObject, orbitDistance, orbitDistance);
+      var orbit = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_styled_components__["a" /* keyframes */])(_templateObject);
 
-      var StyledEarth = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4_styled_components__["b" /* default */])(EarthMaker)(_templateObject2, orbit);
+      var StyledEarth = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_styled_components__["b" /* default */])(EarthMaker)(_templateObject2, orbit);
       var animation = !this.state.resetAnimation ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'div',
-        { className: __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.animationContainer, __source: {
+        { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.animationContainer, __source: {
             fileName: _jsxFileName,
-            lineNumber: 71
+            lineNumber: 75
           },
           __self: this
         },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__components_Sun__["a" /* default */], { width: 300, height: 300, className: __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.sun, __source: {
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_Sun__["a" /* default */], { width: 300, height: 300, className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.sun, __source: {
             fileName: _jsxFileName,
-            lineNumber: 72
+            lineNumber: 76
           },
           __self: this
         }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(StyledEarth, {
+        !this.state.firstRender && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(StyledEarth, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 73
+            lineNumber: 77
           },
           __self: this
         })
@@ -2025,9 +2025,9 @@ var Home = function (_React$Component) {
 
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'article',
-        { className: __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.content, __source: {
+        { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.content, __source: {
             fileName: _jsxFileName,
-            lineNumber: 77
+            lineNumber: 82
           },
           __self: this
         },
@@ -2036,7 +2036,7 @@ var Home = function (_React$Component) {
           {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 78
+              lineNumber: 83
             },
             __self: this
           },
@@ -2045,7 +2045,7 @@ var Home = function (_React$Component) {
             {
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 79
+                lineNumber: 84
               },
               __self: this
             },
@@ -2056,7 +2056,7 @@ var Home = function (_React$Component) {
             {
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 80
+                lineNumber: 85
               },
               __self: this
             },
@@ -2064,9 +2064,9 @@ var Home = function (_React$Component) {
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
-            { className: __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.row, __source: {
+            { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.row, __source: {
                 fileName: _jsxFileName,
-                lineNumber: 81
+                lineNumber: 86
               },
               __self: this
             },
@@ -2076,7 +2076,7 @@ var Home = function (_React$Component) {
                 onClick: this.toggleAnimation,
                 __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 82
+                  lineNumber: 87
                 },
                 __self: this
               },
@@ -2086,7 +2086,7 @@ var Home = function (_React$Component) {
               'div',
               { style: { padding: '0 1rem' }, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 87
+                  lineNumber: 92
                 },
                 __self: this
               },
@@ -2094,7 +2094,7 @@ var Home = function (_React$Component) {
                 'label',
                 { htmlFor: 'orbitRadius', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 88
+                    lineNumber: 93
                   },
                   __self: this
                 },
@@ -2103,7 +2103,7 @@ var Home = function (_React$Component) {
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', {
                 id: 'orbitRadius',
                 type: 'range',
-                min: 0,
+                min: 150,
                 max: 450,
                 value: this.state.orbitRadius,
                 onChange: function onChange(event) {
@@ -2111,7 +2111,7 @@ var Home = function (_React$Component) {
                 },
                 __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 89
+                  lineNumber: 94
                 },
                 __self: this
               })
@@ -2121,7 +2121,7 @@ var Home = function (_React$Component) {
               {
                 __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 100
+                  lineNumber: 105
                 },
                 __self: this
               },
@@ -2130,9 +2130,9 @@ var Home = function (_React$Component) {
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
-            { className: __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.row, __source: {
+            { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.row, __source: {
                 fileName: _jsxFileName,
-                lineNumber: 102
+                lineNumber: 107
               },
               __self: this
             },
@@ -2144,7 +2144,7 @@ var Home = function (_React$Component) {
           {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 104
+              lineNumber: 109
             },
             __self: this
           },
@@ -2153,7 +2153,7 @@ var Home = function (_React$Component) {
             {
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 105
+                lineNumber: 110
               },
               __self: this
             },
@@ -2161,11 +2161,11 @@ var Home = function (_React$Component) {
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'a',
               {
-                className: __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.link,
+                className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.link,
                 href: 'https://www.reddit.com/r/web_design/comments/6fdobk/how_would_you_code_the_share_and_follow_buttons/',
                 __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 105
+                  lineNumber: 110
                 },
                 __self: this
               },
@@ -2174,9 +2174,9 @@ var Home = function (_React$Component) {
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
-            { className: __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.row, __source: {
+            { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.row, __source: {
                 fileName: _jsxFileName,
-                lineNumber: 110
+                lineNumber: 115
               },
               __self: this
             },
@@ -2184,7 +2184,7 @@ var Home = function (_React$Component) {
               'label',
               { htmlFor: 'button-text', __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 111
+                  lineNumber: 116
                 },
                 __self: this
               },
@@ -2193,47 +2193,47 @@ var Home = function (_React$Component) {
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', {
               id: 'button-text',
               type: 'text',
-              className: __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.textBox,
+              className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.textBox,
               value: this.state.followButton,
               onChange: function onChange(event) {
                 _this2.followChange(event);
               },
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 112
+                lineNumber: 117
               },
               __self: this
             })
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
-            { className: __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.exampleTwo, __source: {
+            { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.exampleTwo, __source: {
                 fileName: _jsxFileName,
-                lineNumber: 122
+                lineNumber: 127
               },
               __self: this
             },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'div',
-              { className: __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.buttonContainer, __source: {
+              { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.buttonContainer, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 123
+                  lineNumber: 128
                 },
                 __self: this
               },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                __WEBPACK_IMPORTED_MODULE_8__components_MediaButton__["a" /* default */],
+                __WEBPACK_IMPORTED_MODULE_6__components_MediaButton__["a" /* default */],
                 { text: this.state.followButton, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 124
+                    lineNumber: 129
                   },
                   __self: this
                 },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'a',
-                  { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.twitter, __source: {
+                  { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.twitter, __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 125
+                      lineNumber: 130
                     },
                     __self: this
                   },
@@ -2242,16 +2242,16 @@ var Home = function (_React$Component) {
                     'aria-hidden': 'true',
                     __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 125
+                      lineNumber: 130
                     },
                     __self: this
                   })
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'a',
-                  { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.facebook, __source: {
+                  { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.facebook, __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 129
+                      lineNumber: 134
                     },
                     __self: this
                   },
@@ -2260,16 +2260,16 @@ var Home = function (_React$Component) {
                     'aria-hidden': 'true',
                     __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 129
+                      lineNumber: 134
                     },
                     __self: this
                   })
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'a',
-                  { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.dribble, __source: {
+                  { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.dribble, __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 133
+                      lineNumber: 138
                     },
                     __self: this
                   },
@@ -2278,16 +2278,16 @@ var Home = function (_React$Component) {
                     'aria-hidden': 'true',
                     __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 133
+                      lineNumber: 138
                     },
                     __self: this
                   })
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'a',
-                  { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.slack, __source: {
+                  { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.slack, __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 137
+                      lineNumber: 142
                     },
                     __self: this
                   },
@@ -2296,7 +2296,7 @@ var Home = function (_React$Component) {
                     'aria-hidden': 'true',
                     __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 137
+                      lineNumber: 142
                     },
                     __self: this
                   })
@@ -2305,20 +2305,20 @@ var Home = function (_React$Component) {
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'div',
-              { className: __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.buttonContainer, __source: {
+              { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.buttonContainer, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 143
+                  lineNumber: 148
                 },
                 __self: this
               },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                __WEBPACK_IMPORTED_MODULE_8__components_MediaButton__["a" /* default */],
+                __WEBPACK_IMPORTED_MODULE_6__components_MediaButton__["a" /* default */],
                 { text: __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'span',
                     {
                       __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 144
+                        lineNumber: 149
                       },
                       __self: this
                     },
@@ -2328,7 +2328,7 @@ var Home = function (_React$Component) {
                       {
                         __source: {
                           fileName: _jsxFileName,
-                          lineNumber: 144
+                          lineNumber: 149
                         },
                         __self: this
                       },
@@ -2336,31 +2336,31 @@ var Home = function (_React$Component) {
                     )
                   ), __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 144
+                    lineNumber: 149
                   },
                   __self: this
                 },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-twitter', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.twitter, __source: {
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-twitter', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.twitter, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 145
+                    lineNumber: 150
                   },
                   __self: this
                 }),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-facebook', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.facebook, __source: {
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-facebook', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.facebook, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 146
+                    lineNumber: 151
                   },
                   __self: this
                 }),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-dribbble', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.dribble, __source: {
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-dribbble', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.dribble, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 147
+                    lineNumber: 152
                   },
                   __self: this
                 }),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-slack', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_5__Home_css___default.a.slack, __source: {
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-slack', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.slack, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 148
+                    lineNumber: 153
                   },
                   __self: this
                 })
@@ -2378,18 +2378,18 @@ var Home = function (_React$Component) {
 Home.propTypes = {};
 
 
-/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_5__Home_css___default.a)(Home));
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_3__Home_css___default.a)(Home));
 
 /***/ }),
 
-/***/ 285:
+/***/ 284:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Home__ = __webpack_require__(284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Home__ = __webpack_require__(283);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Layout__ = __webpack_require__(92);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/home/index.js';
 
@@ -2453,7 +2453,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 
 /***/ }),
 
-/***/ 286:
+/***/ 285:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2476,10 +2476,10 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
   path: '/',
 
   // Keep in mind, routes are evaluated in order
-  children: [__webpack_require__(285).default, __webpack_require__(283).default, __webpack_require__(281).default,
+  children: [__webpack_require__(284).default, __webpack_require__(282).default, __webpack_require__(280).default,
 
   // Wildcard routes, e.g. { path: '*', ... } (must go last)
-  __webpack_require__(288).default],
+  __webpack_require__(287).default],
 
   action: function action(_ref) {
     var _this = this;
@@ -2516,13 +2516,13 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 
 /***/ }),
 
-/***/ 287:
+/***/ 286:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
@@ -2619,7 +2619,7 @@ NotFound.propTypes = {
 
 /***/ }),
 
-/***/ 288:
+/***/ 287:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2627,7 +2627,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Layout__ = __webpack_require__(92);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__NotFound__ = __webpack_require__(287);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__NotFound__ = __webpack_require__(286);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/notFound/index.js';
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
@@ -2674,7 +2674,7 @@ var title = 'Page Not Found';
 
 /***/ }),
 
-/***/ 289:
+/***/ 288:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2682,9 +2682,9 @@ var title = 'Page Not Found';
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux__ = __webpack_require__(177);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux_thunk__ = __webpack_require__(681);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux_thunk___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_redux_thunk__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__reducers__ = __webpack_require__(277);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__createHelpers__ = __webpack_require__(290);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__logger__ = __webpack_require__(291);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__reducers__ = __webpack_require__(276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__createHelpers__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__logger__ = __webpack_require__(290);
 
 
 
@@ -2731,7 +2731,7 @@ function configureStore(initialState, helpersConfig) {
 
 /***/ }),
 
-/***/ 290:
+/***/ 289:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2800,7 +2800,7 @@ function createHelpers(_ref2) {
 
 /***/ }),
 
-/***/ 291:
+/***/ 290:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3402,8 +3402,8 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
 /***/ 698:
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(265);
-module.exports = __webpack_require__(264);
+__webpack_require__(264);
+module.exports = __webpack_require__(263);
 
 
 /***/ }),
@@ -3414,7 +3414,7 @@ module.exports = __webpack_require__(264);
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
@@ -3422,8 +3422,8 @@ module.exports = __webpack_require__(264);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_normalize_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_normalize_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Layout_css__ = __webpack_require__(563);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Layout_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__Layout_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Header__ = __webpack_require__(270);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Footer__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Header__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Footer__ = __webpack_require__(268);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Layout/Layout.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
