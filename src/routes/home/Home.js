@@ -77,7 +77,7 @@ class Home extends React.Component {
     }
   
     to {
-      transform: translate(-${earthDiameter / 2}px) rotate(360deg) translate(${earthOrbitRadius}px) rotate(-360deg) rotate(1440deg) translate(${moonOrbitRadius}px) rotate(-1440deg);
+      transform: translate(-${earthDiameter / 2}px) rotate(360deg) translate(${earthOrbitRadius}px) rotate(-360deg) rotate(${360 * 5}deg) translate(${moonOrbitRadius}px) rotate(-${360 * 5}deg);
     }
   `;
 

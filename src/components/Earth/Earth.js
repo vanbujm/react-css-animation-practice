@@ -12,7 +12,6 @@ class Earth extends React.Component {
   };
 
   render() {
-    console.log(this.props.children);
     return (
       <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" className={this.props.className} width={this.props.width} height={this.props.height} style={this.props.style}>
         <ellipse cx="249.5" cy="250" rx="248" ry="248" stroke="#000" fill="#2965e6" strokeWidth="4" />
@@ -46,6 +45,8 @@ class Earth extends React.Component {
 
 Earth.defaultProps = {
   className: '',
+  children: null,
+  style: {},
 };
 
 export default Earth;
