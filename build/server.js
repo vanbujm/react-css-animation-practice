@@ -65,7 +65,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "/assets/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 87);
+/******/ 	return __webpack_require__(__webpack_require__.s = 90);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -163,11 +163,11 @@ function toComment(sourceMap) {
 "use strict";
 
 
-var _stringify = __webpack_require__(68);
+var _stringify = __webpack_require__(72);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
-var _slicedToArray2 = __webpack_require__(69);
+var _slicedToArray2 = __webpack_require__(73);
 
 var _slicedToArray3 = _interopRequireDefault(_slicedToArray2);
 
@@ -309,12 +309,12 @@ module.exports = require("prop-types");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_normalize_css__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_normalize_css__ = __webpack_require__(69);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_normalize_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_normalize_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Layout_css__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Layout_css__ = __webpack_require__(61);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Layout_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__Layout_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Header__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Footer__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Header__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Footer__ = __webpack_require__(18);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Layout/Layout.js';
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
@@ -388,7 +388,7 @@ Layout.propTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__history__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__history__ = __webpack_require__(26);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Link/Link.js';
@@ -467,6 +467,12 @@ Link.defaultProps = {
 
 /***/ }),
 /* 7 */
+/***/ (function(module, exports) {
+
+module.exports = require("classnames");
+
+/***/ }),
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -526,7 +532,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -537,11 +543,11 @@ const SET_RUNTIME_VARIABLE = 'SET_RUNTIME_VARIABLE';
 
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(49);
+    var content = __webpack_require__(52);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -572,47 +578,47 @@ const SET_RUNTIME_VARIABLE = 'SET_RUNTIME_VARIABLE';
   
 
 /***/ }),
-/* 10 */
+/* 11 */
 /***/ (function(module, exports) {
 
 module.exports = require("redux");
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path__ = __webpack_require__(81);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_path__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_express__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_express__ = __webpack_require__(76);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_express___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_express__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_cookie_parser__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_cookie_parser__ = __webpack_require__(75);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_cookie_parser___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_cookie_parser__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_body_parser__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_body_parser__ = __webpack_require__(74);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_body_parser___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_body_parser__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_express_jwt__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_express_jwt__ = __webpack_require__(78);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_express_jwt___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_express_jwt__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_express_graphql__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_express_graphql__ = __webpack_require__(77);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_express_graphql___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_express_graphql__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_dom_server__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_dom_server__ = __webpack_require__(83);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_dom_server___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react_dom_server__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_pretty_error__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_pretty_error__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_pretty_error___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_pretty_error__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_App__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_Html__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__routes_error_ErrorPage__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__routes_error_ErrorPage_css__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_App__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_Html__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__routes_error_ErrorPage__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__routes_error_ErrorPage_css__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__routes_error_ErrorPage_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__routes_error_ErrorPage_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__createFetch__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__router__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__assets_json__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__createFetch__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__router__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__assets_json__ = __webpack_require__(71);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__assets_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15__assets_json__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__store_configureStore__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__actions_runtime__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__config__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__store_configureStore__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__actions_runtime__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__config__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__config___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_18__config__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/server.js',
     _this = this;
@@ -833,18 +839,18 @@ app.listen(__WEBPACK_IMPORTED_MODULE_18__config___default.a.port, () => {
 });
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-polyfill");
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = setRuntimeVariable;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(9);
 /* eslint-disable import/prefer-default-export */
 
 
@@ -860,7 +866,7 @@ function setRuntimeVariable({ name, value }) {
 }
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -868,7 +874,7 @@ function setRuntimeVariable({ name, value }) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_redux__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_redux__ = __webpack_require__(84);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_redux___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_redux__);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -937,7 +943,116 @@ App.childContextTypes = ContextType;
 /* harmony default export */ __webpack_exports__["a"] = (App);
 
 /***/ }),
-/* 15 */
+/* 16 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_classnames__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__CompareItems_css__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__CompareItems_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__CompareItems_css__);
+var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/CompareItems/CompareItems.js';
+
+
+
+
+
+
+class CompareItems extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
+
+  render() {
+    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'div',
+      { className: __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__CompareItems_css___default.a.circleContainer), __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'a',
+        { className: __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__CompareItems_css___default.a.circleOne, __WEBPACK_IMPORTED_MODULE_4__CompareItems_css___default.a.circle), href: this.props.hrefs[0], __source: {
+            fileName: _jsxFileName,
+            lineNumber: 17
+          },
+          __self: this
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__CompareItems_css___default.a.circleButton), __source: {
+              fileName: _jsxFileName,
+              lineNumber: 18
+            },
+            __self: this
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__CompareItems_css___default.a.circleText), __source: {
+                fileName: _jsxFileName,
+                lineNumber: 19
+              },
+              __self: this
+            },
+            this.props.children[0]
+          )
+        )
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'a',
+        { className: __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__CompareItems_css___default.a.circleTwo, __WEBPACK_IMPORTED_MODULE_4__CompareItems_css___default.a.circle), href: this.props.hrefs[1], __source: {
+            fileName: _jsxFileName,
+            lineNumber: 22
+          },
+          __self: this
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__CompareItems_css___default.a.circleButton), __source: {
+              fileName: _jsxFileName,
+              lineNumber: 23
+            },
+            __self: this
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__CompareItems_css___default.a.circleText, __WEBPACK_IMPORTED_MODULE_4__CompareItems_css___default.a.swapText), __source: {
+                fileName: _jsxFileName,
+                lineNumber: 24
+              },
+              __self: this
+            },
+            this.props.children[1]
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__CompareItems_css___default.a.circleText, __WEBPACK_IMPORTED_MODULE_4__CompareItems_css___default.a.mainText), __source: {
+                fileName: _jsxFileName,
+                lineNumber: 25
+              },
+              __self: this
+            },
+            this.props.children[2]
+          )
+        )
+      )
+    );
+  }
+}
+
+CompareItems.propTypes = {
+  hrefs: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.arrayOf(__WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.string).isRequired,
+  children: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.arrayOf(__WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.element).isRequired
+};
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_4__CompareItems_css___default.a)(CompareItems));
+
+/***/ }),
+/* 17 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1032,7 +1147,7 @@ Earth.defaultProps = {
 /* harmony default export */ __webpack_exports__["a"] = (Earth);
 
 /***/ }),
-/* 16 */
+/* 18 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1040,7 +1155,7 @@ Earth.defaultProps = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Footer_css__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Footer_css__ = __webpack_require__(59);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Footer_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__Footer_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Link__ = __webpack_require__(6);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Footer/Footer.js';
@@ -1134,7 +1249,7 @@ class Footer extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_2__Footer_css___default.a)(Footer));
 
 /***/ }),
-/* 17 */
+/* 19 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1142,13 +1257,13 @@ class Footer extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Header_css__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Header_css__ = __webpack_require__(60);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Header_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__Header_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Link__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Navigation__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__logo_small_png__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Navigation__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__logo_small_png__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__logo_small_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__logo_small_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__logo_small_2x_png__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__logo_small_2x_png__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__logo_small_2x_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__logo_small_2x_png__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Header/Header.js';
 /**
@@ -1245,7 +1360,7 @@ class Header extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_2__Header_css___default.a)(Header));
 
 /***/ }),
-/* 18 */
+/* 20 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1253,9 +1368,9 @@ class Header extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_serialize_javascript__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_serialize_javascript__ = __webpack_require__(86);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_serialize_javascript___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_serialize_javascript__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__config__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Html.js';
 /**
@@ -1417,7 +1532,7 @@ Html.defaultProps = {
 /* harmony default export */ __webpack_exports__["a"] = (Html);
 
 /***/ }),
-/* 19 */
+/* 21 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1427,9 +1542,9 @@ Html.defaultProps = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_classnames__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__MediaButton_css__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__MediaButton_css__ = __webpack_require__(62);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__MediaButton_css__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/MediaButton/MediaButton.js';
 /* eslint-disable react/no-did-mount-set-state,react/no-array-index-key,max-len */
@@ -1470,13 +1585,11 @@ class MediaButton extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
   setMaxWidth() {
     const paddingWidth = 2 * ICON_WIDTH;
 
-    let maxWidth = this.divElement.clientWidth + paddingWidth;
-    if (ICON_WIDTH * this.props.children.length > maxWidth) maxWidth = ICON_WIDTH * this.props.children.length;
+    let maxWidth = this.divElement !== null ? this.divElement.clientWidth + paddingWidth : paddingWidth;
+    // if (ICON_WIDTH * this.props.children.length > maxWidth) maxWidth = ICON_WIDTH * this.props.children.length;
 
-    if (this.divElement !== null) {
-      if (this.state.maxWidth !== maxWidth) {
-        this.setState({ maxWidth });
-      }
+    if (this.state.maxWidth !== maxWidth) {
+      this.setState({ maxWidth });
     }
   }
 
@@ -1496,7 +1609,6 @@ class MediaButton extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
 
     if (currentNumberOfElements * ICON_WIDTH < this.state.maxWidth) buttonSize = 'too small';
     if (currentNumberOfElements > maxNumberOfElements) buttonSize = 'too big';
-
     if (buttonSize === 'too small') {
       iconArrayElement = iconArrayElement.map(element => [element[0], __WEBPACK_IMPORTED_MODULE_3_classnames___default()(__WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.squish, element[1])]);
       while (currentNumberOfElements < maxNumberOfElements) {
@@ -1507,7 +1619,7 @@ class MediaButton extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
             className: __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.box,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 85
+              lineNumber: 82
             },
             __self: this
           },
@@ -1538,7 +1650,7 @@ class MediaButton extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
       'div',
       { key: index, className: element[1], __source: {
           fileName: _jsxFileName,
-          lineNumber: 114
+          lineNumber: 111
         },
         __self: this
       },
@@ -1555,7 +1667,7 @@ class MediaButton extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
       'div',
       { className: __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a.root, __source: {
           fileName: _jsxFileName,
-          lineNumber: 124
+          lineNumber: 121
         },
         __self: this
       },
@@ -1568,7 +1680,7 @@ class MediaButton extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 126
+            lineNumber: 123
           },
           __self: this
         },
@@ -1586,7 +1698,7 @@ MediaButton.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default.a)(MediaButton));
 
 /***/ }),
-/* 20 */
+/* 22 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1594,7 +1706,7 @@ MediaButton.propTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Navigation_css__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Navigation_css__ = __webpack_require__(63);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Navigation_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__Navigation_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Link__ = __webpack_require__(6);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Navigation/Navigation.js';
@@ -1649,7 +1761,7 @@ class Navigation extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_2__Navigation_css___default.a)(Navigation));
 
 /***/ }),
-/* 21 */
+/* 23 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1659,7 +1771,7 @@ class Navigation extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Page_css__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Page_css__ = __webpack_require__(64);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Page_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__Page_css__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Page/Page.js';
 /**
@@ -1728,7 +1840,7 @@ Page.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_3__Page_css___default.a)(Page));
 
 /***/ }),
-/* 22 */
+/* 24 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1738,7 +1850,7 @@ Page.propTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Sun_css__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Sun_css__ = __webpack_require__(65);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Sun_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__Sun_css__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Sun/Sun.js';
 /* eslint-disable react/forbid-prop-types */
@@ -1855,11 +1967,11 @@ Sun.defaultProps = {
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_3__Sun_css___default.a)(Sun));
 
 /***/ }),
-/* 23 */
+/* 25 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_isomorphic_fetch__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_isomorphic_fetch__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_isomorphic_fetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_isomorphic_fetch__);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -1900,11 +2012,11 @@ function createFetch({ baseUrl, cookie }) {
 /* harmony default export */ __webpack_exports__["a"] = (createFetch);
 
 /***/ }),
-/* 24 */
+/* 26 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_createBrowserHistory__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_createBrowserHistory__ = __webpack_require__(79);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_createBrowserHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_history_createBrowserHistory__);
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
@@ -1922,14 +2034,14 @@ function createFetch({ baseUrl, cookie }) {
 /* harmony default export */ __webpack_exports__["a"] = (false && __WEBPACK_IMPORTED_MODULE_0_history_createBrowserHistory___default()());
 
 /***/ }),
-/* 25 */
+/* 27 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_redux__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__user__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__runtime__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__user__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__runtime__ = __webpack_require__(28);
 
 
 
@@ -1940,12 +2052,12 @@ function createFetch({ baseUrl, cookie }) {
 }));
 
 /***/ }),
-/* 26 */
+/* 28 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = runtime;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(9);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 
@@ -1962,7 +2074,7 @@ function runtime(state = {}, action) {
 }
 
 /***/ }),
-/* 27 */
+/* 29 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1975,13 +2087,13 @@ function user(state = {}, action) {
 }
 
 /***/ }),
-/* 28 */
+/* 30 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_universal_router__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_universal_router__ = __webpack_require__(88);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_universal_router___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_universal_router__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__routes__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__routes__ = __webpack_require__(37);
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
  *
@@ -1997,7 +2109,7 @@ function user(state = {}, action) {
 /* harmony default export */ __webpack_exports__["a"] = (new __WEBPACK_IMPORTED_MODULE_0_universal_router___default.a(__WEBPACK_IMPORTED_MODULE_1__routes__["a" /* default */]));
 
 /***/ }),
-/* 29 */
+/* 31 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2005,7 +2117,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Layout__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Page__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Page__ = __webpack_require__(23);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/about/index.js';
@@ -2034,7 +2146,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 
     return _asyncToGenerator(function* () {
       const data = yield new Promise(function(resolve) { resolve(); }).then((function (require) {
-        return __webpack_require__(66);
+        return __webpack_require__(70);
       }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 
       return {
@@ -2064,7 +2176,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 });
 
 /***/ }),
-/* 30 */
+/* 32 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2074,7 +2186,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Contact_css__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Contact_css__ = __webpack_require__(66);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Contact_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__Contact_css__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/contact/Contact.js';
 /**
@@ -2143,7 +2255,7 @@ Contact.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_3__Contact_css___default.a)(Contact));
 
 /***/ }),
-/* 31 */
+/* 33 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2151,7 +2263,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Layout__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Contact__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Contact__ = __webpack_require__(32);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/contact/index.js';
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
@@ -2197,7 +2309,7 @@ const title = 'Contact Us';
 });
 
 /***/ }),
-/* 32 */
+/* 34 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2208,7 +2320,7 @@ const title = 'Contact Us';
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ErrorPage_css__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ErrorPage_css__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ErrorPage_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__ErrorPage_css__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/error/ErrorPage.js';
 /**
@@ -2321,7 +2433,7 @@ ErrorPage.propTypes = {
 /* unused harmony default export */ var _unused_webpack_default_export = (__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_3__ErrorPage_css___default.a)(ErrorPage));
 
 /***/ }),
-/* 33 */
+/* 35 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2329,15 +2441,18 @@ ErrorPage.propTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_styled_components__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_styled_components__ = __webpack_require__(87);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_styled_components___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_styled_components__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Home_css__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Home_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__Home_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_Earth__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_Sun__ = __webpack_require__(22);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_MediaButton__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_classnames__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Home_css__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Home_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__Home_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_Earth__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_Sun__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_MediaButton__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_CompareItems__ = __webpack_require__(16);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/home/Home.js';
-/* eslint-disable jsx-a11y/anchor-has-content,max-len */
+/* eslint-disable jsx-a11y/anchor-has-content,max-len,react/no-did-mount-set-state */
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
  *
@@ -2346,6 +2461,8 @@ var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/route
  * This source code is licensed under the MIT license found in the
  * LICENSE.txt file in the root directory of this source tree.
  */
+
+
 
 
 
@@ -2389,9 +2506,9 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
   render() {
     const orbitDistance = this.state.orbitRadius;
 
-    const EarthMaker = ({ className }) => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_Earth__["a" /* default */], { width: 104, height: 74, className: className, __source: {
+    const EarthMaker = ({ className }) => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_Earth__["a" /* default */], { width: 104, height: 74, className: className, __source: {
         fileName: _jsxFileName,
-        lineNumber: 54
+        lineNumber: 56
       },
       __self: this
     });
@@ -2416,22 +2533,22 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
     `;
     const animation = !this.state.resetAnimation ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'div',
-      { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.animationContainer, __source: {
+      { className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.animationContainer, __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 77
         },
         __self: this
       },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_Sun__["a" /* default */], { width: 300, height: 300, className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.sun, __source: {
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__components_Sun__["a" /* default */], { width: 300, height: 300, className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.sun, __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 78
         },
         __self: this
       }),
       !this.state.firstRender && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(StyledEarth, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 79
         },
         __self: this
       })
@@ -2439,9 +2556,9 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'article',
-      { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.content, __source: {
+      { className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.content, __source: {
           fileName: _jsxFileName,
-          lineNumber: 82
+          lineNumber: 84
         },
         __self: this
       },
@@ -2450,7 +2567,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
         {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 83
+            lineNumber: 85
           },
           __self: this
         },
@@ -2459,7 +2576,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
           {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 84
+              lineNumber: 86
             },
             __self: this
           },
@@ -2470,7 +2587,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
           {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 85
+              lineNumber: 87
             },
             __self: this
           },
@@ -2478,9 +2595,9 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'div',
-          { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.row, __source: {
+          { className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.row, __source: {
               fileName: _jsxFileName,
-              lineNumber: 86
+              lineNumber: 88
             },
             __self: this
           },
@@ -2490,7 +2607,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
               onClick: this.toggleAnimation,
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 87
+                lineNumber: 89
               },
               __self: this
             },
@@ -2500,7 +2617,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
             'div',
             { style: { padding: '0 1rem' }, __source: {
                 fileName: _jsxFileName,
-                lineNumber: 92
+                lineNumber: 94
               },
               __self: this
             },
@@ -2508,7 +2625,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
               'label',
               { htmlFor: 'orbitRadius', __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 93
+                  lineNumber: 95
                 },
                 __self: this
               },
@@ -2525,7 +2642,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
               },
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 94
+                lineNumber: 96
               },
               __self: this
             })
@@ -2535,7 +2652,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
             {
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 105
+                lineNumber: 107
               },
               __self: this
             },
@@ -2544,9 +2661,9 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'div',
-          { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.row, __source: {
+          { className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.row, __source: {
               fileName: _jsxFileName,
-              lineNumber: 107
+              lineNumber: 109
             },
             __self: this
           },
@@ -2558,7 +2675,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
         {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 109
+            lineNumber: 111
           },
           __self: this
         },
@@ -2567,7 +2684,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
           {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 110
+              lineNumber: 112
             },
             __self: this
           },
@@ -2575,11 +2692,11 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'a',
             {
-              className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.link,
+              className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.link,
               href: 'https://www.reddit.com/r/web_design/comments/6fdobk/how_would_you_code_the_share_and_follow_buttons/',
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 110
+                lineNumber: 112
               },
               __self: this
             },
@@ -2588,9 +2705,9 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'div',
-          { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.row, __source: {
+          { className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.row, __source: {
               fileName: _jsxFileName,
-              lineNumber: 115
+              lineNumber: 117
             },
             __self: this
           },
@@ -2598,7 +2715,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
             'label',
             { htmlFor: 'button-text', __source: {
                 fileName: _jsxFileName,
-                lineNumber: 116
+                lineNumber: 118
               },
               __self: this
             },
@@ -2607,47 +2724,47 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', {
             id: 'button-text',
             type: 'text',
-            className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.textBox,
+            className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.textBox,
             value: this.state.followButton,
             onChange: event => {
               this.followChange(event);
             },
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 117
+              lineNumber: 119
             },
             __self: this
           })
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'div',
-          { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.exampleTwo, __source: {
+          { className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.exampleTwo, __source: {
               fileName: _jsxFileName,
-              lineNumber: 127
+              lineNumber: 129
             },
             __self: this
           },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
-            { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.buttonContainer, __source: {
+            { className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.buttonContainer, __source: {
                 fileName: _jsxFileName,
-                lineNumber: 128
+                lineNumber: 130
               },
               __self: this
             },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              __WEBPACK_IMPORTED_MODULE_6__components_MediaButton__["a" /* default */],
+              __WEBPACK_IMPORTED_MODULE_7__components_MediaButton__["a" /* default */],
               { text: this.state.followButton, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 129
+                  lineNumber: 131
                 },
                 __self: this
               },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'a',
-                { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.twitter, __source: {
+                { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.twitter, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 130
+                    lineNumber: 132
                   },
                   __self: this
                 },
@@ -2656,16 +2773,16 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   'aria-hidden': 'true',
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 130
+                    lineNumber: 132
                   },
                   __self: this
                 })
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'a',
-                { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.facebook, __source: {
+                { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.facebook, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 134
+                    lineNumber: 136
                   },
                   __self: this
                 },
@@ -2674,16 +2791,16 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   'aria-hidden': 'true',
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 134
+                    lineNumber: 136
                   },
                   __self: this
                 })
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'a',
-                { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.dribble, __source: {
+                { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.dribble, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 138
+                    lineNumber: 140
                   },
                   __self: this
                 },
@@ -2692,16 +2809,16 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   'aria-hidden': 'true',
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 138
+                    lineNumber: 140
                   },
                   __self: this
                 })
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'a',
-                { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.slack, __source: {
+                { href: '', alt: 'follow button', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.slack, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 142
+                    lineNumber: 144
                   },
                   __self: this
                 },
@@ -2710,7 +2827,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   'aria-hidden': 'true',
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 142
+                    lineNumber: 144
                   },
                   __self: this
                 })
@@ -2719,20 +2836,20 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
-            { className: __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.buttonContainer, __source: {
+            { className: __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.buttonContainer, __source: {
                 fileName: _jsxFileName,
-                lineNumber: 148
+                lineNumber: 150
               },
               __self: this
             },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              __WEBPACK_IMPORTED_MODULE_6__components_MediaButton__["a" /* default */],
+              __WEBPACK_IMPORTED_MODULE_7__components_MediaButton__["a" /* default */],
               { text: __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'span',
                   {
                     __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 149
+                      lineNumber: 151
                     },
                     __self: this
                   },
@@ -2742,7 +2859,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                     {
                       __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 149
+                        lineNumber: 151
                       },
                       __self: this
                     },
@@ -2750,34 +2867,76 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   )
                 ), __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 149
-                },
-                __self: this
-              },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-twitter', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.twitter, __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 150
-                },
-                __self: this
-              }),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-facebook', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.facebook, __source: {
-                  fileName: _jsxFileName,
                   lineNumber: 151
                 },
                 __self: this
-              }),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-dribbble', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.dribble, __source: {
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-twitter', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.twitter, __source: {
                   fileName: _jsxFileName,
                   lineNumber: 152
                 },
                 __self: this
               }),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-slack', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_3__Home_css___default.a.slack, __source: {
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-facebook', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.facebook, __source: {
                   fileName: _jsxFileName,
                   lineNumber: 153
                 },
                 __self: this
+              }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-dribbble', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.dribble, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 154
+                },
+                __self: this
+              }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-slack', 'aria-hidden': 'true', 'data-parent-class': __WEBPACK_IMPORTED_MODULE_4__Home_css___default.a.slack, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 155
+                },
+                __self: this
               })
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_8__components_CompareItems__["a" /* default */],
+            { hrefs: ['', ''], __source: {
+                fileName: _jsxFileName,
+                lineNumber: 158
+              },
+              __self: this
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'span',
+              {
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 159
+                },
+                __self: this
+              },
+              'Try'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'span',
+              {
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 160
+                },
+                __self: this
+              },
+              'Buy'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'span',
+              {
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 161
+                },
+                __self: this
+              },
+              '$19'
             )
           )
         )
@@ -2787,17 +2946,17 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 }
 
 Home.propTypes = {};
-/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_3__Home_css___default.a)(Home));
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_1_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_4__Home_css___default.a)(Home));
 
 /***/ }),
-/* 34 */
+/* 36 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Home__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Home__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Layout__ = __webpack_require__(5);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/home/index.js';
 
@@ -2849,7 +3008,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 });
 
 /***/ }),
-/* 35 */
+/* 37 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2872,10 +3031,10 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
   path: '/',
 
   // Keep in mind, routes are evaluated in order
-  children: [__webpack_require__(34).default, __webpack_require__(31).default, __webpack_require__(29).default,
+  children: [__webpack_require__(36).default, __webpack_require__(33).default, __webpack_require__(31).default,
 
   // Wildcard routes, e.g. { path: '*', ... } (must go last)
-  __webpack_require__(37).default],
+  __webpack_require__(39).default],
 
   action({ next }) {
     return _asyncToGenerator(function* () {
@@ -2893,7 +3052,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 });
 
 /***/ }),
-/* 36 */
+/* 38 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2903,7 +3062,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__NotFound_css__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__NotFound_css__ = __webpack_require__(68);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__NotFound_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__NotFound_css__);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/notFound/NotFound.js';
 /**
@@ -2972,7 +3131,7 @@ NotFound.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default()(__WEBPACK_IMPORTED_MODULE_3__NotFound_css___default.a)(NotFound));
 
 /***/ }),
-/* 37 */
+/* 39 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2980,7 +3139,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Layout__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__NotFound__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__NotFound__ = __webpack_require__(38);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/routes/notFound/index.js';
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
@@ -3027,18 +3186,18 @@ const title = 'Page Not Found';
 });
 
 /***/ }),
-/* 38 */
+/* 40 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = configureStore;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_redux__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux_thunk__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux_thunk__ = __webpack_require__(85);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux_thunk___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_redux_thunk__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__reducers__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__createHelpers__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__logger__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__reducers__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__createHelpers__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__logger__ = __webpack_require__(42);
 
 
 
@@ -3079,7 +3238,7 @@ function configureStore(initialState, helpersConfig) {
 }
 
 /***/ }),
-/* 39 */
+/* 41 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3120,12 +3279,12 @@ function createHelpers({ fetch, history }) {
 }
 
 /***/ }),
-/* 40 */
+/* 42 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = createLogger;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_util__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_util__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_util___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_util__);
 
 
@@ -3170,7 +3329,33 @@ function createLogger() {
 }
 
 /***/ }),
-/* 41 */
+/* 43 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(1)(true);
+// imports
+
+
+// module
+exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n\n.CompareItems-circleContainer-2w1wB {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  margin: 0 16px;\n  margin: 0 1rem;\n  height: 100%;\n}\n\n.CompareItems-compareButtons-2OHT8 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n\n.CompareItems-circleButton-2CYga {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  top: 0;\n  left: 0;\n  border-radius: 50%;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center\n}\n\n.CompareItems-circleButton-2CYga:hover {\n  cursor: pointer;\n}\n\n.CompareItems-circleButton-2CYga:hover .CompareItems-mainText-2-G4i {\n      opacity: 0;\n      -webkit-transition: 0.25s ease-out;\n      -o-transition: 0.25s ease-out;\n      transition: 0.25s ease-out;\n}\n\n.CompareItems-circleButton-2CYga:hover .CompareItems-swapText-3lUdf {\n      opacity: 1;\n      -webkit-transition: opacity 0.25s 0.25s ease-in;\n      -o-transition: opacity 0.25s 0.25s ease-in;\n      transition: opacity 0.25s 0.25s ease-in;\n}\n\n.CompareItems-compareButtonOne-2k1ys {\n}\n\n.CompareItems-compareButtonTwo-G8hsT {\n  font-weight: bold;\n}\n\n.CompareItems-circleText-1cC6b {\n  position: absolute;\n}\n\n.CompareItems-circle-2vYSU {\n  position: relative;\n  border-radius: 50%;\n  margin: auto 4px;\n  margin: auto 0.25rem;\n}\n\n.CompareItems-circle-2vYSU:before {\n  content: \"\";\n  display: block;\n  padding-top: 50%;\n}\n\n.CompareItems-circle-2vYSU:after {\n  content: \"\";\n  display: block;\n  padding-bottom: 50%;\n}\n\n.CompareItems-circleOne-LGSX4 {\n  width: 32px;\n  width: 2rem;\n  font-size: small;\n  color: white;\n  background-color: #f2b909;\n  -webkit-transition: width 0.25s ease-in;\n  -o-transition: width 0.25s ease-in;\n  transition: width 0.25s ease-in\n}\n\n.CompareItems-circleOne-LGSX4:hover {\n  width: 48px;\n  width: 3rem;\n  -webkit-transition: width 0.25s ease-in;\n  -o-transition: width 0.25s ease-in;\n  transition: width 0.25s ease-in;\n}\n\n.CompareItems-circleOne-LGSX4:hover ~ .CompareItems-circleTwo-nWBYn {\n      width: 48px;\n      width: 3rem;\n      -webkit-transition: width 0.25s ease-in;\n      -o-transition: width 0.25s ease-in;\n      transition: width 0.25s ease-in;\n}\n\n.CompareItems-circleOne-LGSX4:hover ~ .CompareItems-circleTwo-nWBYn .CompareItems-mainText-2-G4i {\n        font-size: small;\n        -webkit-transition: 0.25s ease-in;\n        -o-transition: 0.25s ease-in;\n        transition: 0.25s ease-in;\n      }\n\n.CompareItems-circleTwo-nWBYn {\n  width: 64px;\n  width: 4rem;\n  background-color: white;\n  color: #333333;\n  -webkit-transition: width 0.25s ease-in;\n  -o-transition: width 0.25s ease-in;\n  transition: width 0.25s ease-in;\n}\n\n.CompareItems-swapText-3lUdf {\n  opacity: 0;\n  -webkit-transition: opacity 0.5s ease-out;\n  -o-transition: opacity 0.5s ease-out;\n  transition: opacity 0.5s ease-out;\n  font-size: small;\n  font-weight: normal;\n}\n\n.CompareItems-mainText-2-G4i {\n  opacity: 1;\n  -webkit-transition: 0.5s ease-in;\n  -o-transition: 0.5s ease-in;\n  transition: 0.5s ease-in;\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/components/CompareItems/CompareItems.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;AAEH;EACE;;gFAE8E;;EAE9E;;gFAE8E;;EAE9E;;gFAE8E,EAAE,gCAAgC,EAAE,2BAA2B,EAAE,6BAA6B,CAAC,iCAAiC;;EAE9M;;gFAE8E;CAC/E;;AAED;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;EAC5B,eAAe;EACf,eAAe;EACf,aAAa;CACd;;AAED;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,oBAAoB;MAChB,iBAAiB;UACb,aAAa;CACtB;;AAED;EACE,mBAAmB;EACnB,YAAY;EACZ,aAAa;EACb,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,OAAO;EACP,QAAQ;EACR,mBAAmB;EACnB,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,0BAA0B;MACtB,uBAAuB;UACnB,mBAAmB;CAC5B;;AAED;EACE,gBAAgB;CACjB;;AAED;MACM,WAAW;MACX,mCAAmC;MACnC,8BAA8B;MAC9B,2BAA2B;CAChC;;AAED;MACM,WAAW;MACX,gDAAgD;MAChD,2CAA2C;MAC3C,wCAAwC;CAC7C;;AAED;CACC;;AAED;EACE,kBAAkB;CACnB;;AAED;EACE,mBAAmB;CACpB;;AAED;EACE,mBAAmB;EACnB,mBAAmB;EACnB,iBAAiB;EACjB,qBAAqB;CACtB;;AAED;EACE,YAAY;EACZ,eAAe;EACf,iBAAiB;CAClB;;AAED;EACE,YAAY;EACZ,eAAe;EACf,oBAAoB;CACrB;;AAED;EACE,YAAY;EACZ,YAAY;EACZ,iBAAiB;EACjB,aAAa;EACb,0BAA0B;EAC1B,wCAAwC;EACxC,mCAAmC;EACnC,+BAA+B;CAChC;;AAED;EACE,YAAY;EACZ,YAAY;EACZ,wCAAwC;EACxC,mCAAmC;EACnC,gCAAgC;CACjC;;AAED;MACM,YAAY;MACZ,YAAY;MACZ,wCAAwC;MACxC,mCAAmC;MACnC,gCAAgC;CACrC;;AAED;QACQ,iBAAiB;QACjB,kCAAkC;QAClC,6BAA6B;QAC7B,0BAA0B;OAC3B;;AAEP;EACE,YAAY;EACZ,YAAY;EACZ,wBAAwB;EACxB,eAAe;EACf,wCAAwC;EACxC,mCAAmC;EACnC,gCAAgC;CACjC;;AAED;EACE,WAAW;EACX,0CAA0C;EAC1C,qCAAqC;EACrC,kCAAkC;EAClC,iBAAiB;EACjB,oBAAoB;CACrB;;AAED;EACE,WAAW;EACX,iCAAiC;EACjC,4BAA4B;EAC5B,yBAAyB;CAC1B","file":"CompareItems.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n\n.circleContainer {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  margin: 0 16px;\n  margin: 0 1rem;\n  height: 100%;\n}\n\n.compareButtons {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n\n.circleButton {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  top: 0;\n  left: 0;\n  border-radius: 50%;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center\n}\n\n.circleButton:hover {\n  cursor: pointer;\n}\n\n.circleButton:hover .mainText {\n      opacity: 0;\n      -webkit-transition: 0.25s ease-out;\n      -o-transition: 0.25s ease-out;\n      transition: 0.25s ease-out;\n}\n\n.circleButton:hover .swapText {\n      opacity: 1;\n      -webkit-transition: opacity 0.25s 0.25s ease-in;\n      -o-transition: opacity 0.25s 0.25s ease-in;\n      transition: opacity 0.25s 0.25s ease-in;\n}\n\n.compareButtonOne {\n}\n\n.compareButtonTwo {\n  font-weight: bold;\n}\n\n.circleText {\n  position: absolute;\n}\n\n.circle {\n  position: relative;\n  border-radius: 50%;\n  margin: auto 4px;\n  margin: auto 0.25rem;\n}\n\n.circle:before {\n  content: \"\";\n  display: block;\n  padding-top: 50%;\n}\n\n.circle:after {\n  content: \"\";\n  display: block;\n  padding-bottom: 50%;\n}\n\n.circleOne {\n  width: 32px;\n  width: 2rem;\n  font-size: small;\n  color: white;\n  background-color: #f2b909;\n  -webkit-transition: width 0.25s ease-in;\n  -o-transition: width 0.25s ease-in;\n  transition: width 0.25s ease-in\n}\n\n.circleOne:hover {\n  width: 48px;\n  width: 3rem;\n  -webkit-transition: width 0.25s ease-in;\n  -o-transition: width 0.25s ease-in;\n  transition: width 0.25s ease-in;\n}\n\n.circleOne:hover ~ .circleTwo {\n      width: 48px;\n      width: 3rem;\n      -webkit-transition: width 0.25s ease-in;\n      -o-transition: width 0.25s ease-in;\n      transition: width 0.25s ease-in;\n}\n\n.circleOne:hover ~ .circleTwo .mainText {\n        font-size: small;\n        -webkit-transition: 0.25s ease-in;\n        -o-transition: 0.25s ease-in;\n        transition: 0.25s ease-in;\n      }\n\n.circleTwo {\n  width: 64px;\n  width: 4rem;\n  background-color: white;\n  color: #333333;\n  -webkit-transition: width 0.25s ease-in;\n  -o-transition: width 0.25s ease-in;\n  transition: width 0.25s ease-in;\n}\n\n.swapText {\n  opacity: 0;\n  -webkit-transition: opacity 0.5s ease-out;\n  -o-transition: opacity 0.5s ease-out;\n  transition: opacity 0.5s ease-out;\n  font-size: small;\n  font-weight: normal;\n}\n\n.mainText {\n  opacity: 1;\n  -webkit-transition: 0.5s ease-in;\n  -o-transition: 0.5s ease-in;\n  transition: 0.5s ease-in;\n}\n"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"circleContainer": "CompareItems-circleContainer-2w1wB",
+	"compareButtons": "CompareItems-compareButtons-2OHT8",
+	"circleButton": "CompareItems-circleButton-2CYga",
+	"mainText": "CompareItems-mainText-2-G4i",
+	"swapText": "CompareItems-swapText-3lUdf",
+	"compareButtonOne": "CompareItems-compareButtonOne-2k1ys",
+	"compareButtonTwo": "CompareItems-compareButtonTwo-G8hsT",
+	"circleText": "CompareItems-circleText-1cC6b",
+	"circle": "CompareItems-circle-2vYSU",
+	"circleOne": "CompareItems-circleOne-LGSX4",
+	"circleTwo": "CompareItems-circleTwo-nWBYn"
+};
+
+/***/ }),
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3190,7 +3375,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 42 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3212,7 +3397,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 43 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3220,7 +3405,7 @@ exports = module.exports = __webpack_require__(1)(true);
 
 
 // module
-exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n/*\n * normalize.css is imported in JS file.\n * If you import external CSS file from your internal CSS\n * then it will be inlined and processed with CSS modules.\n */\n/*\n * Base styles\n * ========================================================================== */\nhtml {\n  color: #222;\n  font-weight: 100;\n  font-size: 1em; /* ~16px; */\n  font-family: sans-serif;\n  line-height: 1.375; /* ~22px */\n  height: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n}\nbody {\n  margin: 0;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  overflow-y: scroll;\n}\na {\n  color: #0074c2;\n}\n.Layout-root-1DyeL {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.Layout-mainContainer-2Kdun {\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: block;\n}\n/*\n * Remove text-shadow in selection highlight:\n * https://twitter.com/miketaylr/status/12228805301\n *\n * These selection rule sets have to be separate.\n * Customize the background color to match your design.\n */\n::-moz-selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\n::selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\nbutton {\n  outline: none;\n  border: none;\n  border-radius: 10px;\n  background-color: rgb(85, 81, 139);\n  color: white;\n  height: 100%\n}\nbutton:hover {\n  background-color: #373277;\n  cursor: pointer;\n}\nlabel {\n  margin-right: 16px;\n  margin-right: 1rem;\n  font-weight: bold;\n}\ninput[type=\"text\"] {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n\n  -webkit-box-align: center;\n\n      -ms-flex-align: center;\n\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  vertical-align: middle;\n  outline: none;\n  border: 1px solid lightgray;\n  border-radius: 10px;\n  padding-left: 16px;\n  padding-left: 1rem;\n  color: #333333;\n}\ninput[type=\"range\"] {\n  -webkit-appearance: none\n}\ninput[type=\"range\"]::-webkit-slider-runnable-track {\n  -webkit-appearance: none;\n  width: 100%;\n  height: 50%;\n  background: #333333;\n  border: none;\n  border-radius: 2px;\n}\ninput[type=\"range\"]::-webkit-slider-thumb {\n  -webkit-appearance: none;\n  position: relative;\n  bottom: 50%;\n  border: solid #373277;\n  height: 20px;\n  width: 20px;\n  border-radius: 50%;\n  background: rgb(85, 81, 139);\n  //margin-top: -10px;\n}\ninput[type=\"range\"]:focus {\n  outline: none;\n}\ninput[type=\"range\"]:focus::-webkit-slider-runnable-track {\n  background: rgb(82, 82, 82);\n}\ninput[type=\"range\"]:focus::-webkit-slider-thumb {\n  background: -webkit-gradient(linear,\n      left top, left bottom,\n      color-stop(10%, rgba(0,0,0,0)),\n      color-stop(50%, rgb(0, 0, 0)),\n      color-stop(90%, rgba(0,0,0,0))\n      );\n  background: -webkit-linear-gradient(top,\n      rgba(0,0,0,0) 10%,\n      rgb(0, 0, 0) 50%,\n      rgba(0,0,0,0) 90%\n      );\n  background: linear-gradient(180deg,\n      rgba(0,0,0,0) 10%,\n      rgb(0, 0, 0) 50%,\n      rgba(0,0,0,0) 90%\n      );\n}\n/*\n * A better looking default horizontal rule\n */\nhr {\n  display: block;\n  height: 1px;\n  border: 0;\n  border-top: 1px solid #ccc;\n  margin: 1em 0;\n  padding: 0;\n}\n/*\n * Remove the gap between audio, canvas, iframes,\n * images, videos and the bottom of their containers:\n * https://github.com/h5bp/html5-boilerplate/issues/440\n */\naudio,\ncanvas,\niframe,\nimg,\nsvg,\nvideo {\n  vertical-align: middle;\n}\n/*\n * Remove default fieldset styles.\n */\nfieldset {\n  border: 0;\n  margin: 0;\n  padding: 0;\n}\n/*\n * Allow only vertical resizing of textareas.\n */\ntextarea {\n  resize: vertical;\n}\n/*\n * Browser upgrade prompt\n * ========================================================================== */\n.browserupgrade {\n  margin: 0.2em 0;\n  background: #ccc;\n  color: #000;\n  padding: 0.2em 0;\n}\n/*\n * Print styles\n * Inlined to avoid the additional HTTP request:\n * http://www.phpied.com/delay-loading-your-print-css/\n * ========================================================================== */\n@media print {\n  *,\n  *::before,\n  *::after {\n    background: transparent !important;\n    color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */\n    -webkit-box-shadow: none !important;\n            box-shadow: none !important;\n    text-shadow: none !important;\n  }\n\n  a,\n  a:visited {\n    text-decoration: underline;\n  }\n\n  a[href]::after {\n    content: ' (' attr(href) ')';\n  }\n\n  abbr[title]::after {\n    content: ' (' attr(title) ')';\n  }\n\n  /*\n   * Don't show links that are fragment identifiers,\n   * or use the `javascript:` pseudo protocol\n   */\n  a[href^='#']::after,\n  a[href^='javascript:']::after {\n    content: '';\n  }\n\n  pre,\n  blockquote {\n    border: 1px solid #999;\n    page-break-inside: avoid;\n  }\n\n  /*\n   * Printing Tables:\n   * http://css-discuss.incutio.com/wiki/Printing_Tables\n   */\n  thead {\n    display: table-header-group;\n  }\n\n  tr,\n  img {\n    page-break-inside: avoid;\n  }\n\n  img {\n    max-width: 100% !important;\n  }\n\n  p,\n  h2,\n  h3 {\n    orphans: 3;\n    widows: 3;\n  }\n\n  h2,\n  h3 {\n    page-break-after: avoid;\n  }\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/components/Layout/Layout.css"],"names":[],"mappings":"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","file":"Layout.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n/*\n * normalize.css is imported in JS file.\n * If you import external CSS file from your internal CSS\n * then it will be inlined and processed with CSS modules.\n */\n/*\n * Base styles\n * ========================================================================== */\nhtml {\n  color: #222;\n  font-weight: 100;\n  font-size: 1em; /* ~16px; */\n  font-family: sans-serif;\n  line-height: 1.375; /* ~22px */\n  height: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n}\nbody {\n  margin: 0;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  overflow-y: scroll;\n}\na {\n  color: #0074c2;\n}\n.root {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.mainContainer {\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: block;\n}\n/*\n * Remove text-shadow in selection highlight:\n * https://twitter.com/miketaylr/status/12228805301\n *\n * These selection rule sets have to be separate.\n * Customize the background color to match your design.\n */\n::-moz-selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\n::selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\nbutton {\n  outline: none;\n  border: none;\n  border-radius: 10px;\n  background-color: rgb(85, 81, 139);\n  color: white;\n  height: 100%\n}\nbutton:hover {\n  background-color: #373277;\n  cursor: pointer;\n}\nlabel {\n  margin-right: 16px;\n  margin-right: 1rem;\n  font-weight: bold;\n}\ninput[type=\"text\"] {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n\n  -webkit-box-align: center;\n\n      -ms-flex-align: center;\n\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  vertical-align: middle;\n  outline: none;\n  border: 1px solid lightgray;\n  border-radius: 10px;\n  padding-left: 16px;\n  padding-left: 1rem;\n  color: #333333;\n}\ninput[type=\"range\"] {\n  -webkit-appearance: none\n}\ninput[type=\"range\"]::-webkit-slider-runnable-track {\n  -webkit-appearance: none;\n  width: 100%;\n  height: 50%;\n  background: #333333;\n  border: none;\n  border-radius: 2px;\n}\ninput[type=\"range\"]::-webkit-slider-thumb {\n  -webkit-appearance: none;\n  position: relative;\n  bottom: 50%;\n  border: solid #373277;\n  height: 20px;\n  width: 20px;\n  border-radius: 50%;\n  background: rgb(85, 81, 139);\n  //margin-top: -10px;\n}\ninput[type=\"range\"]:focus {\n  outline: none;\n}\ninput[type=\"range\"]:focus::-webkit-slider-runnable-track {\n  background: rgb(82, 82, 82);\n}\ninput[type=\"range\"]:focus::-webkit-slider-thumb {\n  background: -webkit-gradient(linear,\n      left top, left bottom,\n      color-stop(10%, rgba(0,0,0,0)),\n      color-stop(50%, rgb(0, 0, 0)),\n      color-stop(90%, rgba(0,0,0,0))\n      );\n  background: -webkit-linear-gradient(top,\n      rgba(0,0,0,0) 10%,\n      rgb(0, 0, 0) 50%,\n      rgba(0,0,0,0) 90%\n      );\n  background: linear-gradient(180deg,\n      rgba(0,0,0,0) 10%,\n      rgb(0, 0, 0) 50%,\n      rgba(0,0,0,0) 90%\n      );\n}\n/*\n * A better looking default horizontal rule\n */\nhr {\n  display: block;\n  height: 1px;\n  border: 0;\n  border-top: 1px solid #ccc;\n  margin: 1em 0;\n  padding: 0;\n}\n/*\n * Remove the gap between audio, canvas, iframes,\n * images, videos and the bottom of their containers:\n * https://github.com/h5bp/html5-boilerplate/issues/440\n */\naudio,\ncanvas,\niframe,\nimg,\nsvg,\nvideo {\n  vertical-align: middle;\n}\n/*\n * Remove default fieldset styles.\n */\nfieldset {\n  border: 0;\n  margin: 0;\n  padding: 0;\n}\n/*\n * Allow only vertical resizing of textareas.\n */\ntextarea {\n  resize: vertical;\n}\n/*\n * Browser upgrade prompt\n * ========================================================================== */\n:global(.browserupgrade) {\n  margin: 0.2em 0;\n  background: #ccc;\n  color: #000;\n  padding: 0.2em 0;\n}\n/*\n * Print styles\n * Inlined to avoid the additional HTTP request:\n * http://www.phpied.com/delay-loading-your-print-css/\n * ========================================================================== */\n@media print {\n  *,\n  *::before,\n  *::after {\n    background: transparent !important;\n    color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */\n    -webkit-box-shadow: none !important;\n            box-shadow: none !important;\n    text-shadow: none !important;\n  }\n\n  a,\n  a:visited {\n    text-decoration: underline;\n  }\n\n  a[href]::after {\n    content: ' (' attr(href) ')';\n  }\n\n  abbr[title]::after {\n    content: ' (' attr(title) ')';\n  }\n\n  /*\n   * Don't show links that are fragment identifiers,\n   * or use the `javascript:` pseudo protocol\n   */\n  a[href^='#']::after,\n  a[href^='javascript:']::after {\n    content: '';\n  }\n\n  pre,\n  blockquote {\n    border: 1px solid #999;\n    page-break-inside: avoid;\n  }\n\n  /*\n   * Printing Tables:\n   * http://css-discuss.incutio.com/wiki/Printing_Tables\n   */\n  thead {\n    display: table-header-group;\n  }\n\n  tr,\n  img {\n    page-break-inside: avoid;\n  }\n\n  img {\n    max-width: 100% !important;\n  }\n\n  p,\n  h2,\n  h3 {\n    orphans: 3;\n    widows: 3;\n  }\n\n  h2,\n  h3 {\n    page-break-after: avoid;\n  }\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n/*\n * normalize.css is imported in JS file.\n * If you import external CSS file from your internal CSS\n * then it will be inlined and processed with CSS modules.\n */\n/*\n * Base styles\n * ========================================================================== */\nhtml {\n  color: #222;\n  font-weight: 100;\n  font-size: 1em; /* ~16px; */\n  font-family: sans-serif;\n  line-height: 1.375; /* ~22px */\n  height: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n}\nbody {\n  margin: 0;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  overflow-y: scroll;\n}\na {\n  color: #0074c2;\n}\n.Layout-root-1DyeL {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.Layout-mainContainer-2Kdun {\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: block;\n}\n/*\n * Remove text-shadow in selection highlight:\n * https://twitter.com/miketaylr/status/12228805301\n *\n * These selection rule sets have to be separate.\n * Customize the background color to match your design.\n */\n::-moz-selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\n::selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\nbutton {\n  outline: none;\n  border: none;\n  border-radius: 10px;\n  background-color: rgb(85, 81, 139);\n  color: white;\n  height: 100%;\n  padding: 8px;\n  padding: 0.5rem\n}\nbutton:hover {\n  background-color: #373277;\n  cursor: pointer;\n}\nlabel {\n  margin-right: 16px;\n  margin-right: 1rem;\n  font-weight: bold;\n}\ninput[type=\"text\"] {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n\n  -webkit-box-align: center;\n\n      -ms-flex-align: center;\n\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  vertical-align: middle;\n  outline: none;\n  border: 1px solid lightgray;\n  border-radius: 10px;\n  padding-left: 16px;\n  padding-left: 1rem;\n  color: #333333;\n}\ninput[type=\"range\"] {\n  -webkit-appearance: none\n}\ninput[type=\"range\"]::-webkit-slider-runnable-track {\n  -webkit-appearance: none;\n  width: 100%;\n  height: 50%;\n  background: #333333;\n  border: none;\n  border-radius: 2px;\n}\ninput[type=\"range\"]::-webkit-slider-thumb {\n  -webkit-appearance: none;\n  position: relative;\n  bottom: 50%;\n  border: solid #373277;\n  height: 20px;\n  width: 20px;\n  border-radius: 50%;\n  background: rgb(85, 81, 139);\n  //margin-top: -10px;\n}\ninput[type=\"range\"]:focus {\n  outline: none;\n}\ninput[type=\"range\"]:focus::-webkit-slider-runnable-track {\n  background: rgb(82, 82, 82);\n}\ninput[type=\"range\"]:focus::-webkit-slider-thumb {\n  background: -webkit-gradient(linear,\n      left top, left bottom,\n      color-stop(10%, rgba(0,0,0,0)),\n      color-stop(50%, rgb(0, 0, 0)),\n      color-stop(90%, rgba(0,0,0,0))\n      );\n  background: -webkit-linear-gradient(top,\n      rgba(0,0,0,0) 10%,\n      rgb(0, 0, 0) 50%,\n      rgba(0,0,0,0) 90%\n      );\n  background: linear-gradient(180deg,\n      rgba(0,0,0,0) 10%,\n      rgb(0, 0, 0) 50%,\n      rgba(0,0,0,0) 90%\n      );\n}\n/*\n * A better looking default horizontal rule\n */\nhr {\n  display: block;\n  height: 1px;\n  border: 0;\n  border-top: 1px solid #ccc;\n  margin: 1em 0;\n  padding: 0;\n}\n/*\n * Remove the gap between audio, canvas, iframes,\n * images, videos and the bottom of their containers:\n * https://github.com/h5bp/html5-boilerplate/issues/440\n */\naudio,\ncanvas,\niframe,\nimg,\nsvg,\nvideo {\n  vertical-align: middle;\n}\n/*\n * Remove default fieldset styles.\n */\nfieldset {\n  border: 0;\n  margin: 0;\n  padding: 0;\n}\n/*\n * Allow only vertical resizing of textareas.\n */\ntextarea {\n  resize: vertical;\n}\n/*\n * Browser upgrade prompt\n * ========================================================================== */\n.browserupgrade {\n  margin: 0.2em 0;\n  background: #ccc;\n  color: #000;\n  padding: 0.2em 0;\n}\n/*\n * Print styles\n * Inlined to avoid the additional HTTP request:\n * http://www.phpied.com/delay-loading-your-print-css/\n * ========================================================================== */\n@media print {\n  *,\n  *::before,\n  *::after {\n    background: transparent !important;\n    color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */\n    -webkit-box-shadow: none !important;\n            box-shadow: none !important;\n    text-shadow: none !important;\n  }\n\n  a,\n  a:visited {\n    text-decoration: underline;\n  }\n\n  a[href]::after {\n    content: ' (' attr(href) ')';\n  }\n\n  abbr[title]::after {\n    content: ' (' attr(title) ')';\n  }\n\n  /*\n   * Don't show links that are fragment identifiers,\n   * or use the `javascript:` pseudo protocol\n   */\n  a[href^='#']::after,\n  a[href^='javascript:']::after {\n    content: '';\n  }\n\n  pre,\n  blockquote {\n    border: 1px solid #999;\n    page-break-inside: avoid;\n  }\n\n  /*\n   * Printing Tables:\n   * http://css-discuss.incutio.com/wiki/Printing_Tables\n   */\n  thead {\n    display: table-header-group;\n  }\n\n  tr,\n  img {\n    page-break-inside: avoid;\n  }\n\n  img {\n    max-width: 100% !important;\n  }\n\n  p,\n  h2,\n  h3 {\n    orphans: 3;\n    widows: 3;\n  }\n\n  h2,\n  h3 {\n    page-break-after: avoid;\n  }\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/components/Layout/Layout.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;AACH;;;;;;;GAOG;AACH;EACE;;gFAE8E;;EAE9E;;gFAE8E;;EAE9E;;gFAE8E,EAAE,gCAAgC,EAAE,2BAA2B,EAAE,6BAA6B,CAAC,iCAAiC;;EAE9M;;gFAE8E;CAC/E;AACD;;;;GAIG;AACH;;gFAEgF;AAChF;EACE,YAAY;EACZ,iBAAiB;EACjB,eAAe,CAAC,YAAY;EAC5B,wBAAwB;EACxB,mBAAmB,CAAC,WAAW;EAC/B,aAAa;EACb,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;CAChC;AACD;EACE,UAAU;EACV,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,mBAAmB;CACpB;AACD;EACE,eAAe;CAChB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;CACtB;AACD;EACE,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,eAAe;CAChB;AACD;;;;;;GAMG;AACH;EACE,oBAAoB;EACpB,kBAAkB;CACnB;AACD;EACE,oBAAoB;EACpB,kBAAkB;CACnB;AACD;EACE,cAAc;EACd,aAAa;EACb,oBAAoB;EACpB,mCAAmC;EACnC,aAAa;EACb,aAAa;EACb,aAAa;EACb,eAAe;CAChB;AACD;EACE,0BAA0B;EAC1B,gBAAgB;CACjB;AACD;EACE,mBAAmB;EACnB,mBAAmB;EACnB,kBAAkB;CACnB;AACD;EACE,4BAA4B;EAC5B,4BAA4B;EAC5B,qBAAqB;;EAErB,0BAA0B;;MAEtB,uBAAuB;;UAEnB,oBAAoB;EAC5B,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,uBAAuB;EACvB,cAAc;EACd,4BAA4B;EAC5B,oBAAoB;EACpB,mBAAmB;EACnB,mBAAmB;EACnB,eAAe;CAChB;AACD;EACE,wBAAwB;CACzB;AACD;EACE,yBAAyB;EACzB,YAAY;EACZ,YAAY;EACZ,oBAAoB;EACpB,aAAa;EACb,mBAAmB;CACpB;AACD;EACE,yBAAyB;EACzB,mBAAmB;EACnB,YAAY;EACZ,sBAAsB;EACtB,aAAa;EACb,YAAY;EACZ,mBAAmB;EACnB,6BAA6B;EAC7B,oBAAoB;CACrB;AACD;EACE,cAAc;CACf;AACD;EACE,4BAA4B;CAC7B;AACD;EACE;;;;;QAKM;EACN;;;;QAIM;EACN;;;;QAIM;CACP;AACD;;GAEG;AACH;EACE,eAAe;EACf,YAAY;EACZ,UAAU;EACV,2BAA2B;EAC3B,cAAc;EACd,WAAW;CACZ;AACD;;;;GAIG;AACH;;;;;;EAME,uBAAuB;CACxB;AACD;;GAEG;AACH;EACE,UAAU;EACV,UAAU;EACV,WAAW;CACZ;AACD;;GAEG;AACH;EACE,iBAAiB;CAClB;AACD;;gFAEgF;AAChF;EACE,gBAAgB;EAChB,iBAAiB;EACjB,YAAY;EACZ,iBAAiB;CAClB;AACD;;;;gFAIgF;AAChF;EACE;;;IAGE,mCAAmC;IACnC,uBAAuB,CAAC,+DAA+D;IACvF,oCAAoC;YAC5B,4BAA4B;IACpC,6BAA6B;GAC9B;;EAED;;IAEE,2BAA2B;GAC5B;;EAED;IACE,6BAA6B;GAC9B;;EAED;IACE,8BAA8B;GAC/B;;EAED;;;KAGG;EACH;;IAEE,YAAY;GACb;;EAED;;IAEE,uBAAuB;IACvB,yBAAyB;GAC1B;;EAED;;;KAGG;EACH;IACE,4BAA4B;GAC7B;;EAED;;IAEE,yBAAyB;GAC1B;;EAED;IACE,2BAA2B;GAC5B;;EAED;;;IAGE,WAAW;IACX,UAAU;GACX;;EAED;;IAEE,wBAAwB;GACzB;CACF","file":"Layout.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n/*\n * normalize.css is imported in JS file.\n * If you import external CSS file from your internal CSS\n * then it will be inlined and processed with CSS modules.\n */\n/*\n * Base styles\n * ========================================================================== */\nhtml {\n  color: #222;\n  font-weight: 100;\n  font-size: 1em; /* ~16px; */\n  font-family: sans-serif;\n  line-height: 1.375; /* ~22px */\n  height: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n}\nbody {\n  margin: 0;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  overflow-y: scroll;\n}\na {\n  color: #0074c2;\n}\n.root {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.mainContainer {\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: block;\n}\n/*\n * Remove text-shadow in selection highlight:\n * https://twitter.com/miketaylr/status/12228805301\n *\n * These selection rule sets have to be separate.\n * Customize the background color to match your design.\n */\n::-moz-selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\n::selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\nbutton {\n  outline: none;\n  border: none;\n  border-radius: 10px;\n  background-color: rgb(85, 81, 139);\n  color: white;\n  height: 100%;\n  padding: 8px;\n  padding: 0.5rem\n}\nbutton:hover {\n  background-color: #373277;\n  cursor: pointer;\n}\nlabel {\n  margin-right: 16px;\n  margin-right: 1rem;\n  font-weight: bold;\n}\ninput[type=\"text\"] {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n\n  -webkit-box-align: center;\n\n      -ms-flex-align: center;\n\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  vertical-align: middle;\n  outline: none;\n  border: 1px solid lightgray;\n  border-radius: 10px;\n  padding-left: 16px;\n  padding-left: 1rem;\n  color: #333333;\n}\ninput[type=\"range\"] {\n  -webkit-appearance: none\n}\ninput[type=\"range\"]::-webkit-slider-runnable-track {\n  -webkit-appearance: none;\n  width: 100%;\n  height: 50%;\n  background: #333333;\n  border: none;\n  border-radius: 2px;\n}\ninput[type=\"range\"]::-webkit-slider-thumb {\n  -webkit-appearance: none;\n  position: relative;\n  bottom: 50%;\n  border: solid #373277;\n  height: 20px;\n  width: 20px;\n  border-radius: 50%;\n  background: rgb(85, 81, 139);\n  //margin-top: -10px;\n}\ninput[type=\"range\"]:focus {\n  outline: none;\n}\ninput[type=\"range\"]:focus::-webkit-slider-runnable-track {\n  background: rgb(82, 82, 82);\n}\ninput[type=\"range\"]:focus::-webkit-slider-thumb {\n  background: -webkit-gradient(linear,\n      left top, left bottom,\n      color-stop(10%, rgba(0,0,0,0)),\n      color-stop(50%, rgb(0, 0, 0)),\n      color-stop(90%, rgba(0,0,0,0))\n      );\n  background: -webkit-linear-gradient(top,\n      rgba(0,0,0,0) 10%,\n      rgb(0, 0, 0) 50%,\n      rgba(0,0,0,0) 90%\n      );\n  background: linear-gradient(180deg,\n      rgba(0,0,0,0) 10%,\n      rgb(0, 0, 0) 50%,\n      rgba(0,0,0,0) 90%\n      );\n}\n/*\n * A better looking default horizontal rule\n */\nhr {\n  display: block;\n  height: 1px;\n  border: 0;\n  border-top: 1px solid #ccc;\n  margin: 1em 0;\n  padding: 0;\n}\n/*\n * Remove the gap between audio, canvas, iframes,\n * images, videos and the bottom of their containers:\n * https://github.com/h5bp/html5-boilerplate/issues/440\n */\naudio,\ncanvas,\niframe,\nimg,\nsvg,\nvideo {\n  vertical-align: middle;\n}\n/*\n * Remove default fieldset styles.\n */\nfieldset {\n  border: 0;\n  margin: 0;\n  padding: 0;\n}\n/*\n * Allow only vertical resizing of textareas.\n */\ntextarea {\n  resize: vertical;\n}\n/*\n * Browser upgrade prompt\n * ========================================================================== */\n:global(.browserupgrade) {\n  margin: 0.2em 0;\n  background: #ccc;\n  color: #000;\n  padding: 0.2em 0;\n}\n/*\n * Print styles\n * Inlined to avoid the additional HTTP request:\n * http://www.phpied.com/delay-loading-your-print-css/\n * ========================================================================== */\n@media print {\n  *,\n  *::before,\n  *::after {\n    background: transparent !important;\n    color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */\n    -webkit-box-shadow: none !important;\n            box-shadow: none !important;\n    text-shadow: none !important;\n  }\n\n  a,\n  a:visited {\n    text-decoration: underline;\n  }\n\n  a[href]::after {\n    content: ' (' attr(href) ')';\n  }\n\n  abbr[title]::after {\n    content: ' (' attr(title) ')';\n  }\n\n  /*\n   * Don't show links that are fragment identifiers,\n   * or use the `javascript:` pseudo protocol\n   */\n  a[href^='#']::after,\n  a[href^='javascript:']::after {\n    content: '';\n  }\n\n  pre,\n  blockquote {\n    border: 1px solid #999;\n    page-break-inside: avoid;\n  }\n\n  /*\n   * Printing Tables:\n   * http://css-discuss.incutio.com/wiki/Printing_Tables\n   */\n  thead {\n    display: table-header-group;\n  }\n\n  tr,\n  img {\n    page-break-inside: avoid;\n  }\n\n  img {\n    max-width: 100% !important;\n  }\n\n  p,\n  h2,\n  h3 {\n    orphans: 3;\n    widows: 3;\n  }\n\n  h2,\n  h3 {\n    page-break-after: avoid;\n  }\n}\n"],"sourceRoot":""}]);
 
 // exports
 exports.locals = {
@@ -3229,7 +3414,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 44 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3237,7 +3422,7 @@ exports = module.exports = __webpack_require__(1)(true);
 
 
 // module
-exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n\n.MediaButton-root-16FEI {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  color: white;\n  background-color: transparent;\n  position: relative\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-text-2cqDR {\n      opacity: 0;\n      z-index: -1;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-transformIcon-2ggyH {\n\n      margin: 0 4px;\n      border-radius: 50%;\n      -webkit-transition: margin 200ms linear,\n        border-radius 200ms linear,\n        background-color 200ms;\n      -o-transition: margin 200ms linear,\n        border-radius 200ms linear,\n        background-color 200ms;\n      transition: margin 200ms linear,\n        border-radius 200ms linear,\n        background-color 200ms;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-transformIcon-2ggyH * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.MediaButton-root-16FEI:hover .MediaButton-squish-hY-HG {\n      margin: 0 4px;\n      border-radius: 50%;\n      -webkit-transition: margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n      -o-transition: margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n      transition: margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-squish-hY-HG * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.MediaButton-root-16FEI:hover .MediaButton-squishMe-mAYH2 {\n      border-radius: 50%;\n      padding: 0;\n      margin: 0;\n      -webkit-transition: margin 0s 100ms linear,\n        border-radius 200ms 100ms linear,\n        padding-left 0.1s linear,\n        padding-right 0.1s linear,\n        padding-top 0s 100ms linear,\n        padding-bottom 0s 100ms linear;\n      -o-transition: margin 0s 100ms linear,\n        border-radius 200ms 100ms linear,\n        padding-left 0.1s linear,\n        padding-right 0.1s linear,\n        padding-top 0s 100ms linear,\n        padding-bottom 0s 100ms linear;\n      transition: margin 0s 100ms linear,\n        border-radius 200ms 100ms linear,\n        padding-left 0.1s linear,\n        padding-right 0.1s linear,\n        padding-top 0s 100ms linear,\n        padding-bottom 0s 100ms linear;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-hide-LoymV {\n      margin: 0 4px;\n      border-radius: 50%;\n      -webkit-transition: margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n      -o-transition: margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n      transition: margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-hide-LoymV * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s,\n          background-color 200ms;\n        -o-transition: opacity 1.5s,\n          background-color 200ms;\n        transition: opacity 1.5s,\n          background-color 200ms;\n      }\n\n.MediaButton-root-16FEI:hover .MediaButton-hideMe-AVM1D {\n      border-radius: 50%;\n      min-width: 16px;\n      min-width: 1rem;\n      width: auto;\n      padding: 4px;\n      padding: 0.25rem;\n      margin: 0 4px;\n      -webkit-transition: padding-left 100ms linear,\n        padding-right 100ms linear,\n        width 100ms linear,\n        min-width 100ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear;\n      -o-transition: padding-left 100ms linear,\n        padding-right 100ms linear,\n        width 100ms linear,\n        min-width 100ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear;\n      transition: padding-left 100ms linear,\n        padding-right 100ms linear,\n        width 100ms linear,\n        min-width 100ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear;\n}\n\n.MediaButton-defaultHover-1ujKb:hover {\n  background-color: darkgreen;\n}\n\n.MediaButton-text-2cqDR {\n  position: absolute;\n  z-index: 1;\n  text-align: center;\n  opacity: 1;\n  -webkit-transition: opacity 200ms 100ms ease-in;\n  -o-transition: opacity 200ms 100ms ease-in;\n  transition: opacity 200ms 100ms ease-in;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n.MediaButton-transformIcon-2ggyH {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n\n  -webkit-box-align: center;\n\n      -ms-flex-align: center;\n\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  min-width: 1em;\n  vertical-align: middle;\n\n  position: relative;\n  width: auto;\n\n  padding: 4px;\n  padding: 0.25rem;\n\n  background-color: rgb(82, 82, 82);\n\n  border-radius: 0;\n\n  margin: 0 0;\n\n  -webkit-transition: border-radius 100ms ease-in,\n  margin 100ms ease-in;\n\n  -o-transition: border-radius 100ms ease-in,\n  margin 100ms ease-in;\n\n  transition: border-radius 100ms ease-in,\n  margin 100ms ease-in;\n\n}\n\n.MediaButton-transformIcon-2ggyH * {\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    text-decoration: none;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    min-width: 1em;\n    vertical-align: middle;\n    opacity: 0;\n  }\n\n.MediaButton-box-1V3fy {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  min-width: 1em;\n  vertical-align: middle;\n  height: 1em;\n}\n\n.MediaButton-box-1V3fy * {\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    min-width: 1em;\n    vertical-align: middle;\n    height: 1em;\n  }\n\n.MediaButton-hide-LoymV {\n\n}\n\n.MediaButton-hideMe-AVM1D {\n  border-radius: 0;\n  min-width: 0;\n  width: 0;\n  padding: 0;\n  margin: 0;\n}\n\n.MediaButton-squish-hY-HG {\n  -webkit-transition: border-radius 100ms ease-in,\n  margin 100ms ease-in;\n  -o-transition: border-radius 100ms ease-in,\n  margin 100ms ease-in;\n  transition: border-radius 100ms ease-in,\n  margin 100ms ease-in;\n}\n\n.MediaButton-squishMe-mAYH2 {\n  border-radius: 0;\n  min-width: 0;\n  width: 0;\n  padding: 4px 12px;\n  padding: 0.25rem 0.75rem;\n  margin: 0;\n  -webkit-transition: padding-left 0.1s 100ms ease-in,\n  padding-right 0.1s 100ms ease-in;\n  -o-transition: padding-left 0.1s 100ms ease-in,\n  padding-right 0.1s 100ms ease-in;\n  transition: padding-left 0.1s 100ms ease-in,\n  padding-right 0.1s 100ms ease-in;\n}\n\n.MediaButton-left-3Y_KF {\n  border-radius: 50% 0 0 50%;\n}\n\n.MediaButton-right-3zJ-E {\n  border-radius: 0 50% 50% 0;\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/components/MediaButton/MediaButton.css"],"names":[],"mappings":"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","file":"MediaButton.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n\n.root {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  color: white;\n  background-color: transparent;\n  position: relative\n}\n\n.root:hover .text {\n      opacity: 0;\n      z-index: -1;\n}\n\n.root:hover .transformIcon {\n\n      margin: 0 4px;\n      border-radius: 50%;\n      -webkit-transition: margin 200ms linear,\n        border-radius 200ms linear,\n        background-color 200ms;\n      -o-transition: margin 200ms linear,\n        border-radius 200ms linear,\n        background-color 200ms;\n      transition: margin 200ms linear,\n        border-radius 200ms linear,\n        background-color 200ms;\n}\n\n.root:hover .transformIcon * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.root:hover .squish {\n      margin: 0 4px;\n      border-radius: 50%;\n      -webkit-transition: margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n      -o-transition: margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n      transition: margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n}\n\n.root:hover .squish * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.root:hover .squishMe {\n      border-radius: 50%;\n      padding: 0;\n      margin: 0;\n      -webkit-transition: margin 0s 100ms linear,\n        border-radius 200ms 100ms linear,\n        padding-left 0.1s linear,\n        padding-right 0.1s linear,\n        padding-top 0s 100ms linear,\n        padding-bottom 0s 100ms linear;\n      -o-transition: margin 0s 100ms linear,\n        border-radius 200ms 100ms linear,\n        padding-left 0.1s linear,\n        padding-right 0.1s linear,\n        padding-top 0s 100ms linear,\n        padding-bottom 0s 100ms linear;\n      transition: margin 0s 100ms linear,\n        border-radius 200ms 100ms linear,\n        padding-left 0.1s linear,\n        padding-right 0.1s linear,\n        padding-top 0s 100ms linear,\n        padding-bottom 0s 100ms linear;\n}\n\n.root:hover .hide {\n      margin: 0 4px;\n      border-radius: 50%;\n      -webkit-transition: margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n      -o-transition: margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n      transition: margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n}\n\n.root:hover .hide * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s,\n          background-color 200ms;\n        -o-transition: opacity 1.5s,\n          background-color 200ms;\n        transition: opacity 1.5s,\n          background-color 200ms;\n      }\n\n.root:hover .hideMe {\n      border-radius: 50%;\n      min-width: 16px;\n      min-width: 1rem;\n      width: auto;\n      padding: 4px;\n      padding: 0.25rem;\n      margin: 0 4px;\n      -webkit-transition: padding-left 100ms linear,\n        padding-right 100ms linear,\n        width 100ms linear,\n        min-width 100ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear;\n      -o-transition: padding-left 100ms linear,\n        padding-right 100ms linear,\n        width 100ms linear,\n        min-width 100ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear;\n      transition: padding-left 100ms linear,\n        padding-right 100ms linear,\n        width 100ms linear,\n        min-width 100ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear;\n}\n\n.defaultHover:hover {\n  background-color: darkgreen;\n}\n\n.text {\n  position: absolute;\n  z-index: 1;\n  text-align: center;\n  opacity: 1;\n  -webkit-transition: opacity 200ms 100ms ease-in;\n  -o-transition: opacity 200ms 100ms ease-in;\n  transition: opacity 200ms 100ms ease-in;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n.transformIcon {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n\n  -webkit-box-align: center;\n\n      -ms-flex-align: center;\n\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  min-width: 1em;\n  vertical-align: middle;\n\n  position: relative;\n  width: auto;\n\n  padding: 4px;\n  padding: 0.25rem;\n\n  background-color: rgb(82, 82, 82);\n\n  border-radius: 0;\n\n  margin: 0 0;\n\n  -webkit-transition: border-radius 100ms ease-in,\n  margin 100ms ease-in;\n\n  -o-transition: border-radius 100ms ease-in,\n  margin 100ms ease-in;\n\n  transition: border-radius 100ms ease-in,\n  margin 100ms ease-in;\n\n}\n\n.transformIcon * {\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    text-decoration: none;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    min-width: 1em;\n    vertical-align: middle;\n    opacity: 0;\n  }\n\n.box {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  min-width: 1em;\n  vertical-align: middle;\n  height: 1em;\n}\n\n.box * {\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    min-width: 1em;\n    vertical-align: middle;\n    height: 1em;\n  }\n\n.hide {\n\n}\n\n.hideMe {\n  border-radius: 0;\n  min-width: 0;\n  width: 0;\n  padding: 0;\n  margin: 0;\n}\n\n.squish {\n  -webkit-transition: border-radius 100ms ease-in,\n  margin 100ms ease-in;\n  -o-transition: border-radius 100ms ease-in,\n  margin 100ms ease-in;\n  transition: border-radius 100ms ease-in,\n  margin 100ms ease-in;\n}\n\n.squishMe {\n  border-radius: 0;\n  min-width: 0;\n  width: 0;\n  padding: 4px 12px;\n  padding: 0.25rem 0.75rem;\n  margin: 0;\n  -webkit-transition: padding-left 0.1s 100ms ease-in,\n  padding-right 0.1s 100ms ease-in;\n  -o-transition: padding-left 0.1s 100ms ease-in,\n  padding-right 0.1s 100ms ease-in;\n  transition: padding-left 0.1s 100ms ease-in,\n  padding-right 0.1s 100ms ease-in;\n}\n\n.left {\n  border-radius: 50% 0 0 50%;\n}\n\n.right {\n  border-radius: 0 50% 50% 0;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n\n.MediaButton-root-16FEI {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  color: white;\n  background-color: transparent;\n  position: relative\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-text-2cqDR {\n      opacity: 0;\n      z-index: -1;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-transformIcon-2ggyH {\n      margin: 0 4px;\n      border-radius: 50%;\n      padding: 8px 8px;\n      padding: 0.5rem 0.5rem;\n      -webkit-transition: padding 200ms linear,\n        margin 200ms linear,\n        border-radius 200ms linear,\n        background-color 200ms;\n      -o-transition: padding 200ms linear,\n        margin 200ms linear,\n        border-radius 200ms linear,\n        background-color 200ms;\n      transition: padding 200ms linear,\n        margin 200ms linear,\n        border-radius 200ms linear,\n        background-color 200ms;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-transformIcon-2ggyH * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.MediaButton-root-16FEI:hover .MediaButton-squish-hY-HG {\n      margin: 0 4px;\n      border-radius: 50%;\n      padding: 8px 8px;\n      padding: 0.5rem 0.5rem;\n      -webkit-transition: padding 200ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n      -o-transition: padding 200ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n      transition: padding 200ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-squish-hY-HG * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.MediaButton-root-16FEI:hover .MediaButton-squishMe-mAYH2 {\n      border-radius: 50%;\n      padding: 0;\n      margin: 0;\n      -webkit-transition: margin 0s 100ms linear,\n        border-radius 200ms 100ms linear,\n        padding-left 0.1s linear,\n        padding-right 0.1s linear,\n        padding-top 0s 100ms linear,\n        padding-bottom 0s 100ms linear;\n      -o-transition: margin 0s 100ms linear,\n        border-radius 200ms 100ms linear,\n        padding-left 0.1s linear,\n        padding-right 0.1s linear,\n        padding-top 0s 100ms linear,\n        padding-bottom 0s 100ms linear;\n      transition: margin 0s 100ms linear,\n        border-radius 200ms 100ms linear,\n        padding-left 0.1s linear,\n        padding-right 0.1s linear,\n        padding-top 0s 100ms linear,\n        padding-bottom 0s 100ms linear;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-hide-LoymV {\n      margin: 0 4px;\n      border-radius: 50%;\n      padding: 8px 8px;\n      padding: 0.5rem 0.5rem;\n      -webkit-transition: padding 200ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n      -o-transition: padding 200ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n      transition: padding 200ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n}\n\n.MediaButton-root-16FEI:hover .MediaButton-hide-LoymV * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s,\n          background-color 200ms;\n        -o-transition: opacity 1.5s,\n          background-color 200ms;\n        transition: opacity 1.5s,\n          background-color 200ms;\n      }\n\n.MediaButton-root-16FEI:hover .MediaButton-hideMe-AVM1D {\n      border-radius: 50%;\n      min-width: 16px;\n      min-width: 1rem;\n      width: auto;\n      padding: 8px 8px;\n      padding: 0.5rem 0.5rem;\n      margin: 0 4px;\n      -webkit-transition: padding-left 100ms ease-in,\n        padding-right 100ms ease-in,\n        width 100ms linear,\n        min-width 100ms linear,\n        width 100ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear;\n      -o-transition: padding-left 100ms ease-in,\n        padding-right 100ms ease-in,\n        width 100ms linear,\n        min-width 100ms linear,\n        width 100ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear;\n      transition: padding-left 100ms ease-in,\n        padding-right 100ms ease-in,\n        width 100ms linear,\n        min-width 100ms linear,\n        width 100ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear;\n}\n\n.MediaButton-defaultHover-1ujKb:hover {\n  background-color: darkgreen;\n}\n\n.MediaButton-text-2cqDR {\n  position: absolute;\n  z-index: 1;\n  text-align: center;\n  opacity: 1;\n  -webkit-transition: opacity 200ms 100ms ease-in;\n  -o-transition: opacity 200ms 100ms ease-in;\n  transition: opacity 200ms 100ms ease-in;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n.MediaButton-transformIcon-2ggyH {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n\n  -webkit-box-align: center;\n\n      -ms-flex-align: center;\n\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  min-width: 1em;\n  vertical-align: middle;\n\n  position: relative;\n  width: auto;\n\n  padding: 8px 4px;\n  padding: 0.5rem 0.25rem;\n\n  background-color: rgb(82, 82, 82);\n\n  border-radius: 0;\n\n  margin: 0 0;\n\n  -webkit-transition: padding 100ms ease-in,\n    border-radius 100ms ease-in,\n    margin 100ms ease-in;\n\n  -o-transition: padding 100ms ease-in,\n    border-radius 100ms ease-in,\n    margin 100ms ease-in;\n\n  transition: padding 100ms ease-in,\n    border-radius 100ms ease-in,\n    margin 100ms ease-in;\n\n}\n\n.MediaButton-transformIcon-2ggyH * {\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    text-decoration: none;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    min-width: 1em;\n    vertical-align: middle;\n    opacity: 0;\n  }\n\n.MediaButton-box-1V3fy {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  min-width: 1em;\n  vertical-align: middle;\n  height: 1em;\n}\n\n.MediaButton-box-1V3fy * {\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    min-width: 1em;\n    vertical-align: middle;\n    height: 1em;\n  }\n\n.MediaButton-hide-LoymV {\n\n}\n\n.MediaButton-hideMe-AVM1D {\n  min-width: 0;\n  width: 0;\n  margin: 0;\n  -webkit-transition: padding-left 100ms 100ms ease-in,\n    padding-right 100ms 100ms ease-in,\n    width 100ms ease-in,\n    min-width 100ms ease-in,\n    border-radius 100ms ease-in,\n    margin 100ms ease-in;\n  -o-transition: padding-left 100ms 100ms ease-in,\n    padding-right 100ms 100ms ease-in,\n    width 100ms ease-in,\n    min-width 100ms ease-in,\n    border-radius 100ms ease-in,\n    margin 100ms ease-in;\n  transition: padding-left 100ms 100ms ease-in,\n    padding-right 100ms 100ms ease-in,\n    width 100ms ease-in,\n    min-width 100ms ease-in,\n    border-radius 100ms ease-in,\n    margin 100ms ease-in;\n}\n\n.MediaButton-squish-hY-HG {\n  -webkit-transition: padding 100ms ease-in,\n    border-radius 100ms ease-in,\n    margin 100ms ease-in;\n  -o-transition: padding 100ms ease-in,\n    border-radius 100ms ease-in,\n    margin 100ms ease-in;\n  transition: padding 100ms ease-in,\n    border-radius 100ms ease-in,\n    margin 100ms ease-in;\n}\n\n.MediaButton-squishMe-mAYH2 {\n  border-radius: 0;\n  min-width: 0;\n  width: 0;\n  padding: 8px 12px;\n  padding: 0.5rem 0.75rem;\n  margin: 0;\n  -webkit-transition: padding-left 0.1s 100ms ease-in,\n    padding-right 0.1s 100ms ease-in;\n  -o-transition: padding-left 0.1s 100ms ease-in,\n    padding-right 0.1s 100ms ease-in;\n  transition: padding-left 0.1s 100ms ease-in,\n    padding-right 0.1s 100ms ease-in;\n}\n\n.MediaButton-left-3Y_KF {\n  border-radius: 50% 0 0 50%;\n}\n\n.MediaButton-right-3zJ-E {\n  border-radius: 0 50% 50% 0;\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/components/MediaButton/MediaButton.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;AAEH;EACE;;gFAE8E;;EAE9E;;gFAE8E;;EAE9E;;gFAE8E,EAAE,gCAAgC,EAAE,2BAA2B,EAAE,6BAA6B,CAAC,iCAAiC;;EAE9M;;gFAE8E;CAC/E;;AAED;EACE,4BAA4B;EAC5B,4BAA4B;EAC5B,qBAAqB;EACrB,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;EAC5B,aAAa;EACb,8BAA8B;EAC9B,kBAAkB;CACnB;;AAED;MACM,WAAW;MACX,YAAY;CACjB;;AAED;MACM,cAAc;MACd,mBAAmB;MACnB,iBAAiB;MACjB,uBAAuB;MACvB;;;+BAGyB;MACzB;;;+BAGyB;MACzB;;;+BAGyB;CAC9B;;AAED;QACQ,WAAW;QACX,iCAAiC;QACjC,4BAA4B;QAC5B,yBAAyB;OAC1B;;AAEP;MACM,cAAc;MACd,mBAAmB;MACnB,iBAAiB;MACjB,uBAAuB;MACvB;;;+BAGyB;MACzB;;;+BAGyB;MACzB;;;+BAGyB;CAC9B;;AAED;QACQ,WAAW;QACX,iCAAiC;QACjC,4BAA4B;QAC5B,yBAAyB;OAC1B;;AAEP;MACM,mBAAmB;MACnB,WAAW;MACX,UAAU;MACV;;;;;uCAKiC;MACjC;;;;;uCAKiC;MACjC;;;;;uCAKiC;CACtC;;AAED;MACM,cAAc;MACd,mBAAmB;MACnB,iBAAiB;MACjB,uBAAuB;MACvB;;;+BAGyB;MACzB;;;+BAGyB;MACzB;;;+BAGyB;CAC9B;;AAED;QACQ,WAAW;QACX;iCACyB;QACzB;iCACyB;QACzB;iCACyB;OAC1B;;AAEP;MACM,mBAAmB;MACnB,gBAAgB;MAChB,gBAAgB;MAChB,YAAY;MACZ,iBAAiB;MACjB,uBAAuB;MACvB,cAAc;MACd;;;;;;yCAMmC;MACnC;;;;;;yCAMmC;MACnC;;;;;;yCAMmC;CACxC;;AAED;EACE,4BAA4B;CAC7B;;AAED;EACE,mBAAmB;EACnB,WAAW;EACX,mBAAmB;EACnB,WAAW;EACX,gDAAgD;EAChD,2CAA2C;EAC3C,wCAAwC;EACxC,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;CACjC;;AAED;EACE,4BAA4B;EAC5B,4BAA4B;EAC5B,qBAAqB;;EAErB,0BAA0B;;MAEtB,uBAAuB;;UAEnB,oBAAoB;EAC5B,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,eAAe;EACf,uBAAuB;;EAEvB,mBAAmB;EACnB,YAAY;;EAEZ,iBAAiB;EACjB,wBAAwB;;EAExB,kCAAkC;;EAElC,iBAAiB;;EAEjB,YAAY;;EAEZ;;yBAEuB;;EAEvB;;yBAEuB;;EAEvB;;yBAEuB;;CAExB;;AAED;IACI,4BAA4B;IAC5B,4BAA4B;IAC5B,qBAAqB;IACrB,sBAAsB;IACtB,0BAA0B;QACtB,uBAAuB;YACnB,oBAAoB;IAC5B,yBAAyB;QACrB,sBAAsB;YAClB,wBAAwB;IAChC,eAAe;IACf,uBAAuB;IACvB,WAAW;GACZ;;AAEH;EACE,4BAA4B;EAC5B,4BAA4B;EAC5B,qBAAqB;EACrB,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;EAC5B,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,eAAe;EACf,uBAAuB;EACvB,YAAY;CACb;;AAED;IACI,4BAA4B;IAC5B,4BAA4B;IAC5B,qBAAqB;IACrB,0BAA0B;QACtB,uBAAuB;YACnB,oBAAoB;IAC5B,yBAAyB;QACrB,sBAAsB;YAClB,wBAAwB;IAChC,eAAe;IACf,uBAAuB;IACvB,YAAY;GACb;;AAEH;;CAEC;;AAED;EACE,aAAa;EACb,SAAS;EACT,UAAU;EACV;;;;;yBAKuB;EACvB;;;;;yBAKuB;EACvB;;;;;yBAKuB;CACxB;;AAED;EACE;;yBAEuB;EACvB;;yBAEuB;EACvB;;yBAEuB;CACxB;;AAED;EACE,iBAAiB;EACjB,aAAa;EACb,SAAS;EACT,kBAAkB;EAClB,wBAAwB;EACxB,UAAU;EACV;qCACmC;EACnC;qCACmC;EACnC;qCACmC;CACpC;;AAED;EACE,2BAA2B;CAC5B;;AAED;EACE,2BAA2B;CAC5B","file":"MediaButton.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n\n.root {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  color: white;\n  background-color: transparent;\n  position: relative\n}\n\n.root:hover .text {\n      opacity: 0;\n      z-index: -1;\n}\n\n.root:hover .transformIcon {\n      margin: 0 4px;\n      border-radius: 50%;\n      padding: 8px 8px;\n      padding: 0.5rem 0.5rem;\n      -webkit-transition: padding 200ms linear,\n        margin 200ms linear,\n        border-radius 200ms linear,\n        background-color 200ms;\n      -o-transition: padding 200ms linear,\n        margin 200ms linear,\n        border-radius 200ms linear,\n        background-color 200ms;\n      transition: padding 200ms linear,\n        margin 200ms linear,\n        border-radius 200ms linear,\n        background-color 200ms;\n}\n\n.root:hover .transformIcon * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.root:hover .squish {\n      margin: 0 4px;\n      border-radius: 50%;\n      padding: 8px 8px;\n      padding: 0.5rem 0.5rem;\n      -webkit-transition: padding 200ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n      -o-transition: padding 200ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n      transition: padding 200ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n}\n\n.root:hover .squish * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s;\n        -o-transition: opacity 1.5s;\n        transition: opacity 1.5s;\n      }\n\n.root:hover .squishMe {\n      border-radius: 50%;\n      padding: 0;\n      margin: 0;\n      -webkit-transition: margin 0s 100ms linear,\n        border-radius 200ms 100ms linear,\n        padding-left 0.1s linear,\n        padding-right 0.1s linear,\n        padding-top 0s 100ms linear,\n        padding-bottom 0s 100ms linear;\n      -o-transition: margin 0s 100ms linear,\n        border-radius 200ms 100ms linear,\n        padding-left 0.1s linear,\n        padding-right 0.1s linear,\n        padding-top 0s 100ms linear,\n        padding-bottom 0s 100ms linear;\n      transition: margin 0s 100ms linear,\n        border-radius 200ms 100ms linear,\n        padding-left 0.1s linear,\n        padding-right 0.1s linear,\n        padding-top 0s 100ms linear,\n        padding-bottom 0s 100ms linear;\n}\n\n.root:hover .hide {\n      margin: 0 4px;\n      border-radius: 50%;\n      padding: 8px 8px;\n      padding: 0.5rem 0.5rem;\n      -webkit-transition: padding 200ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n      -o-transition: padding 200ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n      transition: padding 200ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear,\n        background-color 200ms;\n}\n\n.root:hover .hide * {\n        opacity: 1;\n        -webkit-transition: opacity 1.5s,\n          background-color 200ms;\n        -o-transition: opacity 1.5s,\n          background-color 200ms;\n        transition: opacity 1.5s,\n          background-color 200ms;\n      }\n\n.root:hover .hideMe {\n      border-radius: 50%;\n      min-width: 16px;\n      min-width: 1rem;\n      width: auto;\n      padding: 8px 8px;\n      padding: 0.5rem 0.5rem;\n      margin: 0 4px;\n      -webkit-transition: padding-left 100ms ease-in,\n        padding-right 100ms ease-in,\n        width 100ms linear,\n        min-width 100ms linear,\n        width 100ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear;\n      -o-transition: padding-left 100ms ease-in,\n        padding-right 100ms ease-in,\n        width 100ms linear,\n        min-width 100ms linear,\n        width 100ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear;\n      transition: padding-left 100ms ease-in,\n        padding-right 100ms ease-in,\n        width 100ms linear,\n        min-width 100ms linear,\n        width 100ms linear,\n        margin 200ms 100ms linear,\n        border-radius 200ms 100ms linear;\n}\n\n.defaultHover:hover {\n  background-color: darkgreen;\n}\n\n.text {\n  position: absolute;\n  z-index: 1;\n  text-align: center;\n  opacity: 1;\n  -webkit-transition: opacity 200ms 100ms ease-in;\n  -o-transition: opacity 200ms 100ms ease-in;\n  transition: opacity 200ms 100ms ease-in;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n.transformIcon {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n\n  -webkit-box-align: center;\n\n      -ms-flex-align: center;\n\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  min-width: 1em;\n  vertical-align: middle;\n\n  position: relative;\n  width: auto;\n\n  padding: 8px 4px;\n  padding: 0.5rem 0.25rem;\n\n  background-color: rgb(82, 82, 82);\n\n  border-radius: 0;\n\n  margin: 0 0;\n\n  -webkit-transition: padding 100ms ease-in,\n    border-radius 100ms ease-in,\n    margin 100ms ease-in;\n\n  -o-transition: padding 100ms ease-in,\n    border-radius 100ms ease-in,\n    margin 100ms ease-in;\n\n  transition: padding 100ms ease-in,\n    border-radius 100ms ease-in,\n    margin 100ms ease-in;\n\n}\n\n.transformIcon * {\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    text-decoration: none;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    min-width: 1em;\n    vertical-align: middle;\n    opacity: 0;\n  }\n\n.box {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  min-width: 1em;\n  vertical-align: middle;\n  height: 1em;\n}\n\n.box * {\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    min-width: 1em;\n    vertical-align: middle;\n    height: 1em;\n  }\n\n.hide {\n\n}\n\n.hideMe {\n  min-width: 0;\n  width: 0;\n  margin: 0;\n  -webkit-transition: padding-left 100ms 100ms ease-in,\n    padding-right 100ms 100ms ease-in,\n    width 100ms ease-in,\n    min-width 100ms ease-in,\n    border-radius 100ms ease-in,\n    margin 100ms ease-in;\n  -o-transition: padding-left 100ms 100ms ease-in,\n    padding-right 100ms 100ms ease-in,\n    width 100ms ease-in,\n    min-width 100ms ease-in,\n    border-radius 100ms ease-in,\n    margin 100ms ease-in;\n  transition: padding-left 100ms 100ms ease-in,\n    padding-right 100ms 100ms ease-in,\n    width 100ms ease-in,\n    min-width 100ms ease-in,\n    border-radius 100ms ease-in,\n    margin 100ms ease-in;\n}\n\n.squish {\n  -webkit-transition: padding 100ms ease-in,\n    border-radius 100ms ease-in,\n    margin 100ms ease-in;\n  -o-transition: padding 100ms ease-in,\n    border-radius 100ms ease-in,\n    margin 100ms ease-in;\n  transition: padding 100ms ease-in,\n    border-radius 100ms ease-in,\n    margin 100ms ease-in;\n}\n\n.squishMe {\n  border-radius: 0;\n  min-width: 0;\n  width: 0;\n  padding: 8px 12px;\n  padding: 0.5rem 0.75rem;\n  margin: 0;\n  -webkit-transition: padding-left 0.1s 100ms ease-in,\n    padding-right 0.1s 100ms ease-in;\n  -o-transition: padding-left 0.1s 100ms ease-in,\n    padding-right 0.1s 100ms ease-in;\n  transition: padding-left 0.1s 100ms ease-in,\n    padding-right 0.1s 100ms ease-in;\n}\n\n.left {\n  border-radius: 50% 0 0 50%;\n}\n\n.right {\n  border-radius: 0 50% 50% 0;\n}\n"],"sourceRoot":""}]);
 
 // exports
 exports.locals = {
@@ -3255,7 +3440,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 45 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3274,7 +3459,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 46 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3291,7 +3476,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 47 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3305,7 +3490,7 @@ exports.push([module.i, "", "", {"version":3,"sources":[],"names":[],"mappings":
 
 
 /***/ }),
-/* 48 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3322,7 +3507,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 49 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3336,7 +3521,7 @@ exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.
 
 
 /***/ }),
-/* 50 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3344,7 +3529,7 @@ exports = module.exports = __webpack_require__(1)(true);
 
 
 // module
-exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n.Home-content-1BGUJ {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  padding: 0 0 16px 0;\n  padding: 0 0 1rem 0;\n  margin: 0 auto;\n  max-width: 1000px;\n}\n.Home-column-7h2Zk {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.Home-row-1MfJf {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  margin: 16px 0;\n  margin: 1rem 0;\n}\n.Home-animationContainer-2whAx {\n  height: 0;\n  width: 100%;\n  padding-bottom: 50%;\n  padding-top: 50%;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  position: relative;\n  background-color: black;\n}\n.Home-buttonContainer-rrXGX {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  padding: 0 16px;\n  padding: 0 1rem;\n}\n.Home-twitter-3j9ZP:hover {\n  background-color: #794BC4;\n}\n.Home-dribble-23a20:hover {\n  background-color: #DF3E7B;\n}\n.Home-facebook-BP3rk:hover {\n  background-color: #3B5998;\n}\n.Home-slack-vRQeT:hover {\n  background-color: white;\n}\n.Home-slack-vRQeT:hover i {\n      color: black;\n}\n.Home-exampleTwo-26mRB {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  padding: 16px;\n  padding: 1rem;\n  background-color: #333333;\n}\n.Home-textBox-24n0A {\n  display: inline-block;\n}\na {\n  color: white;\n}\n.Home-link-Y_GIW {\n  color: #373277;\n}\n.Home-animation-R_wCJ {\n  z-index: 1;\n  position: relative;\n}\n.Home-sun-14hMD {\n  position: absolute;\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/routes/home/Home.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;AACH;;;;;;;GAOG;AACH;EACE;;gFAE8E;;EAE9E;;gFAE8E;;EAE9E;;gFAE8E,EAAE,gCAAgC,EAAE,2BAA2B,EAAE,6BAA6B,CAAC,iCAAiC;;EAE9M;;gFAE8E;CAC/E;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,oBAAoB;EACpB,oBAAoB;EACpB,eAAe;EACf,kBAAkB;CACnB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;CACtB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,eAAe;EACf,eAAe;CAChB;AACD;EACE,UAAU;EACV,YAAY;EACZ,oBAAoB;EACpB,iBAAiB;EACjB,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;EAC5B,mBAAmB;EACnB,wBAAwB;CACzB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,gBAAgB;EAChB,gBAAgB;CACjB;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,wBAAwB;CACzB;AACD;MACM,aAAa;CAClB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,cAAc;EACd,cAAc;EACd,0BAA0B;CAC3B;AACD;EACE,sBAAsB;CACvB;AACD;EACE,aAAa;CACd;AACD;EACE,eAAe;CAChB;AACD;EACE,WAAW;EACX,mBAAmB;CACpB;AACD;EACE,mBAAmB;CACpB","file":"Home.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n.content {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  padding: 0 0 16px 0;\n  padding: 0 0 1rem 0;\n  margin: 0 auto;\n  max-width: 1000px;\n}\n.column {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  margin: 16px 0;\n  margin: 1rem 0;\n}\n.animationContainer {\n  height: 0;\n  width: 100%;\n  padding-bottom: 50%;\n  padding-top: 50%;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  position: relative;\n  background-color: black;\n}\n.buttonContainer {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  padding: 0 16px;\n  padding: 0 1rem;\n}\n.twitter:hover {\n  background-color: #794BC4;\n}\n.dribble:hover {\n  background-color: #DF3E7B;\n}\n.facebook:hover {\n  background-color: #3B5998;\n}\n.slack:hover {\n  background-color: white;\n}\n.slack:hover i {\n      color: black;\n}\n.exampleTwo {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  padding: 16px;\n  padding: 1rem;\n  background-color: #333333;\n}\n.textBox {\n  display: inline-block;\n}\na {\n  color: white;\n}\n.link {\n  color: #373277;\n}\n.animation {\n  z-index: 1;\n  position: relative;\n}\n.sun {\n  position: absolute;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n.Home-content-1BGUJ {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  padding: 0 0 16px 0;\n  padding: 0 0 1rem 0;\n  margin: 0 auto;\n  max-width: 1000px;\n}\n.Home-column-7h2Zk {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.Home-row-1MfJf {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  margin: 16px 0;\n  margin: 1rem 0;\n}\n.Home-animationContainer-2whAx {\n  height: 0;\n  width: 100%;\n  padding-bottom: 50%;\n  padding-top: 50%;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  position: relative;\n  background-color: black;\n}\n.Home-buttonContainer-rrXGX {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  padding: 0 4px;\n  padding: 0 0.25rem;\n}\n.Home-twitter-3j9ZP:hover {\n  background-color: #794BC4;\n}\n.Home-dribble-23a20:hover {\n  background-color: #DF3E7B;\n}\n.Home-facebook-BP3rk:hover {\n  background-color: #3B5998;\n}\n.Home-slack-vRQeT:hover {\n  background-color: white;\n}\n.Home-slack-vRQeT:hover i {\n      color: black;\n}\n.Home-exampleTwo-26mRB {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  padding: 16px;\n  padding: 1rem;\n  background-color: #333333;\n  height: 64px;\n  height: 4rem;\n}\n.Home-textBox-24n0A {\n  display: inline-block;\n}\na {\n  color: white;\n}\n.Home-link-Y_GIW {\n  color: #373277;\n}\n.Home-animation-R_wCJ {\n  z-index: 1;\n  position: relative;\n}\n.Home-sun-14hMD {\n  position: absolute;\n}\n", "", {"version":3,"sources":["/Users/jvburen/Projects/spikes/react/css-animation/src/routes/home/Home.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;AACH;;;;;;;GAOG;AACH;EACE;;gFAE8E;;EAE9E;;gFAE8E;;EAE9E;;gFAE8E,EAAE,gCAAgC,EAAE,2BAA2B,EAAE,6BAA6B,CAAC,iCAAiC;;EAE9M;;gFAE8E;CAC/E;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,oBAAoB;EACpB,oBAAoB;EACpB,eAAe;EACf,kBAAkB;CACnB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,6BAA6B;EAC7B,8BAA8B;MAC1B,2BAA2B;UACvB,uBAAuB;EAC/B,oBAAoB;MAChB,iBAAiB;UACb,aAAa;CACtB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,eAAe;EACf,eAAe;CAChB;AACD;EACE,UAAU;EACV,YAAY;EACZ,oBAAoB;EACpB,iBAAiB;EACjB,oBAAoB;MAChB,iBAAiB;UACb,aAAa;EACrB,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,0BAA0B;MACtB,uBAAuB;UACnB,oBAAoB;EAC5B,mBAAmB;EACnB,wBAAwB;CACzB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,eAAe;EACf,mBAAmB;CACpB;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,wBAAwB;CACzB;AACD;MACM,aAAa;CAClB;AACD;EACE,qBAAqB;EACrB,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,wBAAwB;EAChC,cAAc;EACd,cAAc;EACd,0BAA0B;EAC1B,aAAa;EACb,aAAa;CACd;AACD;EACE,sBAAsB;CACvB;AACD;EACE,aAAa;CACd;AACD;EACE,eAAe;CAChB;AACD;EACE,WAAW;EACX,mBAAmB;CACpB;AACD;EACE,mBAAmB;CACpB","file":"Home.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Colors\n   * ======================================================================== */\n}\n.content {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  padding: 0 0 16px 0;\n  padding: 0 0 1rem 0;\n  margin: 0 auto;\n  max-width: 1000px;\n}\n.column {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n}\n.row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  margin: 16px 0;\n  margin: 1rem 0;\n}\n.animationContainer {\n  height: 0;\n  width: 100%;\n  padding-bottom: 50%;\n  padding-top: 50%;\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 0%;\n          flex: 1 1 0%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  position: relative;\n  background-color: black;\n}\n.buttonContainer {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  padding: 0 4px;\n  padding: 0 0.25rem;\n}\n.twitter:hover {\n  background-color: #794BC4;\n}\n.dribble:hover {\n  background-color: #DF3E7B;\n}\n.facebook:hover {\n  background-color: #3B5998;\n}\n.slack:hover {\n  background-color: white;\n}\n.slack:hover i {\n      color: black;\n}\n.exampleTwo {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  padding: 16px;\n  padding: 1rem;\n  background-color: #333333;\n  height: 64px;\n  height: 4rem;\n}\n.textBox {\n  display: inline-block;\n}\na {\n  color: white;\n}\n.link {\n  color: #373277;\n}\n.animation {\n  z-index: 1;\n  position: relative;\n}\n.sun {\n  position: absolute;\n}\n"],"sourceRoot":""}]);
 
 // exports
 exports.locals = {
@@ -3365,7 +3550,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 51 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3382,7 +3567,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 52 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(true);
@@ -3396,23 +3581,58 @@ exports.push([module.i, "/*! normalize.css v7.0.0 | MIT License | github.com/nec
 
 
 /***/ }),
-/* 53 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "src/components/Header/logo-small.png?2f751285";
 
 /***/ }),
-/* 54 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.png?8844262b";
 
 /***/ }),
-/* 55 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(41);
+    var content = __webpack_require__(43);
+    var insertCss = __webpack_require__(2);
+
+    if (typeof content === 'string') {
+      content = [[module.i, content, '']];
+    }
+
+    module.exports = content.locals || {};
+    module.exports._getContent = function() { return content; };
+    module.exports._getCss = function() { return content.toString(); };
+    module.exports._insertCss = function(options) { return insertCss(content, options) };
+    
+    // Hot Module Replacement
+    // https://webpack.github.io/docs/hot-module-replacement
+    // Only activated in browser context
+    if (false) {
+      var removeCss = function() {};
+      module.hot.accept("!!../../../node_modules/css-loader/index.js??ref--1-1!../../../node_modules/postcss-loader/lib/index.js??ref--1-2!./CompareItems.css", function() {
+        content = require("!!../../../node_modules/css-loader/index.js??ref--1-1!../../../node_modules/postcss-loader/lib/index.js??ref--1-2!./CompareItems.css");
+
+        if (typeof content === 'string') {
+          content = [[module.id, content, '']];
+        }
+
+        removeCss = insertCss(content, { replace: true });
+      });
+      module.hot.dispose(function() { removeCss(); });
+    }
+  
+
+/***/ }),
+/* 59 */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+    var content = __webpack_require__(44);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3443,11 +3663,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 56 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(42);
+    var content = __webpack_require__(45);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3478,11 +3698,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 57 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(43);
+    var content = __webpack_require__(46);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3513,11 +3733,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 58 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(44);
+    var content = __webpack_require__(47);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3548,11 +3768,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 59 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(45);
+    var content = __webpack_require__(48);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3583,11 +3803,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 60 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(46);
+    var content = __webpack_require__(49);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3618,11 +3838,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 61 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(47);
+    var content = __webpack_require__(50);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3653,11 +3873,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 62 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(48);
+    var content = __webpack_require__(51);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3688,11 +3908,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 63 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(50);
+    var content = __webpack_require__(53);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3723,11 +3943,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 64 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(51);
+    var content = __webpack_require__(54);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3758,11 +3978,11 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 65 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(52);
+    var content = __webpack_require__(55);
     var insertCss = __webpack_require__(2);
 
     if (typeof content === 'string') {
@@ -3793,137 +4013,131 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
   
 
 /***/ }),
-/* 66 */
+/* 70 */
 /***/ (function(module, exports) {
 
 module.exports = {"title":"About Us","component":"ContentPage","html":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat\ntortor fermentum mi fermentum dignissim. Nullam vel ipsum ut ligula elementum\nlobortis. Maecenas aliquam, massa laoreet lacinia pretium, nisi urna venenatis\ntortor, nec imperdiet tellus libero efficitur metus. Fusce semper posuere\nligula, et facilisis metus bibendum interdum. Mauris at mauris sit amet sem\npharetra commodo a eu leo. Nam at est non risus cursus maximus. Nam feugiat\naugue libero, id consectetur tortor bibendum non. Quisque nec fringilla lorem.\nNullam efficitur vulputate mauris, nec maximus leo dignissim id.</p>\n<p>In hac habitasse platea dictumst. Duis sagittis dui ac ex suscipit maximus.\nMorbi pellentesque venenatis felis sed convallis. Nulla varius, nibh vitae\nplacerat tempus, mauris sem elementum ipsum, eget sollicitudin nisl est vel\npurus. Fusce malesuada odio velit, non cursus leo fermentum id. Cras pharetra\nsodales fringilla. Etiam quis est a dolor egestas pellentesque. Maecenas non\nscelerisque purus, congue cursus arcu. Donec vel dapibus mi. Mauris maximus\nposuere placerat. Sed et libero eu nibh tristique mollis a eget lectus. Donec\ninterdum augue sollicitudin vehicula hendrerit. Vivamus justo orci, molestie\nac sollicitudin ac, lobortis at tellus. Etiam rhoncus ullamcorper risus eu\ntempor. Sed porttitor, neque ac efficitur gravida, arcu lacus pharetra dui, in\nconsequat elit tellus auctor nulla. Donec placerat elementum diam, vitae\nimperdiet lectus luctus at.</p>\n<p>Nullam eu feugiat mi. Quisque nec tristique nisl, dignissim dictum leo. Nam\nnon quam nisi. Donec rutrum turpis ac diam blandit, id pulvinar mauris\nsuscipit. Pellentesque tincidunt libero ultricies risus iaculis, sit amet\nconsequat velit blandit. Fusce quis varius nulla. Nullam nisi nisi, suscipit\nut magna quis, feugiat porta nibh. Sed id enim lectus. Suspendisse elementum\njusto sapien, sit amet consequat orci accumsan et. Aliquam ornare ullamcorper\nsem sed finibus. Nullam ac lacus pulvinar, egestas felis ut, accumsan est.</p>\n<p>Pellentesque sagittis vehicula sem quis luctus. Proin sodales magna in lorem\nhendrerit aliquam. Integer eu varius orci. Vestibulum ante ipsum primis in\nfaucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ante ipsum\nprimis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut at mauris\nnibh. Suspendisse maximus ac eros at vestibulum.</p>\n<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque egestas\ntortor et dui consequat faucibus. Nunc vitae odio ornare, venenatis ligula a,\nvulputate nisl. Aenean congue varius ex, sit amet bibendum odio posuere at.\nNulla facilisi. In finibus, nulla vitae tincidunt ornare, sapien nulla\nfermentum mauris, sed consectetur tortor arcu eget arcu. Vestibulum vel quam\nenim.</p>\n"};
 
 /***/ }),
-/* 67 */
+/* 71 */
 /***/ (function(module, exports) {
 
 module.exports = require("./assets.json");
 
 /***/ }),
-/* 68 */
+/* 72 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-runtime/core-js/json/stringify");
 
 /***/ }),
-/* 69 */
+/* 73 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-runtime/helpers/slicedToArray");
 
 /***/ }),
-/* 70 */
+/* 74 */
 /***/ (function(module, exports) {
 
 module.exports = require("body-parser");
 
 /***/ }),
-/* 71 */
-/***/ (function(module, exports) {
-
-module.exports = require("classnames");
-
-/***/ }),
-/* 72 */
+/* 75 */
 /***/ (function(module, exports) {
 
 module.exports = require("cookie-parser");
 
 /***/ }),
-/* 73 */
+/* 76 */
 /***/ (function(module, exports) {
 
 module.exports = require("express");
 
 /***/ }),
-/* 74 */
+/* 77 */
 /***/ (function(module, exports) {
 
 module.exports = require("express-graphql");
 
 /***/ }),
-/* 75 */
+/* 78 */
 /***/ (function(module, exports) {
 
 module.exports = require("express-jwt");
 
 /***/ }),
-/* 76 */
+/* 79 */
 /***/ (function(module, exports) {
 
 module.exports = require("history/createBrowserHistory");
 
 /***/ }),
-/* 77 */
+/* 80 */
 /***/ (function(module, exports) {
 
 module.exports = require("isomorphic-fetch");
 
 /***/ }),
-/* 78 */
+/* 81 */
 /***/ (function(module, exports) {
 
 module.exports = require("path");
 
 /***/ }),
-/* 79 */
+/* 82 */
 /***/ (function(module, exports) {
 
 module.exports = require("pretty-error");
 
 /***/ }),
-/* 80 */
+/* 83 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom/server");
 
 /***/ }),
-/* 81 */
+/* 84 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-redux");
 
 /***/ }),
-/* 82 */
+/* 85 */
 /***/ (function(module, exports) {
 
 module.exports = require("redux-thunk");
 
 /***/ }),
-/* 83 */
+/* 86 */
 /***/ (function(module, exports) {
 
 module.exports = require("serialize-javascript");
 
 /***/ }),
-/* 84 */
+/* 87 */
 /***/ (function(module, exports) {
 
 module.exports = require("styled-components");
 
 /***/ }),
-/* 85 */
+/* 88 */
 /***/ (function(module, exports) {
 
 module.exports = require("universal-router");
 
 /***/ }),
-/* 86 */
+/* 89 */
 /***/ (function(module, exports) {
 
 module.exports = require("util");
 
 /***/ }),
-/* 87 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(12);
-module.exports = __webpack_require__(11);
+__webpack_require__(13);
+module.exports = __webpack_require__(12);
 
 
 /***/ })

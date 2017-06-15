@@ -20,10 +20,11 @@
     }
 
     .transformIcon {
-
       margin: 0 4px;
       border-radius: 50%;
-      transition: margin calc(2 * var(--base-transition-time)) linear,
+      padding: 0.5rem 0.5rem;
+      transition: padding calc(2 * var(--base-transition-time)) linear,
+        margin calc(2 * var(--base-transition-time)) linear,
         border-radius calc(2 * var(--base-transition-time)) linear,
         background-color calc(2 * var(--base-transition-time));
 
@@ -36,7 +37,9 @@
     .squish {
       margin: 0 4px;
       border-radius: 50%;
-      transition: margin calc(2 * var(--base-transition-time)) var(--base-transition-time) linear,
+      padding: 0.5rem 0.5rem;
+      transition: padding calc(2 * var(--base-transition-time)) linear,
+        margin calc(2 * var(--base-transition-time)) var(--base-transition-time) linear,
         border-radius calc(2 * var(--base-transition-time)) var(--base-transition-time) linear,
         background-color calc(2 * var(--base-transition-time));
 
@@ -61,7 +64,9 @@
     .hide {
       margin: 0 4px;
       border-radius: 50%;
-      transition: margin calc(2 * var(--base-transition-time)) var(--base-transition-time) linear,
+      padding: 0.5rem 0.5rem;
+      transition: padding calc(2 * var(--base-transition-time)) linear,
+        margin calc(2 * var(--base-transition-time)) var(--base-transition-time) linear,
         border-radius calc(2 * var(--base-transition-time)) var(--base-transition-time) linear,
         background-color calc(2 * var(--base-transition-time));
 
@@ -76,12 +81,13 @@
       border-radius: 50%;
       min-width: 1rem;
       width: auto;
-      padding: 0.25rem;
+      padding: 0.5rem 0.5rem;
       margin: 0 4px;
-      transition: padding-left var(--base-transition-time) linear,
-        padding-right var(--base-transition-time) linear,
+      transition: padding-left var(--base-transition-time) ease-in,
+        padding-right var(--base-transition-time) ease-in,
         width var(--base-transition-time) linear,
         min-width var(--base-transition-time) linear,
+        width var(--base-transition-time) linear,
         margin calc(2 * var(--base-transition-time)) var(--base-transition-time) linear,
         border-radius calc(2 * var(--base-transition-time)) var(--base-transition-time) linear;
     }
@@ -114,7 +120,7 @@
   position: relative;
   width: auto;
 
-  padding: 0.25rem;
+  padding: 0.5rem 0.25rem;
 
   background-color: color(var(--color-secondary) tint(15%));
 
@@ -122,8 +128,9 @@
 
   margin: 0 0;
 
-  transition: border-radius var(--base-transition-time) ease-in,
-  margin var(--base-transition-time) ease-in;
+  transition: padding var(--base-transition-time) ease-in,
+    border-radius var(--base-transition-time) ease-in,
+    margin var(--base-transition-time) ease-in;
 
   * {
     display: inline-flex;
@@ -160,26 +167,31 @@
 }
 
 .hideMe {
-  border-radius: 0;
   min-width: 0;
   width: 0;
-  padding: 0;
   margin: 0;
+  transition: padding-left var(--base-transition-time) var(--base-transition-time) ease-in,
+    padding-right var(--base-transition-time) var(--base-transition-time) ease-in,
+    width var(--base-transition-time) ease-in,
+    min-width var(--base-transition-time) ease-in,
+    border-radius var(--base-transition-time) ease-in,
+    margin var(--base-transition-time) ease-in;
 }
 
 .squish {
-  transition: border-radius var(--base-transition-time) ease-in,
-  margin var(--base-transition-time) ease-in;
+  transition: padding var(--base-transition-time) ease-in,
+    border-radius var(--base-transition-time) ease-in,
+    margin var(--base-transition-time) ease-in;
 }
 
 .squishMe {
   border-radius: 0;
   min-width: 0;
   width: 0;
-  padding: 0.25rem 0.75rem;
+  padding: 0.5rem 0.75rem;
   margin: 0;
   transition: padding-left 0.1s var(--base-transition-time) ease-in,
-  padding-right 0.1s var(--base-transition-time) ease-in;
+    padding-right 0.1s var(--base-transition-time) ease-in;
 }
 
 .left {

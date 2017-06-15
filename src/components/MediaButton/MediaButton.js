@@ -43,13 +43,11 @@ class MediaButton extends Component {
   setMaxWidth() {
     const paddingWidth = 2 * ICON_WIDTH;
 
-    let maxWidth = this.divElement.clientWidth + paddingWidth;
-    if (ICON_WIDTH * this.props.children.length > maxWidth) maxWidth = ICON_WIDTH * this.props.children.length;
+    let maxWidth = this.divElement !== null ? this.divElement.clientWidth + paddingWidth : paddingWidth;
+    // if (ICON_WIDTH * this.props.children.length > maxWidth) maxWidth = ICON_WIDTH * this.props.children.length;
 
-    if (this.divElement !== null) {
-      if (this.state.maxWidth !== maxWidth) {
-        this.setState({ maxWidth });
-      }
+    if (this.state.maxWidth !== maxWidth) {
+      this.setState({ maxWidth });
     }
   }
 
@@ -75,7 +73,6 @@ class MediaButton extends Component {
 
     if (currentNumberOfElements * ICON_WIDTH < this.state.maxWidth) buttonSize = 'too small';
     if (currentNumberOfElements > maxNumberOfElements) buttonSize = 'too big';
-
     if (buttonSize === 'too small') {
       iconArrayElement = iconArrayElement.map(
         element => [element[0], cx(style.squish, element[1])],
@@ -123,15 +120,15 @@ class MediaButton extends Component {
     return (
       <div className={style.root}>
         { this.props.text &&
-          <div
-            className={style.text}
-            ref={(divElement) => {
-              this.divElement = divElement;
-            }}
-          >
-            {this.props.text}
-          </div>
-          }
+        <div
+          className={style.text}
+          ref={(divElement) => {
+            this.divElement = divElement;
+          }}
+        >
+          {this.props.text}
+        </div>
+        }
         {icons}
       </div>
     );

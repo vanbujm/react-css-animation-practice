@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-has-content,max-len */
+/* eslint-disable jsx-a11y/anchor-has-content,max-len,react/no-did-mount-set-state */
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
  *
@@ -11,10 +11,12 @@
 import React from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import styled, { keyframes } from 'styled-components';
+import cx from 'classnames';
 import s from './Home.css';
 import Earth from '../../components/Earth';
 import Sun from '../../components/Sun';
 import MediaButton from '../../components/MediaButton';
+import CompareItems from '../../components/CompareItems';
 
 class Home extends React.Component {
   static propTypes = {};
@@ -153,6 +155,11 @@ class Home extends React.Component {
                 <i className="fa fa-slack" aria-hidden="true" data-parent-class={s.slack} />
               </MediaButton>
             </div>
+            <CompareItems hrefs={['', '']}>
+              <span>Try</span>
+              <span>Buy</span>
+              <span>$19</span>
+            </CompareItems>
           </div>
         </section>
       </article>
