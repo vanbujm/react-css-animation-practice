@@ -1,0 +1,6 @@
+{
+  "name": "Moon",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Moon.js"
+}

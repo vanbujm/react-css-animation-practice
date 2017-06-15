@@ -14,6 +14,7 @@ import styled, { keyframes } from 'styled-components';
 import cx from 'classnames';
 import s from './Home.css';
 import Earth from '../../components/Earth';
+import Moon from '../../components/Moon';
 import Sun from '../../components/Sun';
 import MediaButton from '../../components/MediaButton';
 import CompareItems from '../../components/CompareItems';
@@ -51,17 +52,32 @@ class Home extends React.Component {
   }
 
   render() {
-    const orbitDistance = this.state.orbitRadius;
+    const earthOrbitRadius = this.state.orbitRadius;
+    const moonOrbitRadius = 100;
+    const earthDiameter = 100;
+    const moonDiameter = 30;
 
-    const EarthMaker = ({ className }) => <Earth width={104} height={74} className={className} />;
+    const EarthMaker = ({ className }) => <Earth width={earthDiameter} height={earthDiameter} className={className} />;
+
+    const MoonMaker = ({ className }) => <Moon width={moonDiameter} height={moonDiameter} className={className} />;
 
     const orbit = keyframes`
     from {
-      transform: rotate(0deg) translate(${orbitDistance}px) rotate(0deg);
+      transform: rotate(0deg) translate(${earthOrbitRadius}px) rotate(0deg);
     }
   
     to {
-      transform: rotate(360deg) translate(${orbitDistance}px) rotate(-360deg);
+      transform: rotate(360deg) translate(${earthOrbitRadius}px) rotate(-360deg);
+    }
+  `;
+
+    const orbitMoon = keyframes`
+    from {
+      transform: translate(-${earthDiameter / 2}px) rotate(0deg) translate(${earthOrbitRadius}px) rotate(0deg) rotate(0deg) translate(${moonOrbitRadius}px) rotate(0deg);
+    }
+  
+    to {
+      transform: translate(-${earthDiameter / 2}px) rotate(360deg) translate(${earthOrbitRadius}px) rotate(-360deg) rotate(1440deg) translate(${moonOrbitRadius}px) rotate(-1440deg);
     }
   `;
 
@@ -73,10 +89,21 @@ class Home extends React.Component {
       animation-duration: 10s;
       animation-iteration-count: infinite
     `;
+
+    const StyledMoon = styled(MoonMaker)`
+      z-index: 2;
+      position: relative;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-duration: 10s;
+      animation-name: ${orbitMoon};
+    `;
+
     const animation = !this.state.resetAnimation ? (
       <div className={s.animationContainer}>
         <Sun width={300} height={300} className={s.sun} />
-        {!this.state.firstRender && <StyledEarth />}
+        {!this.state.firstRender && <StyledEarth /> }
+        {!this.state.firstRender && <StyledMoon /> }
       </div>
     ) : null;
 
@@ -92,7 +119,7 @@ class Home extends React.Component {
               Toggle Animation
             </button>
             <div style={{ padding: '0 1rem' }}>
-              <label htmlFor="orbitRadius">Orbit Radius: </label>
+              <label htmlFor="orbitRadius">Earth Orbit Radius: </label>
               <input
                 id="orbitRadius"
                 type="range"

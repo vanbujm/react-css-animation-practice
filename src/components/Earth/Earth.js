@@ -7,11 +7,14 @@ class Earth extends React.Component {
     width: PropTypes.number.isRequired,
     height: PropTypes.number.isRequired,
     className: PropTypes.string,
+    children: PropTypes.element,
+    style: PropTypes.object,
   };
 
   render() {
+    console.log(this.props.children);
     return (
-      <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" className={this.props.className} width={this.props.width} height={this.props.height}>
+      <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" className={this.props.className} width={this.props.width} height={this.props.height} style={this.props.style}>
         <ellipse cx="249.5" cy="250" rx="248" ry="248" stroke="#000" fill="#2965e6" strokeWidth="4" />
         <path
           d="M162.9 477.5l34.5-12.9 10.5 5.6 18.6-.8s21.8 8.1 24.2 7.3c1.6-.8 21 0 21 0s24.3 8.1 24.3 6.4c0-1.6 25.8-4 25.8-4s-53.1 39.6-158.9-1.6z"
@@ -35,6 +38,7 @@ class Earth extends React.Component {
           fill="#4ed226"
           strokeWidth="4"
         />
+        {this.props.children}
       </svg>
     );
   }
