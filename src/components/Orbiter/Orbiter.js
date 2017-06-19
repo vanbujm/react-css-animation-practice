@@ -1,7 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled, { keyframes } from 'styled-components';
-import cx from 'classnames';
 
+function getDisplayName(WrappedComponent) {
+  return WrappedComponent.displayName || WrappedComponent.name || 'Component';
+}
 
 function Orbiter(orbitRadius, options) {
   const defaultOptions = {
@@ -31,22 +33,15 @@ function Orbiter(orbitRadius, options) {
       animation-name: ${keyframes`${finalOptions.keyframeString}`};
       animation-timing-function: ${finalOptions.css.animationTimingFunction};
       animation-duration: ${finalOptions.css.animationDuration};
-      animation-iteration-count: ${finalOptions.css.animationIterationCount}
+      animation-iteration-count: ${finalOptions.css.animationIterationCount};
     `;
 
-  return ComponentToOrbit => class extends Component {
-    render() {
-      const componentMaker = ({ className }) => {
-        const passThroughProps = this.props;
-        delete passThroughProps.className;
-        const newClassName = cx(className, this.props.className);
+  return (ComponentToOrbit) => {
+    const WithOrbit = ({ className, ...props }) =>
+      <ComponentToOrbit {...props} className={className} />;
 
-        return <ComponentToOrbit {...passThroughProps} className={newClassName} />;
-      };
-
-      const StyledComponent = styled(componentMaker)`${componentStyle}`;
-      return <StyledComponent />;
-    }
+    WithOrbit.displayName = `Orbiter(${getDisplayName(ComponentToOrbit)})`;
+    return styled(WithOrbit)`${componentStyle}`;
   };
 }
 

@@ -80,7 +80,7 @@ class Home extends React.Component {
     const animation = !this.state.resetAnimation ? (
       <div className={s.animationContainer}>
         <Sun width={300} height={300} className={s.sun} />
-        {!this.state.firstRender && <StyledEarth width={earthDiameter} height={earthDiameter} /> }
+        {!this.state.firstRender && <StyledEarth width={earthDiameter} height={earthDiameter} className="test"/> }
         {!this.state.firstRender && <StyledMoon width={moonDiameter} height={moonDiameter} /> }
       </div>
     ) : null;

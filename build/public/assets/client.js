@@ -8,7 +8,7 @@ webpackJsonp([1],{
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__history__ = __webpack_require__(179);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__history__ = __webpack_require__(178);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Link/Link.js';
@@ -114,7 +114,7 @@ Link.defaultProps = {
 
 /***/ }),
 
-/***/ 179:
+/***/ 178:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -154,12 +154,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_fastclick___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_fastclick__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_query_string__ = __webpack_require__(587);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_query_string___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_query_string__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_history_PathUtils__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_history_PathUtils__ = __webpack_require__(157);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_history_PathUtils___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_history_PathUtils__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_App__ = __webpack_require__(267);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__createFetch__ = __webpack_require__(279);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__store_configureStore__ = __webpack_require__(292);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__history__ = __webpack_require__(179);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__history__ = __webpack_require__(178);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__DOMUtils__ = __webpack_require__(266);
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/client.js',
     _this = this;
@@ -588,7 +588,7 @@ App.childContextTypes = ContextType;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames__ = __webpack_require__(180);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__CompareItems_css__ = __webpack_require__(565);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__CompareItems_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__CompareItems_css__);
@@ -1104,7 +1104,7 @@ var Header = function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_isomorphic_style_loader_lib_withStyles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames__ = __webpack_require__(180);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__MediaButton_css__ = __webpack_require__(569);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__MediaButton_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__MediaButton_css__);
@@ -1542,29 +1542,26 @@ var Navigation = function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_components__ = __webpack_require__(694);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_classnames__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_classnames__);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 var _jsxFileName = '/Users/jvburen/Projects/spikes/react/css-animation/src/components/Orbiter/Orbiter.js';
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
 var _templateObject = _taggedTemplateLiteral(['', ''], ['', '']);
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
 
 function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 
 
 
+function getDisplayName(WrappedComponent) {
+  return WrappedComponent.displayName || WrappedComponent.name || 'Component';
+}
 
 function Orbiter(orbitRadius, options) {
+  var _this = this;
+
   var defaultOptions = {
     keyframeString: '\n        from {\n          transform: rotate(0deg) translate(' + orbitRadius + 'px) rotate(0deg);\n        }\n      \n        to {\n          transform: rotate(360deg) translate(' + orbitRadius + 'px) rotate(-360deg);\n        }\n      ',
     css: {
@@ -1578,51 +1575,23 @@ function Orbiter(orbitRadius, options) {
 
   var finalOptions = Object.assign({}, defaultOptions, options);
 
-  var componentStyle = '\n      z-index: ' + finalOptions.css.zIndex + ';\n      position: ' + finalOptions.css.position + ';\n      animation-name: ' + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_styled_components__["a" /* keyframes */])(_templateObject, finalOptions.keyframeString) + ';\n      animation-timing-function: ' + finalOptions.css.animationTimingFunction + ';\n      animation-duration: ' + finalOptions.css.animationDuration + ';\n      animation-iteration-count: ' + finalOptions.css.animationIterationCount + '\n    ';
+  var componentStyle = '\n      z-index: ' + finalOptions.css.zIndex + ';\n      position: ' + finalOptions.css.position + ';\n      animation-name: ' + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_styled_components__["a" /* keyframes */])(_templateObject, finalOptions.keyframeString) + ';\n      animation-timing-function: ' + finalOptions.css.animationTimingFunction + ';\n      animation-duration: ' + finalOptions.css.animationDuration + ';\n      animation-iteration-count: ' + finalOptions.css.animationIterationCount + ';\n    ';
 
   return function (ComponentToOrbit) {
-    return function (_Component) {
-      _inherits(_class, _Component);
+    var WithOrbit = function WithOrbit(_ref) {
+      var className = _ref.className,
+          props = _objectWithoutProperties(_ref, ['className']);
 
-      function _class() {
-        _classCallCheck(this, _class);
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ComponentToOrbit, _extends({}, props, { className: className, __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        },
+        __self: _this
+      }));
+    };
 
-        return _possibleConstructorReturn(this, (_class.__proto__ || Object.getPrototypeOf(_class)).apply(this, arguments));
-      }
-
-      _createClass(_class, [{
-        key: 'render',
-        value: function render() {
-          var _this2 = this;
-
-          var componentMaker = function componentMaker(_ref) {
-            var className = _ref.className;
-
-            var passThroughProps = _this2.props;
-            delete passThroughProps.className;
-            var newClassName = __WEBPACK_IMPORTED_MODULE_2_classnames___default()(className, _this2.props.className);
-
-            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(ComponentToOrbit, _extends({}, passThroughProps, { className: newClassName, __source: {
-                fileName: _jsxFileName,
-                lineNumber: 44
-              },
-              __self: _this2
-            }));
-          };
-
-          var StyledComponent = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_styled_components__["b" /* default */])(componentMaker)(_templateObject, componentStyle);
-          return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(StyledComponent, {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 48
-            },
-            __self: this
-          });
-        }
-      }]);
-
-      return _class;
-    }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+    WithOrbit.displayName = 'Orbiter(' + getDisplayName(ComponentToOrbit) + ')';
+    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_styled_components__["b" /* default */])(WithOrbit)(_templateObject, componentStyle);
   };
 }
 
@@ -1955,7 +1924,7 @@ function createFetch(_ref) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux__ = __webpack_require__(178);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux__ = __webpack_require__(177);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__user__ = __webpack_require__(282);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__runtime__ = __webpack_require__(281);
 
@@ -2397,7 +2366,7 @@ var Home = function (_React$Component) {
           },
           __self: this
         }),
-        !this.state.firstRender && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(StyledEarth, { width: earthDiameter, height: earthDiameter, __source: {
+        !this.state.firstRender && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(StyledEarth, { width: earthDiameter, height: earthDiameter, className: 'test', __source: {
             fileName: _jsxFileName,
             lineNumber: 83
           },
@@ -3109,7 +3078,7 @@ var title = 'Page Not Found';
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = configureStore;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux__ = __webpack_require__(178);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux__ = __webpack_require__(177);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux_thunk__ = __webpack_require__(686);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux_thunk___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_redux_thunk__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__reducers__ = __webpack_require__(280);
