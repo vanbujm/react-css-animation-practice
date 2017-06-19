@@ -10,14 +10,13 @@
 
 import React from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import styled, { keyframes } from 'styled-components';
-import cx from 'classnames';
 import s from './Home.css';
 import Earth from '../../components/Earth';
 import Moon from '../../components/Moon';
 import Sun from '../../components/Sun';
 import MediaButton from '../../components/MediaButton';
 import CompareItems from '../../components/CompareItems';
+import Orbiter from '../../components/Orbiter';
 
 class Home extends React.Component {
   static propTypes = {};
@@ -33,6 +32,9 @@ class Home extends React.Component {
     };
 
     this.toggleAnimation = this.toggleAnimation.bind(this);
+  }
+
+  componentWillMount() {
   }
 
   componentDidMount() {
@@ -57,21 +59,7 @@ class Home extends React.Component {
     const earthDiameter = 100;
     const moonDiameter = 30;
 
-    const EarthMaker = ({ className }) => <Earth width={earthDiameter} height={earthDiameter} className={className} />;
-
-    const MoonMaker = ({ className }) => <Moon width={moonDiameter} height={moonDiameter} className={className} />;
-
-    const orbit = keyframes`
-    from {
-      transform: rotate(0deg) translate(${earthOrbitRadius}px) rotate(0deg);
-    }
-  
-    to {
-      transform: rotate(360deg) translate(${earthOrbitRadius}px) rotate(-360deg);
-    }
-  `;
-
-    const orbitMoon = keyframes`
+    const orbitMoon = `
     from {
       transform: translate(-${earthDiameter / 2}px) rotate(0deg) translate(${earthOrbitRadius}px) rotate(0deg) rotate(0deg) translate(${moonOrbitRadius}px) rotate(0deg);
     }
@@ -81,31 +69,22 @@ class Home extends React.Component {
     }
   `;
 
-    const StyledEarth = styled(EarthMaker)`
-      z-index: 1;
-      position: relative;
-      animation-name: ${orbit};
-      animation-timing-function: linear;
-      animation-duration: 10s;
-      animation-iteration-count: infinite
-    `;
+    const moonOptions = {
+      keyframeString: orbitMoon,
+    };
 
-    const StyledMoon = styled(MoonMaker)`
-      z-index: 2;
-      position: relative;
-      animation-timing-function: linear;
-      animation-iteration-count: infinite;
-      animation-duration: 10s;
-      animation-name: ${orbitMoon};
-    `;
+    const StyledMoon = Orbiter(this.state.orbitRadius, moonOptions)(Moon);
+
+    const StyledEarth = Orbiter(this.state.orbitRadius)(Earth);
 
     const animation = !this.state.resetAnimation ? (
       <div className={s.animationContainer}>
         <Sun width={300} height={300} className={s.sun} />
-        {!this.state.firstRender && <StyledEarth /> }
-        {!this.state.firstRender && <StyledMoon /> }
+        {!this.state.firstRender && <StyledEarth width={earthDiameter} height={earthDiameter} /> }
+        {!this.state.firstRender && <StyledMoon width={moonDiameter} height={moonDiameter} /> }
       </div>
     ) : null;
+
 
     return (
       <article className={s.content}>
@@ -156,22 +135,30 @@ class Home extends React.Component {
           <div className={s.exampleTwo}>
             <div className={s.buttonContainer}>
               <MediaButton text={this.state.followButton}>
-                <a href="" alt="follow button" data-parent-class={s.twitter}><i
-                  className="fa fa-twitter"
-                  aria-hidden="true"
-                /></a>
-                <a href="" alt="follow button" data-parent-class={s.facebook}><i
-                  className="fa fa-facebook"
-                  aria-hidden="true"
-                /></a>
-                <a href="" alt="follow button" data-parent-class={s.dribble}><i
-                  className="fa fa-dribbble"
-                  aria-hidden="true"
-                /></a>
-                <a href="" alt="follow button" data-parent-class={s.slack}><i
-                  className="fa fa-slack"
-                  aria-hidden="true"
-                /></a>
+                <a href="" alt="follow button" data-parent-class={s.twitter}>
+                  <i
+                    className="fa fa-twitter"
+                    aria-hidden="true"
+                  />
+                </a>
+                <a href="" alt="follow button" data-parent-class={s.facebook}>
+                  <i
+                    className="fa fa-facebook"
+                    aria-hidden="true"
+                  />
+                </a>
+                <a href="" alt="follow button" data-parent-class={s.dribble}>
+                  <i
+                    className="fa fa-dribbble"
+                    aria-hidden="true"
+                  />
+                </a>
+                <a href="" alt="follow button" data-parent-class={s.slack}>
+                  <i
+                    className="fa fa-slack"
+                    aria-hidden="true"
+                  />
+                </a>
               </MediaButton>
             </div>
             <div className={s.buttonContainer}>
